@@ -1,7 +1,123 @@
-title: Grav
+title: Academy Real Estate Training
+logo:
+    dark: 'theme://images/logo-dark.png'
+    light: 'theme://images/logo-light.png'
+    alt: Harcourts Academy
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Harcourts Academy
+  email: 'academy@harcourts.net'
+  copyright: "Copyright 2015 Harcourts International Pty Ltd"
+social:
+  - url: 'https://facebook.com/harcourtsacademy'
+    icon: 'facebook'
+contact:
+  address:
+    - line: "Harcourts International Pty Ltd"
+    - line: "31 Amy Johnson Place"
+    - line: "Eagle Farm, QLD 4009 Australia"
+  phone:
+    - region: "New South Wales +61 2 9380 8665"
+    - region: "New Zealand +64 9 520 5569"
+    - region: "Queensland +61 7 3839-3100"
+    - region: "South Africa +27 31 201 1060"
+    - region: "South Australia +61 8 8410 4444"
+    - region: "USA +1 949 389 7816"
+    - region: "Victoria 1300 856 773"
+    - region: "Western Australia +61 8 9388 7700"
+
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    
+taxonomies: [category,tag,country,region]
 
+othermenu:
+  - text: "About"
+    url: "about"
+  - text: "Privacy Policy"
+    url: "#"
+  - text: "Contact"
+    url: "contact"
+
+quicklinks:
+  - text: "Portfolio"
+    url: "base_url:portfolio"
+  - text: "About"
+    url: "base_url:about"
+  - text: "Services"
+    url: "base_url:services"
+  - text: "Archive"
+    url: "base_url:archive"
+  - text: "Blog"
+    url: "base_url:blog"   
+  - text: "Contact Us"
+    url: "base_url:contact" 
+
+blog:
+  route: '/blog'                            # Route to blog
+metadata:
+    description: 'My Deliver Site'             # Site description
+summary:
+  size: 300                                 # Maximum length of summary (characters)
+routes:
+  /something/else: '/blog/sample-3'         # Alias for /blog/sample-3
+  /another/one/here: '/blog/sample-3'       # Another alias for /blog/sample-3
+  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
+
+header_options:
+  arrows: 'true'                            # Create Next and previous button
+  autoslide: 'false'                        # Auto slideshow mode
+  autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
+  interval: '2000'                          # The interval between each slide (Interval in millisecond)
+  loop: 'false'                             # Infinite slideshow             
+  transition : zoom                         # Set the animation kind (fade/slide/page/zoom)
+  itemsForSlide: '0'                        # Wrap each 'n' item
+  touch: 'true'                             # Set a native slide for touch device
+  swipe : 'true'                            # Enable swipe for touch device
+
+footer:
+    description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    contact_title: "Contact Info"
+    links_title: "Quick Links"
+    newsletter_title: "Newsletter"
+    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
+    copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
+    feedburner: ""   # Your feedburner id for Newsletter footer modul
+    
+qualification_unit_path: /get-qualified/units/
+qualification_units:
+  CPPDSM4003: 
+    id: CPPDSM4003A
+    name: Appraise property
+  CPPDSM4005:
+    id: CPPDSM4005A
+    name: Establish and build client-agency relationships
+  CPPDSM4007:
+    id: CPPDSM4007A
+    name: Identify legal and ethical requirements of property management to complete agency work
+  CPPDSM4008: 
+      id: CPPDSM4008A
+      name: Identify legal and ethical requirements of property sales to complete agency work
+  CPPDSM4009:
+    id: CPPDSM4009B
+    name: Interpret legislation to complete agency work
+  CPPDSM4010:
+    id: CPPDSM4010A
+    name: Lease property
+  CPPDSM4012:
+    id: CPPDSM4012A
+    name: List property for sale
+  CPPDSM4014:
+    id: CPPDSM4014A
+    name: Market property for sale
+  CPPDSM4015:
+    id: CPPDSM4015B
+    name: Minimise agency and consumer risk
+  CPPDSM4017:
+    id: CPPDSM4017A
+    name: Negotiate effectively in property transactions
+  CPPDSM4022:
+    id: CPPDSM4022A
+    name: Sell and finalise the sale of property by private treaty
+  CPPDSM4080:
+    id: CPPDSM4080A
+    name: Work in the real estate industry

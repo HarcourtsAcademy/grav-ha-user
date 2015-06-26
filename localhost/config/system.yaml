@@ -1,24 +1,26 @@
+# Localhost
+
 absolute_urls: false
 
 home:
   alias: '/home'
 
 pages:
-  theme: academybootstrap
-  markdown_extra: true
+  theme: academydeliver
+  markdown_extra: false
   process:
     markdown: true
     twig: false
 
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
   prefix: 'g'
 
 twig:
-  cache: true
+  cache: false
   debug: true
   auto_reload: true
   autoescape: false
@@ -35,7 +37,7 @@ errors:
   log: true
 
 debugger:
-  enabled: false
+  enabled: true
   twig: true
   shutdown:
-    close_connection: true
+    close_connection: false

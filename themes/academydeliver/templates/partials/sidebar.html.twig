@@ -1,0 +1,53 @@
+{% if config.plugins.simplesearch.enabled %}
+<div class="sidebar-content">
+    <h4>Search</h4>
+    {% include 'partials/simplesearch_searchbox.html.twig' %}
+</div>
+{% endif %}
+{% if 'library' in page.taxonomy.category %}
+<div class="sidebar-content">
+     <h4>Visit the Library</h4>
+     <ul>
+     {% for country in page.header.documentlibrary %}
+         <li><a href="{{ country.library_url }}">{{ country.country }}</a></li>
+     {% endfor %}
+     </ul>
+
+     <h4>Visit the Media Library</h4>
+     <ul>
+     {% for country in page.header.medialibrary %}
+         <li><a href="{{ country.library_url }}">{{ country.country }}</a></li>
+     {% endfor %}
+     </ul>
+ </div>
+{% endif %}
+{% if page.children|length > 0 %}
+<div class="sidebar-content">
+    <h4>{{ page.title }}</h4>
+    <ul class="navigation">
+        {% for page in page.children %}
+            {% if page.visible %}
+                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
+                <li class="{{ current_page }}">
+                    <a href="{{ page.url }}">
+                        {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                        {{ page.menu }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+<div class="sidebar-content">
+    <h4>Related Posts</h4>
+    {% include 'partials/relatedpages.html.twig' %}
+</div>
+{% endif %}
+{% if config.plugins.random.enabled %}
+<div class="sidebar-content">
+	<h4>Random Article</h4>
+	<a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
+</div>
+{% endif %}

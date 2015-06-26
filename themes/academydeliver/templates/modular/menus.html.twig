@@ -1,0 +1,48 @@
+{% macro menu(page) %}
+    {% for p in page.children %} 
+        {% if p.visible and not p.active %}
+            {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+            <ul class="feature">
+                <li class="feature-content">
+                    <a href="{{ p.url }}">
+                        {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                        {{ p.menu }}
+                    </a>
+                    {% if p.children.count > 0 %}
+                        <ul>
+                            {{ _self.submenu(p) }}
+                        </ul>
+                    {% endif %}
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% macro submenu(page) %}
+    {% for p in page.children %} 
+        {% if p.visible and not p.active %}
+            <li>
+                <a href="{{ p.url }}">
+                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                    {{ p.menu }}
+                </a>
+                {% if p.children.count > 0 %}
+                    <ul>
+                        {{ _self.submenu(p) }}
+                    </ul>
+                {% endif %}
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+<div class="modular-row features big">
+    {{ content }}
+    
+    <div class="feature-items">
+
+        {{ _self.menu(page.parent.parent) }}
+    
+    </div>
+</div>
