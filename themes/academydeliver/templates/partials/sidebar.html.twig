@@ -21,24 +21,41 @@
      </ul>
  </div>
 {% endif %}
-{% if page.children|length > 0 %}
+{### Subpage Navigation ###}
+{% macro subpage_menu(page) %}
+
+  {% if page.visible %}
+  {{ dump(page) }}
+    {% set current_page = (page.active) ? 'active' : '' %}
+      <li class="{{ current_page }}">
+        <a href="{{ page.url }}" class="external">
+            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+            {{ page.menu }}
+        </a>
+        {% if page.active or page.activeChild %} 
+          <ul class="navigation">
+            {% for subpage in page.children %}
+            {{ dump(subpage) }}
+              {{ _self.subpage_menu(subpage) }}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+  {% endif %}
+{% endmacro %}
 <div class="sidebar-content">
-    <h4>{{ page.title }}</h4>
+  {% for toplevelpage in pages.children %}
+    {% if toplevelpage.slug in page.taxonomy.category %}
+    <h4>{{ toplevelpage.title }}</h4>
     <ul class="navigation">
-        {% for page in page.children %}
-            {% if page.visible %}
-                {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-                <li class="{{ current_page }}">
-                    <a href="{{ page.url }}">
-                        {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                        {{ page.menu }}
-                    </a>
-                </li>
-            {% endif %}
-        {% endfor %}
+      {% for page in toplevelpage.children %}
+        {{ _self.subpage_menu(page) }}
+      {% endfor %}
     </ul>
+    {% endif %}
+  {% endfor %}
 </div>
-{% endif %}
+{### Related pages menu ###}
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
 <div class="sidebar-content">
     <h4>Related Posts</h4>
