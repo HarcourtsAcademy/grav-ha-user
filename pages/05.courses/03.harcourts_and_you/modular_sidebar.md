@@ -4,8 +4,8 @@ menu: Harcourts and You Day
 slug: harcourts-and-you-day
 published: true
 taxonomy:
-	category: course
-	tag: [course,featured,induction]
+	category: courses
+	tag: [courses,featured,induction]
     
 course_information:
   - key: Duration

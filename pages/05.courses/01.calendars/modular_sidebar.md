@@ -4,8 +4,8 @@ menu: Calendars and Upcoming Courses
 slug: calendars
 published: true
 taxonomy:
-	category: course
-	tag: [course,calendars]
+	category: courses
+	tag: [courses,calendars]
     
 ---
 

@@ -51,3 +51,28 @@
 	<a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
 </div>
 {% endif %}
+{% if 'courses' in page.taxonomy.category %}
+<div class="sidebar-content">
+	<h4>Upcoming Training</h4>
+	<ul class="weblinkstitle1">
+    <li>
+        <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>	
+        </li>
+    <li>
+        <a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a>	
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a>	
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a>	
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="no follow">South Africa Upcoming Training</a>	
+        </li>
+    <li>
+        <a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="no follow">USA Upcoming Training</a>	
+        </li>
+    </ul>
+</div>
+{% endif %}
