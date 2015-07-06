@@ -1,15 +1,15 @@
 // Modular Showcase styling
 .modular {
-    .youtube {
+    .brag {
         padding: 4rem 0;
         padding-bottom: 1rem;
         text-align: center;
         @include clearfix;
-        
+
         h2 {
-            color: $light-gray; 
+            color: $light-gray;
         }
-        
+
         .video-container {
             height: 0;
             /*padding-top: 25px;*/
@@ -19,7 +19,7 @@
             overflow: hidden;
             max-width: 1920px;
             max-height: 1080px;
-            
+
             iframe {
                 top: 0;
                 left: 0;
