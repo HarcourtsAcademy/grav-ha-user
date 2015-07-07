@@ -9,7 +9,7 @@
         h2 {
             margin: 0;
             line-height: 100%;
-            color: $light-gray; 
+            color: $light-gray;
         }
 
         hr {
@@ -75,7 +75,7 @@
         &.big {
             text-align: center;
             .feature {
-                width: 33.33%;
+                width: 25%;
                 @include breakpoint(small-mobile-range) {
                     margin-top: 1rem;
                     width: 100%;

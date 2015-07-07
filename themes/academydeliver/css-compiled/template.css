@@ -1231,7 +1231,7 @@ ul.pagination {
   .modular .features.big {
     text-align: center; }
     .modular .features.big .feature {
-      width: 33.33%; }
+      width: 25%; }
       @media only all and (max-width: 30em) {
         .modular .features.big .feature {
           margin-top: 1rem;

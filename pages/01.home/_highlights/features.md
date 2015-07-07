@@ -3,21 +3,18 @@ title: Service Highlights
 menu: Highlights
 class: big
 features:
-	- header: First Service
-	  text: "Sed posuere consectetur est at lobortis. Vivamus aoreet faucibus dolor auctor."
-	  icon: comment-o
-	  linkurl: "http://www.getgrav.org" 
-	  linktext: "Find Out More"
-	- header: Second Service
-	  text: "Duis mollis, est non commodo eget urna mollis ornare vel eu leo faucibus."
-	  icon: heart-o
-	  linkurl: "http://www.getgrav.org" 
-	  linktext: "Find Out More"
-	- header: Third Service
-	  text: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-	  icon: star-o
-	  linkurl: "http://www.getgrav.org" 
-	  linktext: "Find Out More"
+  - header: "2,017"
+    text: "Classroom students trained"
+    icon: users
+  - header: 199
+    text: "Coached in the field"
+    icon: bullhorn
+  - header: 45
+    text: "Provided with CE"
+    icon: legal
+  - header: "2,777"
+    text: "Online Learners connected"
+    icon: laptop
 ---
 
 ## Growing our people
@@ -29,3 +26,5 @@ Inherent in the Harcourts culture is the pride with which we are actively involv
 It is our unparalleled investment in our people which provides rewarding futures for those who are motivated to learn and committed to high levels of personal and professional growth.
 
 ___
+
+## In the last 90 Days
