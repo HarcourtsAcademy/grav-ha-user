@@ -3,8 +3,8 @@ title: Showcase
 menu: Top
 slides:
   - image: image1.jpg
-    heading: "iStart24 is the <strong>24 week</strong> Coaching Programme for Real Estate Sales."
-    subheading: "July iStart24 Online starts now. Registration is free and open until July 7th."
+    heading: "iStart24 Online <strong>24 week</strong> Coaching Programme."
+    subheading: "July intake open now."
     button_text: Read More
     button_url: http://broken.link
   - image: image2.jpg
