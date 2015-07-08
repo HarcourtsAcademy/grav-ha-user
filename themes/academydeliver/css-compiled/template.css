@@ -1554,17 +1554,18 @@ ul.pagination {
             .portfolio .notebooks .notebook-row .notebook .desc {
               width: 100%; } }
 
-.modular .brag {
-  padding: 4rem 0;
+.modular .youtube {
+  padding: 0 0 4rem 0;
   padding-bottom: 1rem;
   text-align: center; }
-  .modular .brag:after {
+  .modular .youtube:after {
     content: "";
     display: table;
     clear: both; }
-  .modular .brag h2 {
+  .modular .youtube h2 {
     color: #656161; }
-  .modular .brag .video-container {
+  .modular .youtube .video-container {
+    margin-top: 2rem;
     height: 0;
     /*padding-top: 25px;*/
     padding-bottom: 56.25%;
@@ -1573,7 +1574,7 @@ ul.pagination {
     overflow: hidden;
     max-width: 1920px;
     max-height: 1080px; }
-    .modular .brag .video-container iframe {
+    .modular .youtube .video-container iframe {
       top: 0;
       left: 0;
       width: 100%;

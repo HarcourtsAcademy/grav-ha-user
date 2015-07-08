@@ -1,7 +1,7 @@
 // Modular Showcase styling
 .modular {
-    .brag {
-        padding: 4rem 0;
+    .youtube {
+        padding: 0 0 4rem 0;
         padding-bottom: 1rem;
         text-align: center;
         @include clearfix;
@@ -11,6 +11,7 @@
         }
 
         .video-container {
+            margin-top: 2rem;
             height: 0;
             /*padding-top: 25px;*/
             padding-bottom: 56.25%;

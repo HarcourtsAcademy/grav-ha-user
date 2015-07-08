@@ -17,7 +17,9 @@
             {% endif %}
             {% if feature.text %}
             <p>{{ feature.text }}</p>
+            {% if feature.linkurl %}
             <p><a href="{{ feature.linkurl }}">{{ feature.linktext }}</a></p>
+            {% endif %}
             {% endif %}
             </div>
         </div>
