@@ -36,7 +36,7 @@ othermenu:
   - text: "Privacy Policy"
     url: "privacy"
   - text: "Contact"
-    url: "contact"
+    url: "about/contact"
 
 quicklinks:
   - text: "Portfolio"
