@@ -2,11 +2,11 @@
 title: About Us
 menu: About Us
 onpage_menu: false
-slug: about-us
+slug: about
 published: true
 taxonomy:
-	category: about_us
-	tag: [about_us]
+	category: about
+	tag: [about]
 
 metadata:
     description: Your page description goes here
