@@ -68,7 +68,7 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    description: "The Academy delivers a range of training programmes, from training for new real estate professionals to extensive management training for our business leaders. The Academy has an extensive team across the globe focused solely on developing and delivering training and skill building sessions."
     contact_title: "Contact Info"
     links_title: "Quick Links"
     newsletter_title: "Newsletter"
