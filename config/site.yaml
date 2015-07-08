@@ -27,14 +27,14 @@ contact:
 
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-    
+
 taxonomies: [category,tag,country,region]
 
 othermenu:
   - text: "About"
     url: "about"
   - text: "Privacy Policy"
-    url: "#"
+    url: "privacy"
   - text: "Contact"
     url: "contact"
 
@@ -48,9 +48,9 @@ quicklinks:
   - text: "Archive"
     url: "base_url:archive"
   - text: "Blog"
-    url: "base_url:blog"   
+    url: "base_url:blog"
   - text: "Contact Us"
-    url: "base_url:contact" 
+    url: "base_url:contact"
 
 blog:
   route: '/blog'                            # Route to blog
@@ -68,7 +68,7 @@ header_options:
   autoslide: 'false'                        # Auto slideshow mode
   autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
   interval: '2000'                          # The interval between each slide (Interval in millisecond)
-  loop: 'false'                             # Infinite slideshow             
+  loop: 'false'                             # Infinite slideshow
   transition : zoom                         # Set the animation kind (fade/slide/page/zoom)
   itemsForSlide: '0'                        # Wrap each 'n' item
   touch: 'true'                             # Set a native slide for touch device
@@ -82,10 +82,10 @@ footer:
     newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
     copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
     feedburner: ""   # Your feedburner id for Newsletter footer modul
-    
+
 qualification_unit_path: /get-qualified/units/
 qualification_units:
-  CPPDSM4003: 
+  CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
   CPPDSM4005:
@@ -94,7 +94,7 @@ qualification_units:
   CPPDSM4007:
     id: CPPDSM4007A
     name: Identify legal and ethical requirements of property management to complete agency work
-  CPPDSM4008: 
+  CPPDSM4008:
       id: CPPDSM4008A
       name: Identify legal and ethical requirements of property sales to complete agency work
   CPPDSM4009:

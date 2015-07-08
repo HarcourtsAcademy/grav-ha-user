@@ -30,7 +30,7 @@
 {% block header_navigation %}
     {% if show_onpage_menu %}
         <ul class="navigation">
-        
+
         {% macro loop(page) %}
         {% for p in page.children %}
             {% if p.visible %}
@@ -74,7 +74,7 @@
                 </a>
             </li>
         {% endfor %}
-    
+
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
             <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
@@ -119,7 +119,7 @@
               <div id="{{ _self.pageLinkName(module.menu) }}"></div>
               {{ module.content }}
           {% endfor %}
-          
+
           {% if page.header.list_subpages %}
             {% for page in page.children %}
               <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
