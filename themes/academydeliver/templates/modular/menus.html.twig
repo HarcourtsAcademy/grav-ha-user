@@ -9,7 +9,7 @@
                         {{ p.menu }}
                     </a></h2>
                     {% if p.children.count > 0 %}
-                        <ul>
+                        <ul class="fa-ul">
                             {{ _self.submenu(p) }}
                         </ul>
                     {% endif %}
@@ -23,7 +23,7 @@
     {% for p in page.children %}
         {% if p.visible and not p.active %}
             <li>
-                <a href="{{ p.url }}">
+                <i class="fa-li fa fa-chevron-right"></i><a href="{{ p.url }}">
                     {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                     {{ p.menu }}
                 </a>

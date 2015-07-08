@@ -34,10 +34,11 @@
         .menu {
             display:block;
             float: left;
-            width: 33.3%;
+            width: 33.33%;
             vertical-align: top;
             margin-top: 2rem;
             margin-bottom: 1rem;
+            margin-left: 0;
             list-style: none;
             text-align: left;
             @include breakpoint(large-mobile-range) {
@@ -49,12 +50,13 @@
                 width: 100%;
             }
 
-            ul {
-              list-style: none;
-            }
-
             i.fa {
-                font-size: 2rem;
+              padding-right: 0.5rem;
+              // color: #fff;
+              font-size: 0.7rem;
+            }
+            i.fa-li {
+              top: .75em;
             }
 
             h4 {
@@ -72,17 +74,11 @@
         &.big {
             text-align: center;
             .menu {
-                width: 25%;
+                width: 33.33%;
                 @include breakpoint(small-mobile-range) {
                     margin-top: 1rem;
                     width: 100%;
                 }
-            }
-
-            i.fa {
-                font-size: 4.5rem;
-                margin-bottom: 1.5rem;
-
             }
 
             .menu-content {

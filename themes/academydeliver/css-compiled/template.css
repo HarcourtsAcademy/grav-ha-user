@@ -1608,10 +1608,11 @@ ul.pagination {
   .modular .menus .menu {
     display: block;
     float: left;
-    width: 33.3%;
+    width: 33.33%;
     vertical-align: top;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    margin-left: 0;
     list-style: none;
     text-align: left; }
     @media only all and (min-width: 30.063em) and (max-width: 47.938em) {
@@ -1622,10 +1623,11 @@ ul.pagination {
       .modular .menus .menu {
         margin-top: 1rem;
         width: 100%; } }
-    .modular .menus .menu ul {
-      list-style: none; }
     .modular .menus .menu i.fa {
-      font-size: 2rem; }
+      padding-right: 0.5rem;
+      font-size: 0.7rem; }
+    .modular .menus .menu i.fa-li {
+      top: .75em; }
     .modular .menus .menu h4, .modular .menus .menu .archive-list label, .archive-list .modular .menus .menu label, .modular .menus .menu .bottom table th, .modular .bottom table .menus .menu th, .modular .menus .menu .contact label, .contact .modular .menus .menu label, .modular .menus .menu .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .modular .menus .menu .name, .modular .menus .menu .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .modular .menus .menu .button, .modular .menus .menu .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .modular .menus .menu button, .modular .menus .menu .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .modular .menus .menu button, .modular .menus .menu .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .modular .menus .menu button, .modular .menus .menu .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .modular .menus .menu button {
       margin: 0;
       font-size: 1.1rem; }
@@ -1636,14 +1638,11 @@ ul.pagination {
   .modular .menus.big {
     text-align: center; }
     .modular .menus.big .menu {
-      width: 25%; }
+      width: 33.33%; }
       @media only all and (max-width: 30em) {
         .modular .menus.big .menu {
           margin-top: 1rem;
           width: 100%; } }
-    .modular .menus.big i.fa {
-      font-size: 4.5rem;
-      margin-bottom: 1.5rem; }
     .modular .menus.big .menu-content {
       padding-right: 2rem; }
       .modular .menus.big .menu-content.icon-offset {
