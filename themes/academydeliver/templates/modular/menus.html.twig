@@ -4,10 +4,10 @@
             {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
             <ul class="menu">
                 <li class="menu-content">
-                    <a href="{{ p.url }}">
+                    <h2><a href="{{ p.url }}">
                         {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                         {{ p.menu }}
-                    </a>
+                    </a></h2>
                     {% if p.children.count > 0 %}
                         <ul>
                             {{ _self.submenu(p) }}
@@ -27,11 +27,6 @@
                     {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                     {{ p.menu }}
                 </a>
-                {% if p.children.count > 0 %}
-                    <ul>
-                        {{ _self.submenu(p) }}
-                    </ul>
-                {% endif %}
             </li>
         {% endif %}
     {% endfor %}
