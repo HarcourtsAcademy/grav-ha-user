@@ -274,6 +274,8 @@ b, strong, label, th {
     clear: both; }
   .footer a {
     color: #9A9898; }
+    .footer a:hover {
+      color: #0e5484; }
   .footer h4, .footer .archive-list label, .archive-list .footer label, .footer .modular .bottom table th, .modular .bottom table .footer th, .footer .contact label, .contact .footer label, .footer .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .footer .name, .footer .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .footer .button, .footer .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .footer button, .footer .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .footer button, .footer .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .footer button, .footer .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .footer button {
     line-height: 2rem;
     margin-top: 0;
@@ -331,6 +333,10 @@ b, strong, label, th {
       .footer .footer-module {
         width: 100% !important;
         float: none; } }
+    .footer .footer-module .emailaddress i {
+      padding-right: 0.5rem;
+      color: #fff;
+      font-size: 0.7rem; }
   .footer .logo {
     border-bottom: 0 none;
     color: #fff; }

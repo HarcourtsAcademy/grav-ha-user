@@ -18,10 +18,10 @@
                     <span>{{ item.line }}</span>
                 {% endfor %}
             </p>
-            <p><a href="about/contact">{{ site.author.email }}</a></p>
+            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="about/contact">{{ site.author.email }}</a></p>
             <ul class="quickmenu">
                 {% for item in site.contact.phone %}
-                    <li>{{ item.region }}</li>
+                    <li><i class="fa fa-phone"></i> {{ item.region }}</li>
                 {% endfor %}
             </ul>
         </div>

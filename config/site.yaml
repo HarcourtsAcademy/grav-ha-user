@@ -16,14 +16,7 @@ contact:
     - line: "31 Amy Johnson Place"
     - line: "Eagle Farm, QLD 4009 Australia"
   phone:
-    - region: "New South Wales +61 2 9380 8665"
-    - region: "New Zealand +64 9 520 5569"
-    - region: "Queensland +61 7 3839-3100"
-    - region: "South Africa +27 31 201 1060"
-    - region: "South Australia +61 8 8410 4444"
-    - region: "USA +1 949 389 7816"
-    - region: "Victoria 1300 856 773"
-    - region: "Western Australia +61 8 9388 7700"
+    - region: "+61 (7) 3839-3100"
 
 metadata:
     description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'

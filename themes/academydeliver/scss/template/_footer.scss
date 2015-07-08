@@ -7,6 +7,9 @@
     @include clearfix;
     a {
       color: $core-text;
+      &:hover {
+        color: darken($core-accent, 20%);
+      }
     }
     h4 {
       line-height: 2rem;
@@ -69,6 +72,11 @@
       @include breakpoint(mobile-only) {
         width: 100% !important;
         float: none;
+      }
+      .emailaddress i {
+        padding-right: 0.5rem;
+        color: #fff;
+        font-size: 0.7rem;
       }
     }
     .logo {
