@@ -32,18 +32,18 @@ othermenu:
     url: "about/contact"
 
 quicklinks:
-  - text: "Portfolio"
-    url: "base_url:portfolio"
-  - text: "About"
+  - text: "Library"
+    url: "base_url:library"
+  - text: "Get Qualified"
+    url: "base_url:qualifications"
+  - text: "CE & CPD"
+    url: "base_url:ce"
+  - text: "Online Learning"
+    url: "base_url:online-learning"
+  - text: "Courses"
+    url: "base_url:courses"
+  - text: "About Us"
     url: "base_url:about"
-  - text: "Services"
-    url: "base_url:services"
-  - text: "Archive"
-    url: "base_url:archive"
-  - text: "Blog"
-    url: "base_url:blog"
-  - text: "Contact Us"
-    url: "base_url:contact"
 
 blog:
   route: '/blog'                            # Route to blog
