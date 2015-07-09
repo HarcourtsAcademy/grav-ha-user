@@ -1608,7 +1608,7 @@ ul.pagination {
       position: absolute; }
 
 .modular .menus {
-  padding: 4rem 0;
+  padding: 0 0 4rem 0;
   padding-bottom: 1rem;
   text-align: center; }
   .modular .menus:after {
@@ -1620,7 +1620,7 @@ ul.pagination {
     line-height: 100%;
     color: #656161; }
   .modular .menus hr {
-    margin-top: 4rem; }
+    margin-top: .5rem; }
   .modular .menus p {
     margin: 1rem 0; }
     @media only all and (max-width: 47.938em) {
