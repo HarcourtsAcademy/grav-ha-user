@@ -8,10 +8,40 @@
                         {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                         {{ p.menu }}
                     </a></h2>
-                    {% if p.children.count > 0 %}
+                    {# Create the Library menus #}
+                    {% if p.slug == 'library' %}
+                      <ul class="fa-ul metismenu" id="resource-library-menu">
+                        <li><i class="fa-li fa fa-chevron-right"></i><a href="#">Visit the Resource Library</a>
                         <ul class="fa-ul">
-                            {{ _self.submenu(p) }}
+                          {% for library in p.header.documentlibrary %}
+                            <li><i class="fa-li fa fa-chevron-right"></i><a href="{{ library.library_url }}">{{ library.country }}</a></li>
+                          {% endfor %}
                         </ul>
+                      </ul>
+                      <ul class="fa-ul metismenu" id="media-library-menu">
+                        <li><i class="fa-li fa fa-chevron-right"></i><a href="#">Visit the Media Library</a>
+                        <ul class="fa-ul">
+                          {% for library in p.header.medialibrary %}
+                            <li><i class="fa-li fa fa-chevron-right"></i><a href="{{ library.library_url }}">{{ library.country }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </ul>
+
+                      <script>
+                          $(function () {
+                            $('#resource-library-menu').metisMenu();
+
+                            $('#media-library-menu').metisMenu();
+
+                          });
+                      </script>
+
+                    {% else %}
+                      {% if p.children.count > 0 %}
+                          <ul class="fa-ul">
+                              {{ _self.submenu(p) }}
+                          </ul>
+                      {% endif %}
                     {% endif %}
                 </li>
             </ul>
@@ -23,10 +53,7 @@
     {% for p in page.children %}
         {% if p.visible and not p.active %}
             <li>
-                <i class="fa-li fa fa-chevron-right"></i><a href="{{ p.url }}">
-                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
-                    {{ p.menu }}
-                </a>
+                <i class="fa-li fa fa-chevron-right"></i><a href="{{ p.url }}">{{ p.menu }}</a>
             </li>
         {% endif %}
     {% endfor %}

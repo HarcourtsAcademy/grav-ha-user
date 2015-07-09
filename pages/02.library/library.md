@@ -1,11 +1,11 @@
 ---
 title: The Library
-slug: the-library
+slug: library
 published: true
 taxonomy:
-	category: library
-	tag: [library]
-	
+  category: library
+  tag: [library]
+
 metadata:
     description: Your page description goes here
     keywords: real estate Harcourts resource media library
