@@ -5,8 +5,10 @@ onpage_menu: false
 slug: online-learning
 published: true
 taxonomy:
-	category: online-learning
-	tag: [online-learning]
+  category: online-learning
+  tag: [online-learning]
+
+side_bar_menu: true;
 
 metadata:
     description: Your page description goes here

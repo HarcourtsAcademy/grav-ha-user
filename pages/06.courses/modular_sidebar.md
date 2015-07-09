@@ -7,7 +7,7 @@ published: true
 taxonomy:
 	category: courses
 	tag: [courses]
-	
+
 metadata:
     description: Your page description goes here
     keywords: real estate Harcourts resource media library
@@ -15,6 +15,8 @@ metadata:
 
 body_classes: "modular header-lite fullwidth about"
 bg_color: "#B4B093"
+
+side_bar_menu: true;
 
 content:
     items: @self.modular

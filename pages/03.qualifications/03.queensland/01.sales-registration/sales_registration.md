@@ -8,7 +8,9 @@ taxonomy:
   tag: [sales registration]
   country: australia
   region: queensland
-    
+
+side_bar_menu: true;
+
 metadata:
   description: Your pathway to a real estate career in Queensland Australia
   keywords: sales registration Queensland Australia qualification real estate
@@ -40,4 +42,3 @@ Provides an introduction to the real estate industry incorporating the seven cor
 
 ## For those wanting to become a:
 * Real Estate Sales Consultant
-

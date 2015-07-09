@@ -4,10 +4,13 @@ menu: Queensland Qualifications
 slug: queensland-qualifications
 published: true
 taxonomy:
-	category: qualifications
-    tag: [qualification-region]
-    country: australia
-    region: queensland
+  category: qualifications
+  tag: [qualification-region]
+  country: australia
+  region: queensland
+
+side_bar_menu: true;
+
 ---
 
 The Academy offers the following real estate qualification in Queensland.

@@ -5,17 +5,19 @@ slug: qualifications
 published: true
 
 taxonomy:
-	category: qualifications
+  category: qualifications
+
+side_bar_menu: true;
 
 metadata:
     description: Your page description goes here
     keywords: real estate Harcourts resource media library
     author: Harcourts Academy
-    
+
 content:
     items:
         @taxonomy.tag: qualification-region
-    
+
 ---
 
 Our courses are written for busy real estate people who want to advance their career without the pressure of huge study commitments. Delivery is via online self-paced learning, classroom attendance and study by correspondence.

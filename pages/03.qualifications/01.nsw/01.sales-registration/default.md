@@ -4,10 +4,13 @@ menu: Queensland Sales Registration
 slug: queensland-sales-registration
 published: true
 taxonomy:
-	category: qualifications
-	tag: [sales registration]
-    country: australia
-    region: queensland
+  category: qualifications
+  tag: [sales registration]
+  country: australia
+  region: queensland
+
+side_bar_menu: true;
+
 ---
 
 Provides an introduction to the real estate industry incorporating the seven core units required for application for a Queensland real estate salesperson’s certificate of registration. Five additional qualification units for the Queensland real estate licence can also be achieved.

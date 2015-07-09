@@ -8,6 +8,9 @@ taxonomy:
     tag: [qualification-region]
     country: australia
     region: new-south-wales
+
+side_bar_menu: true;
+
 ---
 
 # New South Wales Qualifications

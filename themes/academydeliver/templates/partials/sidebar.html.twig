@@ -25,14 +25,13 @@
 {% macro subpage_menu(page) %}
 
   {% if page.visible %}
-  {{ dump(page) }}
     {% set current_page = (page.active) ? 'active' : '' %}
       <li class="{{ current_page }}">
         <a href="{{ page.url }}" class="external">
             {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
             {{ page.menu }}
         </a>
-        {% if page.active or page.activeChild %} 
+        {% if page.active or page.activeChild %}
           <ul class="navigation">
             {% for subpage in page.children %}
             {{ dump(subpage) }}
@@ -43,6 +42,7 @@
       </li>
   {% endif %}
 {% endmacro %}
+{% if page.header.side_bar_menu %}
 <div class="sidebar-content">
   {% for toplevelpage in pages.children %}
     {% if toplevelpage.slug in page.taxonomy.category %}
@@ -55,6 +55,7 @@
     {% endif %}
   {% endfor %}
 </div>
+{% endif %}
 {### Related pages menu ###}
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
 <div class="sidebar-content">
@@ -73,22 +74,22 @@
 	<h4>Upcoming Training</h4>
 	<ul class="weblinkstitle1">
     <li>
-        <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>	
+        <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>
         </li>
     <li>
-        <a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a>	
+        <a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a>
         </li>
     <li>
-        <a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a>	
+        <a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a>
         </li>
     <li>
-        <a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a>	
+        <a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a>
         </li>
     <li>
-        <a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="no follow">South Africa Upcoming Training</a>	
+        <a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="no follow">South Africa Upcoming Training</a>
         </li>
     <li>
-        <a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="no follow">USA Upcoming Training</a>	
+        <a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="no follow">USA Upcoming Training</a>
         </li>
     </ul>
 </div>

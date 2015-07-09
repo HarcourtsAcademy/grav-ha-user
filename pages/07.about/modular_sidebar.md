@@ -5,8 +5,10 @@ onpage_menu: false
 slug: about
 published: true
 taxonomy:
-	category: about
-	tag: [about]
+  category: about
+  tag: [about]
+
+side_bar_menu: true;
 
 metadata:
     description: Your page description goes here

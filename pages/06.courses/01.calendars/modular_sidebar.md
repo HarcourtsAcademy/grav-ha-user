@@ -4,9 +4,10 @@ menu: Calendars and Upcoming Courses
 slug: calendars
 published: true
 taxonomy:
-	category: courses
-	tag: [courses,calendars]
-    
+  category: courses
+  tag: [courses,calendars]
+
+side_bar_menu: true;
 ---
 
 Download the latest Academy training calendars for Australia, New Zealand and the USA:
