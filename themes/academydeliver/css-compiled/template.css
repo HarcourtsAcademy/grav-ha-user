@@ -1,5 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconsolata|Pacifico);
-#header .logo h3, #header .logo ul.social-icons, #header .search-box, #header #navbar ul.navigation, #header #navbar .panel-activation {
+#header .logo h3, #header .logo ul.social-icons, #header .search-box, #header #navbar ul.navigation, #header #navbar ul.social-icons, #header #navbar .panel-activation {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -68,7 +68,7 @@ b, strong, label, th {
   src: url("./fonts/Novecentosanswide-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Novecentosanswide-Medium-webfont.woff2") format("woff2"), url("./fonts/Novecentosanswide-Medium-webfont.woff") format("woff"), url("./fonts/Novecentosanswide-Medium-webfont.ttf") format("truetype"), url("./fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium") format("svg");
   font-weight: normal;
   font-style: normal; }
-.default-animation, #body, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .social-icons li, .team .members .social-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .social-icons li, .team .members .social-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -113,7 +113,21 @@ b, strong, label, th {
   #header .search-box {
     display: block;
     float: right;
-    text-align: right; }
+    text-align: right;
+    margin-right: 0.75rem;
+    /*@include breakpoint(mobile-only) {
+        float: left;
+        text-align: left;
+        i {
+            left: 0.6rem;
+        }
+        input[type=search] {
+            padding-left: 2rem;
+            &:focus {
+                width: 8rem;
+            }
+        }
+    }*/ }
     #header .search-box i {
       color: #ffffff;
       position: absolute;
@@ -151,16 +165,6 @@ b, strong, label, th {
       color: transparent; }
     #header .search-box input::-webkit-input-placeholder {
       color: transparent; }
-    @media only all and (max-width: 47.938em) {
-      #header .search-box {
-        float: left;
-        text-align: left; }
-        #header .search-box i {
-          left: 0.6rem; }
-        #header .search-box input[type=search] {
-          padding-left: 2rem; }
-          #header .search-box input[type=search]:focus {
-            width: 8rem; } }
   #header #navbar ul {
     margin: 0;
     padding: 0;
@@ -209,6 +213,24 @@ b, strong, label, th {
       @media only all and (max-width: 59.938em) {
         #header #navbar ul.navigation {
           display: none; } }
+    #header #navbar ul.social-icons {
+      float: right;
+      line-height: 2rem;
+      margin: 0; }
+      #header #navbar ul.social-icons li {
+        float: left;
+        width: 2.1rem;
+        height: 2.1rem;
+        background: #fff;
+        border-radius: 100%;
+        text-align: center;
+        margin-right: 0.8rem; }
+        #header #navbar ul.social-icons li a {
+          color: #000;
+          display: block;
+          margin-top: 0.1rem; }
+        #header #navbar ul.social-icons li:hover {
+          background: rgba(255, 255, 255, 0.5); }
   #header #navbar .panel-activation {
     padding: 1rem;
     display: none;
