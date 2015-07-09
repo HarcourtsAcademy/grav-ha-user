@@ -1,6 +1,6 @@
 ---
 title: Get Qualified
-menu: Get Qualified
+menu: Qualifications
 slug: qualifications
 published: true
 
