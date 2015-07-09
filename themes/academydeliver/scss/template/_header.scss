@@ -1,5 +1,11 @@
 // Header styling
 
+.home #header #navbar ul.navigation li a {
+  &.active, &:hover {
+      border-bottom: 1px solid #fff;
+  }
+}
+
 #header {
     @extend .padding-horiz;
     position: absolute;
@@ -117,9 +123,11 @@
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.8rem;
+                        padding-bottom: 1px;
 
                         &.active, &:hover {
-                            color: $core-accent;
+                            border-bottom: 1px solid $core-accent;
+                            padding-bottom: 0;
                         }
                     }
                     &:first-child a {
