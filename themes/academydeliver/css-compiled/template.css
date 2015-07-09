@@ -1623,6 +1623,9 @@ ul.pagination {
       .modular .menus .menu {
         margin-top: 1rem;
         width: 100%; } }
+    .modular .menus .menu .menu {
+      margin-top: .5rem;
+      width: 100%; }
     .modular .menus .menu i.fa {
       padding-right: 0.5rem;
       font-size: 0.7rem; }
@@ -1643,6 +1646,9 @@ ul.pagination {
         .modular .menus.big .menu {
           margin-top: 1rem;
           width: 100%; } }
+      .modular .menus.big .menu .menu {
+        margin-top: .5rem;
+        width: 100%; }
     .modular .menus.big .menu-content {
       padding-right: 2rem; }
       .modular .menus.big .menu-content.icon-offset {
