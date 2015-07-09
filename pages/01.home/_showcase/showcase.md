@@ -3,7 +3,7 @@ title: Showcase
 menu: Top
 slides:
   - image: image1.jpg
-    heading: "iStart24 Online <strong>24 week</strong> Coaching Programme."
+    heading: "iStart24 Online 24 week Coaching Programme."
     subheading: "July intake open now."
     button_text: Read More
     button_url: http://broken.link
