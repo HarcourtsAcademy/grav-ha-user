@@ -18,5 +18,3 @@ content:
             - _bottom
             - _contact
 ---
-
-

@@ -63,7 +63,7 @@
                     {% include 'partials/navigation.html.twig' %}
                     {% endblock %}
                     {% include 'partials/search.html.twig' %}
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
+                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"> Menu</span>
                 </div>
         </header>
         {% endblock %}
@@ -73,13 +73,13 @@
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block content %}{% endblock %}
-            
+
             {% block footer %}
             {% include 'modular/footer.html.twig' %}
             {% endblock %}
         </section>
         {% endblock %}
-        
+
     </div>
     <div class="sb-slidebar sb-left sb-width-thin">
         <div id="panel">

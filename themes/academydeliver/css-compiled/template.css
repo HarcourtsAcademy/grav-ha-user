@@ -158,63 +158,62 @@ b, strong, label, th {
           padding-left: 2rem; }
           #header .search-box input[type=search]:focus {
             width: 8rem; } }
-  #header #navbar {
-    font-size: 1.1rem; }
-    #header #navbar ul {
-      margin: 0;
-      padding: 0;
-      list-style: none; }
-      #header #navbar ul.navigation {
-        display: inline-block;
-        float: left; }
-        #header #navbar ul.navigation li {
-          float: left;
-          position: relative;
-          text-transform: uppercase; }
-          #header #navbar ul.navigation li a {
-            font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-            display: inline-block;
-            padding: 0.3rem 0.8rem; }
-            #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
-              color: #178EE1; }
-          #header #navbar ul.navigation li:first-child a {
-            padding-left: 0; }
-          #header #navbar ul.navigation li ul {
-            display: none;
-            padding: 0;
-            box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important; }
-          #header #navbar ul.navigation li ul ul {
-            left: 100%;
-            top: 0; }
-          #header #navbar ul.navigation li:hover > ul {
-            display: block;
-            position: absolute;
-            background: rgba(255, 255, 255, 0.9);
-            width: 10rem; }
-          #header #navbar ul.navigation li:hover li {
-            float: none;
-            margin: 0;
-            padding: 0; }
-            #header #navbar ul.navigation li:hover li a {
-              padding: 0.5rem 0.8rem;
-              display: block; }
-              #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
-                display: none; }
-            #header #navbar ul.navigation li:hover li.active > a {
-              background: #178EE1;
-              color: #fff; }
-        @media only all and (max-width: 59.938em) {
-          #header #navbar ul.navigation {
-            display: none; } }
-    #header #navbar .panel-activation {
-      padding: 1rem;
-      display: none;
-      font-size: 1.8rem;
-      cursor: pointer;
-      float: right; }
+  #header #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #header #navbar ul.navigation {
+      display: inline-block;
+      float: left; }
+      #header #navbar ul.navigation li {
+        float: left;
+        position: relative;
+        text-transform: uppercase; }
+        #header #navbar ul.navigation li a {
+          font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+          display: inline-block;
+          padding: 0.3rem 0.8rem; }
+          #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
+            color: #178EE1; }
+        #header #navbar ul.navigation li:first-child a {
+          padding-left: 0; }
+        #header #navbar ul.navigation li ul {
+          display: none;
+          padding: 0;
+          box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important; }
+        #header #navbar ul.navigation li ul ul {
+          left: 100%;
+          top: 0; }
+        #header #navbar ul.navigation li:hover > ul {
+          display: block;
+          position: absolute;
+          background: rgba(255, 255, 255, 0.9);
+          width: 10rem; }
+        #header #navbar ul.navigation li:hover li {
+          float: none;
+          margin: 0;
+          padding: 0; }
+          #header #navbar ul.navigation li:hover li a {
+            padding: 0.5rem 0.8rem;
+            display: block; }
+            #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
+              display: none; }
+          #header #navbar ul.navigation li:hover li.active > a {
+            background: #178EE1;
+            color: #fff; }
       @media only all and (max-width: 59.938em) {
-        #header #navbar .panel-activation {
-          display: inline-block; } }
+        #header #navbar ul.navigation {
+          display: none; } }
+  #header #navbar .panel-activation {
+    padding: 1rem;
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    float: right;
+    text-transform: uppercase; }
+    @media only all and (max-width: 59.938em) {
+      #header #navbar .panel-activation {
+        display: inline-block; } }
 
 .header-image.fullwidth #body {
   padding-left: 0;

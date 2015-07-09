@@ -1,5 +1,6 @@
 ---
 title: The Library
+menu: Library
 slug: library
 published: true
 taxonomy:

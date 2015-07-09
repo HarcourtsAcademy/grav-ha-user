@@ -1,6 +1,6 @@
 ---
 title: Online Learning
-menu: Online Learning
+menu: Learn Online
 onpage_menu: false
 slug: online-learning
 published: true
