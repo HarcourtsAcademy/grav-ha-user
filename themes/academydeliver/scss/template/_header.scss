@@ -152,7 +152,7 @@
                             display: block;
                             position: absolute;
                             background: rgba($white, 0.9);
-                            width: 10rem;
+                            width: 18rem;
                         }
 
                         li {
@@ -163,6 +163,11 @@
                             a {
                                 padding: 0.5rem 0.8rem;
                                 display: block;
+                                text-transform: none;
+
+                                &:hover {
+                                    border-bottom: 0;
+                                }
 
                                 &:before, &:after {
                                     display: none;
@@ -270,8 +275,10 @@
         #navbar ul.navigation  {
             ul li a {
                 color: $core-accent;
+                text-transform: none;
                 &:hover {
                     color: darken($core-accent, 20%);
+                    border-bottom: 0;
                 }
             }
         }
