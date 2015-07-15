@@ -5,8 +5,8 @@ onpage_menu: false
 slug: about-us
 published: true
 taxonomy:
-  category: about
-  tag: [about]
+  category: about-us
+  tag: [about-us]
 
 side_bar_menu: true;
 
