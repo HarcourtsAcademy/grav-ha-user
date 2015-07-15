@@ -2,7 +2,7 @@
 title: About Us
 menu: About Us
 onpage_menu: false
-slug: about
+slug: about-us
 published: true
 taxonomy:
   category: about

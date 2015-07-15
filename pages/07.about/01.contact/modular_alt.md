@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+slug: contact-us
 onpage_menu: false
 body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"
@@ -10,5 +11,3 @@ content:
         by: default
         dir: asc
 ---
-
-
