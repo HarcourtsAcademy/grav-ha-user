@@ -2,6 +2,7 @@
 title: Sales
 menu: Sales
 slug: sales
+onpage_menu: false
 published: true
 taxonomy:
   category: courses

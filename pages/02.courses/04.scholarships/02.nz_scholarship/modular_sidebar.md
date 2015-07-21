@@ -14,9 +14,6 @@ banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 
-related_pages:
-    - /courses/scholarships-and-next-generation/next-generation-programme
-
 ---
 
 >>>>> Thank you to everyone who applied for the 2015/16 scholarship intake. Applications are now closed.
