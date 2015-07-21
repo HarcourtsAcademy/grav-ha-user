@@ -2,6 +2,7 @@
 title: Calendars and Upcoming Courses
 menu: Calendars and Upcoming Courses
 slug: calendars-and-upcoming-courses
+onpage_menu: false
 published: true
 taxonomy:
   category: courses
