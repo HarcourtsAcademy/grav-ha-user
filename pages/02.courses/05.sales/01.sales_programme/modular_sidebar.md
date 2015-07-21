@@ -5,7 +5,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [courses,featured,sales]
+  tag: [courses,featured,sales,sales programme,sales consultants,administrators,buyer assistants,personal assistants]
 
 body_classes: "modular header-lite fullwidth courses"
 bg_color: "#002b49"
@@ -37,17 +37,17 @@ The full course incorporates optional online learning tasks, in-class training, 
 ## Sales Programme Structure
 New to the industry consultants attend 6 training days in the full programme in addition to completing iStart24. Experienced consultants attend only the final 2 days. Participants may return at no charge within 12 months to complete the course again.
 
-### Getting Started the Harcourts Way (4 days in the classroom)
+### [Getting Started the Harcourts Way](/courses/sales/sales-programme/getting-started-the-harcourts-way) (4 days in the classroom)
 
 To kick-start their career new to the industry consultants first attend Getting Started the Harcourts Way.
 
-### iStart24 (24 weeks in the field)
+### [iStart24](/courses/sales/istart24) (24 weeks in the field)
 
 A self paced 24 week programme for those new to real estate sales. iStart24 will help you attain lifetime success in the real estate business.  The programme requires full-time commitment and a willingness to complete all assignments, including Daily Activity Records.
 
 Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants.  Let their experience guide you along your journey.
 
-### Succeeding the Harcourts Way (2 days in the classroom)
+### [Succeeding the Harcourts Way](/courses/sales/sales-programme/succeeding-the-harcourts-way) (2 days in the classroom)
 This programme caters for experienced consultants to help them take their businesses to the next level of success. New to the industry consultants also attend.
 
 They will be embraced by the Harcourts culture and made aware of the extensive support and in-the-field resources available to them. Bring your offline and online personal marketing resources inline; examine your listing ability and consistency of service; and learn how to manage your time more effectively and earn more.

@@ -5,7 +5,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [courses,sales]
+  tag: [courses,sales,sales registration,sales consultant,national certificate]
 
 body_classes: "modular header-lite fullwidth courses"
 bg_color: "#002b49"
@@ -15,6 +15,11 @@ side_bar_menu: true;
 
 ---
 
-Provides both new and experienced sales consultants with proven prospecting, listing, sales and self-management skills. It enables participants to launch their careers and increase their business.
+Provides participants with the knowledge and skills to demonstrate competency in the required units required for industry registration.
+
+The programme is made up of a combination of online learning and classroom attendance. Completion of the required units of competency will enable participants to submit their statement of attainment to their local governing body in application to become registered as a real estate salesperson.
 
 ===
+
+## Availability
+Salesperson Registration is available in Australia and New Zealand as National Certificate (Salesperson).
