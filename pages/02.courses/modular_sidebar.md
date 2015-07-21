@@ -13,7 +13,7 @@ metadata:
     keywords: real estate Harcourts resource media library
     author: Harcourts Academy
 
-body_classes: "modular header-lite fullwidth about"
+body_classes: "modular header-lite fullwidth courses"
 bg_color: "#B4B093"
 
 side_bar_menu: true;

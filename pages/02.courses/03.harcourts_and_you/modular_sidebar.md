@@ -7,12 +7,17 @@ taxonomy:
   category: courses
   tag: [courses,featured,induction]
 
+body_classes: "modular header-lite fullwidth courses"
+bg_color: "#002b49"
+
 side_bar_menu: true;
 
 course_information:
   - key: Duration
     value: 1 day
 ---
+
+![Harcourts and You Day](harcourts_and_you.jpg)
 
 The Harcourts and You day has been designed to provide an in-depth introduction to Harcourts – Who we are, Where we are in the world, What we have to offer, Why we do what we do, and How we operate as an organisation.
 
