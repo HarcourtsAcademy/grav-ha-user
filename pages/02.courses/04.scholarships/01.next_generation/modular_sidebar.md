@@ -13,7 +13,6 @@ bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true
-show_prev_next: false
 
 ---
 
