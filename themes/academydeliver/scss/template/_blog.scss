@@ -1,9 +1,9 @@
-.blog-header {
+.page-header {
     padding-top: 1rem !important;
     padding-bottom: 1rem;
     margin-top: 0 !important;
 
-    &.blog-header-image {
+    &.page-header-image {
         background-size: cover !important;
 
         h1, h2 {
@@ -41,7 +41,7 @@
     &:last-child {
         border-bottom: 0;
     }
-    .list-blog-header {
+    .list-page-header {
         position: relative;
         h4 {
             text-align: left;
@@ -113,7 +113,7 @@
             }
         }
         &:last-child {
-            a:after {display: none;} 
+            a:after {display: none;}
         }
     }
     @include breakpoint(tablet-range) {
