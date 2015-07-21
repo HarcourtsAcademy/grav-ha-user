@@ -3,5 +3,5 @@ built_in_css: true
 route: /search
 template: simplesearch_results
 filters:
-    category: [qualifications, course, privacy]
+    category: [qualifications, courses, privacy]
 filter_combinator: or
