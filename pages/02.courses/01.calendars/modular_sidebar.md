@@ -1,11 +1,15 @@
 ---
-title: Academy Classroom Training Calendars
+title: Calendars and Upcoming Courses
 menu: Calendars and Upcoming Courses
-slug: calendars
+slug: calendars-and-upcoming-courses
 published: true
 taxonomy:
   category: courses
   tag: [courses,calendars]
+
+body_classes: "modular header-lite fullwidth courses"
+bg_color: "#002b49"
+banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 ---

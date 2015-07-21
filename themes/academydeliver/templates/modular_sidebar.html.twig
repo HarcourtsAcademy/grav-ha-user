@@ -87,10 +87,10 @@
 
 {% block content %}
 
-    {% set header_image = page.media.images|first %}
+    {% set banner_image = page.header.banner_image %}
 
-    {% if header_image %}
-    <div class="flush-top blog-header blog-header-image" style="background: {{ page.header.bg_color }} url({{ header_image.url }}) no-repeat right;">
+    {% if banner_image %}
+    <div class="flush-top blog-header blog-header-image" style="background: {{ page.header.bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
     {% else %}
     <div class="blog-header">
     {% endif %}
