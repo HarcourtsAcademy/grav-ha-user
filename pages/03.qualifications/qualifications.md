@@ -1,7 +1,7 @@
 ---
 title: Get Qualified
 menu: Qualifications
-slug: qualifications
+slug: get-qualified
 published: true
 
 taxonomy:

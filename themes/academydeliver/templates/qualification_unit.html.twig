@@ -30,7 +30,7 @@
 {% block header_navigation %}
     {% if show_onpage_menu %}
         <ul class="navigation">
-        
+
         {% macro loop(page) %}
         {% for p in page.children %}
             {% if p.visible %}
@@ -74,7 +74,7 @@
                 </a>
             </li>
         {% endfor %}
-    
+
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
             <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
@@ -104,76 +104,14 @@
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
             {{ page.content }}
-            
-            <h2>Employability Skills</h2>
-            <p>{{ page.header.qualification_unit.employability_skills }}</p>
-            
-            <h2>Prerequisite Units</h2>
-            <p>{{ page.header.qualification_unit.prerequisite_units }}</p>
-            
-            <h2>Application Of The Unit</h2>
-            <p>{{ page.header.qualification_unit.application }}</p>
-            
-            <h2>Competency Field</h2>
-            <p>{{ page.header.qualification_unit.competency }}</p>
-            
-            <h2>Unit Sector</h2>
-            <p>{{ page.header.qualification_unit.sector }}</p>
-            
-            <table class="performance-criteria">
-              <tr>
-                <th>Element</th>
-                <th>Performance Criteria</th>
-              </tr>
-              <tr>
-                <td>Elements describe the essential outcomes of a unit of competency.</td>
-                <td>Performance criteria describe the required performance needed to demonstrate achievement of the element. Where bold italicised text is used, further information is detailed in the required skills and knowledge and/or the range statement. Assessment of performance is to be consistent with the evidence guide.</td>
-              </tr>
-              {% for element in page.header.performance_criteria %}
-              <tr>
-              <td>{{ element.name }}</td>
-              <td>
-                {{ element.criteria|markdown }}
-              </tr>
-              {% endfor %}
-            </table>
-            
-            <h2>Required Skills and Knowledge</h2>
-            <p>This section describes the essential skills and knowledge and their level, required for this unit.</p>
-            <p>Required skills:</p>
-            {{ page.header.required_skills|markdown }}
-            
-            <p>Required knowledge and understanding:</p>
-            {{ page.header.required_knowledge|markdown }}
-            
-            <h2>Range Statement</h2>
-            <p>The range statement relates to the unit of competency as a whole. It allows for different work environments and situations that may affect performance. <em><strong>Bold italicised</strong></em> wording in the performance criteria is detailed below. Add any essential operating conditions that may be present with training and assessment depending on the work situation, needs of the candidate, accessibility of the item, and local industry and regional contexts.</p>
-          
-            <table class="range-statement">
-              <tbody>
-                  {% for statement in page.header.range_statement %}
-                  <tr>
-                      <td valign="top"><strong><em>{{ statement.name }}</em></strong> may include:</td>
-                      <td valign="top">{{ statement.meaning|markdown }}
 
-                      </td>
-                  </tr>
-                  {% endfor %}
-              </tbody>
-            </table>
-          
-            <h2>Evidence Guide</h2>
-            <p>The evidence guide provides advice on assessment and must be read in conjunction with the performance criteria, required skills and knowledge, the range statement and the Assessment Guidelines for this Training Package.</p>
-          
-            <h3>Overview of assessment</h3>
-            <p>{{ page.header.evidence_guide.overview|markdown }}</p>
-          
-            <h3>Critical aspects for assessment and evidence required to demonstrate competency in this unit</h3>
-            <p>{{ page.header.evidence_guide.competency|markdown }}</p>
-          
-            <h3>Context of and specific resources for assessment</h3>
-            <p>{{ page.header.evidence_guide.resources|markdown }}</p>
-            
+            {% set unit_overview = page.media.files|first %}
+            {% if unit_overview %}
+            <div class="modular-row bottom">
+              {{ dump(page.media ) }}
+              <a class="button primary" href="{{ unit_overview.url }}">Read Unit Overview</a>
+            </div>
+            {% endif %}
 
             {% for module in page.collection() %}
                 <div id="{{ _self.pageLinkName(module.menu) }}"></div>
