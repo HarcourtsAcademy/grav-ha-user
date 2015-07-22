@@ -1160,7 +1160,7 @@ ul.pagination {
   margin-right: 0.5rem; }
 .modular .slideme_container .pagination {
   text-align: center;
-  z-index: 10;
+  z-index: 5;
   position: absolute;
   left: 0;
   right: 0;

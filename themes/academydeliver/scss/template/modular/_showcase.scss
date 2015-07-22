@@ -21,7 +21,7 @@
      margin-top: - $header-height - 3rem;
      padding-top: $header-height + 3rem;
      height: 34.7rem;
-     
+
      .slideoverlay {
          position: absolute;
          top: 0;
@@ -108,7 +108,7 @@
         font-size: 2.5rem;
         opacity: 0.5;
         color: $black;
-        @include breakpoint(mobile-only) { 
+        @include breakpoint(mobile-only) {
             font-size: 1.5rem;
             line-height: 2.8rem;
         }
@@ -126,7 +126,7 @@
              }
         }
         &:disabled {opacity: 0.1}
-        @include breakpoint(mobile-only) { 
+        @include breakpoint(mobile-only) {
             width: 2.7rem;
             height: 2.7rem;
         }
@@ -136,7 +136,7 @@
 
     .pagination {
         text-align: center;
-        z-index: 10;
+        z-index: 5;
         position: absolute;
         left: 0;
         right: 0;
