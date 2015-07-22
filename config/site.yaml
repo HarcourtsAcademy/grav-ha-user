@@ -53,6 +53,7 @@ summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
   /ce: '/courses'
+  /courses/auctioneering: '/courses/sales/auction'
   /something/else: '/library'               # Alias for /blog/sample-3
   /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
