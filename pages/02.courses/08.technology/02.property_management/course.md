@@ -1,12 +1,12 @@
 ---
-title: Technology Workshops for Sales
-menu: Workshops for Sales
-slug: workshops-for-sales
+title: Technology Workshops for Property Mangement
+menu: Workshops for Property Management
+slug: workshops-for-property-management
 onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [technology,workshops,sales,sales consultants]
+  tag: [technology,workshops,property management,property managers]
 
 body_classes: "modular header-lite fullwidth courses"
 bg_color: "#002b49"
@@ -15,9 +15,9 @@ banner_image: theme://images/banners/courses.jpg
 side_bar_menu: true;
 
 target_groups:
-  - Harcourts sales consultants
+  - Harcourts Property Managers
   - Harcourts office administrators
-  - Harcourts business owners interested in learning about Harcourts technology for sales
+  - Harcourts business owners interested in learning about Harcourts technology for property management
 
 course_content:
   - title: Learn Online
