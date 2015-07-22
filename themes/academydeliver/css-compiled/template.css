@@ -628,14 +628,14 @@ td {
     box-shadow: 0 1px 0 #116ba9; }
 
 .button-secondary {
-  background: #0876A1;
+  background: #a7a7a7;
   color: #fff;
-  border: 1px solid #0876A1; }
+  border: 1px solid #a7a7a7; }
   .button-secondary:hover {
     background: #fff;
-    color: #0876A1; }
+    color: #a7a7a7; }
   .button-secondary:active {
-    box-shadow: 0 1px 0 #054b67; }
+    box-shadow: 0 1px 0 #888888; }
 
 .bullets {
   margin: 1.7rem 0;
