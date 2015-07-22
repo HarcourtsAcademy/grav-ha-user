@@ -103,6 +103,12 @@
 
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
+
+          {% set page_image = page.media.images|first %}
+          {% if page_image %}
+          <p><img src="{{ page_image.url }}"/></p>
+          {% endif %}
+
           {{ page.content }}
 
           {% if page.header.target_groups %}
