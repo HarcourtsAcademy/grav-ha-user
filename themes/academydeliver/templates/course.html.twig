@@ -106,12 +106,16 @@
           {{ page.content }}
 
           {% if page.header.target_groups %}
-          <h2>Target Groups</h2>
-          <ul>
-            {% for group in page.header.target_groups %}
-              <li>{{ group }}</li>
-            {% endfor %}
-          </ul>
+            {% if page.header.target_groups|length > 1 %}
+              <h2>Target Groups</h2>
+              <ul>
+                {% for group in page.header.target_groups %}
+                  <li>{{ group }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <p><strong>Target Group:</strong> {{ page.header.target_groups[0] }}</p>
+            {% endif %}
           {% endif %}
 
           {% if page.header.qualification_units %}
@@ -124,17 +128,15 @@
           {% endif %}
 
           {% if page.header.course_content %}
-          <h2>What You Will Learn</h2>
-          <ul>
-          {% for content_item in page.header.course_content %}
-              <li class="course-content">{{ content_item }}</li>
-          {% endfor %}
-          </ul>
+            {% for content in page.header.course_content %}
+              <h2>{{ content.title }}</h2>
+              {{ content.list|markdown }}
+            {% endfor %}
           {% endif %}
 
           {% if page.header.course_structure %}
             <h2>Programme Structure</h2>
-            <p>{{ page.header.course_structure }}</p>
+            <p>{{ page.header.course_structure|markdown }}</p>
           {% endif %}
 
           {% if page.header.course_information %}

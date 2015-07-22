@@ -25,13 +25,15 @@ qualification_units:
   - id: CPPDSM4016
 
 course_content:
-  - Systemise and streamline every property management task
-  - Build large databases of prospective clients and clients for life
-  - Knowledge to perform every task associated with property management
-  - Wow tenants to want to do business with you
-  - Systems that support the property management division
-  - Completing property management documentation
-  - Rights obligations of the property manager, property owner and tenant in accordance to legislation
+  - title: What You Will Learn
+    list: |
+      * Systemise and streamline every property management task
+      * Build large databases of prospective clients and clients for life
+      * Knowledge to perform every task associated with property management
+      * Wow tenants to want to do business with you
+      * Systems that support the property management division
+      * Completing property management documentation
+      * Rights obligations of the property manager, property owner and tenant in accordance to legislation
 
 course_structure: The Property Management Programme consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
 
