@@ -78,12 +78,24 @@ footer:
 
 qualification_unit_path: /get-qualified/units/
 qualification_units:
+  BSBSMB406:
+    id: BSBSMB406
+    name: Manage small business finances
+  CPPDSM3019:
+    id: CPPDSM3019B
+    name: Communicate with clients as part of agency operations
   CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
+  CPPDSM4004:
+    id: CPPDSM4004A
+    name: Conduct auction
   CPPDSM4005:
     id: CPPDSM4005A
     name: Establish and build client-agency relationships
+  CPPDSM4006:
+    id: CPPDSM4006A
+    name: Establish and manage agency trust accounts
   CPPDSM4007:
     id: CPPDSM4007A
     name: Identify legal and ethical requirements of property management to complete agency work
@@ -96,21 +108,39 @@ qualification_units:
   CPPDSM4010:
     id: CPPDSM4010A
     name: Lease property
+  CPPDSM4011:
+    id: CPPDSM4011A
+    name: List property for lease
   CPPDSM4012:
     id: CPPDSM4012A
     name: List property for sale
+  CPPDSM4013:
+    id: CPPDSM4013A
+    name: Market property for lease
   CPPDSM4014:
     id: CPPDSM4014A
     name: Market property for sale
   CPPDSM4015:
     id: CPPDSM4015B
     name: Minimise agency and consumer risk
+  CPPDSM4016:
+    id: CPPDSM4016B
+    name: Monitor and manage lease or tenancy agreement
   CPPDSM4017:
     id: CPPDSM4017A
     name: Negotiate effectively in property transactions
+  CPPDSM4018:
+    id: CPPDSM4018A
+    name: Prepare and present property reports
+  CPPDSM4019:
+    id: CPPDSM4019A
+    name: Prepare for auction and complete sale
   CPPDSM4022:
     id: CPPDSM4022A
     name: Sell and finalise the sale of property by private treaty
+  CPPDSM4046:
+    id: CPPDSM4046A
+    name: Manage tenancy disputes
   CPPDSM4080:
     id: CPPDSM4080A
     name: Work in the real estate industry
