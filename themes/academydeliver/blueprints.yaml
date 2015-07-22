@@ -1,0 +1,17 @@
+name: Academy Deliver
+version: 0.0.2
+description: "Academy Deliver theme is a variation of the Deliver theme."
+icon: newspaper-o
+author:
+  name: Harcourts International
+  email: academy@harcourts.net
+  url: http://www.harcourtsacademy.com
+homepage: https://github.com/HarcourtsAcademy/grav-ha
+demo: http://www.harcourtsacademy.com/
+keywords: academydeliver, theme, modern, fast, responsive, html5, css3
+bugs: https://github.com/HarcourtsAcademy/grav-ha/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
