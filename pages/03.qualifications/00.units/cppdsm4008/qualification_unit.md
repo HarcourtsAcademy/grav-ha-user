@@ -3,17 +3,11 @@ title: CPPDSM4008A: Identify legal and ethical requirements of property sales to
 menu: CPPDSM4008A
 onpage_menu: false
 slug: cppdsm4008
-qualification_unit: CPPDSM4008A
 body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,qualification unit,cppdsm4008]
-
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
 
 ---
 

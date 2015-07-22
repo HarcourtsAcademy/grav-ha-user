@@ -2,17 +2,12 @@
 title: CPPDSM3019B: Communicate with clients as part of agency operations
 menu: CPPDSM3019B
 onpage_menu: false
-slug: cppdsm3019B
+slug: cppdsm3019
 body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,qualification unit,cppdsm3019B]
-
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
 
 ---
 

@@ -30,7 +30,7 @@
 {% block header_navigation %}
     {% if show_onpage_menu %}
         <ul class="navigation">
-        
+
         {% macro loop(page) %}
         {% for p in page.children %}
             {% if p.visible %}
@@ -74,7 +74,7 @@
                 </a>
             </li>
         {% endfor %}
-    
+
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
             <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
@@ -104,19 +104,18 @@
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
             {{ page.content }}
-            
+
             <h2>What you will learn and achieve through the Academy</h2>
             <ul>
-                {{ dump(site.qualification_units) }}
             {% for unit in page.header.core_qualification_units %}
                 <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
             {% endfor %}
             </ul>
-            
+
             <h2>Programme structure</h2>
             <h3>Harcourts Academy Sales Programme (Sales Registration)</h3>
             <p>A blended learning programme consisting of a total of 56 days which includes a number of online pre-course tasks, 4 days in class training, 45 days one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training.</p>
-            
+
             <h2>The Programme</h2>
             <ul>
                 <li>Will provide participants with the knowledge, skills and attitudes to build a successful career in real estate sales</li>
@@ -127,19 +126,19 @@
                 <li>Provides a path to ongoing opportunities in real estate</li>
                 <li>Who should do this programme:</li>
             </ul>
-            
+
             <p>Those who wish to become registered real estate salespersons in Australia
             Existing real estate salespersons moving interstate or from another country wishing to register as a salesperson
             People from other sectors of the real estate industry wishing to further develop their knowledge or skills in specific areas
             Managers wishing to have a clearer understanding of what their new recruits are learning
             The following elective units also delivered during this programme:</p>
-            
+
             <ul>
             {% for unit in page.header.elective_qualification_units %}
                 <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
             {% endfor %}
             </ul>
-            
+
             <h2>Further information</h2>
             <p>For all course enquiries and pricing details, please contact us.</p>
             <p>{{ page.header.further_info }}</p>
