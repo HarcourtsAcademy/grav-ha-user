@@ -169,6 +169,37 @@
             <p>{{ page.header.course_availability|markdown }}</p>
           {% endif %}
 
+          {% if page.header.course_costs %}
+            <h2>Costs</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th style="width:85%">Course</th>
+                  <th style="width:15%">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for cost in page.header.course_costs %}
+                <tr>
+                  {% if cost.amount %}
+                    <td>{{ cost.name }}</td>
+                    <td>{{ cost.amount }}</td>
+                  {% else %}
+                    <td colspan="2"><strong>{{ cost.name }}</strong></td>
+                  {% endif %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+
+            <dl class="dl-horizontal">
+            {% for info in page.header.course_information %}
+              <dt>{{ info.key}}</dt>
+              <dd>{{ info.value }}</dd>
+            {% endfor %}
+            </dl>
+          {% endif %}
+
           {% if page.header.course_information %}
             <h2>Additional Information</h2>
             <dl class="dl-horizontal">
