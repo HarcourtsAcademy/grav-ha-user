@@ -1,4 +1,3 @@
-{{ dump(taxonomy.findTaxonomy({'tag':'qualification-region'})) }}
 <ul>
 {% for post in taxonomy.findTaxonomy({'tag':'qualification-region'}) %}
     <li><a href="{{ base_url }}/get-qualified/{{ post.slug }}">{{ post.menu }}</a>

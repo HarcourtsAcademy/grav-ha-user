@@ -34,7 +34,6 @@
         {% if page.active or page.activeChild %}
           <ul class="navigation">
             {% for subpage in page.children %}
-            {{ dump(subpage) }}
               {{ _self.subpage_menu(subpage) }}
             {% endfor %}
           </ul>

@@ -102,7 +102,6 @@
             {% set unit_overview = page.media.files|first %}
             {% if unit_overview %}
             <div class="modular-row bottom">
-              {{ dump(page.media ) }}
               <a class="button primary" href="{{ unit_overview.url }}">Read Unit Overview</a>
             </div>
             {% endif %}
