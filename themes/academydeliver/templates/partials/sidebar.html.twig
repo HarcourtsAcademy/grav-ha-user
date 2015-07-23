@@ -45,7 +45,8 @@
 {% if page.header.side_bar_menu %}
 <div class="sidebar-content">
   {% for toplevelpage in pages.children %}
-    {% if toplevelpage.slug in page.taxonomy.category %}
+  {{ dump(page.url) }}
+    {% if toplevelpage.slug in page.route %}
     <h4>{{ toplevelpage.title }}</h4>
     <ul class="navigation">
       {% for page in toplevelpage.children %}
