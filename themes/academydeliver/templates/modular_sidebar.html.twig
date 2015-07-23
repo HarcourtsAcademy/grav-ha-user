@@ -121,8 +121,18 @@
 
           {% if page.header.list_subpages %}
             {% for page in page.children %}
-              <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-              <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
+              {% if page.header.routable %}
+                <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
+                <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
+              {% else %}
+                {% for route_from, route_to in site.routes %}
+                  {% if page.route == route_from %}
+                    {% set page_to = page.find(route_to) %}
+                    <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
+                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}">Read more</a></p>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             {% endfor %}
           {% endif %}
 
