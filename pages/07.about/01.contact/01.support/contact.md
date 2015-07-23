@@ -1,6 +1,7 @@
 ---
 title: Customer Support
 menu: false
+slug: customer-support
 body_classes: "header-lite fullwidth"
 process:
   twig: true
