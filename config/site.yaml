@@ -52,7 +52,7 @@ metadata:
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
-  /ce: '/courses'
+  /ce-cpd: '/courses'
   /courses/auctioneering: '/courses/sales/auction'
   /courses/leadership/auction: '/courses/sales/auction'
   /something/else: '/library'               # Alias for /blog/sample-3
