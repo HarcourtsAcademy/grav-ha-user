@@ -139,12 +139,15 @@
             border-bottom: 0;
         }
     }
+    /* Removed to prevent related-pages links from appearing different to
+     * normal links
+     *
     a {
         color: $core-text;
         &:hover {
             color: $core-accent;
         }
-    }
+    }*/
 }
 
 .related-pages {
