@@ -23,7 +23,7 @@ target_groups:
   - Managers wishing to have a clearer understanding of what their new recruits are learning
 
 course_content :
-  - title: You Will learning
+  - title: You Will Learn
     list: |
       * Effective communication strategies including establishing rapport with clients and
       * Handling initial client enquiries
