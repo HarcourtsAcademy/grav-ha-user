@@ -5,7 +5,7 @@ score_threshold: 75             # minimum score needed to show up in the list
 filter:                         # filter a configurable collection of pages to compare
     items:
       @taxonomy:
-        category: [courses]      # supports @self, @page, and @taxonomy collections
+        category: [courses,qualifications]      # supports @self, @page, and @taxonomy collections
     order:
         by: date                # order type by default
         dir: desc               # order direction
