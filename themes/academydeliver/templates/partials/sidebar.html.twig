@@ -45,7 +45,6 @@
 {% if page.header.side_bar_menu %}
 <div class="sidebar-content">
   {% for toplevelpage in pages.children %}
-  {{ dump(page.url) }}
     {% if toplevelpage.slug in page.route %}
     <h4>{{ toplevelpage.title }}</h4>
     <ul class="navigation">
@@ -60,14 +59,14 @@
 {### Related pages menu ###}
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
 <div class="sidebar-content">
-    <h4>Related Pages</h4>
-    {% include 'partials/relatedpages.html.twig' %}
+  <h4>Related Pages</h4>
+  {% include 'partials/relatedpages.html.twig' %}
 </div>
 {% endif %}
 {% if config.plugins.random.enabled %}
 <div class="sidebar-content">
-	<h4>Random Article</h4>
-	<a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
+  <h4>Random Article</h4>
+  <a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
 </div>
 {% endif %}
 {% if 'courses' in page.taxonomy.category %}
