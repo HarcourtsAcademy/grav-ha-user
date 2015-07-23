@@ -1,6 +1,6 @@
 ---
 title: Technology
-slug: sales
+slug: technology
 onpage_menu: false
 published: true
 taxonomy:
