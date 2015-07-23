@@ -150,11 +150,13 @@
 
           {% if page.header.elective_qualification_units %}
           <h2>
-            Elective Units Delivered Through
-            {% if page.header.elective_qualification_units %}
+            {% if page.header.elective_qualification_units.course_name %}
+              Elective Units Delivered Through
               <a href="{{ base_url~page.header.elective_qualification_units.course_link }}">
               {{ page.header.elective_qualification_units.course_name }}
               </a>
+            {% else %}
+              Elective Units Delivered Through This Programme
             {% endif %}
           </h2>
           <ul>
