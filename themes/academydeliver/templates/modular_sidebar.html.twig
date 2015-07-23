@@ -87,15 +87,9 @@
 
 {% block content %}
 
-    {% set banner_image = page.header.banner_image %}
-
-    {% if banner_image %}
-    <div class="flush-top page-header page-header-image" style="background: {{ page.header.bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
-    {% else %}
-    <div class="page-header">
+    {% if page.header.banner_image %}
+      {% include 'partials/header_image.html.twig' %}
     {% endif %}
-        <h1>{{ page.title }}</h1>
-    </div>
 
     {% if config.plugins.breadcrumbs.enabled %}
             {% include 'partials/breadcrumbs.html.twig' %}
