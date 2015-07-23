@@ -61,6 +61,10 @@ elective_qualification_units:
 
 further_information: For New South Wales legislation and other information visit [NSW Fair Trading](http://www.fairtrading.nsw.gov.au/).
 
+online_learning:
+  name: Sales Registration Online
+  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
+
 ---
 
 The first step in your career in real estate. Achieve the four units required for application for a real estate salesperson’s certificate of registration.

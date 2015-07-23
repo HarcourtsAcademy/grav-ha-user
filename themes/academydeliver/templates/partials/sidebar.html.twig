@@ -95,3 +95,10 @@
     </ul>
 </div>
 {% endif %}
+{% if page.header.online_learning %}
+{% set online_learning = page.header.online_learning %}
+<div class="sidebar-content">
+	<h4>{{ online_learning.name }}</h4>
+  <a href="{{ online_learning.url }}" class="button">Start {{ online_learning.name }}</a>
+</div>
+{% endif %}

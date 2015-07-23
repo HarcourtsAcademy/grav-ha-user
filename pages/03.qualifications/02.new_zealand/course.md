@@ -66,6 +66,10 @@ course_structure: The National Certificate is a self-paced course that includes 
 
 further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/reinz/)
 
+online_learning:
+  name: National Certificate Online
+  url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
+
 ---
 
 The first step in your career in Real Estate. Become qualified as an accredited real estate salesperson by achieving your National Certificate in Real Estate (Salesperson).
