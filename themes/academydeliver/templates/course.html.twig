@@ -118,6 +118,13 @@
             {% endif %}
           {% endif %}
 
+          {% if page.header.course_content %}
+            {% for content in page.header.course_content %}
+              <h2>{{ content.title }}</h2>
+              {{ content.list|markdown }}
+            {% endfor %}
+          {% endif %}
+
           {% if page.header.qualification_units %}
           <h2>Industry Qualification Units Delivered</h2>
           <ul>
@@ -127,16 +134,34 @@
           </ul>
           {% endif %}
 
-          {% if page.header.course_content %}
-            {% for content in page.header.course_content %}
-              <h2>{{ content.title }}</h2>
-              {{ content.list|markdown }}
-            {% endfor %}
+          {% if page.header.core_qualification_units %}
+          <h2>The Core Qualification Units You Will Achieve</h2>
+          <ul>
+          {% for unit in page.header.core_qualification_units %}
+              <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
+          {% endfor %}
+          </ul>
           {% endif %}
 
           {% if page.header.course_structure %}
             <h2>Programme Structure</h2>
             <p>{{ page.header.course_structure|markdown }}</p>
+          {% endif %}
+
+          {% if page.header.elective_qualification_units %}
+          <h2>
+            Elective Units Delivered Through
+            {% if page.header.elective_qualification_units %}
+              <a href="{{ base_url~page.header.elective_qualification_units.course_link }}">
+              {{ page.header.elective_qualification_units.course_name }}
+              </a>
+            {% endif %}
+          </h2>
+          <ul>
+          {% for unit in page.header.elective_qualification_units.course_units %}
+              <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
+          {% endfor %}
+          </ul>
           {% endif %}
 
           {% if page.header.course_availability %}
@@ -157,6 +182,9 @@
           {% if page.header.further_information %}
             <h2>Further Information</h2>
             <p>For all course enquiries and pricing details, please <a href="{{ base_url }}/about-us/contact-us">contact us</a>.</p>
+            {% if page.header.further_information|length > 10 %}
+              <p>{{ page.header.further_information|markdown }}</p>
+            {% endif %}
           {% endif %}
 
           {% for module in page.collection() %}

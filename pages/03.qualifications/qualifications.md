@@ -7,16 +7,13 @@ published: true
 taxonomy:
   category: qualifications
 
-side_bar_menu: true;
+body_classes: "modular header-lite fullwidth qualifications"
+bg_color: "#002b49"
+banner_image: theme://images/banners/qualifications.jpg
 
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
+side_bar_menu: true
 
-content:
-    items:
-        @taxonomy.tag: qualification-region
+list_subpages: true
 
 ---
 
