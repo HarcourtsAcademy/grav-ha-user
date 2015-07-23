@@ -7,7 +7,11 @@ body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualifications,qualification unit,cppdsm4022]
+  tag: [qualifications,cppdsm4022]
+
+body_classes: "modular header-lite fullwidth qualifications"
+bg_color: "#002b49"
+banner_image: theme://images/banners/qualifications.jpg
 
 ---
 

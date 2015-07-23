@@ -7,7 +7,11 @@ body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualifications,qualification unit,bsbsmb406A]
+  tag: [qualification unit,bsbsmb406A]
+
+body_classes: "modular header-lite fullwidth qualifications"
+bg_color: "#002b49"
+banner_image: theme://images/banners/qualifications.jpg
 
 ---
 
