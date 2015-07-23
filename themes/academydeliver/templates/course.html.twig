@@ -145,6 +145,11 @@
             <p>{{ page.header.course_structure|markdown }}</p>
           {% endif %}
 
+          {% if page.header.course_availability %}
+            <h2>Availability</h2>
+            <p>{{ page.header.course_availability|markdown }}</p>
+          {% endif %}
+
           {% if page.header.course_information %}
             <h2>Additional Information</h2>
             <dl class="dl-horizontal">
