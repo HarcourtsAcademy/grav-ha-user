@@ -5,19 +5,14 @@ onpage_menu: false
 slug: courses
 published: true
 taxonomy:
-	category: courses
-	tag: [courses]
-
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
+  category: courses
+  tag: [courses]
 
 body_classes: "modular header-lite fullwidth courses"
 bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 
-side_bar_menu: true;
+side_bar_menu: true
 
 content:
     items: @self.modular
