@@ -57,6 +57,7 @@ routes:
   /courses/leadership/auction: '/courses/sales/auction'
   /online-learning/ce-cpd/new-zealand: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/ce-cpd/western-australia: '/courses/continuing-education-and-cpd/western-australia-cpd'
+  /online-learning/sales/istart: '/courses/sales/istart24'
 #  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
 header_options:
