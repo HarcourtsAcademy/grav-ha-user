@@ -52,11 +52,12 @@ metadata:
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
-  /ce-cpd: '/courses'
+  /ce-cpd: '/courses/continuing-education-and-cpd'
   /courses/auctioneering: '/courses/sales/auction'
   /courses/leadership/auction: '/courses/sales/auction'
-  /something/else: '/library'               # Alias for /blog/sample-3
-  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
+  /online-learning/ce-cpd/new-zealand: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
+  /online-learning/ce-cpd/western-australia: '/courses/continuing-education-and-cpd/western-australia-cpd'
+#  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
