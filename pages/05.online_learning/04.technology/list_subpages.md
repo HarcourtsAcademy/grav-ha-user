@@ -9,7 +9,7 @@ taxonomy:
   category: online_learning
   tag: [sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
 
-body_classes: "modular header-lite fullwidth online_learning"
+body_classes: "modular header-lite fullwidth online-learning"
 bg_color: "#002b49"
 banner_image: theme://images/banners/online_learning.jpg
 
