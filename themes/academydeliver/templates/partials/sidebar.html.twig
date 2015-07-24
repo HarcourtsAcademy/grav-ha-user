@@ -4,21 +4,16 @@
     {% include 'partials/simplesearch_searchbox.html.twig' %}
 </div>
 {% endif %}
-{% if 'library' in page.taxonomy.category %}
+{% if page.header.sidebar_links %}
 <div class="sidebar-content">
-     <h4>Visit the Library</h4>
+  {% for links in page.header.sidebar_links %}
+     <h4>{{ links.heading }}</h4>
      <ul>
-     {% for country in page.header.documentlibrary %}
-         <li><a href="{{ country.library_url }}">{{ country.country }}</a></li>
+     {% for link in links.links %}
+         <li><a href="{{ link.url }}">{{ link.label }}</a></li>
      {% endfor %}
      </ul>
-
-     <h4>Visit the Media Library</h4>
-     <ul>
-     {% for country in page.header.medialibrary %}
-         <li><a href="{{ country.library_url }}">{{ country.country }}</a></li>
-     {% endfor %}
-     </ul>
+  {% endfor %}
  </div>
 {% endif %}
 {### Subpage Navigation ###}
