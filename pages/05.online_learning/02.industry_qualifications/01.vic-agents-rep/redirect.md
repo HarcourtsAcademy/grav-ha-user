@@ -4,7 +4,7 @@ menu: Agent's Representative
 redirects2:
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=106
 
-readmore_label: "Agent's Representative Online"
+readmore_label: "Open Agent's Representative Online"
 
 ---
 
