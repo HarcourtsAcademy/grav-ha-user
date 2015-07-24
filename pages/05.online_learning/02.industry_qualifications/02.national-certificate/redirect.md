@@ -4,7 +4,7 @@ menu: National Certificate
 redirects2:
   url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
 
-readmore_label: "Open National Certificate Online"
+readmore_label: "Open New Zealand National Certificate Online"
 
 ---
 
