@@ -10,13 +10,9 @@ taxonomy:
 
 side_bar_menu: true;
 
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
-
-body_classes: "modular header-lite fullwidth about"
-bg_color: "#B4B093"
+body_classes: "modular header-lite fullwidth about-us"
+bg_color: "#002b49"
+banner_image: theme://images/banners/about-us.jpg
 ---
 Our training is often regarded as setting the benchmark for the entire real estate industry.
 
@@ -33,12 +29,12 @@ It is our unparalleled investment in our people which provides rewarding futures
 
 However providing them with the opportunity to be the very best practitioners is equally imperative. The organisation has recognised that a basic human need is growth, both personal and professional. Satisfying this not only delivers on the group's purpose to create success for every individual within the organisation but it also provides a compelling reason for people to stay with the organisation.
 
-We offer a structured career path and tailored system of learning. It ranges from the comprehensive [Sales Programme](http://broken.link) to the full [Management Programme](http://broken.link).
+We offer a structured career path and tailored system of learning. It ranges from the comprehensive [Sales Programme](/courses/sales/sales-programme) to the full [Leadership Programme](/courses/leadership/leadership-programme).
 
 ## Follow our proven career path to your personal success.
 
-- Initial training and hands-on, real-world work experience via our [Next Generation Programme](http://broken.link)
-- Identify and develop talented individuals via our [Future Leaders Programme](http://broken.link)
+- Initial training and hands-on, real-world work experience via our [Next Generation Programme](/courses/scholarships-and-next-generation/next-generation-programme)
+- Identify and develop talented individuals via our [Future Leaders Programme](/courses/leadership/future-leaders-programme)
 - On-going growth via personal and professional development programmes, leading to management roles, and business ownership and specialist fields within the real estate industry
 
 ![Academy Countries](/images/academy-countries.jpg)
