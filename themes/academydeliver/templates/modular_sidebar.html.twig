@@ -123,13 +123,17 @@
             {% for page in page.children %}
               {% if page.routable %}
                 <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
-                <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
+                <p>{{ page.summary }} <a class="button" href="{{ page.url }}">
+                  {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                </a></p>
               {% else %}
                 {% for route_from, route_to in site.routes %}
                   {% if page.route == route_from %}
                     {% set page_to = page.find(route_to) %}
                     <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
-                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}">Read more</a></p>
+                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}">
+                      {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                    </a></p>
                   {% endif %}
                 {% endfor %}
               {% endif %}
