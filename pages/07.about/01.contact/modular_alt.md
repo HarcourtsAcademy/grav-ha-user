@@ -6,8 +6,8 @@ body_classes: "modular header-lite fullwidth"
 bg_color: "#B4B093"
 
 taxonomy:
-  category: about-us
-  tag: [about-us, contact-us]
+  category: about_us
+  tag: [about us, contact us]
 
 content:
     items: @self.modular
