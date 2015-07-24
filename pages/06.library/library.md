@@ -1,11 +1,11 @@
 ---
 title: The Library
 menu: Library
-slug: library
+slug: the-library
 published: true
 taxonomy:
   category: library
-  tag: [library]
+  tag: []
 
 metadata:
     description: Your page description goes here
