@@ -121,7 +121,7 @@
 
           {% if page.header.list_subpages %}
             {% for page in page.children %}
-              {% if page.header.routable %}
+              {% if page.routable %}
                 <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
                 <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
               {% else %}
