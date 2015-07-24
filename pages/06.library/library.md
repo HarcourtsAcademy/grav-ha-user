@@ -7,13 +7,9 @@ taxonomy:
   category: library
   tag: []
 
-metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
-
-body_classes: "modular header-lite fullwidth about"
-bg_color: "#B4B093"
+body_classes: "modular header-lite fullwidth library"
+bg_color: "#002b49"
+banner_image: theme://images/banners/library.jpg
 
 documentlibrary:
     - country: Australia
