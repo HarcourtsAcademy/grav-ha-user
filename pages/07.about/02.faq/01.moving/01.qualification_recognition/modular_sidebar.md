@@ -4,7 +4,7 @@ menu: Qualification Recognition
 slug: will-my-qualifications-be-recognised-if-i-move-overseas
 published: true
 taxonomy:
-  category: about-us
+  category: about_us
   tag: [faq,qualifications]
 
 side_bar_menu: true;
