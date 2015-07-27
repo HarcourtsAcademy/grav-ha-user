@@ -2,6 +2,7 @@
 title: Can I attend a programme if I don't work for Harcourts?
 menu: Non-Harcourts Training
 slug: can-i-attend-a-programme-if-i-don-t-work-for-harcourts
+onpage_menu: false
 published: true
 taxonomy:
   category: about_us
