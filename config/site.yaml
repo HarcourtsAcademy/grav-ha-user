@@ -6,6 +6,7 @@ logo:
 author:
   name: Harcourts Academy
   email: 'academy@harcourts.net'
+  email_link: "base_url:about-us/contact-us"
   copyright: "&copy; Harcourts International Limited"
 social:
   - url: 'https://facebook.com/harcourtsacademy'
@@ -19,17 +20,17 @@ contact:
     - region: "+61 (7) 3839-3100"
 
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
 
 taxonomies: [category,tag,country,region]
 
 othermenu:
   - text: "About"
-    url: "about"
+    url: "base_url:about-us"
   - text: "Privacy Policy"
-    url: "privacy"
+    url: "base_url:privacy"
   - text: "Contact"
-    url: "about/contact"
+    url: "base_url:about-us/contact-us"
 
 quicklinks:
   - text: "Courses"
