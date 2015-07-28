@@ -32,18 +32,18 @@ othermenu:
     url: "about/contact"
 
 quicklinks:
-  - text: "Library"
-    url: "base_url:library"
-  - text: "Get Qualified"
-    url: "base_url:qualifications"
-  - text: "CE & CPD"
-    url: "base_url:ce"
-  - text: "Online Learning"
-    url: "base_url:online-learning"
   - text: "Courses"
     url: "base_url:courses"
+  - text: "Qualifications"
+    url: "base_url:get-qualified"
+  - text: "CE & CPD"
+    url: "base_url:ce-cpd"
+  - text: "Online Learning"
+    url: "base_url:online-learning"
+  - text: "Library"
+    url: "base_url:the-library"
   - text: "About Us"
-    url: "base_url:about"
+    url: "base_url:about-us"
 
 blog:
   route: '/blog'                            # Route to blog
