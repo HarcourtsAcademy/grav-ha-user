@@ -1,4 +1,7 @@
-{% macro loop(page) %}
+{% set maxdepth = 3 %}
+{% set depth = 1 %}
+
+{% macro loop(page, depth) %}
     {% for p in page.children %}
         {% if p.visible %}
             {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
@@ -7,9 +10,9 @@
                     {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                     {{ p.menu }}
                 </a>
-                {% if p.children.count > 0 %}
+                {% if p.children.count > 0 and depth > maxdepth %}
                     <ul>
-                        {{ _self.loop(p) }}
+                        {{ _self.loop(p, (depth - 1)) }}
                     </ul>
                 {% endif %}
             </li>
@@ -19,7 +22,7 @@
 
 <ul class="navigation">
     {% if config.themes.academydeliver.dropdown.enabled %}
-        {{ _self.loop(pages) }}
+        {{ _self.loop(pages, depth) }}
     {% else %}
         {% for page in pages.children %}
             {% if page.visible and page.slug != 'home' %}
