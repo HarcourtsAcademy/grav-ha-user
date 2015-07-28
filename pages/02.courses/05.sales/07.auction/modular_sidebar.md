@@ -34,7 +34,7 @@ Target Group: Sales Consultants, Office Managers and Business Owners
 - How to establish a strong working relationship and communicate effectively with sellers
 
 ### Industry Qualification Units Delivered
-- [CPPDSM4019A](TBD) Prepare for auction and complete sale
+- [CPPDSM4019A](/get-qualified/units/cppdsm4019) Prepare for auction and complete sale
 
 ### Programme Structure
 The Auction for Sales Programme is a full day often run in conjunction with our Auctioneering Programme out of Academy training rooms.
@@ -47,7 +47,7 @@ The Auction for Sales Programme is a full day often run in conjunction with our 
 - Those completing their full Real Estate Licence
 
 ### Industry Qualification Units Delivered
-- [CPPDSM4014A](TBD) Prepare for auction and complete sale
+- [CPPDSM4014A](/get-qualified/units/cppdsm4014) Prepare for auction and complete sale
 
 ### What you will Learn
 - Responsibilities of an auctioneer and sales team

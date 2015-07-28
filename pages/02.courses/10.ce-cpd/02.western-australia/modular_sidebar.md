@@ -80,7 +80,7 @@ Harcourts Academy can provide 7 elective points. The 3 mandatory points must be 
   <dt>Online</td>
   <dd markdown="1">Gain all your elective CPD points online. Two 3.5 point workshops are available for $60 (inc. GST) each. To begin [contact your local Academy](#)</dd>
   <dt>Online</td>
-  <dd markdown="1">Register for conference via [www.harcourtsevents.com](www.harcourtsevents.com).</dd>
+  <dd markdown="1">Register for conference via [www.harcourtsevents.com](http://www.harcourtsevents.com).</dd>
 </dl>
 
 ## Where and when
