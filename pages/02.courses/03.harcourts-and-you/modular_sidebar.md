@@ -18,8 +18,6 @@ course_information:
     value: 1 day
 ---
 
-![Harcourts and You Day](harcourts_and_you.jpg)
-
 The Harcourts and You day has been designed to provide an in-depth introduction to Harcourts – Who we are, Where we are in the world, What we have to offer, Why we do what we do, and How we operate as an organisation.
 
 Everyone joining team Harcourts, no matter what role, is warmly welcomed to this interactive and enlightening day.
