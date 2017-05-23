@@ -6,13 +6,15 @@
 
 <div class="panel-group" id="training_paths_accordion" role="tablist" aria-multiselectable="true">
   {% for pathway in page.collection %}
+  {% set collapsedclass = 'collapsed' %}
   {% set openclass = '' %}
   {% if uri.param('path') == pathway.slug %}
+    {% set collapsedclass = '' %}
     {% set openclass = 'in' %}
   {% endif %}
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="{{ pathway.slug }}">
-      <a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#training_paths_accordion" href="#collapse_{{ pathway.slug }}" aria-expanded="true" aria-controls="collapse_{{ pathway.slug }}">
+      <a class="accordion-toggle {{ collapsedclass }}" role="button" data-toggle="collapse" data-parent="#training_paths_accordion" href="#collapse_{{ pathway.slug }}" aria-expanded="true" aria-controls="collapse_{{ pathway.slug }}">
         <h4 class="panel-title">
           {{ pathway.header.title }}
         </h4>
