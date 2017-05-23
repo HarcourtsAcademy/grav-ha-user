@@ -22,11 +22,11 @@ content:
 buttons:
   - text: Is the pathway for you?
     icon: fa-question-circle
-    url: https://www.academyrealestatetraining.tk/au/moodle/
+    url: https://www.academyrealestatetraining.com/moodle/
     style: button-secondary
   - text: Register for this pathway
     icon: fa-arrow-right
-    url: https://www.academyrealestatetraining.tk/au/moodle/
+    url: https://www.academyrealestatetraining.com/moodle/
     style: button-primary
 
 ---

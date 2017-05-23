@@ -34,7 +34,7 @@ othermenu:
 
 ## TODO: Fix Moodle login URL before launch
 studentlogin:
-  url: 'https://www.academyrealestatetraining.tk/au/moodle/my/'
+  url: 'https://www.academyrealestatetraining.com/moodle/my/'
   icon: 'sign-in'
 
 quicklinks:
