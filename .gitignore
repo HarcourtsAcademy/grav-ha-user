@@ -1,1 +1,20 @@
-/Users/timbutler/Sites/grav-source/grav/.gitignore
+# Grav Specific
+accounts/*
+!accounts/.*
+data/*
+!data/.*
+plugins/*
+!plugins/.*
+localhost/config/security.yaml
+config/security.yaml
+staging.academyrealestatetraining.com/config/security.yaml
+www.academyrealestatetraining.tk/config/security.yaml
+www.academyrealestatetraining.com/config/security.yaml
+
+# OS Generated
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
