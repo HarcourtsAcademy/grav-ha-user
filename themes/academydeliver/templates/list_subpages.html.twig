@@ -1,6 +1,6 @@
 {% extends 'partials/base.html.twig' %}
 
-{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% set show_onpage_menu = header.onpage_menu == true %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% block javascripts %}
@@ -87,10 +87,6 @@
 
 {% block content %}
 
-    {% if page.header.banner_image %}
-      {% include 'partials/header_image.html.twig' %}
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
             {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
@@ -100,6 +96,10 @@
           {% set page_image = page.media.images|first %}
           {% if page_image %}
             <p><img src="{{ page_image.url }}"/></p>
+          {% endif %}
+
+          {% if grav.uri.params("topic", true) %}
+          <h2>{{ grav.uri.params("topic", true)|titleize }} Posts</h2>
           {% endif %}
 
           {{ page.content }}

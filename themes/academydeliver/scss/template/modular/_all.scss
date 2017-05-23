@@ -1,18 +1,23 @@
 @import "showcase";
 @import "features";
+@import "bookmark";
 @import "bottom";
+@import "brag";
+@import "image-collage";
+@import "inspirational-womens-register";
 @import "contact";
 @import "text";
 @import "team";
 @import "portfolio";
 @import "youtube";
 @import "menus";
+@import "location";
+@import "values";
 
 .logo {
     h3 {
         @extend .default-animation;
         font-size: 2.5rem;
-        font-family: $font-family-logo;
         line-height: 2rem;
         margin: 0;
         float: left;
@@ -41,7 +46,6 @@
                 width: 2.1rem;
                 height: 2.1rem;
                 background: $white;
-                border-radius: 100%;
                 text-align: center;
                 margin-right: 0.8rem;
                 a {
@@ -55,6 +59,26 @@
                 }
             }
         }
+
+        &.login {
+            float: right;
+            line-height: 2rem;
+            margin: 0;
+
+            li {
+                @extend .default-animation;
+                text-align: center;
+                margin-left: 0.8rem;
+                padding: 0 0.3rem;
+                a {
+                    color: $black;
+                    display: block;
+                }
+                &:hover {
+                    background: transparentize($white, 0.7);
+                }
+            }
+        }
     }
 }
 
@@ -65,6 +89,11 @@
         min-width: 33%;
         position: relative;
         z-index: 10;
+
+        h4 {
+          text-transform: none;
+          text-align: center;
+        }
 
         @include breakpoint(desktop-range) {
             width: 100%;
@@ -123,7 +152,7 @@
             background-color: $core-accent;
             .fa-plus-square {
                 font-size: 5rem;
-                color: #464C51;
+                color: #ffffff;
                 margin-top: 2.5rem;
                 margin-left: 5.9rem;
             }

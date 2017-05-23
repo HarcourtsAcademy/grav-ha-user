@@ -1,0 +1,72 @@
+<div class="modular-row brag">
+{% set jobs = page.evaluate([{'@page.category':'about_us', '@taxonomy.tag':'academy role'}]) %}
+{% if jobs|length > 0 %}
+ <div class="hiring">
+   <h2>Join Us</h2>
+   <div><a href="/about-us/hiring"><img src="{{ page.media['hiring.png'].resize(300,300).url() }}" width="150" height="150" /></a></div>
+   {% for job in jobs %}
+     <h4>
+     {% if job.link %}<a href="{{ job.link }}">{% endif %}
+     {{ job.title }}
+     {% if job.link %}</a>{% endif %}
+   </h4>
+   {% endfor %}
+ </div>
+ <hr/>
+{% endif %}
+{{ content }}
+{% if page.header.video %}
+    <div class="tablets">
+        {% for video in page.header.video %}
+            <div class="tablet">
+                    <div class='screen'><div class="screen-content">
+                      <div class="video-container">
+                        <div id="ytplayer-{{ video.youtube_id }}"></div>
+                      </div>
+                    </div>
+                  </div>
+                <h4>{% if video.link %}<a href="{{ video.link }}">{% endif %}{% if video.icon %}<i class="fa fa-{{ video.icon }}"></i> {% endif %}{{ video.title }}{% if video.link %}</a>{% endif %}</h4>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% if page.header.awards %}
+  <div class="awards">
+    <h2>Our Awards</h2>
+    {% for award in page.header.awards %}
+      <h4>
+      {% if award.link %}<a href="{{ award.link }}">{% endif %}
+      {{ page.media[award.image].sizes('45vw').html() }}
+      {{ award.title }}
+      {% if award.link %}</a>{% endif %}
+    </h4>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+<div class="callout-line"></div>
+</div>
+
+<script type="text/javascript">
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/player_api';
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    {% for video in page.header.video %}
+    player = new YT.Player('ytplayer-{{ video.youtube_id }}', {
+      height: '256',
+      width: '144',
+      playerVars: { 'rel': 0, 'showinfo':0 },
+      videoId: '{{ video.youtube_id }}'
+    });
+    {% endfor %}
+  }
+</script>

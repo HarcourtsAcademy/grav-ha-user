@@ -41,3 +41,24 @@ form {
 		font-weight: 400;
 	}
 }
+
+::-ms-clear {
+	display: none;
+}
+
+.mauticform_wrapper form {
+	.mauticform-button-wrapper button.mauticform-button {
+		background: $core-accent;
+    color: $white;
+    border: 1px solid $core-accent;
+		border-radius: 0;
+		padding: 7px 20px;
+		font-weight: normal;
+		font-size: 1rem;
+
+		&:hover {
+			background: $white;
+    	color: $core-accent;
+		}
+	}
+}

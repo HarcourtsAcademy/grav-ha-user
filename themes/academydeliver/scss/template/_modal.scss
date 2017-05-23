@@ -10,7 +10,10 @@
     cursor: pointer;
     font-size: 3rem;
     @include breakpoint(mobile-only) {
-        display: none;
+        font-size: 2em;
+        width: 1.4em;
+        height: 1.4em;
+        line-height: 1.4em;
     }
 }
 .modal {
@@ -30,33 +33,29 @@
     text-align: center;
     @include breakpoint(mobile-only) {
         h1 {
-            margin-bottom: 0.5rem;
+            margin: 0.5rem 0;
         }
-        p, ul {
-            margin: 1rem 0;
+        form, p, ul {
+            margin: 1rem;
         }
         ul {
             margin-top: 0;
         }
     }
     &.in {
-        opacity: 1; 
+        opacity: 1;
     }
     .client-details {
         list-style-type: none;
         li {
             display: inline-block;
-            strong {
-                color: $core-accent;
-                font-weight: normal;
-            }
         }
     }
     .modal-content {
         margin: 0 auto;
         width: 35rem;
         min-height: 100%;
-        margin-top: 10rem;
+        margin-top: 5rem;
         @include breakpoint(tablet-range) {
             width: 100%;
         }

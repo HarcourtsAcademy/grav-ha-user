@@ -1,0 +1,27 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block showcase %}
+  {% set banner_image = 'theme://images/banners/search.jpg' %}
+    <div class="showcase_container">
+      <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
+        <div class="showcaseoverlay modular-row"></div>
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+
+    <div class="content-wrapper simplesearch">
+    <div class="search-box">
+        {% include 'partials/simplesearch_searchbox.html.twig' %}
+
+    </div>
+
+    <p>Query: <strong>{{ query }}</strong> found {{ search_results.count }} {{ 'result'|pluralize(search_results.count) }}</p>
+    {% for page in search_results %}
+        {% include 'partials/simplesearch_item.html.twig' with {'page':page} %}
+    {% endfor %}
+    </div>
+{% endblock %}

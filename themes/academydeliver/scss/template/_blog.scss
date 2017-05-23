@@ -93,38 +93,14 @@
 
 // Tags
 .tags {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    background-color: transparentize($light-gray, 0.9);
-    padding: 0.7rem 1rem;
-    margin-bottom: 0.2rem;
-    list-style: none;
-    text-align: center;
-    li {
+    a {
         display: inline-block;
-        font-size: $core-font-size;
+        font-size: $core-font-size - 0.2rem;
+        border: 1px solid $core-accent;
+        border-radius: $border-radius;
+        padding: 0.1rem 0.4rem;
+        margin-bottom: 0.2rem;
         text-transform: uppercase;
-        font-family: $font-family-header;
-        a {
-            color: $core-text;
-            &:after {
-                content: ",";
-            }
-        }
-        &:last-child {
-            a:after {display: none;}
-        }
-    }
-    @include breakpoint(tablet-range) {
-        display: block;
-        width: 100%;
-        clear: both;
-    }
-    @include breakpoint(mobile-only) {
-        display: block;
-        width: 100%;
-        clear: both;
     }
 }
 
@@ -181,11 +157,15 @@ div#breadcrumbs {
 
 // Sidebar
 #sidebar {
-    padding-left: 3rem;
+    padding: 0 1rem;
+    margin: 0 0 2rem 2rem;
+    background-color: $secondary-bg;
+
     @include breakpoint(mobile-only) {
-        padding-left: 0;
+        margin: 0 0 1rem 0;
     }
     .sidebar-content {
+
         h4 {
             margin-bottom: 1rem;
             text-align: left;

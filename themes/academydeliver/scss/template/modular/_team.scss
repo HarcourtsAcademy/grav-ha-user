@@ -3,8 +3,8 @@ $module-bg:        #EEEEEE;
 
 // styling
 .team {
-    background: $module-bg;
-    padding: 4rem 0;
+    //background: $module-bg;
+    padding: 2rem 0 0;
     text-align: center;
     @include clearfix;
     h2 {
@@ -20,11 +20,11 @@ $module-bg:        #EEEEEE;
         text-align: left;
         padding-top: 2rem;
         .member {
-            display: inline-block;
+            //display: inline-block;
             float: left;
-            width: 22%;
-            margin: 0 1rem;
-            margin-bottom: 2rem;
+            width: 44%;
+            margin: 0 1rem 1rem;
+            min-height: 16rem;
             @include breakpoint(mobile-only) {
                 display: block;
                 width: 100%;
@@ -36,11 +36,43 @@ $module-bg:        #EEEEEE;
                 display: block;
                 width: 44%;
                 margin-bottom: 2rem;
+                min-height: 22rem;
+            }
+            .profile-picture {
+              text-align: right;
+              @include breakpoint(tablet-range) {
+                  text-align: left;
+              }
+              @include breakpoint(mobile-only) {
+                text-align: inherit;
+              }
+              img {
+                padding-right: 1.2rem;
+                filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+                filter: gray; /* IE6-9 */
+                -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+                filter: grayscale(100%);
+                transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                backface-visibility: hidden; /* Fix for transition flickering */
+
+                &:hover {
+                  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+                  -webkit-filter: grayscale(0%);
+                  filter: grayscale(0%);
+                  transition: all .6s ease; /* Fade to color for Chrome and Safari */
+                  backface-visibility: hidden; /* Fix for transition flickering */
+                }
+              }
             }
             h4 {
                 text-align: left;
+                margin-top: 0;
                 margin-bottom: 0;
+                @include breakpoint(tablet-range) {
+                    margin-top: inherit;
+                }
                 @include breakpoint(mobile-only) {
+                    margin-top: inherit;
                     text-align: center;
                 }
             }
@@ -48,37 +80,24 @@ $module-bg:        #EEEEEE;
                 margin: 1rem 0;
             }
         }
-        .social-icons {
-            line-height: 2rem;
+        .contact-icons {
             margin: 0;
             list-style: none;
-            @include breakpoint(mobile-only) {
-                text-align: center;
-                display: inline-flex;
-            }
 
             li {
-                @extend .default-animation;
-                float: left;
-                width: 2.1rem;
-                height: 2.1rem;
-                background: $white;
-                border-radius: 100%;
-                text-align: center;
-                margin-right: 0.8rem;
+                i {
+                  min-width: 1rem;
+                }
                 a {
                     @extend .default-animation;
-                    color: $black;
-                    display: block;
                     margin-top: 0.1rem;
-                }
-                &:hover {
-                    background: transparentize($white, 0.5);
-                    i {
-                        color: $core-accent;
-                    }
                 }
             }
         }
+    }
+
+    .callout-line {
+        clear: both;
+        border-bottom: 1px solid #CBCBCB;
     }
 }

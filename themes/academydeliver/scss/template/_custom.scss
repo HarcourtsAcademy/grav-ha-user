@@ -13,3 +13,100 @@
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+
+body.online-learning iframe {
+  border: 0;
+}
+
+img.infographic {
+  margin: 0 auto;
+  @include breakpoint(desktop-range) {
+    max-width: 48em;
+  }
+  @include breakpoint(large-desktop-range) {
+    max-width: 48em;
+  }
+  display: block;
+}
+img.inline-left {
+  float:left;
+  margin: 0.5em 1em 0.5em 0;
+  max-width: 16em;
+  @include breakpoint(mobile-only) {
+    float: none;
+    display: block;
+    clear: both;
+    margin: 1rem auto;
+  }
+}
+
+#content > ul > li,
+#content > ol > li {
+  padding-bottom: 0.4rem;
+}
+
+// From Bootstrap / type
+.lead {
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: $core-accent;
+
+  @include breakpoint(mobile-only) {
+    font-size: 1.5rem;
+  }
+}
+// END From Bootstrap / type
+
+.text-and-lightbox-wrapper {
+  padding-top: 2rem;
+  .overview-text {
+    padding-right: 2rem;
+    min-height: 260px;
+
+    @include breakpoint(mobile-only) {
+      padding: inherit;
+    }
+  }
+  .overview-lightbox a {
+    @include breakpoint(mobile-only) {
+        display: none;
+    }
+  }
+  .overview-lightbox img.no-lightbox {
+    @include breakpoint(no-mobile) {
+      display: none;
+    }
+  }
+  .lightbox-link {
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      z-index: 1;
+  }
+  .lightbox-link-hover {
+      @extend .default-animation;
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      z-index: 2;
+      opacity: 0;
+      background-color: $core-accent;
+      .fa-plus-square {
+          font-size: 5rem;
+          color: #ffffff;
+          margin-top: 40%;
+          margin-left: 40%;
+      }
+      &:hover {
+          opacity: 0.8;
+      }
+  }
+}
+
+// Table of contents
+.toc ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}

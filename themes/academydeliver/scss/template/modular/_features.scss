@@ -1,7 +1,7 @@
 // Modular Showcase styling
 .modular {
     .features {
-        padding: 4rem 0;
+        //padding: 4rem 0;
         padding-bottom: 1rem;
         text-align: center;
         @include clearfix;
@@ -22,6 +22,24 @@
             @include breakpoint(mobile-only) {
                 font-size: $core-font-size;
             }
+
+            img {
+              float: right;
+              max-width: 25%;
+
+              @include breakpoint(tablet-range) {
+                max-width: 50%;
+              }
+
+              @include breakpoint(mobile-only) {
+                float: none;
+                max-width: 100%;
+              }
+            }
+        }
+
+        .content-container {
+          @include clearfix;
         }
 
         .button {

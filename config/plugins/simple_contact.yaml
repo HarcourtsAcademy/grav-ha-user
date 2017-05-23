@@ -1,0 +1,29 @@
+enabled: true
+
+subject: "New contact from Grav site!"
+recipient: "academy@harcourts.net"
+
+fields:
+  name:
+    label: "Name"
+    placeholder: "Add your name"
+
+  email:
+    label: "Email"
+    placeholder: "Add your email"
+
+  message:
+    label: "Message"
+    placeholder: "Add your message"
+
+  antispam:
+    label: "Antispam"
+    placeholder: "Please leave this field empty for Antispam"
+
+  submit:
+    label: "Submit"
+
+messages:
+  success: "<blockquote><blockquote><blockquote><blockquote><blockquote><p>Thank You! Your message has been sent.</p></blockquote></blockquote></blockquote></blockquote></blockquote>"
+  error: "<blockquote><blockquote><blockquote><blockquote><p>Oops! There was a problem with your submission. Please complete the form and try again.</p></blockquote></blockquote></blockquote></blockquote>"
+  fail: "<blockquote><blockquote><blockquote><blockquote><p>Oops! Something went wrong and we couldn't send your message.</p></blockquote></blockquote></blockquote></blockquote>"

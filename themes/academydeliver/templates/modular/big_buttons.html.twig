@@ -1,0 +1,34 @@
+
+<div class="modular-row big-buttons">
+
+  {{ page.content }}
+
+  {% for page in page.collection %}
+
+    <section class="big-button-item">
+
+        {% set banner = page.media.images|first %}
+
+        {% if banner %}
+        <div class="subpage-image">
+            <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+        </div>
+        {% endif %}
+
+        {% if page.routable %}
+
+            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+
+        {% else %}
+          {% for route_from, route_to in site.routes %}
+            {% if page.route == route_from %}
+              {% set page_to = page.find(route_to) %}
+              <h3><a href="{{ page_to.url }}">{{ page_to.title }}</a></h3>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+      </section>
+
+    {% endfor %}
+</div>

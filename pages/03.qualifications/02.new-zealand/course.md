@@ -6,11 +6,10 @@ onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualification-region,qualification,national-certificate,sales,sales consultant,new zealand]
-  country: new-zealand
+  tag: [online_learning,courses,qualification-region,qualification,national-certificate,sales,sales consultant,new zealand]
+  country: 'new zealand'
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
@@ -64,11 +63,36 @@ course_content :
 
 course_structure: The National Certificate is a self-paced course that includes a number of written assessment activities, online interactive practise and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 8 months to complete the course however the average time taken to finish it is between one and three months.
 
-further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/reinz/)
+further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/)
+
+disclaimer: true
 
 online_learning:
   name: National Certificate Online
   url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
+
+documents:
+  - name: National Certificate + Salesperson Brochure - May 2016
+    url: National_Certificate_Salesperson_Brochure_v03.05.2016.pdf
+  - name: Agreement for Provision of Administrative Assistant Services
+    url: Agreement_for_Provision_of_Administrative_Assistant_Services_300310.pdf
+  - name: Harcourts Withdrawals and Refunds Form
+    url: Harcourts_Withdrawals_and_Refunds_Form.pdf
+  - name: National Certificate in RE (Salesperson) - FAQs
+    url: National_Certificate_in_RE_Salesperson_-_FAQs.pdf
+  - name: Enrolment Payment Form
+    url: Enrolment_Payment_Form.pdf
+  - name: Salesperson National Certificate Scholarship Candidates
+    url: Salesperson_National_Certificate_Scholarship_Candidates.pdf
+  - name: Pre-Course Pack - Auckland, Central & Northland
+    url: Pre-Course_Pack-_Auckland_Central__Northland.pdf
+  - name: Pre-Course Pack - South Island
+    url: Pre-Course_Pack-_South_Island.pdf
+  - name: Pre-Course Pack - Wellington
+    url: Pre-Course_Pack-_Wellington.pdf
+  - name: Skills Trainee Information Handbook
+    url: Trainee_Handbook_Salesperson_L4_v2.0.pdf
+
 
 ---
 
@@ -78,4 +102,4 @@ The first step in your career in Real Estate. Become qualified as an accredited 
 
 National Certificate in Real Estate (Salesperson) is delivered in partnership with [The Skills Organisation](http://skills.org.nz/) and is recognised nationally throughout New Zealand.
 
-Contact person: The [New Zealand Academy Administrator](#)
+Contact person: The [New Zealand Academy Administrator](/about-us/contact-us/locations/auckland)

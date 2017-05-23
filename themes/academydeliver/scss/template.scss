@@ -16,6 +16,9 @@
 // Load Template Library
 @import "template/modules/base";
 
+//Load Inline SVG Function
+@import "template/functions/inline-svg-function";
+
 //-------------------------------------------
 
 // TEMPLATE COMPONENTS
@@ -69,8 +72,23 @@
 // SimpleSearch
 @import "template/simplesearch";
 
+// Breadcrumbs
+@import "template/breadcrumbs";
+
 // Custom
 @import "template/custom";
 
+// sidebar_links
+@import "template/sidebar";
+
 // Modular
 @import "template/modular/all";
+
+// Subpages
+@import "template/subpage";
+
+// Training Pathways
+@import "template/trainingpaths";
+
+// Salvatore Grid
+@import "template/salvattoregrid";

@@ -15,10 +15,11 @@ $panel-text:        #ddd;
         margin-left: 0;
 
         li {
+            padding: 0.5rem 0;
             a {
                 color: $panel-text;
                 display: block;
-                padding: 0.5rem 1rem;
+                padding: 0.5rem 0.5rem;
                 font-weight: 600;
 
                 &:hover {
@@ -46,14 +47,17 @@ $panel-text:        #ddd;
             }
 
             ul {
+                @include breakpoint(mobile-only) {
+                  display: none;
+                }
                 list-style: none;
                 padding: 0;
+                margin: 0;
 
                 li {
                     border: 0 !important;
                     a {
                         color: darken($panel-text, 10%);
-                        padding: 0.2rem 1rem 0.2rem 2rem;
                         font-size: 0.9rem;
                     }
                     li a {
@@ -72,4 +76,3 @@ $panel-text:        #ddd;
         }
     }
 }
-

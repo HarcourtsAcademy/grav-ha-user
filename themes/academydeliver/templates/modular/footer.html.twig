@@ -11,6 +11,9 @@
             {% if site.footer.description %}
                 <p>{{ site.footer.description }}</p>
             {% endif %}
+            {% if site.footer.rto_provider %}
+                <p>National Training Provider Number <a href="http://training.gov.au/Organisation/Details/{{ site.footer.rto_provider }}">{{ site.footer.rto_provider }}</a></p>
+            {% endif %}
         </div>
         <div class="footer-module large"><h4>{{ site.footer.contact_title }}</h4>
             <p>
@@ -18,7 +21,7 @@
                     <span>{{ item.line }}</span>
                 {% endfor %}
             </p>
-            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="{% if "base_url:" in site.author.email_link %}{{ base_url_absolute }}/{{ site.author.email_link|replace({"base_url:": ""}) }}{% else %}{{ site.author.email_link }}{% endif %}">{{ site.author.email }}</a></p>
+            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="{% if "base_url:" in site.author.email_link %}{{ base_url_absolute }}/{{ site.author.email_link|replace({"base_url:": ""}) }}{% else %}{{ site.author.email_link }}{% endif %}">{{ site.author.email|safe_email }}</a></p>
             <ul class="quickmenu">
                 {% for item in site.contact.phone %}
                     <li><i class="fa fa-phone"></i> {{ item.region }}</li>

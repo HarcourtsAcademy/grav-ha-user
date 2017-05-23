@@ -1,9 +1,9 @@
 {% set banner_image = page.header.banner_image %}
 
 {% if banner_image %}
-<div class="flush-top page-header page-header-image" style="background: {{ page.header.bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
+    <div class="flush-top page-header page-header-image" style="background: {{ page.header.bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
 {% else %}
-<div class="page-header">
+    <div class="page-header">
 {% endif %}
     <h1>{{ page.title }}</h1>
 </div>

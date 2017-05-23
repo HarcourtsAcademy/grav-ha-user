@@ -1,0 +1,89 @@
+// variables
+$module-bg:        #EEEEEE;
+
+// styling
+.offices {
+    //background: $module-bg;
+    padding: 2rem 0 0;
+    text-align: center;
+    @include clearfix;
+    h2 {
+        color: $light-gray;
+        margin: 0;
+        line-height: 100%;
+    }
+    p {
+        margin: 1rem 0;
+    }
+    .locations {
+        width: 100%;
+        text-align: left;
+        padding-top: 2rem;
+        .location {
+            //display: inline-block;
+            float: left;
+            width: 100%;
+            margin: 0 1rem 1rem;
+            min-height: 16rem;
+            @include breakpoint(mobile-only) {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 2rem;
+            }
+            @include breakpoint(tablet-range) {
+                display: block;
+                width: 100%;
+                margin-bottom: 2rem;
+                min-height: 22rem;
+            }
+            .location-picture {
+              text-align: right;
+              @include breakpoint(tablet-range) {
+                  text-align: left;
+              }
+              @include breakpoint(mobile-only) {
+                text-align: inherit;
+              }
+              img {
+                padding-right: 1.2rem;
+              }
+            }
+            h4 {
+                text-align: left;
+                margin-top: 0;
+                margin-bottom: 0;
+                @include breakpoint(tablet-range) {
+                    margin-top: inherit;
+                }
+                @include breakpoint(mobile-only) {
+                    margin-top: inherit;
+                    text-align: center;
+                }
+            }
+            hr {
+                margin: 1rem 0;
+            }
+        }
+        .contact-icons {
+            margin: 0;
+            list-style: none;
+
+            li {
+                i {
+                  min-width: 1rem;
+                }
+                a {
+                    @extend .default-animation;
+                    margin-top: 0.1rem;
+                }
+            }
+        }
+    }
+
+    .callout-line {
+        clear: both;
+        border-bottom: 1px solid #CBCBCB;
+    }
+}

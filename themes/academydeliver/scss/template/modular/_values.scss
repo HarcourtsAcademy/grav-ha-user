@@ -1,0 +1,36 @@
+// styling
+.values-container {
+    @include clearfix;
+
+    .value-item {
+        float: left;
+        position: relative;
+        width: 12.5rem;
+        height: 12.5rem;
+        margin: 0 1rem 1rem 0;
+        background-size: cover;
+        background-position: center;
+
+        .name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            color: $header-text;
+            background-color: transparentize($black, 0.5);
+            text-transform: uppercase;
+        }
+
+        &:last-child {
+          width: 26rem;
+
+          @include breakpoint(mobile-only) {
+              width: 12.5rem;
+          }
+          @include breakpoint(large-mobile-range) {
+              width: 26rem;
+          }
+        }
+    }
+}

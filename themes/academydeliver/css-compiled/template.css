@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:400|Raleway:300,400,600|Inconsolata|Pacifico);
-#header .logo h3, #header .logo ul.social-icons, #header .search-box, #header #navbar ul.navigation, #header #navbar ul.social-icons, #header #navbar .panel-activation {
+@charset "UTF-8";
+#header .logo h3, #header .logo ul.social-icons, #header .logo ul.login, #header .search-box, #header #navbar ul.navigation, #header #navbar ul.social-icons, #header #navbar ul.login, #header #navbar .panel-activation, .simplesearch .search-box {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -10,10 +10,44 @@
 
 .button, .archive-list button, .contact button, .button-secondary {
   display: inline-block;
-  padding: 7px 20px; }
+  padding: 7px 20px;
+  margin: 0.5rem 1rem 0.5rem 0;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1rem;
+  border: 0 none;
+  background-color: #00adef;
+  color: #fff; }
   .button-small.button, .archive-list button.button-small, .contact button.button-small, .button-small.button-secondary {
     padding: 3px 10px;
     font-size: 0.9rem; }
+  .button-chat-bubble.button:hover, .archive-list button.button-chat-bubble:hover, .contact button.button-chat-bubble:hover, .button-chat-bubble.button-secondary:hover {
+    border-color: #00adef; }
+    .button-chat-bubble.button:hover:after, .archive-list button.button-chat-bubble:hover:after, .contact button.button-chat-bubble:hover:after, .button-chat-bubble.button-secondary:hover:after {
+      border-color: transparent #00adef; }
+  .button-chat-bubble.button:after, .archive-list button.button-chat-bubble:after, .contact button.button-chat-bubble:after, .button-chat-bubble.button-secondary:after {
+    content: "";
+    position: absolute;
+    margin-top: 7px;
+    border-width: 0 20px 20px 0px;
+    border-style: solid;
+    border-color: transparent #00adef;
+    display: block;
+    width: 0; }
+  @media only all and (max-width: 47.938em) {
+    .button-chat-bubble.button, .archive-list button.button-chat-bubble, .contact button.button-chat-bubble, .button-chat-bubble.button-secondary {
+      padding: 3px 10px;
+      font-size: 0.9rem; }
+      .button-chat-bubble.button:after, .archive-list button.button-chat-bubble:after, .contact button.button-chat-bubble:after, .button-chat-bubble.button-secondary:after {
+        content: "";
+        position: absolute;
+        margin-top: 0px;
+        border-width: 0 20px 20px 0px;
+        border-style: solid;
+        border-color: transparent #00adef;
+        display: block;
+        width: 0; } }
 
 html, body {
   height: 100%; }
@@ -25,9 +59,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #178EE1; }
+  color: #00adef; }
   a:hover {
-    color: #0e5484; }
+    color: #001f49; }
 
 b, strong, label, th {
   font-weight: 600; }
@@ -44,6 +78,14 @@ b, strong, label, th {
   background: #fff;
   padding-top: 15rem; }
 
+#content {
+  margin-bottom: 2rem; }
+  @media only all and (max-width: 47.938em) {
+    #content {
+      padding-top: 1rem; } }
+  #content p:first-child {
+    margin-top: 0; }
+
 .left {
   float: left; }
 
@@ -51,41 +93,51 @@ b, strong, label, th {
   float: right; }
 
 @font-face {
-  font-family: 'novecento_sans_widedemibold';
-  src: url("../fonts/Novecentosanswide-DemiBold-webfont.eot");
-  src: url("../fonts/Novecentosanswide-DemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-DemiBold-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-DemiBold-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-DemiBold-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-DemiBold-webfont.svg#novecento_sans_widedemibold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/EOT/SourceSansPro-Regular.eot");
+  src: url("../fonts/EOT/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-Regular.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-Regular.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-Regular.ttf") format("truetype"); }
 @font-face {
-  font-family: 'novecento_sans_widenormal';
-  src: url("../fonts/Novecentosanswide-Normal-webfont.eot");
-  src: url("../fonts/Novecentosanswide-Normal-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-Normal-webfont.woff2") format("woff2"), url("../fonts/Novecentosanswide-Normal-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-Normal-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-Normal-webfont.svg#novecento_sans_widenormal") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("../fonts/EOT/SourceSansPro-It.eot");
+  src: url("../fonts/EOT/SourceSansPro-It.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-It.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-It.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-It.ttf") format("truetype"); }
 @font-face {
-  font-family: 'novecento_sans_widemedium';
-  src: url("./fonts/Novecentosanswide-Medium-webfont.eot");
-  src: url("./fonts/Novecentosanswide-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Novecentosanswide-Medium-webfont.woff2") format("woff2"), url("./fonts/Novecentosanswide-Medium-webfont.woff") format("woff"), url("./fonts/Novecentosanswide-Medium-webfont.ttf") format("truetype"), url("./fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .social-icons li, .team .members .social-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/EOT/SourceSansPro-Bold.eot");
+  src: url("../fonts/EOT/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-Bold.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-Bold.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
+  src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, #header #navbar ul.login li, #header #navbar ul.login li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .inspirational-women-item .contact-icons li a, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .logo ul.login li, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
   padding-left: 14rem;
   padding-right: 14rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
       padding-left: 7rem;
       padding-right: 7rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
-      padding-left: 7rem;
-      padding-right: 7rem; } }
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
+      padding-left: 2rem;
+      padding-right: 2rem; } }
   @media only all and (max-width: 47.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
       padding-left: 1rem;
       padding-right: 1rem; } }
 
@@ -93,46 +145,35 @@ b, strong, label, th {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.home #header #navbar ul.navigation li a.active, .home #header #navbar ul.navigation li a:hover {
-  border-bottom: 1px solid #fff; }
-
 #header {
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   width: 100%;
   height: 12rem;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
   #header > .grid, #header .logo, #header #navbar, #header .social-navigation {
     height: 50%; }
-  #header .fa {
-    color: #000; }
   @media only all and (max-width: 47.938em) {
     #header .logo h3 {
       font-size: 1.9rem; } }
+  #header .logo h3 img {
+    max-height: 42px; }
+  @media only all and (max-width: 47.938em) {
+    #header .logo .search-box {
+      display: none; } }
   #header .search-box {
     display: block;
     float: right;
     text-align: right;
     margin-right: 0.75rem;
-    /*@include breakpoint(mobile-only) {
-        float: left;
-        text-align: left;
-        i {
-            left: 0.6rem;
-        }
-        input[type=search] {
-            padding-left: 2rem;
-            &:focus {
-                width: 8rem;
-            }
-        }
-    }*/ }
+    padding: 0.425rem 0; }
     #header .search-box i {
       color: #ffffff;
       position: absolute;
       top: 0.5rem;
       right: 0.6rem;
+      padding-top: 0.425rem;
       z-index: -1;
       cursor: pointer; }
     #header .search-box input::-webkit-search-decoration,
@@ -150,14 +191,16 @@ b, strong, label, th {
       color: transparent;
       background: transparent;
       width: 4rem;
-      height: 1.3rem;
+      height: 2rem;
+      line-height: 2rem;
       margin-bottom: 0;
+      padding: 0 0.425rem;
       font-size: 0.9rem;
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
       #header .search-box input[type=search]:focus {
-        width: 10rem;
+        width: 12rem;
         background-color: rgba(255, 255, 255, 0.3);
         cursor: auto;
         color: #ffffff; }
@@ -174,29 +217,29 @@ b, strong, label, th {
       float: left; }
       #header #navbar ul.navigation li {
         float: left;
-        position: relative;
-        text-transform: uppercase; }
+        position: relative; }
         #header #navbar ul.navigation li a {
-          font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+          font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
-          padding: 0.3rem 0.8rem;
-          padding-bottom: 1px; }
+          padding: 0.3rem 0.7rem; }
           #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
-            border-bottom: 1px solid #178EE1;
-            padding-bottom: 0; }
-        #header #navbar ul.navigation li:first-child a {
-          padding-left: 0; }
+            background: white;
+            color: #00adef;
+            color: #006389; }
+        #header #navbar ul.navigation li:hover {
+          background: rgba(244, 244, 244, 0.9); }
+          #header #navbar ul.navigation li:hover a {
+            color: #00adef; }
         #header #navbar ul.navigation li ul {
           display: none;
-          padding: 0;
-          box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important; }
+          padding: 0; }
         #header #navbar ul.navigation li ul ul {
           left: 100%;
           top: 0; }
         #header #navbar ul.navigation li:hover > ul {
           display: block;
           position: absolute;
-          background: rgba(255, 255, 255, 0.9);
+          background: rgba(244, 244, 244, 0.9);
           width: 18rem; }
         #header #navbar ul.navigation li:hover li {
           float: none;
@@ -211,9 +254,9 @@ b, strong, label, th {
             #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
               display: none; }
           #header #navbar ul.navigation li:hover li.active > a {
-            background: #178EE1;
+            background: #00adef;
             color: #fff; }
-      @media only all and (max-width: 59.938em) {
+      @media only all and (max-width: 47.938em) {
         #header #navbar ul.navigation {
           display: none; } }
     #header #navbar ul.social-icons {
@@ -229,21 +272,42 @@ b, strong, label, th {
         text-align: center;
         margin-right: 0.8rem; }
         #header #navbar ul.social-icons li a {
-          color: #000;
           display: block;
           margin-top: 0.1rem; }
         #header #navbar ul.social-icons li:hover {
+          background: rgba(255, 255, 255, 0.3); }
+    #header #navbar ul.login {
+      float: right;
+      line-height: 2rem;
+      margin: 0; }
+      #header #navbar ul.login li {
+        width: 2.1rem;
+        background: #fff;
+        border-radius: 100%;
+        text-align: center;
+        margin-left: 0.8rem; }
+        #header #navbar ul.login li .fa {
+          color: white; }
+        #header #navbar ul.login li a {
+          color: #000;
+          display: block; }
+        #header #navbar ul.login li:hover {
           background: rgba(255, 255, 255, 0.5); }
+          #header #navbar ul.login li:hover .fa {
+            color: #656161; }
   #header #navbar .panel-activation {
     padding: 1rem;
     display: none;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
     cursor: pointer;
-    float: right;
+    float: left;
     text-transform: uppercase; }
-    @media only all and (max-width: 59.938em) {
+    @media only all and (max-width: 47.938em) {
       #header #navbar .panel-activation {
         display: inline-block; } }
+  @media only all and (min-width: 48em) {
+    #header #navbar .search-box {
+      display: none; } }
 
 .header-image.fullwidth #body {
   padding-left: 0;
@@ -253,11 +317,12 @@ b, strong, label, th {
     padding-right: 14rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
-.header-image #body .flush-top {
+.header-image #body .slideme_container .showcase {
   margin-top: -15.5rem;
   padding-top: 16rem; }
-.header-image #breadcrumbs {
-  margin-top: 1rem; }
+.header-image #body .showcase_container .showcase {
+  margin-top: -15.5rem;
+  padding-top: 14rem; }
 .header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
@@ -265,38 +330,54 @@ b, strong, label, th {
     color: #ffffff; }
   .header-image #header a, .header-image #header .menu-btn {
     color: #ffffff; }
+  .header-image #header .menu-btn-label {
+    font-family: "Source Sans Pro", "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1.25rem;
+    text-transform: none; }
   .header-image #header a:before, .header-image #header a:after {
     background-color: rgba(255, 255, 255, 0.7) !important; }
   .header-image #header #navbar ul.navigation ul li a {
-    color: #178EE1;
+    color: #00adef;
     text-transform: none; }
     .header-image #header #navbar ul.navigation ul li a:hover {
-      color: #0e5484;
+      color: #006389;
       border-bottom: 0; }
 
-.header-lite #body {
-  padding-top: 12rem; }
 .header-lite #header {
   box-shadow: none;
   color: #656161; }
   .header-lite #header a, .header-lite #header .menu-btn {
     color: #656161; }
+  .header-lite #header #navbar ul.navigation ul li a {
+    color: #00adef;
+    text-transform: none; }
+    .header-lite #header #navbar ul.navigation ul li a:hover {
+      color: #006389;
+      border-bottom: 0; }
   .header-lite #header .search-box i {
     color: #656161; }
   .header-lite #header .search-box input[type=search]:focus {
-    background-color: rgba(101, 97, 97, 0.2); }
+    background-color: rgba(101, 97, 97, 0.4); }
   .header-lite #header li.active a {
-    color: #178EE1; }
+    color: #00adef; }
   .header-lite #header .logo ul.social-icons li {
     background: rgba(101, 97, 97, 0.2); }
     .header-lite #header .logo ul.social-icons li .fa {
       color: white; }
     .header-lite #header .logo ul.social-icons li:hover .fa {
       color: #656161; }
+  .header-lite #header .logo ul.login li {
+    background: rgba(101, 97, 97, 0.2); }
+    .header-lite #header .logo ul.login li:hover .fa {
+      color: #656161; }
+.header-lite #body .showcase_container .showcase {
+  margin-top: -1rem; }
+  .header-lite #body .showcase_container .showcase .showcaseoverlay {
+    display: none; }
 
 .footer {
   font-size: 0.9rem;
-  background: #002B48;
+  background: #001f49;
   width: 100%;
   padding-top: 2rem; }
   .footer:after {
@@ -306,7 +387,7 @@ b, strong, label, th {
   .footer a {
     color: #9A9898; }
     .footer a:hover {
-      color: #0e5484; }
+      color: #006389; }
   .footer h4, .footer .archive-list label, .archive-list .footer label, .footer .modular .bottom table th, .modular .bottom table .footer th, .footer .contact label, .contact .footer label, .footer .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .footer .name, .footer .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .footer .button, .footer .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .footer button, .footer .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .footer button, .footer .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .footer button, .footer .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .footer button {
     line-height: 2rem;
     margin-top: 0;
@@ -314,18 +395,20 @@ b, strong, label, th {
     color: #fff; }
   .footer hr {
     border-color: rgba(154, 152, 152, 0.5); }
-  @media only all and (max-width: 47.938em) {
-    .footer .social-icons {
-      float: none;
-      clear: both;
-      width: 100%;
-      padding-top: 2rem; } }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .footer .social-icons {
-      float: none;
-      clear: both;
-      width: 100%;
-      padding-top: 2rem; } }
+  .footer .social-icons {
+    font-size: 1rem; }
+    @media only all and (max-width: 47.938em) {
+      .footer .social-icons {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 2rem; } }
+    @media only all and (min-width: 48em) and (max-width: 59.938em) {
+      .footer .social-icons {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 2rem; } }
   .footer .footer-items {
     margin-top: 2rem; }
     @media only all and (max-width: 47.938em) {
@@ -353,6 +436,7 @@ b, strong, label, th {
     @media only all and (max-width: 30em) {
       .footer .footer-module {
         margin-top: 1rem;
+        padding-right: inherit;
         width: 100%; } }
     .footer .footer-module span:after {
       content: "";
@@ -377,6 +461,8 @@ b, strong, label, th {
       clear: both; }
     .footer .logo h3 a {
       color: #fff; }
+      .footer .logo h3 a img {
+        max-height: 42px; }
   .footer .quickmenu {
     margin: 0;
     padding: 0;
@@ -394,7 +480,7 @@ b, strong, label, th {
       clear: both; }
   .footer .footer-copyright {
     width: 50%;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
     display: inline-block;
     float: left;
     text-align: left;
@@ -411,7 +497,7 @@ b, strong, label, th {
     width: 50%;
     text-align: right;
     text-transform: uppercase;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif; }
     @media only all and (max-width: 47.938em) {
       .footer .footer-menu {
         width: 100%;
@@ -443,11 +529,11 @@ b, strong, label, th {
     vertical-align: top; }
 
 body {
-  font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 400; }
 
 h1, h2, h3, h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, h5, h6 {
-  font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
   text-rendering: optimizeLegibility; }
 
 h1 {
@@ -469,17 +555,18 @@ h2 {
     h2 {
       font-size: -1.1rem; } }
 
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-  h3 {
-    font-size: -0.9rem; } }
-@media only all and (max-width: 47.938em) {
-  h3 {
-    font-size: -1rem; } }
+h3 {
+  line-height: 1.2; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h3 {
+      font-size: -0.9rem; } }
+  @media only all and (max-width: 47.938em) {
+    h3 {
+      font-size: -1rem; } }
 
 h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   font-size: 1.2rem;
   font-weight: normal;
-  text-align: center;
   text-transform: uppercase;
   color: #656161; }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -491,10 +578,26 @@ h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pr
 
 h1 {
   text-align: center;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 2.2rem;
+  margin-top: 0;
+  text-transform: uppercase; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h1 {
+      font-size: 1.5rem; } }
+  @media only all and (max-width: 47.938em) {
+    h1 {
+      font-size: 1.4rem;
+      line-height: 1.2; } }
+  h1 strong, h1 label, h1 th {
+    color: #00adef; }
 
 h3 {
   letter-spacing: -1px; }
+
+@media only all and (max-width: 47.938em) {
+  p {
+    text-align: justify; } }
 
 blockquote {
   border-left: 10px solid #F0F2F4; }
@@ -530,6 +633,8 @@ blockquote > blockquote > blockquote {
     border-left: 10px solid #5BC0DE;
     background: #F4F8FA;
     color: #28a1c5; }
+    blockquote > blockquote > blockquote > blockquote > blockquote > p a {
+      color: #656161; }
   blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -142px;
     border-left: 10px solid #5CB85C;
@@ -540,7 +645,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Inconsolata", monospace; }
+  font-family: monospace; }
 
 code {
   background: #f9f2f4;
@@ -563,12 +668,12 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #178EE1;
+  background: #00adef;
   color: #fff; }
 
 .label {
   vertical-align: middle;
-  background: #178EE1;
+  background: #00adef;
   border-radius: 100%;
   color: #fff;
   height: 1rem;
@@ -577,7 +682,7 @@ hr {
   display: inline-block;
   text-align: center;
   font-size: 0.7rem;
-  font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
   margin-right: 0.75rem; }
 
 fieldset {
@@ -590,8 +695,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
     border-color: #b2b2b2; }
   textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: #178EE1;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(21, 127, 202, 0.7); }
+    border-color: #00adef;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(0, 155, 214, 0.7); }
 
 .form-field .required {
   color: #F3443F;
@@ -606,6 +711,21 @@ form .buttons {
 form input {
   font-weight: 400; }
 
+::-ms-clear {
+  display: none; }
+
+.mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button {
+  background: #00adef;
+  color: #fff;
+  border: 1px solid #00adef;
+  border-radius: 0;
+  padding: 7px 20px;
+  font-weight: normal;
+  font-size: 1rem; }
+  .mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button:hover {
+    background: #fff;
+    color: #00adef; }
+
 table {
   border: 1px solid #d8d8d8; }
 
@@ -618,14 +738,12 @@ td {
   border: 1px solid #d8d8d8; }
 
 .button, .archive-list button, .contact button {
-  background: #178EE1;
+  background: #00adef;
   color: #fff;
-  border: 1px solid #178EE1; }
+  border: 1px solid #00adef; }
   .button:hover, .archive-list button:hover, .contact button:hover {
     background: #fff;
-    color: #178EE1; }
-  .button:active, .archive-list button:active, .contact button:active {
-    box-shadow: 0 1px 0 #116ba9; }
+    color: #00adef; }
 
 .button-secondary {
   background: #a7a7a7;
@@ -634,8 +752,6 @@ td {
   .button-secondary:hover {
     background: #fff;
     color: #a7a7a7; }
-  .button-secondary:active {
-    box-shadow: 0 1px 0 #888888; }
 
 .bullets {
   margin: 1.7rem 0;
@@ -667,7 +783,7 @@ td {
 
 .bullet-icon {
   float: left;
-  background: #178EE1;
+  background: #00adef;
   padding: 0.875rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -677,13 +793,13 @@ td {
   text-align: center; }
 
 .bullet-icon-1 {
-  background: #178EE1; }
+  background: #00adef; }
 
 .bullet-icon-2 {
-  background: #17d1e1; }
+  background: #00efe1; }
 
 .bullet-icon-3 {
-  background: #b0e117; }
+  background: #d5ef00; }
 
 .bullet-content {
   margin-left: 4.55rem; }
@@ -717,11 +833,12 @@ dt, dd {
     padding: 0;
     margin-left: 0; }
     #panel .navigation li {
+      padding: 0.5rem 0;
       border-bottom: 1px solid #3d3d3d; }
       #panel .navigation li a {
         color: #ddd;
         display: block;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
         font-weight: 600; }
         #panel .navigation li a:hover {
           color: white;
@@ -737,12 +854,15 @@ dt, dd {
         border-top: 1px solid #3d3d3d; }
       #panel .navigation li ul {
         list-style: none;
-        padding: 0; }
+        padding: 0;
+        margin: 0; }
+        @media only all and (max-width: 47.938em) {
+          #panel .navigation li ul {
+            display: none; } }
         #panel .navigation li ul li {
           border: 0 !important; }
           #panel .navigation li ul li a {
             color: #c4c4c4;
-            padding: 0.2rem 1rem 0.2rem 2rem;
             font-size: 0.9rem; }
           #panel .navigation li ul li li a {
             padding-left: 3rem; }
@@ -762,7 +882,10 @@ dt, dd {
   font-size: 3rem; }
   @media only all and (max-width: 47.938em) {
     .portfolio-modal .close-modal {
-      display: none; } }
+      font-size: 2em;
+      width: 1.4em;
+      height: 1.4em;
+      line-height: 1.4em; } }
 
 .modal {
   display: none;
@@ -780,9 +903,9 @@ dt, dd {
   text-align: center; }
   @media only all and (max-width: 47.938em) {
     .modal h1 {
-      margin-bottom: 0.5rem; }
-    .modal p, .modal ul {
-      margin: 1rem 0; }
+      margin: 0.5rem 0; }
+    .modal form, .modal p, .modal ul {
+      margin: 1rem; }
     .modal ul {
       margin-top: 0; } }
   .modal.in {
@@ -791,14 +914,11 @@ dt, dd {
     list-style-type: none; }
     .modal .client-details li {
       display: inline-block; }
-      .modal .client-details li strong, .modal .client-details li label, .modal .client-details li th {
-        color: #178EE1;
-        font-weight: normal; }
   .modal .modal-content {
     margin: 0 auto;
     width: 35rem;
     min-height: 100%;
-    margin-top: 10rem; }
+    margin-top: 5rem; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modal .modal-content {
         width: 100%; } }
@@ -846,7 +966,7 @@ dt, dd {
       .list-item .list-page-header h4 a, .list-item .list-page-header .archive-list label a, .archive-list .list-item .list-page-header label a, .list-item .list-page-header .modular .bottom table th a, .modular .bottom table .list-item .list-page-header th a, .list-item .list-page-header .contact label a, .contact .list-item .list-page-header label a, .list-item .list-page-header .callout .pricing-container .pricing-item .name a, .callout .pricing-container .pricing-item .list-item .list-page-header .name a, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .button a, .callout .pricing-container .pricing-item .foot .list-item .list-page-header .button a, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .archive-list button a, .callout .pricing-container .pricing-item .foot .archive-list .list-item .list-page-header button a, .list-item .list-page-header .archive-list .callout .pricing-container .pricing-item .foot button a, .archive-list .callout .pricing-container .pricing-item .foot .list-item .list-page-header button a, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .contact button a, .callout .pricing-container .pricing-item .foot .contact .list-item .list-page-header button a, .list-item .list-page-header .contact .callout .pricing-container .pricing-item .foot button a, .contact .callout .pricing-container .pricing-item .foot .list-item .list-page-header button a {
         color: #656161; }
         .list-item .list-page-header h4 a:hover, .list-item .list-page-header .archive-list label a:hover, .archive-list .list-item .list-page-header label a:hover, .list-item .list-page-header .modular .bottom table th a:hover, .modular .bottom table .list-item .list-page-header th a:hover, .list-item .list-page-header .contact label a:hover, .contact .list-item .list-page-header label a:hover, .list-item .list-page-header .callout .pricing-container .pricing-item .name a:hover, .callout .pricing-container .pricing-item .list-item .list-page-header .name a:hover, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .button a:hover, .callout .pricing-container .pricing-item .foot .list-item .list-page-header .button a:hover, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .archive-list button a:hover, .callout .pricing-container .pricing-item .foot .archive-list .list-item .list-page-header button a:hover, .list-item .list-page-header .archive-list .callout .pricing-container .pricing-item .foot button a:hover, .archive-list .callout .pricing-container .pricing-item .foot .list-item .list-page-header button a:hover, .list-item .list-page-header .callout .pricing-container .pricing-item .foot .contact button a:hover, .callout .pricing-container .pricing-item .foot .contact .list-item .list-page-header button a:hover, .list-item .list-page-header .contact .callout .pricing-container .pricing-item .foot button a:hover, .contact .callout .pricing-container .pricing-item .foot .list-item .list-page-header button a:hover {
-          color: #178EE1; }
+          color: #00adef; }
     .list-item .list-page-header img {
       display: block;
       margin-top: 1rem;
@@ -860,7 +980,7 @@ dt, dd {
     font-size: 1rem;
     text-transform: uppercase;
     color: #9A9898;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .list-item .list-blog-date, .list-item .list-blog-author {
         display: block;
@@ -875,36 +995,14 @@ dt, dd {
 .blog-content-item .list-blog-padding > p:nth-child(2) {
   font-size: 1.2rem; }
 
-.tags {
-  margin: 0;
-  padding: 0;
-  display: inline;
-  background-color: rgba(101, 97, 97, 0.1);
-  padding: 0.7rem 1rem;
+.tags a {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: 1px solid #00adef;
+  border-radius: 0;
+  padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
-  list-style: none;
-  text-align: center; }
-  .tags li {
-    display: inline-block;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
-    .tags li a {
-      color: #9A9898; }
-      .tags li a:after {
-        content: ","; }
-    .tags li:last-child a:after {
-      display: none; }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .tags {
-      display: block;
-      width: 100%;
-      clear: both; } }
-  @media only all and (max-width: 47.938em) {
-    .tags {
-      display: block;
-      width: 100%;
-      clear: both; } }
+  text-transform: uppercase; }
 
 .archives, .related-pages {
   margin: 0;
@@ -942,10 +1040,12 @@ div#breadcrumbs {
       display: none; } }
 
 #sidebar {
-  padding-left: 3rem; }
+  padding: 0 1rem;
+  margin: 0 0 2rem 2rem;
+  background-color: #f6f6f6; }
   @media only all and (max-width: 47.938em) {
     #sidebar {
-      padding-left: 0; } }
+      margin: 0 0 1rem 0; } }
   #sidebar .sidebar-content {
     margin-bottom: 3rem; }
     #sidebar .sidebar-content h4, #sidebar .sidebar-content .archive-list label, .archive-list #sidebar .sidebar-content label, #sidebar .sidebar-content .modular .bottom table th, .modular .bottom table #sidebar .sidebar-content th, #sidebar .sidebar-content .contact label, .contact #sidebar .sidebar-content label, #sidebar .sidebar-content .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #sidebar .sidebar-content .name, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content .button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #sidebar .sidebar-content button, #sidebar .sidebar-content .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #sidebar .sidebar-content button, #sidebar .sidebar-content .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button {
@@ -989,55 +1089,102 @@ ul.pagination {
 .archive-list label {
   font-size: 1rem; }
 .archive-list button {
-  font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
   text-transform: uppercase; }
 
-#error {
+body.error .showcase h1 {
+  text-align: center; }
+body.error #error {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding-bottom: 12rem; }
-  #error h1 {
-    font-size: 5rem; }
-  #error p {
+  padding: 4rem 0; }
+
+.simplesearch {
+  padding-top: 1rem; }
+  .simplesearch h1 {
+    margin-bottom: 0; }
+  .simplesearch .center {
+    text-align: center; }
+  .simplesearch .search-box {
+    display: block;
+    top: 0;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-right: 0.75rem;
+    padding: 0.425rem 0; }
+    .simplesearch .search-box i {
+      position: absolute;
+      top: 1rem;
+      right: 0.6rem;
+      z-index: 100;
+      cursor: pointer; }
+    .simplesearch .search-box input[type=search] {
+      outline: none;
+      cursor: pointer;
+      -webkit-appearance: textfield;
+      -webkit-box-sizing: content-box;
+      font-family: inherit;
+      font-size: 100%;
+      box-shadow: none;
+      width: 100%;
+      height: 2rem;
+      line-height: 2rem;
+      margin-bottom: 0;
+      padding: 0 0.425rem;
+      font-size: 0.9rem; }
+  .simplesearch .search-image {
     margin: 1rem 0; }
-
-.error #body {
-  padding-top: 16rem; }
-
-.simplesearch h1 {
-  margin-bottom: 0; }
-.simplesearch .center {
-  text-align: center; }
-.simplesearch input {
-  display: inline-block;
-  max-width: 30rem;
-  font-size: 2rem; }
-.simplesearch .search-image {
-  margin-top: 1rem; }
-  .simplesearch .search-image img {
-    border-radius: 4px; }
-    @media only all and (max-width: 47.938em) {
-      .simplesearch .search-image img {
-        display: none; } }
-@media only all and (max-width: 47.938em) {
+    .simplesearch .search-image img {
+      border-radius: 4px;
+      max-width: 100px; }
+      @media only all and (max-width: 47.938em) {
+        .simplesearch .search-image img {
+          display: none; } }
   .simplesearch .search-item {
-    margin-left: 0; } }
-.simplesearch .search-details {
-  float: right;
-  margin-top: -2.5rem;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #cdcccc; }
-  @media only all and (max-width: 47.938em) {
-    .simplesearch .search-details {
-      float: none;
-      margin-top: -0.2rem;
-      margin-bottom: 1rem; } }
-.simplesearch hr {
-  border-bottom: 1px solid #eee; }
+    min-height: 5rem;
+    margin-bottom: 1em; }
+    @media only all and (max-width: 47.938em) {
+      .simplesearch .search-item {
+        margin-left: 0; } }
+  .simplesearch .search-details {
+    float: right;
+    margin-top: -1.8rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #cdcccc; }
+    @media only all and (max-width: 47.938em) {
+      .simplesearch .search-details {
+        float: none;
+        margin-top: -0.2rem;
+        margin-bottom: 1rem; } }
+  .simplesearch hr {
+    border-bottom: 1px solid #eee;
+    clear: both; }
+
+#sidebar .sidebar-content.simplesearch i {
+  display: none; }
+#sidebar .sidebar-content.simplesearch input {
+  font-size: 1rem; }
+
+#breadcrumbs {
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 3rem; }
+  #breadcrumbs span {
+    display: inline-block;
+    padding: 0; }
+    #breadcrumbs span:first-child {
+      padding-left: 0; }
+  #breadcrumbs i {
+    display: inline-block;
+    width: 20px;
+    text-align: center; }
 
 .grav-lightslider .lSSlideOuter .lSPager.lSpg > li a {
   z-index: 1; }
@@ -1045,80 +1192,184 @@ ul.pagination {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem; }
 
-.modular.header-image #header {
+body.online-learning iframe {
+  border: 0; }
+
+img.infographic {
+  margin: 0 auto;
+  display: block; }
+  @media only all and (min-width: 60em) and (max-width: 74.938em) {
+    img.infographic {
+      max-width: 48em; } }
+  @media only all and (min-width: 75em) {
+    img.infographic {
+      max-width: 48em; } }
+
+img.inline-left {
+  float: left;
+  margin: 0.5em 1em 0.5em 0;
+  max-width: 16em; }
+  @media only all and (max-width: 47.938em) {
+    img.inline-left {
+      float: none;
+      display: block;
+      clear: both;
+      margin: 1rem auto; } }
+
+#content > ul > li,
+#content > ol > li {
+  padding-bottom: 0.4rem; }
+
+.lead {
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #00adef; }
+  @media only all and (max-width: 47.938em) {
+    .lead {
+      font-size: 1.5rem; } }
+
+.text-and-lightbox-wrapper {
+  padding-top: 2rem; }
+  .text-and-lightbox-wrapper .overview-text {
+    padding-right: 2rem;
+    min-height: 260px; }
+    @media only all and (max-width: 47.938em) {
+      .text-and-lightbox-wrapper .overview-text {
+        padding: inherit; } }
+  @media only all and (max-width: 47.938em) {
+    .text-and-lightbox-wrapper .overview-lightbox a {
+      display: none; } }
+  @media only all and (min-width: 48em) {
+    .text-and-lightbox-wrapper .overview-lightbox img.no-lightbox {
+      display: none; } }
+  .text-and-lightbox-wrapper .lightbox-link {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 1; }
+  .text-and-lightbox-wrapper .lightbox-link-hover {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    background-color: #00adef; }
+    .text-and-lightbox-wrapper .lightbox-link-hover .fa-plus-square {
+      font-size: 5rem;
+      color: #ffffff;
+      margin-top: 40%;
+      margin-left: 40%; }
+    .text-and-lightbox-wrapper .lightbox-link-hover:hover {
+      opacity: 0.8; }
+
+.toc ul {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+#sidebar .sidebar-content ul.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-bottom: 1rem; }
+  #sidebar .sidebar-content ul.navigation li {
+    margin-top: 0.6rem;
+    line-height: 1.3rem; }
+    #sidebar .sidebar-content ul.navigation li a i {
+      font-size: 0.7rem; }
+    #sidebar .sidebar-content ul.navigation li:first-child a {
+      padding-left: 0; }
+    #sidebar .sidebar-content ul.navigation li ul {
+      padding-left: 1rem; }
+    #sidebar .sidebar-content ul.navigation li:hover li a:hover {
+      border-bottom: 0; }
+    #sidebar .sidebar-content ul.navigation li:hover li a:before, #sidebar .sidebar-content ul.navigation li:hover li a:after {
+      display: none; }
+
+.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
-  .modular.header-image #header #logo h3 {
+  .header-image #header #logo h3 {
     color: #ffffff; }
-  .modular.header-image #header #navbar a {
+  .header-image #header #navbar a {
     color: #ffffff; }
-.modular .slideme_container {
+  .header-image #header #navbar .active a {
+    color: #00adef; }
+
+.slideme_container {
   overflow: hidden;
   margin-top: -15rem;
   padding-top: 15rem;
   height: 34.7rem; }
-  .modular .slideme_container:after {
+  .slideme_container:after {
     content: "";
     display: table;
     clear: both; }
-  .modular .slideme_container .slideoverlay {
+  .slideme_container .slideoverlay {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -99; }
-.modular .showcase {
+
+.showcase_container {
+  overflow: hidden;
+  margin-top: -15rem;
+  padding-top: 13rem;
+  position: relative; }
+  .showcase_container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .showcase_container h1 {
+    text-align: left;
+    margin: 0; }
+    @media only all and (max-width: 47.938em) {
+      .showcase_container h1 {
+        padding-bottom: 1rem;
+        text-align: center; } }
+  .showcase_container .showcaseoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -99; }
+
+.slideme .showcase {
+  padding-bottom: 10rem;
+  text-align: center; }
+  .slideme .showcase .button, .slideme .showcase .archive-list button, .archive-list .slideme .showcase button, .slideme .showcase .contact button, .contact .slideme .showcase button {
+    margin: 0.5rem; }
+
+.showcase {
   position: relative;
   z-index: 1;
-  padding-bottom: 10rem;
   background-color: #666;
   background-size: cover;
   background-position: center;
   text-align: center;
   color: #ffffff; }
-  .modular .showcase h1 {
-    font-size: 2.2rem;
-    margin-top: 0;
-    padding-left: 14rem;
-    padding-right: 14rem;
-    text-transform: uppercase; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
-      .modular .showcase h1 {
-        font-size: 1.5rem; } }
-    @media only all and (max-width: 47.938em) {
-      .modular .showcase h1 {
-        font-size: 1.3rem;
-        line-height: 1.2;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
-    .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
-      color: #178EE1; }
-  .modular .showcase h2 {
+  .showcase h2 {
     text-transform: none;
     padding-left: 14rem;
     padding-right: 14rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .showcase h2 {
+      .showcase h2 {
         padding-left: 0;
         padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
-  .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button {
-    color: #ffffff;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    padding: 0.3rem 1rem;
-    background: rgba(255, 255, 255, 0);
-    border: 2px solid #ffffff;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 1rem; }
-    .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
-      background: rgba(255, 255, 255, 0.2); }
-.modular .slideme_container .arrow {
+        margin-left: 0;
+        margin-right: 0; } }
+  .showcase .button.button-chat-bubble:hover, .showcase .archive-list button.button-chat-bubble:hover, .archive-list .showcase button.button-chat-bubble:hover, .showcase .contact button.button-chat-bubble:hover, .contact .showcase button.button-chat-bubble:hover {
+    border-color: #fff; }
+    .showcase .button.button-chat-bubble:hover:after, .showcase .archive-list button.button-chat-bubble:hover:after, .archive-list .showcase button.button-chat-bubble:hover:after, .showcase .contact button.button-chat-bubble:hover:after, .contact .showcase button.button-chat-bubble:hover:after {
+      border-color: transparent #fff; }
+
+.slideme_container .arrow {
   position: absolute;
   display: block;
   width: 3.7rem;
@@ -1134,36 +1385,36 @@ ul.pagination {
   opacity: 0.5;
   color: #000; }
   @media only all and (max-width: 47.938em) {
-    .modular .slideme_container .arrow {
+    .slideme_container .arrow {
       font-size: 1.5rem;
       line-height: 2.8rem; } }
-  .modular .slideme_container .arrow:hover {
+  .slideme_container .arrow:hover {
     opacity: 1; }
-  .modular .slideme_container .arrow.prev {
+  .slideme_container .arrow.prev {
     left: 4rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .slideme_container .arrow.prev {
+      .slideme_container .arrow.prev {
         left: 1rem; } }
-  .modular .slideme_container .arrow.next {
+  .slideme_container .arrow.next {
     right: 4rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .slideme_container .arrow.next {
+      .slideme_container .arrow.next {
         right: 1rem; } }
-  .modular .slideme_container .arrow:disabled {
-    opacity: 0.1; }
+  .slideme_container .arrow:disabled {
+    display: none; }
   @media only all and (max-width: 47.938em) {
-    .modular .slideme_container .arrow {
+    .slideme_container .arrow {
       width: 2.7rem;
       height: 2.7rem; } }
-.modular .slideme_container .arrow.next:before {
+.slideme_container .arrow.next:before {
   content: '\f054';
   font-family: FontAwesome;
   margin-left: 0.4rem; }
-.modular .slideme_container .arrow.prev:before {
+.slideme_container .arrow.prev:before {
   content: '\f053';
   font-family: FontAwesome;
   margin-right: 0.5rem; }
-.modular .slideme_container .pagination {
+.slideme_container .pagination {
   text-align: center;
   z-index: 5;
   position: absolute;
@@ -1171,7 +1422,7 @@ ul.pagination {
   right: 0;
   vertical-align: middle;
   bottom: 5%; }
-  .modular .slideme_container .pagination .numbers li {
+  .slideme_container .pagination .numbers li {
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
@@ -1183,12 +1434,11 @@ ul.pagination {
     cursor: pointer;
     margin: 0 0.2rem;
     vertical-align: middle; }
-    .modular .slideme_container .pagination .numbers li.current {
+    .slideme_container .pagination .numbers li.current {
       width: 1rem;
       height: 1rem; }
 
 .modular .features {
-  padding: 4rem 0;
   padding-bottom: 1rem;
   text-align: center; }
   .modular .features:after {
@@ -1206,10 +1456,24 @@ ul.pagination {
     @media only all and (max-width: 47.938em) {
       .modular .features p {
         font-size: 1rem; } }
+    .modular .features p img {
+      float: right;
+      max-width: 25%; }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .modular .features p img {
+          max-width: 50%; } }
+      @media only all and (max-width: 47.938em) {
+        .modular .features p img {
+          float: none;
+          max-width: 100%; } }
+  .modular .features .content-container:after {
+    content: "";
+    display: table;
+    clear: both; }
   .modular .features .button, .modular .features .archive-list button, .archive-list .modular .features button, .modular .features .contact button, .contact .modular .features button {
-    background-color: #178EE1;
+    background-color: #00adef;
     color: #ffffff;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
     border-radius: 0;
     box-shadow: none;
     font-size: 1rem; }
@@ -1262,6 +1526,31 @@ ul.pagination {
       .modular .features.big .feature-content p {
         padding: 0; }
 
+.modular .bookmark {
+  text-align: center; }
+  .modular .bookmark:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media only all and (min-width: 48em) {
+    .modular .bookmark {
+      display: none; } }
+  .modular .bookmark h2 {
+    padding-top: 3rem;
+    margin: 0;
+    line-height: 100%;
+    color: #656161; }
+  .modular .bookmark p {
+    margin: 1rem 0;
+    text-align: center; }
+    @media only all and (max-width: 47.938em) {
+      .modular .bookmark p {
+        font-size: 1rem; } }
+  .modular .bookmark.borderbottom {
+    padding-bottom: 0; }
+    .modular .bookmark.borderbottom hr {
+      padding-top: 3rem; }
+
 .modular .bottom {
   text-align: center;
   padding-bottom: 4rem; }
@@ -1279,20 +1568,10 @@ ul.pagination {
     @media only all and (max-width: 47.938em) {
       .modular .bottom p {
         font-size: 1rem; } }
-  .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button {
-    background-color: #178EE1;
-    color: #ffffff;
-    font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 1rem;
-    border: 0 none; }
-    .modular .bottom .button:hover, .modular .bottom .archive-list button:hover, .archive-list .modular .bottom button:hover, .modular .bottom .contact button:hover, .contact .modular .bottom button:hover {
-      background-color: #0e5484; }
   .modular .bottom.borderbottom {
     padding-bottom: 0; }
     .modular .bottom.borderbottom hr {
-      padding-top: 3rem; }
+      padding-top: 2rem; }
   .modular .bottom table {
     border: 0 none; }
     .modular .bottom table th {
@@ -1335,6 +1614,256 @@ ul.pagination {
 .about hr {
   margin: 3rem 0; }
 
+.brag {
+  padding: 2rem 0.938rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center; }
+  @media only all and (max-width: 59.938em) {
+    .brag {
+      text-align: center; } }
+  .brag h2 {
+    color: #656161; }
+  .brag .tablets .tablet-row {
+    box-shadow: inset 0px -90px 0px -20px #f7f7f7;
+    margin-left: -14rem;
+    margin-right: -14rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    background: #EEEEEE;
+    padding-bottom: 2rem; }
+    @media only all and (max-width: 47.938em) {
+      .brag .tablets .tablet-row {
+        margin-left: -10rem;
+        margin-right: -10rem; } }
+    .brag .tablets .tablet-row .tablet {
+      min-width: 24%; }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .brag .tablets .tablet-row .tablet {
+          width: 100%; } }
+      @media only all and (min-width: 60em) and (max-width: 74.938em) {
+        .brag .tablets .tablet-row .tablet {
+          min-width: 24%;
+          float: none; } }
+      @media only all and (max-width: 30em) {
+        .brag .tablets .tablet-row .tablet {
+          width: 170%;
+          margin-left: -4.7rem; } }
+      .brag .tablets .tablet-row .tablet h4, .brag .tablets .tablet-row .tablet .archive-list label, .archive-list .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .modular .bottom table th, .modular .bottom table .brag .tablets .tablet-row .tablet th, .brag .tablets .tablet-row .tablet .contact label, .contact .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .brag .tablets .tablet-row .tablet .name, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet .button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button {
+        text-align: left;
+        margin-bottom: 0; }
+      .brag .tablets .tablet-row .tablet p {
+        margin-top: 0; }
+      .brag .tablets .tablet-row .tablet .desc {
+        width: 20rem;
+        margin-left: 2rem; }
+        @media only all and (min-width: 60em) and (max-width: 74.938em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
+        @media only all and (max-width: 47.938em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
+        @media only all and (max-width: 30em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 90%; } }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
+  .brag .video-container {
+    height: 0;
+    /*padding-top: 25px;*/
+    padding-bottom: 56.25%;
+    /*margin-bottom: 10px;*/
+    position: relative;
+    overflow: hidden;
+    max-width: 1280px;
+    max-height: 720px; }
+    .brag .video-container iframe {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+
+.tablet {
+  display: inline-block;
+  text-align: left;
+  min-width: 33%;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 10; }
+  .tablet h4, .tablet .archive-list label, .archive-list .tablet label, .tablet .modular .bottom table th, .modular .bottom table .tablet th, .tablet .contact label, .contact .tablet label, .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .tablet .name, .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .tablet .button, .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .tablet button, .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .tablet button, .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .tablet button, .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .tablet button {
+    text-transform: none;
+    text-align: center; }
+  @media only all and (min-width: 60em) and (max-width: 74.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (max-width: 47.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (max-width: 30em) {
+    .tablet {
+      width: 150%;
+      margin-left: -5.1rem;
+      margin-right: -5.1rem;
+      float: none; } }
+
+.tablet .screen:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #E5EBED;
+  height: 0.9rem;
+  width: 0.9rem;
+  margin: 10.8rem 0 0 9.05rem; }
+
+.tablet .screen {
+  background: #464C51;
+  border-radius: 0.5rem;
+  height: 12rem;
+  width: 19rem;
+  margin: 0 auto; }
+  .tablet .screen .screen-content {
+    height: 9rem;
+    width: 16rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.tablet .screen:after {
+  content: "";
+  position: absolute;
+  background: #161B21;
+  height: 9rem;
+  width: 16rem;
+  border-radius: 0.125rem;
+  margin: 1.5rem 0 0 1.5rem;
+  transition: background 1s ease-in-out; }
+
+.awards img {
+  max-width: 13rem;
+  display: block;
+  margin: auto; }
+  @media only all and (max-width: 47.938em) {
+    .awards img {
+      max-width: 50%; } }
+.awards h4, .awards .archive-list label, .archive-list .awards label, .awards .modular .bottom table th, .modular .bottom table .awards th, .awards .contact label, .contact .awards label, .awards .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .awards .name, .awards .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .awards .button, .awards .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .awards button, .awards .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .awards button, .awards .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .awards button, .awards .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .awards button {
+  font-size: 1.25rem;
+  text-transform: none;
+  margin-bottom: 0; }
+
+body.template-image-collage h2 {
+  clear: both;
+  padding-top: 2rem; }
+body.template-image-collage h3 {
+  line-height: 1; }
+body.template-image-collage ul.image-collage {
+  list-style: none;
+  clear: both;
+  margin: 0; }
+  body.template-image-collage ul.image-collage li {
+    display: inline; }
+    body.template-image-collage ul.image-collage li a {
+      display: block; }
+      @media only all and (min-width: 48em) {
+        body.template-image-collage ul.image-collage li a {
+          float: left; } }
+      body.template-image-collage ul.image-collage li a img {
+        margin: 0 1rem 1rem 0;
+        max-width: 200px;
+        max-height: 200px; }
+        @media only all and (max-width: 47.938em) {
+          body.template-image-collage ul.image-collage li a img {
+            display: block;
+            margin: 0 auto 1rem; } }
+  body.template-image-collage ul.image-collage .image-info {
+    text-align: center; }
+body.template-image-collage .sibling-item {
+  display: inline;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+  @media only all and (max-width: 47.938em) {
+    body.template-image-collage .sibling-item {
+      display: block;
+      float: none;
+      margin: 0 auto 1rem; } }
+  @media only all and (min-width: 48em) {
+    body.template-image-collage .sibling-item ul.image-collage {
+      max-width: 150px; } }
+  body.template-image-collage .sibling-item .image-surround img {
+    border-radius: 4px;
+    max-width: 150px;
+    max-height: 150px; }
+  body.template-image-collage .sibling-item .image-info a, body.template-image-collage .sibling-item .image-info h3, body.template-image-collage .sibling-item .image-info p {
+    float: none;
+    margin: 0; }
+
+body.inspirational-women-ambassadors .profile-image img {
+  border-color: white;
+  border-radius: 50%; }
+
+.inspirational-women-list .inspirational-women-item {
+  padding: 1rem;
+  text-align: center;
+  line-height: 1rem; }
+  .inspirational-women-list .inspirational-women-item .profile-image {
+    float: none;
+    margin: 0;
+    margin-bottom: 1rem;
+    max-width: 100%; }
+    .inspirational-women-list .inspirational-women-item .profile-image img {
+      margin: auto;
+      width: 100px;
+      height: 100px; }
+  .inspirational-women-list .inspirational-women-item .profile-name {
+    font-weight: bold;
+    padding-bottom: 0.7rem; }
+
+.inspirational-women-item h3 {
+  margin-bottom: 0; }
+.inspirational-women-item .profile-image {
+  float: left;
+  margin-right: 1rem;
+  max-width: 11rem; }
+  @media only all and (max-width: 47.938em) {
+    .inspirational-women-item .profile-image {
+      float: none;
+      display: block;
+      margin: auto;
+      max-width: 20rem; } }
+.inspirational-women-item .contact-icons {
+  margin: 0;
+  list-style: none; }
+  .inspirational-women-item .contact-icons li {
+    line-height: 2rem;
+    margin: 0;
+    list-style: none; }
+    .inspirational-women-item .contact-icons li i {
+      min-width: 1rem;
+      width: 2.1rem;
+      height: 2.1rem;
+      font-size: 1.4rem;
+      background: #00adef;
+      color: white;
+      border-radius: 100%;
+      text-align: center;
+      margin-top: 0.5rem;
+      margin-right: 0.8rem;
+      padding-top: 0.3rem; }
+    .inspirational-women-item .contact-icons li a {
+      margin-top: 0.3rem; }
+.inspirational-women-item h3 {
+  clear: both; }
+
 .contact h4, .contact .modular .bottom table th, .modular .bottom table .contact th, .contact label, .contact .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .contact .name, .contact .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .contact .button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   text-align: left; }
 .contact input {
@@ -1366,7 +1895,7 @@ ul.pagination {
 .contact label {
   font-size: 1rem; }
 .contact button {
-  font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
   text-transform: uppercase; }
 .contact #simple_form-success, .contact #simple_form-submit {
   display: inline-block; }
@@ -1430,7 +1959,7 @@ ul.pagination {
       .callout .pricing-container .pricing-item div {
         background: #f7f7f7; }
       .callout .pricing-container .pricing-item .name {
-        background: #178EE1;
+        background: #00adef;
         color: #fff;
         padding: 0.5rem 0; }
       .callout .pricing-container .pricing-item .info {
@@ -1440,12 +1969,12 @@ ul.pagination {
         font-weight: bold;
         color: #656161;
         font-size: 3.5rem;
-        font-family: "novecento_sans_widedemibold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+        font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
         font-weight: normal;
         border-bottom: #EEEEEE 1px solid;
         line-height: 5rem; }
       .callout .pricing-container .pricing-item .foot {
-        background: #178EE1;
+        background: #00adef;
         color: #fff;
         text-align: center;
         padding: 1rem 0; }
@@ -1464,8 +1993,7 @@ ul.pagination {
         font-size: 2rem; }
 
 .team {
-  background: #EEEEEE;
-  padding: 4rem 0;
+  padding: 2rem 0 0;
   text-align: center; }
   .team:after {
     content: "";
@@ -1482,11 +2010,10 @@ ul.pagination {
     text-align: left;
     padding-top: 2rem; }
     .team .members .member {
-      display: inline-block;
       float: left;
-      width: 22%;
-      margin: 0 1rem;
-      margin-bottom: 2rem; }
+      width: 44%;
+      margin: 0 1rem 1rem;
+      min-height: 16rem; }
       @media only all and (max-width: 47.938em) {
         .team .members .member {
           display: block;
@@ -1498,39 +2025,60 @@ ul.pagination {
         .team .members .member {
           display: block;
           width: 44%;
-          margin-bottom: 2rem; } }
+          margin-bottom: 2rem;
+          min-height: 22rem; } }
+      .team .members .member .profile-picture {
+        text-align: right; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .team .members .member .profile-picture {
+            text-align: left; } }
+        @media only all and (max-width: 47.938em) {
+          .team .members .member .profile-picture {
+            text-align: inherit; } }
+        .team .members .member .profile-picture img {
+          padding-right: 1.2rem;
+          filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+          /* Firefox 10+ */
+          filter: gray;
+          /* IE6-9 */
+          -webkit-filter: grayscale(100%);
+          /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+          filter: grayscale(100%);
+          transition: all .6s ease;
+          /* Fade to color for Chrome and Safari */
+          backface-visibility: hidden;
+          /* Fix for transition flickering */ }
+          .team .members .member .profile-picture img:hover {
+            filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></svg>#grayscale");
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            transition: all .6s ease;
+            /* Fade to color for Chrome and Safari */
+            backface-visibility: hidden;
+            /* Fix for transition flickering */ }
       .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
         text-align: left;
+        margin-top: 0;
         margin-bottom: 0; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
+            margin-top: inherit; } }
         @media only all and (max-width: 47.938em) {
           .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
+            margin-top: inherit;
             text-align: center; } }
       .team .members .member hr {
         margin: 1rem 0; }
-    .team .members .social-icons {
-      line-height: 2rem;
+    .team .members .contact-icons {
       margin: 0;
       list-style: none; }
-      @media only all and (max-width: 47.938em) {
-        .team .members .social-icons {
-          text-align: center;
-          display: inline-flex; } }
-      .team .members .social-icons li {
-        float: left;
-        width: 2.1rem;
-        height: 2.1rem;
-        background: #fff;
-        border-radius: 100%;
-        text-align: center;
-        margin-right: 0.8rem; }
-        .team .members .social-icons li a {
-          color: #000;
-          display: block;
-          margin-top: 0.1rem; }
-        .team .members .social-icons li:hover {
-          background: rgba(255, 255, 255, 0.5); }
-          .team .members .social-icons li:hover i {
-            color: #178EE1; }
+      .team .members .contact-icons li i {
+        min-width: 1rem; }
+      .team .members .contact-icons li a {
+        margin-top: 0.1rem; }
+  .team .callout-line {
+    clear: both;
+    border-bottom: 1px solid #CBCBCB; }
 
 .portfolio {
   padding: 2rem 0.938rem;
@@ -1599,7 +2147,8 @@ ul.pagination {
     display: table;
     clear: both; }
   .modular .youtube h2 {
-    color: #656161; }
+    color: #656161;
+    margin-bottom: 0; }
   .modular .youtube .video-container {
     margin-top: 2rem;
     height: 0;
@@ -1608,8 +2157,8 @@ ul.pagination {
     /*margin-bottom: 10px;*/
     position: relative;
     overflow: hidden;
-    max-width: 1920px;
-    max-height: 1080px; }
+    max-width: 1280px;
+    max-height: 720px; }
     .modular .youtube .video-container iframe {
       top: 0;
       left: 0;
@@ -1694,11 +2243,109 @@ ul.pagination {
       .modular .menus.big .menu-content p {
         padding: 0; }
 
+.offices {
+  padding: 2rem 0 0;
+  text-align: center; }
+  .offices:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .offices h2 {
+    color: #656161;
+    margin: 0;
+    line-height: 100%; }
+  .offices p {
+    margin: 1rem 0; }
+  .offices .locations {
+    width: 100%;
+    text-align: left;
+    padding-top: 2rem; }
+    .offices .locations .location {
+      float: left;
+      width: 100%;
+      margin: 0 1rem 1rem;
+      min-height: 16rem; }
+      @media only all and (max-width: 47.938em) {
+        .offices .locations .location {
+          display: block;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          margin-bottom: 2rem; } }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .offices .locations .location {
+          display: block;
+          width: 100%;
+          margin-bottom: 2rem;
+          min-height: 22rem; } }
+      .offices .locations .location .location-picture {
+        text-align: right; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .offices .locations .location .location-picture {
+            text-align: left; } }
+        @media only all and (max-width: 47.938em) {
+          .offices .locations .location .location-picture {
+            text-align: inherit; } }
+        .offices .locations .location .location-picture img {
+          padding-right: 1.2rem; }
+      .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+            margin-top: inherit; } }
+        @media only all and (max-width: 47.938em) {
+          .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+            margin-top: inherit;
+            text-align: center; } }
+      .offices .locations .location hr {
+        margin: 1rem 0; }
+    .offices .locations .contact-icons {
+      margin: 0;
+      list-style: none; }
+      .offices .locations .contact-icons li i {
+        min-width: 1rem; }
+      .offices .locations .contact-icons li a {
+        margin-top: 0.1rem; }
+  .offices .callout-line {
+    clear: both;
+    border-bottom: 1px solid #CBCBCB; }
+
+.values-container:after {
+  content: "";
+  display: table;
+  clear: both; }
+.values-container .value-item {
+  float: left;
+  position: relative;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: 0 1rem 1rem 0;
+  background-size: cover;
+  background-position: center; }
+  .values-container .value-item .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+  .values-container .value-item:last-child {
+    width: 26rem; }
+    @media only all and (max-width: 47.938em) {
+      .values-container .value-item:last-child {
+        width: 12.5rem; } }
+    @media only all and (min-width: 30.063em) and (max-width: 47.938em) {
+      .values-container .value-item:last-child {
+        width: 26rem; } }
+
 .logo {
   border-bottom: 1px solid #eaeaea; }
   .logo h3 {
     font-size: 2.5rem;
-    font-family: "Pacifico", "monospace";
     line-height: 2rem;
     margin: 0;
     float: left; }
@@ -1719,7 +2366,6 @@ ul.pagination {
         width: 2.1rem;
         height: 2.1rem;
         background: #fff;
-        border-radius: 100%;
         text-align: center;
         margin-right: 0.8rem; }
         .logo ul.social-icons li a {
@@ -1728,6 +2374,19 @@ ul.pagination {
           margin-top: 0.1rem; }
         .logo ul.social-icons li:hover {
           background: rgba(255, 255, 255, 0.5); }
+    .logo ul.login {
+      float: right;
+      line-height: 2rem;
+      margin: 0; }
+      .logo ul.login li {
+        text-align: center;
+        margin-left: 0.8rem;
+        padding: 0 0.3rem; }
+        .logo ul.login li a {
+          color: #000;
+          display: block; }
+        .logo ul.login li:hover {
+          background: rgba(255, 255, 255, 0.3); }
 
 .notebook {
   display: inline-block;
@@ -1735,6 +2394,9 @@ ul.pagination {
   min-width: 33%;
   position: relative;
   z-index: 10; }
+  .notebook h4, .notebook .archive-list label, .archive-list .notebook label, .notebook .modular .bottom table th, .modular .bottom table .notebook th, .notebook .contact label, .contact .notebook label, .notebook .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .notebook .name, .notebook .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .notebook .button, .notebook .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .notebook button, .notebook .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .notebook button, .notebook .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .notebook button, .notebook .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .notebook button {
+    text-transform: none;
+    text-align: center; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .notebook {
       width: 100%;
@@ -1785,10 +2447,10 @@ ul.pagination {
     opacity: 0;
     margin-top: 0.8rem;
     margin-left: 0.8rem;
-    background-color: #178EE1; }
+    background-color: #00adef; }
     .notebook .screen .screen-content-hover .fa-plus-square {
       font-size: 5rem;
-      color: #464C51;
+      color: #ffffff;
       margin-top: 2.5rem;
       margin-left: 5.9rem; }
     .notebook .screen .screen-content-hover:hover {
@@ -1828,5 +2490,159 @@ ul.pagination {
   margin: 0.4375rem 0 0 -0.625rem;
   z-index: -1;
   border-radius: 100%; }
+
+.subpage-item h3 {
+  margin: 0; }
+.subpage-item .subpage-image {
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  float: left; }
+  .subpage-item .subpage-image img {
+    border-radius: 4px;
+    max-width: 100px; }
+    @media only all and (max-width: 47.938em) {
+      .subpage-item .subpage-image img {
+        max-width: 33vw; } }
+.subpage-item .subpage-date {
+  color: #cdcccc; }
+.subpage-item a.button, .subpage-item a.button-secondary {
+  display: none; }
+.subpage-item hr {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee; }
+
+#training_paths_accordion .panel {
+  border: none;
+  box-shadow: none;
+  border-radius: 0; }
+  #training_paths_accordion .panel .panel-heading {
+    border: none;
+    border-radius: 0;
+    background-color: #001f49;
+    padding: 0; }
+    #training_paths_accordion .panel .panel-heading:hover {
+      background-color: #00adef; }
+    #training_paths_accordion .panel .panel-heading .accordion-toggle {
+      display: block;
+      height: 36px;
+      /* symbol for opened panels */
+      background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2736%27%20height%3D%2736%27%20viewBox%3D%270%200%2036%2036%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%20%3Crect%20fill%3D%27%23000%27%20width%3D%2736%27%20height%3D%2736%27%20x%3D%270%27%20y%3D%270%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%2714%27%20height%3D%272%27%20x%3D%2711%27%20y%3D%2717%27%3E%3C%2Frect%3E%20%3C%2Fsvg%3E);
+      background-repeat: no-repeat;
+      background-position: 0% 50%; }
+      #training_paths_accordion .panel .panel-heading .accordion-toggle h4, #training_paths_accordion .panel .panel-heading .accordion-toggle .archive-list label, .archive-list #training_paths_accordion .panel .panel-heading .accordion-toggle label, #training_paths_accordion .panel .panel-heading .accordion-toggle .modular .bottom table th, .modular .bottom table #training_paths_accordion .panel .panel-heading .accordion-toggle th, #training_paths_accordion .panel .panel-heading .accordion-toggle .contact label, .contact #training_paths_accordion .panel .panel-heading .accordion-toggle label, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #training_paths_accordion .panel .panel-heading .accordion-toggle .name, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle .button, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle button {
+        text-align: left;
+        display: inline-block;
+        margin-left: 2rem;
+        padding: 5px 15px; }
+    #training_paths_accordion .panel .panel-heading .accordion-toggle.collapsed {
+      /* symbol for collapsed panels */
+      background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2736%27%20height%3D%2736%27%20viewBox%3D%270%200%2036%2036%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%20%3Crect%20fill%3D%27%23000%27%20width%3D%2736%27%20height%3D%2736%27%20x%3D%270%27%20y%3D%270%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%2714%27%20height%3D%272%27%20x%3D%2711%27%20y%3D%2717%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%272%27%20height%3D%2714%27%20x%3D%2717%27%20y%3D%2711%27%3E%3C%2Frect%3E%20%3C%2Fsvg%3E); }
+    #training_paths_accordion .panel .panel-heading a.accordion-toggle {
+      text-decoration: none;
+      color: #fff; }
+
+.training-path-actions:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.training-path-summary .training-path-description {
+  padding-right: 2rem; }
+  @media only all and (max-width: 47.938em) {
+    .training-path-summary .training-path-description {
+      padding: inherit; } }
+  .training-path-summary .training-path-description .training-path-actions {
+    text-align: center; }
+    .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
+      min-width: 16rem; }
+      @media only all and (max-width: 47.938em) {
+        .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
+          width: 100%; } }
+.training-path-summary .training-path-list ol {
+  counter-reset: li;
+  /* Initiate a counter */
+  margin-left: 0;
+  /* Remove the default left margin */
+  padding-left: 0;
+  /* Remove the default left padding */ }
+.training-path-summary .training-path-list ol > li {
+  position: relative;
+  /* Create a positioning context */
+  margin: 0 0 6px 2em;
+  /* Give each list item a left margin to make room for the numbers */
+  padding: 4px 8px;
+  /* Add some spacing around the content */
+  list-style: none;
+  /* Disable the normal item numbering */
+  border-top: 2px solid #a7a7a7;
+  background: #f6f6f6; }
+.training-path-summary .training-path-list ol > li:before {
+  content: counter(li);
+  /* Use the counter as content */
+  counter-increment: li;
+  /* Increment the counter by 1 */
+  /* Position and style the number */
+  position: absolute;
+  top: -2px;
+  left: -2em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 2em;
+  /* Some space between the number and the content in browsers that support
+    generated content but not positioning it (Camino 2 is one example) */
+  margin-right: 8px;
+  padding: 4px;
+  border-top: 2px solid #a7a7a7;
+  color: #fff;
+  background: #a7a7a7;
+  font-weight: bold;
+  text-align: center; }
+.training-path-summary .training-path-list li ol,
+.training-path-summary .training-path-list li ul {
+  margin-top: 6px; }
+.training-path-summary .training-path-list ol ol li:last-child {
+  margin-bottom: 0; }
+
+.salvattore-grid .training-paths-course {
+  margin-bottom: 2rem; }
+
+/**
+ * http://salvattore.com/ 
+ * A jQuery Masonry alternative with CSS-driven configuration.
+ */
+.salvattore-grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media only all and (max-width: 47.938em) {
+  .salvattore-grid[data-columns]:before {
+    content: '1 .column.size-1of1'; } }
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .salvattore-grid[data-columns]:before {
+    content: '1 .column.size-1of1'; } }
+@media only all and (min-width: 60em) and (max-width: 74.938em) {
+  .salvattore-grid[data-columns]:before {
+    content: '2 .column.size-1of2'; } }
+@media only all and (min-width: 75em) {
+  .salvattore-grid[data-columns]:before {
+    content: '2 .column.size-1of2'; } }
+/* Again, you’re free to use and define the classes: */
+.column {
+  float: left; }
+
+.size-1of1 {
+  width: 100%; }
+
+.size-1of2 {
+  width: 50%; }
+  .size-1of2 div {
+    margin-right: 2rem; }
+
+.size-1of3 {
+  width: 33.333%; }
+  .size-1of3 div {
+    margin-right: 2rem; }
 
 /*# sourceMappingURL=template.css.map */

@@ -10,8 +10,8 @@
 		padding-right: $padding-horiz - 7rem;
 	}
 	@include breakpoint(tablet-range) {
-		padding-left: $padding-horiz - 7rem;
-		padding-right: $padding-horiz - 7rem;
+		padding-left: $padding-horiz - 12rem;
+		padding-right: $padding-horiz - 12rem;
 	}
 	@include breakpoint(mobile-only) {
 		padding-left: $padding-horiz - 13rem;

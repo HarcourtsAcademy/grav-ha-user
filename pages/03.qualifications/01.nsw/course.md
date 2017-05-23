@@ -1,17 +1,16 @@
 ---
-title: New South Wales Sales Registration
+title: New South Wales Certificate of Registration
 menu: New South Wales
 slug: new-south-wales
 onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualification-region,qualification,sales registration,sales,sales consultants]
+  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants]
   country: australia
   region: new-south-wales
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
@@ -59,14 +58,19 @@ elective_qualification_units:
   - id: CPPDSM4017
   - id: CPPDSM4022
 
-further_information: For New South Wales legislation and other information visit [NSW Fair Trading](http://www.fairtrading.nsw.gov.au/).
+further_information: |
+  For New South Wales legislation and other information visit [NSW Fair Trading](http://www.fairtrading.nsw.gov.au/).
+  [Register for next course](http://newsouthwales.harcourts.com.au/Home/Certificate-of-Registration/101443){.button}
 
 online_learning:
-  name: Sales Registration Online
+  name: Certificate of Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
 
+disclaimer: true
 ---
 
-The first step in your career in real estate. Achieve the four units required for application for a real estate salesperson’s certificate of registration.
+The first step in your career in real estate. Achieve the four units required for application for a real estate certificate of registration.
+
+[Register for next course](http://newsouthwales.harcourts.com.au/Home/Certificate-of-Registration/101443){.button}
 
 ===

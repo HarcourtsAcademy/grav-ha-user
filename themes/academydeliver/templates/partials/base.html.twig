@@ -6,17 +6,32 @@
     <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Academy">
+    <meta name="application-name" content="Academy"/>
+    <meta property="og:site_name" content="Academy Real Estate Training"/>
+    <meta property="fb:app_id" content="667620916615872"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{ theme_url }}/images/icons/favicon.ico">
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --><link rel="apple-touch-icon" href="{{ theme_url }}/images/icons/apple-touch-icon.png">
-    <!-- For first- and second-generation iPad: --><link rel="apple-touch-icon" sizes="72x72" href="{{ theme_url }}/images/icons/apple-touch-icon-72x72.png">
-    <!-- For iPhone with high-resolution Retina display: --><link rel="apple-touch-icon" sizes="114x114" href="{{ theme_url }}/images/icons/apple-touch-icon-114x114.png">
-    <!-- For third-generation iPad with high-resolution Retina display: --><link rel="apple-touch-icon" sizes="144x144" href="{{ theme_url }}/images/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ theme_url }}/images/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ theme_url }}/images/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ theme_url }}/images/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ theme_url }}/images/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ theme_url }}/images/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ theme_url }}/images/icons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ theme_url }}/images/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ theme_url }}/images/icons/favicon-16x16.png" sizes="16x16" />
+    <meta name="msapplication-TileColor" content="#00ADEF" />
+    <meta name="msapplication-TileImage" content="{{ theme_url }}/images/icons/mstile-144x144.png" />
 
     {% block stylesheets %}
         {% do assets.addCss('theme://css-compiled/nucleus.css',102) %}
         {% do assets.addCss('theme://css-compiled/template.css',101) %}
+        {% if header.bootstrap.enabled %}
+            {% do assets.addCss('theme://css-compiled/bootstrap.css',103) %}
+        {% endif %}
         {% do assets.addCss('theme://css/custom.css',100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css',100) %}
+        {% do assets.addCss('theme://css/plugins/youtube.css') %}
+        {% do assets.addCss('theme://css/plugins/simplesearch.css') %}
         {% do assets.addCss('theme://css/slidebars.min.css') %}
         {% do assets.addCss('theme://css/slideme.css') %}
         {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
@@ -36,23 +51,79 @@
         {% do assets.addJs('theme://js/deliver.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %}
         {% do assets.addJs('theme://js/jquery.slideme2.js') %}
+        {% if header.bootstrap.enabled %}
+            {% do assets.addJs('theme://js/bootstrap/collapse.js', {'priority':102, 'group':'bottom'}) %}
+            {% do assets.addJs('theme://js/bootstrap/transition.js', {'priority':103, 'group':'bottom'}) %}
+        {% endif %}
+        {% if header.salvattore.enabled %}
+            {% do assets.addJs('theme://js/salvattore.js', {'priority':104, 'group':'bottom'}) %}
+        {% endif %}
     {% endblock %}
     {{ assets.js() }}
+    
+    {% block analytics  %}
+    {% if config.system.piwik.enabled == true %}
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      {% if page.header.http_response_code == 404 %}
+        _paq.push(['setDocumentTitle',  '404/URL = '
+          + encodeURIComponent(document.location.pathname + document.location.search)
+          + '/From = ' + encodeURIComponent(document.referrer)]);
+      {% endif %}
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="{{ config.system.piwik.url }}";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', {{ config.system.piwik.siteid }}]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="{{ config.system.piwik.url }}piwik.php?idsite={{ config.system.piwik.siteid }}" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+    {% endif %}
+    {% if config.system.google_analytics.enabled == true %}
+    <!-- Start Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{ config.system.google_analytics.siteid }}', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+    {% endif %}
+    {% endblock %}
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+{% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
+<body id="top" class="template-{{ page.template }} {{ body_classes }}">
     <div id="sb-site">
         {% block header %}
         <header id="header">
                 <div class="logo">
                     <h3><a href="{{ base_url_absolute }}">
-                            {% if 'header-image' in page.header.body_classes %}
-                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% else %}
+                            {% if 'logo-dark' in page.header.body_classes %}
                                 <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                            {% else %}
+                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
                             {% endif %}
                     </a></h3>
+                    {% if site.studentlogin.url %}
+                    <ul class="login">
+                      <li>
+                        <a href="{{ site.studentlogin.url }}">
+                          <i class="fa fa-{{ site.studentlogin.icon }}"></i><span class="login-label"> Login</span>
+                        </a>
+                      </li>
+                    </ul>
+                    {% endif %}
                     {#% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %#}
@@ -63,19 +134,31 @@
                     {% block header_navigation %}
                     {% include 'partials/navigation.html.twig' %}
                     {% endblock %}
-                    {% block social %}
-                        {% include 'partials/social.html.twig' %}
-                    {% endblock %}
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"> Menu</span>
+                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
+                        <span class="menu-btn-label">Menu</span>
+                    </span>
+                    
+                    {% include 'partials/search.html.twig' %}
                 </div>
         </header>
         {% endblock %}
 
-        {% block showcase %}{% endblock %}
 
         {% block body %}
         <section id="body" class="{{ class }}">
+            {% block showcase %}
+              {% set banner_image = page.header.banner_image ? page.header.banner_image : 'theme://images/banners/default.jpg' %}
+              <div class="showcase_container">
+                <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
+                  <div class="showcaseoverlay modular-row"></div>
+                  <h1>{{ page.title }}</h1>
+                </div>
+              </div>
+            {% endblock %}
+
             {% block content %}{% endblock %}
+
+            {% include 'partials/jscomments.html.twig' %}
 
             {% block footer %}
             {% include 'modular/footer.html.twig' %}
@@ -90,16 +173,19 @@
         </div>
     </div>
     {% block bottom %}
-    <script>
-    $(function () {
-        $(document).ready(function() {
-          $.slidebars({
-            hideControlClasses: true,
-            scrollLock: true
-          });
+
+        {{ assets.js('bottom') }}
+
+        <script>
+        $(function () {
+            $(document).ready(function() {
+            $.slidebars({
+                hideControlClasses: true,
+                scrollLock: true
+            });
+            });
         });
-    });
-    </script>
+        </script>
     {% endblock %}
 </body>
 </html>

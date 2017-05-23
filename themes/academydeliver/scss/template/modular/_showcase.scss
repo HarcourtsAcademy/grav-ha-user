@@ -1,8 +1,7 @@
-// Modular Showcase styling
-.modular {
+// Showcase styling
 
 // special case for header
-&.header-image {
+.header-image {
     #header {
         background-color: rgba(255,255,255,0);
         box-shadow: none;
@@ -12,6 +11,9 @@
         }
         #navbar a {
             color: $header-text;
+        }
+        #navbar .active a {
+            color: $core-accent;
         }
     }
 }
@@ -28,41 +30,58 @@
          right: 0;
          bottom: 0;
          left: 0;
-         background-color: rgba(0,0,0,.3);
+         background-color: rgba(0,0,0,0.5);
          z-index: -99;
      }
 }
+.showcase_container {
+    @include clearfix;
+    overflow: hidden;
+    margin-top: - $header-height - 3rem;
+    padding-top: $header-height + 1rem;
+    position: relative;
+
+    h1 {
+        text-align: left;
+        margin: 0;
+
+        @extend .padding-horiz;
+
+        @include breakpoint(mobile-only) {
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+    .showcaseoverlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: -99;
+    }
+}
+
+.slideme .showcase {
+    padding-bottom: 10rem;
+    text-align: center;
+    .button {
+      margin: 0.5rem;
+    }
+}
+
 .showcase {
     position: relative;
     z-index: 1;
-    padding-bottom: 10rem;
     background-color: #666;
     background-size: cover;
     background-position: center;
 
     text-align: center;
     color: $header-text;
-    h1 {
-        font-size: 2.2rem;
-        margin-top: 0;
-        padding-left: $padding-horiz;
-        padding-right: $padding-horiz;
-        @include breakpoint(tablet-range) {
-            font-size: 1.5rem;
-        }
-        @include breakpoint(mobile-only) {
-            font-size: 1.3rem;
-            line-height: 1.2;
-            padding-left: 0;
-            padding-right: 0;
-            margin-left: 4rem;
-            margin-right: 4rem;
-        }
-        strong {
-            color: $core-accent;
-        }
-        text-transform: uppercase;
-    }
+
     h2 {
         text-transform: none;
         padding-left: $padding-horiz;
@@ -70,23 +89,21 @@
         @include breakpoint(mobile-only) {
             padding-left: 0;
             padding-right: 0;
-            margin-left: 4rem;
-            margin-right: 4rem;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
     .button {
-        @extend .default-animation;
-        color: $header-text;
-        font-family: $font-family-header;
-        padding: 0.3rem 1rem;
-        background: rgba(255,255,255,0);
-        border: 2px solid $header-text;
-        border-radius: $border-radius;
-        box-shadow: none;
-        font-size: $core-font-size;
 
-        &:hover {
-            background: rgba(255,255,255,0.2);
+        &.button-chat-bubble {
+            &:hover {
+                border-color: $white;
+
+                &:after {
+                    border-color: transparent $white;
+                }
+            }
+
         }
     }
 }
@@ -125,7 +142,7 @@
                 right: 1rem;
              }
         }
-        &:disabled {opacity: 0.1}
+        &:disabled {display: none;}
         @include breakpoint(mobile-only) {
             width: 2.7rem;
             height: 2.7rem;
@@ -162,5 +179,4 @@
             }
         }
     }
-}
 }

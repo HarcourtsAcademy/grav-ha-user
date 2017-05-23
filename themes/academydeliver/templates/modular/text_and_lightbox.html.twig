@@ -1,0 +1,32 @@
+<div class="text-and-lightbox-wrapper g-grid pure-g-r">
+    <div class="overview-text g-block pure-u-2-3">
+     {{ page.content }}
+    </div>
+    <div class="overview-lightbox g-block size-1-3 pure-u-1-3">
+    {% set lightbox = page.header.featherlight %}
+    <a rel="lightbox" data-width="{{ lightbox.width }}" data-height="{{ lightbox.height }}" href="{{ page.media[lightbox.image].cropResize(1024,1449).url }}">
+        <div class="lightbox-link">
+            {{ page.media[lightbox.image].display('thumbnail').html('lightbox',lightbox.alt,'lightbox') }}
+        </div>
+        <div class="lightbox-link-hover"><i class="fa fa-plus-square"></i></div>
+    </a>
+    {{ page.media[lightbox.image].html('Lightbox',lightbox.alt,'no-lightbox') }}
+    </div>
+</div>
+
+{% if(page.header.mautic.formid) %}
+<div class="portfolio-modal modal" id="portfolioModalRegisterInterest" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
+        <div class="modal-body">
+            <h1>Register Your Interest</h1>
+            <script type="text/javascript" src="//{{ config.plugins.mautic.url }}/form/generate.js?id={{ page.header.mautic.formid }}"></script>
+            <script type="text/javascript">
+                {% for prefill in page.header.mautic.prefill %}
+                    document.getElementById('{{ prefill.fieldid }}').value = '{{ prefill.fieldvalue }}';
+                {% endfor %}
+            </script>
+        </div>
+    </div>
+</div>
+{% endif %}

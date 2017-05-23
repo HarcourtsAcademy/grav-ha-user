@@ -3,15 +3,15 @@ title: CPPDSM4006A: Establish and manage agency trust accounts
 menu: CPPDSM4006A
 onpage_menu: false
 slug: cppdsm4006
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4006]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
+
+side_bar_menu: true
 
 ---
 

@@ -2,10 +2,6 @@
 
   {% block content %}
 
-    {% if page.header.banner_image %}
-      {% include 'partials/header_image.html.twig' %}
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
       {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
@@ -16,7 +12,7 @@
           {% if page_image %}
             <p><img src="{{ page_image.url }}"/></p>
           {% endif %}
-          
+
           {{ page.content }}
 
           {% include 'partials/qualification_regions.html.twig' %}

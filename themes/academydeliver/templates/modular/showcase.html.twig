@@ -1,11 +1,13 @@
 <div id="content-slide">
   <div class="slideme">
     {% for slide in page.header.slides %}
-       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].url }});"{% endif %}>
+       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].grayscale.url }});"{% endif %}>
           <div class="slideoverlay modular-row flush-top"></div>
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
-          <a class="button" href="{{ slide.button_url }}">{{ slide.button_text }}</a>
+          {% for button in slide.buttons %}
+          <a class="button button-chat-bubble" href="{{ button.url }}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          {% endfor %}
       </div>
     {% endfor %}
 </div>

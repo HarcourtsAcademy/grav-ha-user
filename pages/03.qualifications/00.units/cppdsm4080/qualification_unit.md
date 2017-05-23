@@ -3,15 +3,15 @@ title: CPPDSM4080A: Work in the real estate industry
 menu: CPPDSM4080A
 onpage_menu: false
 slug: cppdsm4080
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4080]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
+
+side_bar_menu: true
 
 ---
 

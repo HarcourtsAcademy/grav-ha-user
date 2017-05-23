@@ -1,6 +1,6 @@
 {% if page.header.list_subpages == 'short' %}
   <ul>
-    {% for page in page.children %}
+    {% for page in page.collection %}
       {% if page.routable %}
         <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
       {% else %}
@@ -16,23 +16,42 @@
 
 {% else %}
 
-  {% for page in page.children %}
-    {% if page.routable %}
+  {% for page in page.collection %}
 
-        <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
-        <p>{{ page.summary }} <a class="button" href="{{ page.url }}">
-          {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-        </a></p>
-    {% else %}
-      {% for route_from, route_to in site.routes %}
-        {% if page.route == route_from %}
-          {% set page_to = page.find(route_to) %}
-          <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
-          <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}">
-            {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-          </a></p>
+    <section class="subpage-item">
+
+        {% set banner = page.media.images|first %}
+
+        {% if banner %}
+        <div class="subpage-image">
+            <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+        </div>
         {% endif %}
-      {% endfor %}
-    {% endif %}
+
+        {% if page.routable %}
+
+            <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
+            <div class="subpage-date">
+                {{ page.date|date(config.system.pages.dateformat.short) }}
+            </div>
+            <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
+              {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+            </a></div>
+        {% else %}
+          {% for route_from, route_to in site.routes %}
+            {% if page.route == route_from %}
+              {% set page_to = page.find(route_to) %}
+              <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
+              <p>{{ page_to.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
+                {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+              </a></p>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+        <hr/>
+
+    </section>
+
   {% endfor %}
 {% endif %}

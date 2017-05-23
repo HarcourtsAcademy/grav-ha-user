@@ -82,61 +82,13 @@
 {% endblock %}
 
 {% block content %}
-    {% set blog_image = page.media.images|first %}
-    {% if blog_image %}
-    <div class="flush-top page-header page-header-image" style="background: {{ page.header.bg_color }} url({{ blog_image.url }}) no-repeat right;">
-    <h1>{{ page.title }}</h1>
-    </div>
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
             {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
-    <div class="content-wrapper g-grid pure-g-r">
-        <div id="content" class="g-block pure-u-3-3">
-        {{ page.content }}
-        {% for module in page.collection() %}
-            <div id="{{ _self.pageLinkName(module.menu) }}"></div>
-            {{ module.content }}
-        {% endfor %}
 
-        {% if page.header.list_subpages %}
-          {% for page in page.children %}
-            <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-            <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
-          {% endfor %}
-        {% endif %}
-
-        {% if page.header.list_contacts %}
-          <div id="contacts-list">
-            <div class="g-grid pure-g-r">
-              <div class="g-block size-1-2 pure-u-1-2">
-                <strong>Name</strong>
-              </div>
-              <div class="g-block size-1-4 pure-u-1-4">
-                <strong>Position</strong>
-              </div>
-              <div class="g-block size-1-4 pure-u-1-4">
-                <strong>Country</strong>
-              </div>
-            </div>
-            {% for page in page.children %}
-              {% if page.header.contact %}
-              <div class="g-grid pure-g-r">
-                <div class="g-block size-1-2 pure-u-1-2">
-                  <a href="{{ page.url }}">{{ page.title }}</a>
-                </div>
-                <div class="g-block size-1-4 pure-u-1-6">
-                  {{ page.header.contact.position }}
-                </div>
-                <div class="g-block size-1-4 pure-u-1-6">
-                  {{ page.header.contact.country }}
-                </div>
-              </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
-      </div>
-    </div>
+    {{ page.content }}
+    {% for module in page.collection() %}
+        <div id="{{ _self.pageLinkName(module.menu) }}"></div>
+        {{ module.content }}
+    {% endfor %}
 {% endblock %}

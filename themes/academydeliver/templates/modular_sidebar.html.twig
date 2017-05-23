@@ -87,22 +87,18 @@
 
 {% block content %}
 
-    {% if page.header.banner_image %}
-      {% include 'partials/header_image.html.twig' %}
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
-            {% include 'partials/breadcrumbs.html.twig' %}
+        {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
-          {% set page_image = page.media.images|first %}
-          {% if page_image %}
-            <p><img src="{{ page_image.url }}"/></p>
-          {% endif %}
 
           {{ page.content }}
+
+          {% for button in page.header.buttons %}
+            <a class="button{% if button.primary %} primary{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          {% endfor %}
 
           {% if page.header.course_information %}
             <h2>Additional Information</h2>
@@ -114,30 +110,81 @@
             </dl>
           {% endif %}
 
+
           {% for module in page.collection() %}
+            {% if module.routable == false %}
               <div id="{{ _self.pageLinkName(module.menu) }}"></div>
               {{ module.content }}
+            {% endif %}
           {% endfor %}
 
           {% if page.header.list_subpages %}
-            {% for page in page.children %}
-              {% if page.routable %}
-                <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
-                <p>{{ page.summary }} <a class="button" href="{{ page.url }}">
-                  {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                </a></p>
-              {% else %}
-                {% for route_from, route_to in site.routes %}
-                  {% if page.route == route_from %}
-                    {% set page_to = page.find(route_to) %}
-                    <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
-                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}">
-                      {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                    </a></p>
+            {% for page in page.collection %}
+
+              <section class="subpage-item">
+
+                  {% set banner = page.media.images|first %}
+
+                  {% if banner %}
+                  <div class="subpage-image">
+                      <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+                  </div>
                   {% endif %}
-                {% endfor %}
-              {% endif %}
+
+                  {% if page.routable %}
+
+                      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                      <div class="subpage-date">
+                          {{ page.date|date(config.system.pages.dateformat.short) }}
+                      </div>
+                      <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
+                        {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                      </a></div>
+                  {% else %}
+                    {% for route_from, route_to in site.routes %}
+                      {% if page.route == route_from %}
+                        {% set page_to = page.find(route_to) %}
+                        <h3><a href="{{ page_to.url }}">{{ page_to.title }}</a></h3>
+                        <p>{{ page_to.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
+                          {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                        </a></p>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+
+                  <hr/>
+
+              </section>
+
             {% endfor %}
+          {% endif %}
+
+          {% set inspirational_women_collection = page.collection('inspirational-women') %}
+          {% if inspirational_women_collection %}
+          <section class="inspirational-women-list g-grid pure-g-r">
+            {% for page in inspirational_women_collection %}
+              <div class="inspirational-women-item size-1-3 pure-u-1-3">
+
+                  {% set banner = page.media.images|first %}
+
+                  {% if banner %}
+                  <div class="profile-image">
+                      <a href="{{ page.url }}">{{ banner.display('thumbnail').zoomresize(200,200).html }}</a>
+                  </div>
+                  {% endif %}
+
+                  <div class="profile-name"><a href="{{ page.url }}">{{ page.title }}</a></div>
+                  {% if page.header.inspirational_women.region %}
+                    <div class="profile-region">{{ page.header.inspirational_women.region }}</div>
+                  {% else %}
+                      <div class="profile-region">{{ page.header.inspirational_women.country }}</div>
+                  {% endif %}
+
+
+              </div>
+
+            {% endfor %}
+          </section>
           {% endif %}
 
         </div>
@@ -145,5 +192,22 @@
             {% include 'partials/sidebar.html.twig' %}
         </div>
     </div>
+
+    {% if(page.header.mautic.formid) %}
+    <div class="portfolio-modal modal" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
+            <div class="modal-body">
+                <h1>Register Your Interest</h1>
+                <script type="text/javascript" src="//{{ config.plugins.mautic.url }}/form/generate.js?id={{ page.header.mautic.formid }}"></script>
+                <script type="text/javascript">
+                    {% for prefill in page.header.mautic.prefill %}
+                        document.getElementById('{{ prefill.fieldid }}').value = '{{ prefill.fieldvalue }}';
+                    {% endfor %}
+                </script>
+            </div>
+        </div>
+    </div>
+    {% endif %}
 
 {% endblock %}

@@ -1,0 +1,44 @@
+<div class="modular-row team">
+    {{ content }}
+    <div class="members">
+        {% for member in page.header.members %}
+          {% set officepage = page.find('/about-us/contact-us/locations/' ~ member.office) %}
+          {% set shortaddress = member.address.region %}
+          {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
+          {% set firstname = member.name|split(" ")|first %}
+          {% set image_link = member.email ? "mailto:" ~ member.email|safe_email : member.contact %}
+          
+          {% if member.image %}
+            {% set profileimage =  page.media[member.image].cropResize(226,300).quality(80).url %}
+          {% endif %}
+          {% if member.placeholder_image %}
+            {% set profileimage =  page.find('/images').media[member.placeholder_image].cropResize(226,300).quality(80).url %}
+          {% endif %}
+          
+
+          <div class="member g-grid pure-g-r">
+              <div class="profile-picture g-block size-1-2 pure-u-1-2">
+                <a href="{{ image_link }}">
+                <img src="{{ profileimage }}" width="113" height="150" alt="{{ member.name }}">
+                </a>
+              </div>
+              <div class="g-block pure-u-1-2">
+                <h4>{{ member.name }}</h4>
+                <span>{{ member.title }}</span>
+                <ul class="contact-icons">
+                    <li><i class="fa fa-map-marker"></i> <a href="{{ officepage.url }}">{{ officepage.title  }}</a> </li>
+                    {% if member.email %}
+                    <li><i class="fa fa-envelope"></i> <a href="mailto:{{ member.email|safe_email }}">Email {{ member.name|split(" ")|first }}</a> </li>
+                    {% endif %}
+                    {% if member.contact %}
+                    <li><i class="fa fa-envelope"></i> <a href="{{ member.contact }}">Contact {{ member.name|split(" ")|first }}</a> </li>
+                    {% endif %}
+                    <li><i class="fa fa-phone"></i> {{ officepage.header.office.phone }} </li>
+                </ul>
+              </div>
+          </div>
+        {% endfor %}
+    </div>
+    <div class="callout-line"></div>
+
+</div>

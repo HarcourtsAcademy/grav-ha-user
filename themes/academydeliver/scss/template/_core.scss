@@ -1,49 +1,61 @@
 html, body {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background: $page-bg;
-	color: $core-text;
-	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+  background: $page-bg;
+  color: $core-text;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-	color: $core-accent;
-	&:hover {
-		color: darken($core-accent, 20%);
-	}
+  color: $core-accent;
+  &:hover {
+    color: $core-accent-dark;
+  }
 }
 
 b, strong {
-	font-weight: $font-weight-bold
+  font-weight: $font-weight-bold
 }
 
 // Global Container
 #container {
- 	min-height: 100%;
-  	position: relative;
+  min-height: 100%;
+  position: relative;
 }
 
 // Fullwidth styles
 .fullwidth {
-	#body {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#header, #breadcrumbs, .page-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
-		@extend .padding-horiz;
-	}
+  #body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #header, #breadcrumbs, .page-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
+    @extend .padding-horiz;
+  }
 }
 
 // Global body styling
 #body {
-	@extend .default-animation;
-	@extend .padding-horiz;
-	
-	background: $page-bg;
-	padding-top: $header-height + $padding-vert;
+  @extend .default-animation;
+  @extend .padding-horiz;
+
+  background: $page-bg;
+  padding-top: $header-height + $padding-vert;
+}
+
+#content {
+  margin-bottom: 2rem;
+
+  @include breakpoint(mobile-only) {
+    padding-top: 1rem;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
 }
 
 // Alignment
@@ -54,4 +66,3 @@ b, strong {
 .right {
   float: right;
 }
-

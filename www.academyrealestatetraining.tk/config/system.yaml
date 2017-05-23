@@ -1,0 +1,45 @@
+# Staging
+pages:
+  theme: academydeliver
+  publish_dates: true
+  process:
+    markdown: true
+    twig: false
+  markdown:
+    extra: true
+  expires: 604800                         # Page expires time in seconds (604800 seconds = 7 days)
+  last_modified: true                     # Set the last modified date header based on file modifcation timestamp
+  etag: true                              # Set the etag header tag
+  redirect_default_route: true            # Automatically redirect to a page's default route
+  fallback_types: [pdf,png,jpg,jpeg,gif]  # Allowed types of files found if accessed via Page route
+
+cache:
+  gzip: true
+
+twig:
+  debug: false
+
+assets:
+  css_pipeline: true
+  js_pipeline: true
+  enable_asset_timestamp: true
+
+errors:
+  display: false
+
+debugger:
+  twig: false
+
+images:
+  default_image_quality: 90
+  cache_all: true
+
+media:
+  enable_media_timestamp: true
+
+piwik:
+  enabled: false
+
+google_analytics:
+  enabled: true
+  siteid: UA-38488834-2

@@ -8,8 +8,7 @@ taxonomy:
   category: courses
   tag: [courses,nz,scholarships]
 
-body_classes: "modular header-lite fullwidth courses"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
@@ -19,6 +18,8 @@ side_bar_menu: true;
 The New Zealand Real Estate Scholarship Programme, powered by Harcourts, has been created to provide opportunities for exceptional people, new to the real estate industry, so they can excel as a result of leadership, academic and financial support that is unparalleled in New Zealand.
 
 ===
+
+![](nz_scholarship.jpg)
 
 >>>>> Thank you to everyone who applied for the 2015/16 scholarship intake. Applications are now closed.
 

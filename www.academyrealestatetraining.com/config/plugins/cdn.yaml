@@ -1,0 +1,3 @@
+enabled: true                                           # set to false to disable this plugin completely
+pullzone: d3fx1wys5hr4wh.cloudfront.net                 # pullzone domain
+tags: 'img|script'                                      # HTML tags to search

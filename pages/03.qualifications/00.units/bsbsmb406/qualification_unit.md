@@ -3,15 +3,16 @@ title: BSBSMB406A: Manage small business finances
 menu: BSBSMB406A
 onpage_menu: false
 slug: bsbsmb406
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualification unit,bsbsmb406A]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
+
+side_bar_menu: true
 
 ---
 

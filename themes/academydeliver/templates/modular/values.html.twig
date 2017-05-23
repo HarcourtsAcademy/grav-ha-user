@@ -1,0 +1,12 @@
+<div class="modular-row">
+ {{ content }}
+ {% if page.header.values %}
+    <div class="values-container">
+        {% for value in page.header.values %}
+            <div class="value-item" style="background-image: url({{ page.media[value.image].url }});">
+                <div class="name">{{ value.value }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+</div>

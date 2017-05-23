@@ -10,8 +10,7 @@ taxonomy:
   country: australia
   region: tasmania
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
@@ -50,6 +49,8 @@ course_structure: |
   After completing the Academy Sales Programme, participants must pass a Tasmanian Property Agents Board examination to gain their salesperson's registration certificate.
 
 further_information: For Tasmania legislation and other information visit [Consumer Affairs and Fair Trading](http://www.consumer.tas.gov.au/property).
+
+disclaimer: true
 
 online_learning:
   name: Sales Registration Online

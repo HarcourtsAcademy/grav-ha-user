@@ -3,15 +3,15 @@ title: CPPDSM4015B: Minimise agency and consumer risk
 menu: CPPDSM4015B
 onpage_menu: false
 slug: cppdsm4015
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4015]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
+
+side_bar_menu: true
 
 ---
 

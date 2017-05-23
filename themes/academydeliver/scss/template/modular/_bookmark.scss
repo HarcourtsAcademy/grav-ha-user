@@ -1,0 +1,33 @@
+// Modular Bookmark styling
+.modular {
+    .bookmark {
+        text-align: center;
+        @include clearfix;
+        @include breakpoint(no-mobile) {
+            display: none;
+        }
+
+        h2 {
+            padding-top: 3rem;
+            margin: 0;
+            line-height: 100%;
+            color: $light-gray;
+        }
+
+        p {
+            margin: 1rem 0;
+            text-align: center;
+
+            @include breakpoint(mobile-only) {
+                font-size: $core-font-size;
+            }
+        }
+
+        &.borderbottom {
+            hr {
+                padding-top: 3rem;
+            }
+            padding-bottom: 0;
+        }
+    }
+}

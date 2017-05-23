@@ -8,12 +8,16 @@ taxonomy:
   category: qualifications
   tag: [qualifications,units]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
 
 list_subpages: true
+
+content:
+  items: @self.children
+  order:
+    by: title
 
 ---

@@ -1,0 +1,41 @@
+#sidebar .sidebar-content {
+    ul {
+
+        &.navigation {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            padding-bottom: 1rem;
+
+            li {
+                margin-top: 0.6rem;
+                line-height: 1.3rem;
+
+                a i {
+                      font-size: 0.7rem;
+                }
+                &:first-child a {
+                    padding-left: 0;
+                }
+
+                ul {
+                    padding-left: 1rem;
+                }
+
+                &:hover {
+                    li {
+                        a {
+                            &:hover {
+                                border-bottom: 0;
+                            }
+
+                            &:before, &:after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

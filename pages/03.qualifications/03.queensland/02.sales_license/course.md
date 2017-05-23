@@ -9,8 +9,7 @@ taxonomy:
   country: australia
   region: queensland
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
@@ -28,7 +27,7 @@ course_content :
 
       - Law, Ethics and Documents (online) - 3 days
       - [Sales Programme](/courses/sales/sales-programme) - 6 days
-      - [Property Management Programme](/courses/property-management/property-management-registration) - 3 days
+      - [Property Management Programme](/courses/property-management/property-management-programme) - 3 days
       - [Auction Sales Programme](/courses/sales/auction)- 1 day
       - Licence Workshop - 4 days
 
@@ -55,13 +54,13 @@ core_qualification_units:
 
 course_costs:
   - name: Sales Programme
-    amount: $690
+    amount: $340
   - name: 15 RTO units with Harcourts Academy @ $50 each
     amount: $750
   - name: Licence Workshop
     amount: $600
   - name: Total Cost
-    amount: $2,040
+    amount: $1,690
 
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
@@ -69,6 +68,7 @@ online_learning:
   name: Sales Licence Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=110
 
+disclaimer: true
 ---
 
 For busy real estate people who want to advance their career without the pressure of huge study commitments. An interactive programme provided by flexible means including online self-paced learning, classroom attendance and study by correspondence. Your programme can be tailor-made to suit your needs and reduce your costs and time spent on study.

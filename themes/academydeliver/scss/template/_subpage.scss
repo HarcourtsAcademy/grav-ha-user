@@ -1,0 +1,34 @@
+.subpage-item {
+
+  h3 {
+    margin: 0;
+  }
+
+  .subpage-image {
+      margin-top: 0.5rem;
+      margin-right: 1rem;
+      float: left;
+      img {
+         border-radius: 4px;
+         max-width: 100px;
+
+         @include breakpoint(mobile-only) {
+              max-width: 33vw;
+          }
+      }
+  }
+
+  .subpage-date {
+    color: lighten($core-text,20%);
+  }
+
+  a.button, a.button-secondary {
+    display: none;
+  }
+
+  hr {
+      padding-top: 1rem;
+      border-bottom: 1px solid #eee;
+  }
+
+}

@@ -1,0 +1,6 @@
+---
+menu: Info
+
+routable: false
+
+---

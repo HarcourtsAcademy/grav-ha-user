@@ -1,12 +1,12 @@
 title: Academy Real Estate Training
 logo:
-    dark: 'theme://images/logo-dark.png'
-    light: 'theme://images/logo-light.png'
+    dark: 'theme://images/logo-dark@2x.png'
+    light: 'theme://images/logo-light@2x.png'
     alt: Harcourts Academy
 author:
   name: Harcourts Academy
   email: 'academy@harcourts.net'
-  email_link: "base_url:about-us/contact-us"
+  email_link: "base_url:about-us/contact-us/customer-support"
   copyright: "&copy; Harcourts International Limited"
 social:
   - url: 'https://facebook.com/harcourtsacademy'
@@ -22,7 +22,7 @@ contact:
 metadata:
     description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
 
-taxonomies: [category,tag,country,region]
+taxonomies: [category,tag,country,region,topic,format,audience,people,training_paths,experience_level]
 
 othermenu:
   - text: "About"
@@ -32,34 +32,146 @@ othermenu:
   - text: "Contact"
     url: "base_url:about-us/contact-us"
 
+## TODO: Fix Moodle login URL before launch
+studentlogin:
+  url: 'https://www.academyrealestatetraining.tk/au/moodle/my/'
+  icon: 'sign-in'
+
 quicklinks:
   - text: "Courses"
     url: "base_url:courses"
   - text: "Qualifications"
     url: "base_url:get-qualified"
-  - text: "CE & CPD"
-    url: "base_url:ce-cpd"
   - text: "Online Learning"
     url: "base_url:online-learning"
   - text: "Library"
     url: "base_url:the-library"
+  - text: "Speakers"
+    url: "base_url:speakers"
   - text: "About Us"
     url: "base_url:about-us"
 
+navigation:
+  maxdepth: 2
+
+sidebar_navigation:
+  maxdepth: 4
+
 blog:
   route: '/blog'                            # Route to blog
-metadata:
-    description: 'My Deliver Site'             # Site description
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
   /ce-cpd: '/courses/continuing-education-and-cpd'
-  /courses/auctioneering: '/courses/sales/auction'
-  /courses/leadership/auction: '/courses/sales/auction'
-  /online-learning/ce-cpd/new-zealand: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
-  /online-learning/ce-cpd/western-australia: '/courses/continuing-education-and-cpd/western-australia-cpd'
-  /online-learning/sales/istart: '/courses/sales/istart24'
-#  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
+  /courses/sales/auction: '/courses/auction'
+  /courses/leadership/auction: '/courses/auction'
+  /info: '/'
+  ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
+  /online-learning/istart-online: '/courses/sales/istart'
+  /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
+  /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
+  /online-learning/sales/istart: '/courses/sales/istart'
+  /training-paths: '/'
+
+
+redirects:
+  /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
+  /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
+  /au/istart24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150
+  /au/istart24/certificates/completion: http://www.academyrealestatetraining.com/au/moodle/mod/certificate/view.php?id=2341
+  /au/istart24/certificates/participation: http://www.academyrealestatetraining.com/au/moodle/mod/certificate/view.php?id=2345
+  /au/istart24/select-manager: http://www.academyrealestatetraining.com/au/moodle/blocks/istart_reports/managers.php?courseid=150
+  /au/istart24/week01: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=1
+  /au/istart24/week02: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=6
+  /au/istart24/week03: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=11
+  /au/istart24/week03survey: http://www.academyrealestatetraining.com/au/moodle/mod/feedback/view.php?id=1770
+  /au/istart24/week04: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=16
+  /au/istart24/week05: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=21
+  /au/istart24/week06: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=26
+  /au/istart24/week07: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=31
+  /au/istart24/week08: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=36
+  /au/istart24/week09: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=41
+  /au/istart24/week10: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=46
+  /au/istart24/week11: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=51
+  /au/istart24/week12: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=56
+  /au/istart24/week13: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=61
+  /au/istart24/week14: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=66
+  /au/istart24/week15: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=71
+  /au/istart24/week16: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=76
+  /au/istart24/week17: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=81
+  /au/istart24/week18: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=86
+  /au/istart24/week19: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=91
+  /au/istart24/week20: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=96
+  /au/istart24/week21: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=101
+  /au/istart24/week22: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=106
+  /au/istart24/week23: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=111
+  /au/istart24/week24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=116
+  /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
+  /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
+  ## Latest Training Calendars
+  /courses/calendars/au/new-south-wales:    /courses/calendars-and-upcoming-courses/_calendars/2017/NSW-Training-Calendar-2017.pdf
+  /courses/calendars/au/queensland:         /courses/calendars-and-upcoming-courses/_calendars/2017/QLD-Training-Calendar-2017.pdf
+  /courses/calendars/au/south-australia:    /courses/calendars-and-upcoming-courses/_calendars/2017/SA-Training-Calendar-2017.pdf
+  /courses/calendars/au/tasmania:           /courses/calendars-and-upcoming-courses/_calendars/2017/TAS-Training-Calendar-2017.pdf
+  /courses/calendars/au/victoria:           /courses/calendars-and-upcoming-courses/_calendars/2017/Vic-Training-Calendar-2017.pdf
+  /courses/calendars/au/western-australia:  /courses/calendars-and-upcoming-courses/_calendars/2017/WA-Training-Calendar-2017.pdf
+  /courses/calendars/nz/central:            /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Central-Training-Calendar-2017.pdf
+  /courses/calendars/nz/northern:           /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf
+  /courses/calendars/nz/south-island:       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf
+  /courses/calendars/nz/wellington  :       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf
+  /courses/calendars/us/pacific:            /courses/calendars-and-upcoming-courses/_calendars/2017/USA-Training-Calendar-2017.pdf
+  /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
+  /landing/eone: /online-learning/bites/#pk_campaign=app-eone
+  /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
+  ## START Redirection links used in Academy H1 Course Registration Notification Emails
+  /download/eone/au: https://harcourts-ecloud.back4app.io/applications/eOne/releases/AU
+  /download/eone/nz: https://harcourts-ecloud.back4app.io/applications/eOne/releases/NZ
+  /download/eone/us: https://harcourts-ecloud.back4app.io/applications/eOne/releases/US/
+  /download/eone/za: https://harcourts-ecloud.back4app.io/applications/eOne/releases/ZA
+  /download/eone/ca: https://harcourts-ecloud.back4app.io/applications/eOne/releases/CA
+  /download/eopen/au: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/nz: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/us: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/za: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/ecampaign/au: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/AU
+  /download/ecampaign/nz: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/NZ
+  /download/ecampaign/us: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/US
+  /download/ecampaign/za: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/ZA
+  ## END Redirection links used in Academy H1 Course Registration Notification Emails
+  /landing/facebook/learning-bites: /online-learning/bites/#pk_campaign=fb-harcourtsacademy
+  /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
+  /nz/ce/2016: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
+  /nz/national-certificate: http://www.academyrealestatetraining.com/get-qualified/new-zealand
+  /nz/istart24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145
+  /nz/istart24/certificates/completion: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2609
+  /nz/istart24/certificates/participation: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2610
+  /nz/istart24/select-manager: http://www.academyrealestatetraining.com/nz/moodle/blocks/istart_reports/managers.php?courseid=145
+  /nz/istart24/week01: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=1
+  /nz/istart24/week02: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=6
+  /nz/istart24/week03: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=11
+  /nz/istart24/week03survey: http://www.academyrealestatetraining.com/nz/moodle/mod/feedback/view.php?id=2073
+  /nz/istart24/week04: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=16
+  /nz/istart24/week05: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=21
+  /nz/istart24/week06: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=26
+  /nz/istart24/week07: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=31
+  /nz/istart24/week08: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=36
+  /nz/istart24/week09: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=41
+  /nz/istart24/week10: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=46
+  /nz/istart24/week11: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=51
+  /nz/istart24/week12: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=56
+  /nz/istart24/week13: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=61
+  /nz/istart24/week14: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=66
+  /nz/istart24/week15: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=71
+  /nz/istart24/week16: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=76
+  /nz/istart24/week17: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=81
+  /nz/istart24/week18: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=86
+  /nz/istart24/week19: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=91
+  /nz/istart24/week20: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=96
+  /nz/istart24/week21: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=101
+  /nz/istart24/week22: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=106
+  /nz/istart24/week23: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=111
+  /nz/istart24/week24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=116
+  /nz/istart24/week25survey: http://www.academyrealestatetraining.com/nz/moodle/mod/questionnaire/view.php?id=2608
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
@@ -74,11 +186,12 @@ header_options:
 
 footer:
     description: "The Academy delivers a range of training programmes, from training for new real estate professionals to extensive management training for our business leaders. The Academy has an extensive team across the globe focused solely on developing and delivering training and skill building sessions."
+    rto_provider: 31139
     contact_title: "Contact Info"
-    links_title: "Quick Links"
+    links_title: "Menu"
     newsletter_title: "Newsletter"
     newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
-    copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
+    copyright_text: "Copyright 2017 Harcourts International Ltd."
     feedburner: ""   # Your feedburner id for Newsletter footer modul
 
 qualification_unit_path: /get-qualified/units/
@@ -87,8 +200,8 @@ qualification_units:
     id: BSBSMB406
     name: Manage small business finances
   CPPDSM3019:
-    id: CPPDSM3019B
-    name: Communicate with clients as part of agency operations
+    id: CPPDSM3019
+    name: Communicate with clients in the property industry
   CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
@@ -108,8 +221,8 @@ qualification_units:
       id: CPPDSM4008A
       name: Identify legal and ethical requirements of property sales to complete agency work
   CPPDSM4009:
-    id: CPPDSM4009B
-    name: Interpret legislation to complete agency work
+    id: CPPDSM4009
+    name: Interpret legislation to complete work in the property industry
   CPPDSM4010:
     id: CPPDSM4010A
     name: Lease property
@@ -146,6 +259,15 @@ qualification_units:
   CPPDSM4046:
     id: CPPDSM4046A
     name: Manage tenancy disputes
+  CPPDSM4079:
+    id: CPPDSM4079A
+    name: Work in the business broking sector
   CPPDSM4080:
     id: CPPDSM4080A
     name: Work in the real estate industry
+  CPPDSM5012:
+      id: CPPDSM5012A
+      name: Develop a strategic business plan in the real estate industry
+  CPPDSM5032:
+      id: CPPDSM5032A
+      name: Market the agency

@@ -1,21 +1,21 @@
 // Error specific styling
-#error {
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	padding-bottom: 12rem;
 
-	h1 {
-		font-size: $core-font-size + 4.0rem;
-	}
+body.error {
 
-	p {
-		margin: 1rem 0;
-	}
-}
+  .showcase h1 {
+    text-align: center;
+  }
 
-.error #body {
-	padding-top: 16rem;
+  #error {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 4rem 0;
+
+    p {
+      //margin: 4rem 0;
+    }
+  }
 }

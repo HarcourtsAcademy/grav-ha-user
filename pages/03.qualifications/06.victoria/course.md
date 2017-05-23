@@ -6,12 +6,11 @@ onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualification-region,qualification,sales registration,sales,sales consultants,victoria]
+  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,victoria]
   country: australia
   region: victoria
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
@@ -65,6 +64,8 @@ course_costs:
     amount: $650
 
 further_information: For Victoria legislation and other information visit [Consumer Affairs](http://www.consumer.vic.gov.au/businesses/licensed-businesses/estate-agents).
+
+disclaimer: true
 
 online_learning:
   name: Agents Rep. Online

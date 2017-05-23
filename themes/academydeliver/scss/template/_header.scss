@@ -1,15 +1,9 @@
 // Header styling
 
-.home #header #navbar ul.navigation li a {
-  &.active, &:hover {
-      border-bottom: 1px solid #fff;
-  }
-}
-
 #header {
     @extend .padding-horiz;
     position: absolute;
-    z-index: 10;
+    z-index: 11;
     width: 100%;
     height: $header-height;
     background-color: rgba(255,255,255,0.90);
@@ -17,9 +11,6 @@
 
     > .grid, .logo, #navbar, .social-navigation {
         height: 50%;
-    }
-    .fa {
-        color: $black;
     }
 
     .logo {
@@ -29,10 +20,24 @@
             @include breakpoint(mobile-only) {
                 font-size: 1.9rem;
             }
+            img {
+                max-height: 42px;
+            }
         }
         ul {
             &.social-icons {
                 @extend %vertical-align;
+            }
+        }
+        ul {
+            &.login {
+                @extend %vertical-align;
+            }
+        }
+
+        .search-box {
+            @include breakpoint(mobile-only) {
+               display: none;
             }
         }
     }
@@ -43,11 +48,13 @@
         float: right;
         text-align: right;
         margin-right: 0.75rem;
+        padding: ($leading-margin / 4) 0;
         i {
             color: $header-text;
             position: absolute;
             top: 0.5rem;
             right: 0.6rem;
+            padding-top: ($leading-margin / 4);
             z-index: -1;
             cursor: pointer;
         }
@@ -67,13 +74,15 @@
             color: transparent;
             background: transparent;
             width: 4rem;
-            height: 1.3rem;
+            height: 2rem;
+            line-height: 2rem;
             margin-bottom: 0;
+            padding: 0 ($leading-margin / 4);
             font-size:  $core-font-size - 0.1rem;
             @include transition(all .5s);
 
             &:focus {
-                width: 10rem;
+                width: 12rem;
                 background-color: transparentize($header-text, 0.7);
                 cursor: auto;
                 color: $header-text;
@@ -86,20 +95,6 @@
         input::-webkit-input-placeholder {
             color: transparent;
         }
-
-        /*@include breakpoint(mobile-only) {
-            float: left;
-            text-align: left;
-            i {
-                left: 0.6rem;
-            }
-            input[type=search] {
-                padding-left: 2rem;
-                &:focus {
-                    width: 8rem;
-                }
-            }
-        }*/
 
     }
 
@@ -118,27 +113,29 @@
                 li {
                     float: left;
                     position: relative;
-                    text-transform: uppercase;
 
                     a {
                         font-family: $font-family-header;
                         display: inline-block;
-                        padding: 0.3rem 0.8rem;
-                        padding-bottom: 1px;
+                        padding: 0.3rem 0.7rem;
 
                         &.active, &:hover {
-                            border-bottom: 1px solid $core-accent;
-                            padding-bottom: 0;
+                            background: white;
+                            color: $core-accent;
+                            color: darken($core-accent, 20%);
                         }
                     }
-                    &:first-child a {
-                        padding-left: 0;
+                    &:hover {
+                        background: rgba(244, 244, 244, 0.9);
+                        a {
+                            color: $core-accent;
+                        }
                     }
 
                     ul {
                         display: none;
                         padding: 0;
-                        box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15) !important;
+
                     }
 
                     ul ul {
@@ -151,7 +148,7 @@
                         & > ul {
                             display: block;
                             position: absolute;
-                            background: rgba($white, 0.9);
+                            background: rgba(244, 244, 244, 0.9);
                             width: 18rem;
                         }
 
@@ -183,7 +180,7 @@
                         }
                     }
                 }
-                @include breakpoint(desktop-only) {
+                @include breakpoint(mobile-only) {
                     display: none;
                 }
             }
@@ -205,12 +202,43 @@
                     margin-right: 0.8rem;
                     a {
                         @extend .default-animation;
-                        color: $black;
                         display: block;
                         margin-top: 0.1rem;
                     }
                     &:hover {
+                        background: transparentize($white, 0.7);
+                    }
+                }
+            }
+
+            &.login {
+                float: right;
+                line-height: 2rem;
+                margin: 0;
+                @extend %vertical-align;
+
+                li {
+                    @extend .default-animation;
+                    width: 2.1rem;
+                    background: $white;
+                    border-radius: 100%;
+                    text-align: center;
+                    margin-left: 0.8rem;
+                    .fa {
+                        color: white;
+                    }
+                    &:hover {
+                    }
+                    a {
+                        @extend .default-animation;
+                        color: $black;
+                        display: block;
+                    }
+                    &:hover {
                         background: transparentize($white, 0.5);
+                        .fa {
+                          color: $light-gray;
+                        }
                     }
                 }
             }
@@ -220,12 +248,18 @@
             @extend %vertical-align;
             padding: 1rem;
             display: none;
-            font-size: 1.8rem;
+            font-size: $core-font-size + 0.25rem;
             cursor: pointer;
-            float: right;
+            float: left;
             text-transform: uppercase;
-            @include breakpoint(desktop-only) {
+            @include breakpoint(mobile-only) {
                 display: inline-block;
+            }
+        }
+
+        .search-box {
+            @include breakpoint(no-mobile) {
+               display: none;
             }
         }
     }
@@ -248,14 +282,19 @@
     }
 
     #body {
-        .flush-top {
+        .slideme_container .showcase {
             margin-top: - $header-height - $padding-vert - 0.5rem;
             padding-top: $header-height + 4rem;
+        }
+
+        .showcase_container .showcase {
+            margin-top: - $header-height - $padding-vert - 0.5rem;
+            padding-top: $header-height + 2rem;
         }
     }
 
     #breadcrumbs {
-        margin-top: 1rem;
+        //margin-top: 1rem;
     }
 
     #header {
@@ -267,6 +306,11 @@
         }
         a, .menu-btn {
             color: $header-text;
+        }
+        .menu-btn-label {
+            font-family: $font-family-default;
+            font-size: $core-font-size + 0.25rem;
+            text-transform: none;
         }
         a:before, a:after {
             background-color: rgba($header-text,0.7) !important;
@@ -285,14 +329,21 @@
     }
 }
 .header-lite {
-    #body {
-        padding-top: 12rem;
-    }
     #header {
         box-shadow: none;
         color: $light-gray;
         a, .menu-btn {
             color: $light-gray;
+        }
+        #navbar ul.navigation  {
+            ul li a {
+                color: $core-accent;
+                text-transform: none;
+                &:hover {
+                    color: darken($core-accent, 20%);
+                    border-bottom: 0;
+                }
+            }
         }
         .search-box {
             i {
@@ -300,7 +351,7 @@
             }
             input[type=search] {
                 &:focus {
-                    background-color: transparentize($light-gray, 0.8);
+                    background-color: transparentize($light-gray, 0.6);
                 }
             }
         }
@@ -316,6 +367,24 @@
                 .fa {
                     color: $light-gray;
                 }
+            }
+        }
+        .logo ul.login li {
+            background: transparentize($light-gray, 0.8);
+            &:hover {
+                .fa {
+                    color: $light-gray;
+                }
+            }
+        }
+    }
+
+    #body {
+        .showcase_container .showcase {
+            margin-top: -1rem;
+
+            .showcaseoverlay {
+                display: none;
             }
         }
     }

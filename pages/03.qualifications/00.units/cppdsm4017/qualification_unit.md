@@ -3,15 +3,15 @@ title: CPPDSM4017A: Negotiate effectively in property transactions
 menu: CPPDSM4017A
 onpage_menu: false
 slug: cppdsm4017
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4017]
 
-body_classes: "modular header-lite fullwidth qualifications"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
+
+side_bar_menu: true
 
 ---
 

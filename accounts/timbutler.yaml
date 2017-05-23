@@ -1,0 +1,11 @@
+email: tim.butler@harcourts.net
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Tim Butler'
+title: 'Online Learning Manager'
+authenticated: true
+hashed_password: $2y$10$CSFn5PZFys6wq/c9Yv0vyeGA154E7IObpzbdPcgILQIGT0RBywxKq

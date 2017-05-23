@@ -87,12 +87,8 @@
 
 {% block content %}
 
-    {% if page.header.banner_image %}
-      {% include 'partials/header_image.html.twig' %}
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
-            {% include 'partials/breadcrumbs.html.twig' %}
+        {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
@@ -213,11 +209,42 @@
           {% endif %}
 
           {% if page.header.further_information %}
+          {{ dump(page.header.taxonomy.region) }}
+            {% if page.header.taxonomy.region %}
+              {% set contactus = base_url ~ '/about-us/contact-us' ~ '/locations/' ~ page.header.taxonomy.region %}
+            {% else %}
+              {% set contactus = base_url ~ '/about-us/contact-us' %}
+            {% endif %}
             <h2>Further Information</h2>
-            <p>For all course enquiries and pricing details, please <a href="{{ base_url }}/about-us/contact-us">contact us</a>.</p>
+            <p>For all course enquiries and pricing details, please <a href="{{ contactus }}">contact us</a>.</p>
             {% if page.header.further_information|length > 10 %}
               <p>{{ page.header.further_information|markdown }}</p>
             {% endif %}
+          {% endif %}
+
+          {% if page.header.taxonomy.training_paths %}
+            <h2>Training Pathways</h2>
+            <p>{{ page.title }} is offered in the following Training Pathways:</p>
+            <ul>
+            {% for pathway in page.header.taxonomy.training_paths %}
+              {% set pathwaycollection = taxonomy.findTaxonomy( { 'category': 'training_pathway', 'tag': pathway } ).order('folder', 'asc')  %}
+              <li><a href="/courses/training-pathways#{{ pathwaycollection|first.slug }}">{{ pathwaycollection|first.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if page.header.disclaimer %}
+            <h2>Disclaimer</h2>
+            <blockquote><blockquote><blockquote><blockquote><blockquote><p>Harcourts are always looking for great people. However, completing our sales registration course does not mean that there will be a position available in your preferred Harcourts office.</p></blockquote></blockquote></blockquote></blockquote></blockquote>
+          {% endif %}
+
+          {% if page.header.documents %}
+            <h2>Document Attachments</h2>
+            <ul>
+            {% for document in page.header.documents %}
+              <li><a href="{{ page.url ~ "/" ~ document.url }}" target="_blank">{{ document.name }}</a></li>
+            {% endfor %}
+          </ul>
           {% endif %}
 
           {% for module in page.collection() %}
@@ -228,7 +255,7 @@
           {% if page.header.list_subpages %}
             {% for page in page.children %}
               <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-              <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
+              <p>{{ page.summary }} <a class="button-secondary" href="{{ page.url }}">Read more</a></p>
             {% endfor %}
           {% endif %}
 
@@ -237,5 +264,22 @@
             {% include 'partials/sidebar.html.twig' %}
         </div>
     </div>
+
+  {% if(page.header.mautic.formid) %}
+  <div class="portfolio-modal modal" id="portfolioModalForm" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
+          <div class="modal-body">
+              <h1>Register Your Interest</h1>
+              <script type="text/javascript" src="//{{ config.plugins.mautic.url }}/form/generate.js?id={{ page.header.mautic.formid }}"></script>
+              <script type="text/javascript">
+                  {% for prefill in page.header.mautic.prefill %}
+                      document.getElementById('{{ prefill.fieldid }}').value = '{{ prefill.fieldvalue }}';
+                  {% endfor %}
+              </script>
+          </div>
+      </div>
+  </div>
+  {% endif %}
 
 {% endblock %}

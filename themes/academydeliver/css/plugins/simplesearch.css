@@ -1,0 +1,11 @@
+.search-item blockquote > blockquote > blockquote > blockquote > blockquote > p {
+  margin-left: -118px;
+}
+
+.search-item blockquote > blockquote > blockquote > blockquote > p {
+  margin-left: -94px;
+}
+
+.search-item blockquote > blockquote > blockquote > p {
+  margin-left: -71px;
+}

@@ -1,9 +1,3 @@
-{% if config.plugins.simplesearch.enabled %}
-<div class="sidebar-content">
-    <h4>Search</h4>
-    {% include 'partials/simplesearch_searchbox.html.twig' %}
-</div>
-{% endif %}
 {% if page.header.sidebar_links %}
 <div class="sidebar-content">
   {% for links in page.header.sidebar_links %}
@@ -17,38 +11,51 @@
  </div>
 {% endif %}
 {### Subpage Navigation ###}
-{% macro subpage_menu(page) %}
+{% if page.header.side_bar_menu == true %}
+    {% set depth = 1 %}
 
-  {% if page.visible %}
-    {% set current_page = (page.active) ? 'active' : '' %}
-      <li class="{{ current_page }}">
-        <a href="{{ page.url }}" class="external">
-            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-            {{ page.menu }}
-        </a>
-        {% if page.active or page.activeChild %}
-          <ul class="navigation">
-            {% for subpage in page.children %}
-              {{ _self.subpage_menu(subpage) }}
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </li>
-  {% endif %}
-{% endmacro %}
-{% if page.header.side_bar_menu %}
-<div class="sidebar-content">
-  {% for toplevelpage in pages.children %}
-    {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
-    <h4>{{ toplevelpage.title }}</h4>
-    <ul class="navigation">
-      {% for page in toplevelpage.children %}
-        {{ _self.subpage_menu(page) }}
-      {% endfor %}
-    </ul>
+    {% if page.header.sidebar_navigation.maxdepth %}
+      {% set maxdepth = page.header.sidebar_navigation.maxdepth %}
+    {% else %}
+      {% set maxdepth = config.site.sidebar_navigation.maxdepth %}
     {% endif %}
-  {% endfor %}
-</div>
+
+    {% macro subpage_menu(page, maxdepth, depth) %}
+
+      {% if page.visible %}
+          {% set current_page = (page.active) ? 'active' : '' %}
+          <li class="{{ current_page }}">
+            <a href="{{ page.url }}" class="external">
+            {% if page.header.icon %}<i class="fa fa-fw fa-{{ page.header.icon }}"></i>{% endif %}
+            {% if page.active %}
+              <strong>{{ page.menu }}</strong>
+            {% else %}
+              {{ page.menu }}
+            {% endif %}
+            </a>
+            {% if ( (page.active and page.children.count > 0) or page.activeChild ) and depth < maxdepth  %}
+              <ul class="navigation">
+                {% for subpage in page.children %}
+                  {{ _self.subpage_menu(subpage, maxdepth, (depth + 1) ) }}
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+      {% endif %}
+    {% endmacro %}
+
+    <div class="sidebar-content">
+        {% for toplevelpage in pages.children %}
+          {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
+            <h4>{{ toplevelpage.title }}</h4>
+            <ul class="navigation">
+            {% for page in toplevelpage.children %}
+              {{ _self.subpage_menu(page, maxdepth, depth) }}
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+    </div>
 {% endif %}
 {### Related pages menu ###}
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
@@ -57,41 +64,45 @@
   {% include 'partials/relatedpages.html.twig' %}
 </div>
 {% endif %}
-{% if config.plugins.random.enabled %}
+{% if 'courses' in page.taxonomy.category and 'calendars' not in page.taxonomy.tag %}
 <div class="sidebar-content">
-  <h4>Random Article</h4>
-  <a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
+  <h4>Training Calendars</h4>
+  <ul class="calendar-links">
+    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#australia">Australia Calendars</a></li>
+    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#new-zealand">New Zealand Calendars</a></li>
+    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#usa">USA Calendar</a></li>
+    </ul>
 </div>
-{% endif %}
-{% if 'courses' in page.taxonomy.category %}
 <div class="sidebar-content">
-	<h4>Upcoming Training</h4>
-	<ul class="weblinkstitle1">
-    <li>
-        <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>
-        </li>
-    <li>
-        <a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a>
-        </li>
-    <li>
-        <a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a>
-        </li>
-    <li>
-        <a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a>
-        </li>
-    <li>
-        <a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="no follow">South Africa Upcoming Training</a>
-        </li>
-    <li>
-        <a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="no follow">USA Upcoming Training</a>
-        </li>
+  <h4>Upcoming Training</h4>
+  <ul class="upcoming-training-links">
+    <li><a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a></li>
+<!--    <li><a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a></li> -->
+    <li><a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a></li>
+    <li><a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a></li>
+    <li><a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="nofollow">South Africa Upcoming Training</a></li>
+    <li><a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="nofollow">USA Upcoming Training</a></li>
     </ul>
 </div>
 {% endif %}
 {% if page.header.online_learning %}
 {% set online_learning = page.header.online_learning %}
 <div class="sidebar-content">
-	<h4>{{ online_learning.name }}</h4>
+  <h4>{{ online_learning.name }}</h4>
   <a href="{{ online_learning.url }}" class="button">Start {{ online_learning.name }}</a>
+</div>
+{% endif %}
+{% if page.header.side_bar_content %}
+{% set side_bar_content = page.header.side_bar_content %}
+<div class="sidebar-content">
+  {% for item in side_bar_content %}
+    {{ item.content|markdown }}
+  {% endfor %}
+</div>
+{% endif %}
+{% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
+<div class="sidebar-content">
+    <h4>Learning Bite Topics</h4>
+    {% include 'partials/taxonomylist.html.twig' with {'base_url':'/online-learning/bites', 'taxonomy':'topic'} %}
 </div>
 {% endif %}

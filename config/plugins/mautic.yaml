@@ -1,0 +1,2 @@
+enabled: false               # global enable/disable the entire plugin
+url: 'academy.mautic.net'   # Mautic base URL

@@ -8,8 +8,7 @@ taxonomy:
   category: courses
   tag: [courses,scholarships,next generation]
 
-body_classes: "modular header-lite fullwidth courses"
-bg_color: "#002b49"
+body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true
@@ -39,7 +38,7 @@ Selection of Harcourts Next Gen’s is not based on age or gender but rather on 
 - Personal assistant responsibilities
 - Buyers’ consultant duties
 - Sales certification / Property management certification
-- Certificate IV in Property Services (Aus) or National Certificate in Real Estate (NZ)
+- Certificate IV in Property Services (Australia) or National Certificate in Real Estate (New Zealand)
 
 ## Recommended structure first half of the programme
 Salary paid office administrator – reception and office duties in sales office and property management
@@ -52,11 +51,10 @@ Complete Academy training programmes
 Salary paid personal assistant to a sales consultant – lead generation, service systems, buyer consultancy
 
 Complete Academy training programmes
-- Sales – Getting started the Harcourts way
-- Sales – Succeeding the Harcourts way
+- Sales – [Getting Started the Harcourts way](/courses/sales/sales-programme/getting-started-the-harcourts-way)
+- Sales – [Graduate Day](/courses/sales/sales-programme/graduate-day)
 - Auction / advanced sales workshops
-- Optional opportunity
-- Certificate IV in property (Aus) National Certificate (NZ)
+- Certificate IV in Property Services (Australia) National Certificate (New Zealand)
 
 ## Duration
 The Next Generation Programme operates between one and two years depending on the individual’s experience
