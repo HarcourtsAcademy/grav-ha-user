@@ -32,7 +32,6 @@ othermenu:
   - text: "Contact"
     url: "base_url:about-us/contact-us"
 
-## TODO: Fix Moodle login URL before launch
 studentlogin:
   url: 'https://www.academyrealestatetraining.com/moodle/my/'
   icon: 'sign-in'

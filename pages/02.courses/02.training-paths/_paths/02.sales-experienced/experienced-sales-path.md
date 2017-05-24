@@ -9,7 +9,6 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [experienced]
 
-## TODO: Fix Moodle login URL before launch
 buttons:
   - text: Is the pathway for you?
     icon: fa-question-circle

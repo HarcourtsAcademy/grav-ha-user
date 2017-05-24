@@ -18,7 +18,6 @@ content:
     by: basename
     dir: asc
 
-## TODO: Fix Moodle login URL before launch
 buttons:
   - text: Is the pathway for you?
     icon: fa-question-circle
