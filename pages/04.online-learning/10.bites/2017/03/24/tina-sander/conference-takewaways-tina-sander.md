@@ -13,7 +13,7 @@ taxonomy:
   category: online_learning_bites
   tag: [learning bites]
   topic: [sales, customer service]
-  format: [interview]
+  format: [image]
   audience: [sales consultants,business owners,managers]
   people: [tina sander]
 
