@@ -72,8 +72,8 @@ routes:
   /online-learning/sales/istart: '/courses/sales/istart'
   /training-paths: '/'
 
-
 redirects:
+  /favicon.ico: /user/themes/academydeliver/images/icons/favicon.ico
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/istart24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150
