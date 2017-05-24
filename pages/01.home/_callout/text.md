@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: bridget-gabites.jpg
-      title: March interview@academy
-      desc: Bridget Gabites on how having fun, being relatable, and being ‛real’ across her various social media platforms has helped her create stronger connections with her clients.
+    - image: jamie-benjamin.jpg
+      title: May interview@academy
+      desc: Jamie Benjamin gives us some insight into the auction culture at Harcourts Hills Living, discussing both the importance of following process and how they use teams to improve the customer experience.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/03/bridget-gabites#pk_campaign=Web-2017-03
-      date: <strong>Released</strong> January 2017
+      url: /online-learning/interviews-at-academy/2017/05/jamie-benjamin#pk_campaign=Web-2017-05
+      date: <strong>Released</strong> May 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
