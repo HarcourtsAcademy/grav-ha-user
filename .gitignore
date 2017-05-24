@@ -5,6 +5,7 @@ data/*
 !data/.*
 plugins/*
 !plugins/.*
+themes/academydeliver/.sass-cache
 localhost/config/security.yaml
 config/security.yaml
 staging.academyrealestatetraining.com/config/security.yaml
