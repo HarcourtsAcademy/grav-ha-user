@@ -11,6 +11,9 @@
         <div class="lightbox-link-hover"><i class="fa fa-plus-square"></i></div>
     </a>
     {{ page.media[lightbox.image].html('Lightbox',lightbox.alt,'no-lightbox') }}
+    {% if lightbox.download %}
+    <div class="lightbox-download"><a href="{{ page.media[lightbox.download].url }}" target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Download</a></div>
+    {% endif %}
     </div>
 </div>
 

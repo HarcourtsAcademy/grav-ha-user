@@ -6,6 +6,7 @@ featherlight:
     active: true
     gallery: false
     image: training-pathways.png
+    download: training-pathways.pdf
     width: 2048
     height: 2898
     alt: Training Pathways

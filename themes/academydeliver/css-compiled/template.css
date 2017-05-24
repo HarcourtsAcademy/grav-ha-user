@@ -1244,6 +1244,11 @@ img.inline-left {
   @media only all and (min-width: 48em) {
     .text-and-lightbox-wrapper .overview-lightbox img.no-lightbox {
       display: none; } }
+  .text-and-lightbox-wrapper .overview-lightbox .lightbox-download {
+    position: relative;
+    top: 300px;
+    width: 300px;
+    text-align: right; }
   .text-and-lightbox-wrapper .lightbox-link {
     height: 300px;
     width: 300px;
