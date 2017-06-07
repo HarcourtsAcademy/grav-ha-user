@@ -1758,13 +1758,16 @@ img.inline-left {
   max-width: 13rem;
   display: block;
   margin: auto; }
-  @media only all and (max-width: 47.938em) {
-    .awards img {
-      max-width: 50%; } }
 .awards h4, .awards .archive-list label, .archive-list .awards label, .awards .modular .bottom table th, .modular .bottom table .awards th, .awards .contact label, .contact .awards label, .awards .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .awards .name, .awards .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .awards .button, .awards .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .awards button, .awards .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .awards button, .awards .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .awards button, .awards .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .awards button {
+  display: inline-block;
+  margin: 0 2rem;
+  max-width: 45%;
   font-size: 1.25rem;
   text-transform: none;
   margin-bottom: 0; }
+  @media only all and (max-width: 47.938em) {
+    .awards h4, .awards .archive-list label, .archive-list .awards label, .awards .modular .bottom table th, .modular .bottom table .awards th, .awards .contact label, .contact .awards label, .awards .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .awards .name, .awards .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .awards .button, .awards .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .awards button, .awards .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .awards button, .awards .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .awards button, .awards .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .awards button {
+      line-height: 130%; } }
 
 body.template-image-collage h2 {
   clear: both;

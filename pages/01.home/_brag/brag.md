@@ -13,6 +13,9 @@ awards:
     - title: 2016 Training and Education<br />Program Of The Year
       image: 2016-reb-training-and-education-program-of-the-year.png
       link: http://content.harcourts.com.au/news/harcourts-academy-takes-out-top-award
+    - title: 2017 Training and Education<br />Program Of The Year Finalist
+      image: 2017-reb-training-and-education-program-of-the-year-finalist.png
+      link: https://www.realestatebusiness.com.au/rebawards/2017-finalists
 jobs:
     - title: Administration Support
       image: hiring.png

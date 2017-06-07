@@ -171,13 +171,16 @@ $tablet-button-size: 0.9;
         max-width: 13rem;
         display: block;
         margin: auto;
-        @include breakpoint(mobile-only) {
-            max-width: 50%
-        }
       }
       h4 {
+        display: inline-block;
+        margin: 0 2rem;
+        max-width: 45%;
         font-size: 1.25rem;
         text-transform: none;
         margin-bottom: 0;
+        @include breakpoint(mobile-only) {
+            line-height: 130%;
+        }
       }
     }
