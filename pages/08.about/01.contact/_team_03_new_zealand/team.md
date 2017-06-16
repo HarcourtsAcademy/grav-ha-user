@@ -8,11 +8,11 @@ members:
       title: Academy Administrator
       office: auckland
       email: academy.nz@harcourts.net
-    - name: Minnie Baweja
-      image: minnie-baweja.jpg
-      title: Academy Trainer
-      office: auckland
-      email: minnie.baweja@harcourts.net
+#    - name: Minnie Baweja
+#      image: minnie-baweja.jpg
+#      title: Academy Trainer
+#      office: auckland
+#      email: minnie.baweja@harcourts.net
     - name: Tamsin Mason
       placeholder_image: placeholder-female.png
       title: Academy Trainer
