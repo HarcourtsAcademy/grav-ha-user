@@ -59,7 +59,7 @@ course_content :
       Salespersons new to the industry and Harcourts may incur the following additional costs:
 
       * Harcourts Academy [Sales Programme](/courses/sales/sales-programme): $705.00 (inc. GST)
-      * Real Estate Agents Authority Licence: $1,132.00 (inc. GST)
+      * Real Estate Agents Authority Licence: $939.55 (inc. GST)
 
 course_structure: The National Certificate is a self-paced course that includes a number of written assessment activities, online interactive practise and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 8 months to complete the course however the average time taken to finish it is between one and three months.
 
