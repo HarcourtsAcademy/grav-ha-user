@@ -28,11 +28,11 @@ members:
       title: Academy Trainer
       office: tasmania
       email: 	megan.hampton@harcourts.com.au
-#    - name: Donna Whitehead
-#      image: donna-whitehead.jpg
-#      title: Academy Trainer
-#      office: western-australia
-#      email: donna.whitehead@harcourts.net
+    - name: Chantelle Iannello
+      placeholder_image: placeholder-female.png
+      title: Academy Trainer
+      office: western-australia
+      email: trainer.wa@harcourts.net
     - name: Justin Balsillie
       placeholder_image: placeholder-male.png
       title: Academy Trainer
