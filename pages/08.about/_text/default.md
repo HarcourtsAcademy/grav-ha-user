@@ -27,7 +27,7 @@ We offer a structured career path and tailored system of learning. It ranges fro
 - On-going growth via personal and professional development programmes, leading to management roles, and business ownership and specialist fields within the real estate industry
 
 ## We're Global
-![Academy Countries](academy-countries.jpg)
+![Academy Countries](academy-countries.png)
 
 The Harcourts Academy was established in 2000 to provide a vehicle for delivering a range of training programmes, from sales training for new entrants to extensive management training for our business leaders.
 
