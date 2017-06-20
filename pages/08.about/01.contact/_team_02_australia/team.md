@@ -34,7 +34,7 @@ members:
       office: western-australia
       email: trainer.wa@harcourts.net
     - name: Justin Balsillie
-      placeholder_image: placeholder-male.png
+      image: justin-balsillie.jpg
       title: Academy Trainer
       office: victoria
       email: justin.balsillie@harcourts.net
