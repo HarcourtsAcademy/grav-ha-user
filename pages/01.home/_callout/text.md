@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: jamie-benjamin.jpg
-      title: May interview@academy
-      desc: Jamie Benjamin gives us some insight into the auction culture at Harcourts Hills Living, discussing both the importance of following process and how they use teams to improve the customer experience.
+    - image: emilie-jordanou.jpg
+      title: June interview@academy
+      desc: Emilie Jordanou from Harcourts Wantirna shares some advice on building your team to assist you in taking your business to the next level. Some great takeaways from our No. 1 Sales Consultant in Victoria (2017).
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/05/jamie-benjamin#pk_campaign=Web-2017-05
-      date: <strong>Released</strong> May 2017
+      url: /online-learning/interviews-at-academy/2017/06/emilie-jordanou#pk_campaign=Web-2017-06
+      date: <strong>Released</strong> June 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
