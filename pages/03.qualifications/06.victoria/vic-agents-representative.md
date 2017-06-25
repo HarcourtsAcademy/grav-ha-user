@@ -4,6 +4,8 @@ menu: Victoria
 slug: victoria
 onpage_menu: false
 published: true
+template: course
+
 taxonomy:
   category: qualifications
   tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,victoria]
@@ -52,7 +54,7 @@ course_structure: |
 
 course_costs:
   - name: Agents’ Representative Course
-    amount: $500
+    amount: $550
   - name: Core units required for Agents’ Representative Registration
   - name: CPPDSM4007A - Identify legal and ethical requirements of property management to complete work
     amount: $50
@@ -61,7 +63,7 @@ course_costs:
   - name: CPPDSM4080A - Work in the real estate industry
     amount: $50
   - name: Total Cost
-    amount: $650
+    amount: $700
 
 further_information: For Victoria legislation and other information visit [Consumer Affairs](http://www.consumer.vic.gov.au/businesses/licensed-businesses/estate-agents).
 
