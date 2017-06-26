@@ -38,11 +38,11 @@ members:
       title: Academy Operations Manager Australasia
       office: queensland
       email: debbie.warshawsky@harcourts.net
-    - name: Ashley Black
-      image: ashley-black.jpg
+    - name: Ashley Dawes
+      image: ashley-dawes.jpg
       title: Academy Administration Support
       office: queensland
-      email: ashley.black@harcourts.net
+      email: ashley.dawes@harcourts.net
 
 taxonomy:
   category: about_us
