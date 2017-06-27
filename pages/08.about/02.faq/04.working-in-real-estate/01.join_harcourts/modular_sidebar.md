@@ -23,4 +23,4 @@ Please provide us with the following so we may help you further.
 
 [Contact your local Academy](/about-us/contact-us) with this information, they will be able to point you in the right direction and provide you with information on Harcourts offices in your target area and their contact details.
 
-View [current available positions within Harcourts](http://www.harcourts.net/opps/careers.htm).
+[Why choose Harcourts?](http://international.harcourts.net/join/choose-harcourts/)
