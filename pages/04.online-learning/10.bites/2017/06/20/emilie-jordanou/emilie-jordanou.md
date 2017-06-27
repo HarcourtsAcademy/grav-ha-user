@@ -26,7 +26,7 @@ metadata:
 
 ---
 
-[Emilie Jordanou](https://www.facebook.com/profile.php?id=100009204592812) from Harcourts Wantirna shares some advice on building your team to assist you in taking your business to the next level. Some great takeaways from our No. 1 Sales Consultant in Victoria (2017)!
+[Emilie Jordanou](https://www.facebook.com/profile.php?id=100009204592812&noprocess) from Harcourts Wantirna shares some advice on building your team to assist you in taking your business to the next level. Some great takeaways from our No. 1 Sales Consultant in Victoria in 2017!
 
 ===
 
