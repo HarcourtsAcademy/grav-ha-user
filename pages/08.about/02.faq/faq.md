@@ -14,3 +14,5 @@ banner_image: theme://images/banners/about_us.jpg
 side_bar_menu: true
 
 ---
+
+<!-- Page content specified in the faq.html.twig template. -->
