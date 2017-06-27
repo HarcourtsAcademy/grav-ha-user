@@ -2,7 +2,9 @@
 title: Queensland Real Estate Licence
 slug: queensland-real-estate-licence
 onpage_menu: false
-published: true
+published: false
+template: course
+
 taxonomy:
   category: qualifications
   tag: [queensland,sales consultants,sales licence,real estate licence,sales]

@@ -32,9 +32,7 @@ Sales Registration can be gained through the Harcourts Academy's Sales Programme
 4. Submitting the Statement of Attainment with an application form to the Office of Fair Trading
 5. Receive the official Sales Registration Certificate from the state governing body in 1 to 8 weeks
 
-45 days later students complete a further 2 days of training after some in-the-field experience.
-
-The cost of the Sales Programme with your Sales Registration is $1,690. If you secure a position with a Harcourts office prior to attending the training you receive a $1,000 sponsorship from Harcourts, making the cost to you $690. The cost of gaining your sales registration through Harcourts is an additional $50.00 per qualification unit and must be completed in conjunction with the Sales Programme.
+45 days later students complete a further 1 day of training after some in-the-field experience.
 
 ___
 

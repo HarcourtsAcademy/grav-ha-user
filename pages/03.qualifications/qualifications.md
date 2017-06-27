@@ -22,7 +22,7 @@ Our courses are written for busy real estate people who want to advance their ca
 * Sales Registration
 * Property Management Registration
 * Auctioneering
-* Full Real Estate Licence
+<!--* Full Real Estate Licence-->
 
 ## Key Benefits
 

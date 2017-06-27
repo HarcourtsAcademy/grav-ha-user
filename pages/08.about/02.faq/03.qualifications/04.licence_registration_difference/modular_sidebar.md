@@ -14,6 +14,6 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 ---
 
-A sales certificate and licence are not the same thing:
+In Australia, a sales certificate and licence are not the same thing:
 - A Sales Certificate of Registration will enable you to sell Real Estate
-- A Licence will enable you to own and / or manage a Real Estate Office
+- A Real Estate Licence will enable you to own and / or manage a Real Estate Office
