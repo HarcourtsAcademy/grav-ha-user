@@ -123,11 +123,13 @@ redirects:
   /landing/eone: /online-learning/bites/#pk_campaign=app-eone
   /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
   ## START Redirection links used in Academy H1 Course Registration Notification Emails
+  /download/eone/universal: https://harcourts-ecloud.back4app.io/applications/eOne/releases/universal
   /download/eone/au: https://harcourts-ecloud.back4app.io/applications/eOne/releases/AU
   /download/eone/nz: https://harcourts-ecloud.back4app.io/applications/eOne/releases/NZ
   /download/eone/us: https://harcourts-ecloud.back4app.io/applications/eOne/releases/US/
   /download/eone/za: https://harcourts-ecloud.back4app.io/applications/eOne/releases/ZA
   /download/eone/ca: https://harcourts-ecloud.back4app.io/applications/eOne/releases/CA
+  /download/eopen/universal: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
   /download/eopen/au: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
   /download/eopen/nz: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
   /download/eopen/us: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
@@ -136,6 +138,7 @@ redirects:
   /download/ecampaign/nz: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/NZ
   /download/ecampaign/us: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/US
   /download/ecampaign/za: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/ZA
+
   ## END Redirection links used in Academy H1 Course Registration Notification Emails
   /landing/facebook/learning-bites: /online-learning/bites/#pk_campaign=fb-harcourtsacademy
   /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
