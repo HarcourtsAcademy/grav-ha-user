@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: emilie-jordanou.jpg
-      title: June interview@academy
-      desc: Emilie Jordanou from Harcourts Wantirna shares some advice on building your team to assist you in taking your business to the next level. Some great takeaways from our No. 1 Sales Consultant in Victoria (2017).
+    - image: scott-moon.jpg
+      title: July interview@academy
+      desc: Scott Moon from Harcourts Brock Estates discusses his first 12 months in real estate. He shares some insights into his social media strategy as well as his decision to bring on a PA to help him accelerate his business.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/06/emilie-jordanou#pk_campaign=Web-2017-06
-      date: <strong>Released</strong> June 2017
+      url: /online-learning/interviews-at-academy/2017/07/scott-moon#pk_campaign=Web-2017-07
+      date: <strong>Released</strong> July 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
