@@ -185,14 +185,8 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "The Academy delivers a range of training programmes, from training for new real estate professionals to extensive management training for our business leaders. The Academy has an extensive team across the globe focused solely on developing and delivering training and skill building sessions."
     rto_provider: 31139
-    contact_title: "Contact Info"
-    links_title: "Menu"
-    newsletter_title: "Newsletter"
-    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
     copyright_text: "Copyright 2017 Harcourts International Ltd."
-    feedburner: ""   # Your feedburner id for Newsletter footer modul
 
 qualification_unit_path: /get-qualified/units/
 qualification_units:
