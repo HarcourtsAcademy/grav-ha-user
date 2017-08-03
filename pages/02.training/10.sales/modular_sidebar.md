@@ -9,7 +9,6 @@ taxonomy:
   tag: [courses,sales]
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true
 

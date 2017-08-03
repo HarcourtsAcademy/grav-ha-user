@@ -8,7 +8,6 @@ taxonomy:
   tag: [courses,sales,workshops,sales consultants,business owners,managers]
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 

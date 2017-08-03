@@ -8,7 +8,6 @@ taxonomy:
   tag: [courses,featured,sales,sales programme,sales consultants,administrators,buyer assistants,personal assistants]
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 

@@ -10,7 +10,6 @@ taxonomy:
   tag: [training,calendars]
 
 body_classes: "modular header-image fullwidth training"
-banner_image: theme://images/banners/training.jpg
 
 side_bar_menu: true
 visible: true

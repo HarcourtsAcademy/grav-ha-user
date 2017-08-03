@@ -6,7 +6,6 @@ routable: false
 http_response_code: 404
 
 body_classes: "header-image fullwidth error"
-banner_image: theme://images/banners/error.jpg
 
 ---
 The page you are looking for doesn't exist.

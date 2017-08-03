@@ -7,7 +7,6 @@ onpage_menu: false
 published: true
 
 body_classes: "modular header-image fullwidth speakers"
-banner_image: theme://images/banners/speakers.jpg
 
 taxonomy:
   category: speakers

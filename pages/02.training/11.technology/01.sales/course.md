@@ -9,7 +9,6 @@ taxonomy:
   tag: [technology,workshops,sales,sales consultants]
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 

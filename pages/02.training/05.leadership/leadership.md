@@ -9,7 +9,6 @@ taxonomy:
   tag: [leadership,business owners,managers]
 
 body_classes: "modular header-image fullwidth training"
-banner_image: theme://images/banners/training.jpg
 
 side_bar_menu: true;
 template: modular_sidebar

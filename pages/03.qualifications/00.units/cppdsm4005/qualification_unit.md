@@ -9,7 +9,6 @@ taxonomy:
   tag: [qualifications,cppdsm4005]
 
 body_classes: "modular header-image fullwidth qualifications"
-banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
 

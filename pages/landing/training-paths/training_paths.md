@@ -14,7 +14,6 @@ taxonomy:
   tag: [courses]
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 featherlight:
   active: true
