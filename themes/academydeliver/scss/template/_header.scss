@@ -108,25 +108,47 @@
                 li {
                     float: left;
                     position: relative;
+                    cursor: pointer;
+                    outline: 0;
+                    &.onclick-menu .onclick-menu-items {
+                        position: absolute;
+                        z-index: 1;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: visibility 0.5s;
+                    }
+                    &:focus.onclick-menu .onclick-menu-items {
+                        opacity: 1;
+                        visibility: visible;
+                        pointer-events: auto;
+                    }
+                    &.onclick-menu:focus {
+                        pointer-events: none;
 
+                        .onclick-menu-items {
+                            opacity: 1;
+                            visibility: visible;
+                            pointer-events: auto;
+                        }
+                    }
                     a {
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.7rem;
 
-                        &.active, &:hover {
+                        &.active, &:focus {
                             background: white;
                             color: $core-accent;
                             color: darken($core-accent, 20%);
                         }
                     }
-                    &:hover {
-                        background: rgba(244, 244, 244, 0.9);
+                    &:hover, &:focus {
+                        background: rgb(244, 244, 244);
+
                         a {
                             color: $core-accent;
                         }
                     }
-
                     ul {
                         display: none;
                         padding: 0;
@@ -139,7 +161,7 @@
                     }
 
 
-                    &:hover {
+                    &:focus {
                         & > ul {
                             display: block;
                             position: absolute;
@@ -157,7 +179,7 @@
                                 display: block;
                                 text-transform: none;
 
-                                &:hover {
+                                &:focus {
                                     border-bottom: 0;
                                 }
 

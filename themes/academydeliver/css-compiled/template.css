@@ -217,18 +217,36 @@ b, strong, label, th {
       float: left; }
       #header #navbar ul.navigation li {
         float: left;
-        position: relative; }
+        position: relative;
+        cursor: pointer;
+        outline: 0; }
+        #header #navbar ul.navigation li.onclick-menu .onclick-menu-items {
+          position: absolute;
+          z-index: 1;
+          opacity: 0;
+          visibility: hidden;
+          transition: visibility 0.5s; }
+        #header #navbar ul.navigation li:focus.onclick-menu .onclick-menu-items {
+          opacity: 1;
+          visibility: visible;
+          pointer-events: auto; }
+        #header #navbar ul.navigation li.onclick-menu:focus {
+          pointer-events: none; }
+          #header #navbar ul.navigation li.onclick-menu:focus .onclick-menu-items {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto; }
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
           padding: 0.3rem 0.7rem; }
-          #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
+          #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:focus {
             background: white;
             color: #00adef;
             color: #006389; }
-        #header #navbar ul.navigation li:hover {
-          background: rgba(244, 244, 244, 0.9); }
-          #header #navbar ul.navigation li:hover a {
+        #header #navbar ul.navigation li:hover, #header #navbar ul.navigation li:focus {
+          background: #f4f4f4; }
+          #header #navbar ul.navigation li:hover a, #header #navbar ul.navigation li:focus a {
             color: #00adef; }
         #header #navbar ul.navigation li ul {
           display: none;
@@ -236,24 +254,24 @@ b, strong, label, th {
         #header #navbar ul.navigation li ul ul {
           left: 100%;
           top: 0; }
-        #header #navbar ul.navigation li:hover > ul {
+        #header #navbar ul.navigation li:focus > ul {
           display: block;
           position: absolute;
           background: rgba(244, 244, 244, 0.9);
           width: 18rem; }
-        #header #navbar ul.navigation li:hover li {
+        #header #navbar ul.navigation li:focus li {
           float: none;
           margin: 0;
           padding: 0; }
-          #header #navbar ul.navigation li:hover li a {
+          #header #navbar ul.navigation li:focus li a {
             padding: 0.5rem 0.8rem;
             display: block;
             text-transform: none; }
-            #header #navbar ul.navigation li:hover li a:hover {
+            #header #navbar ul.navigation li:focus li a:focus {
               border-bottom: 0; }
-            #header #navbar ul.navigation li:hover li a:before, #header #navbar ul.navigation li:hover li a:after {
+            #header #navbar ul.navigation li:focus li a:before, #header #navbar ul.navigation li:focus li a:after {
               display: none; }
-          #header #navbar ul.navigation li:hover li.active > a {
+          #header #navbar ul.navigation li:focus li.active > a {
             background: #00adef;
             color: #fff; }
       @media only all and (max-width: 47.938em) {
