@@ -9,7 +9,7 @@
     background-color: rgba(255,255,255,0.90);
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
-    > .grid, .logo, #navbar, .social-navigation {
+    > .grid, .logo, #navbar {
         height: 50%;
     }
 
@@ -22,11 +22,6 @@
             }
             img {
                 max-height: 42px;
-            }
-        }
-        ul {
-            &.social-icons {
-                @extend %vertical-align;
             }
         }
         ul {
@@ -185,32 +180,6 @@
                 }
             }
 
-            &.social-icons {
-                float: right;
-                line-height: 2rem;
-                margin: 0;
-                @extend %vertical-align;
-
-                li {
-                    @extend .default-animation;
-                    float: left;
-                    width: 2.1rem;
-                    height: 2.1rem;
-                    background: $white;
-                    border-radius: 100%;
-                    text-align: center;
-                    margin-right: 0.8rem;
-                    a {
-                        @extend .default-animation;
-                        display: block;
-                        margin-top: 0.1rem;
-                    }
-                    &:hover {
-                        background: transparentize($white, 0.7);
-                    }
-                }
-            }
-
             &.login {
                 float: right;
                 line-height: 2rem;
@@ -357,17 +326,6 @@
         }
         li.active a {
             color: $core-accent;
-        }
-        .logo ul.social-icons li {
-            background: transparentize($light-gray, 0.8);
-            .fa {
-                color: white;
-            }
-            &:hover {
-                .fa {
-                    color: $light-gray;
-                }
-            }
         }
         .logo ul.login li {
             background: transparentize($light-gray, 0.8);

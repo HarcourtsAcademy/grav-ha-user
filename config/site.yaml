@@ -17,7 +17,7 @@ contact:
     - line: "31 Amy Johnson Place"
     - line: "Eagle Farm, QLD 4009 Australia"
   phone:
-    - region: "+61 (7) 3839-3100"
+    global: "+61 (7) 3839-3100"
 
 metadata:
     description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
@@ -25,16 +25,14 @@ metadata:
 taxonomies: [category,tag,country,region,topic,format,audience,people,training_paths,experience_level]
 
 othermenu:
-  - text: "About"
-    url: "base_url:about-us"
   - text: "Privacy Policy"
     url: "base_url:privacy"
-  - text: "Contact"
+  - text: "Contact Us"
     url: "base_url:about-us/contact-us"
 
 studentlogin:
   url: 'https://www.academyrealestatetraining.com/moodle/my/'
-  icon: 'sign-in'
+  icon: 'globe'
 
 quicklinks:
   - text: "Courses"

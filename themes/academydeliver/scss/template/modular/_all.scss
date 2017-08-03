@@ -35,31 +35,6 @@
         padding: 0;
         list-style: none;
 
-        &.social-icons {
-            float: right;
-            line-height: 2rem;
-            margin: 0;
-
-            li {
-                @extend .default-animation;
-                float: left;
-                width: 2.1rem;
-                height: 2.1rem;
-                background: $white;
-                text-align: center;
-                margin-right: 0.8rem;
-                a {
-                    @extend .default-animation;
-                    color: $black;
-                    display: block;
-                    margin-top: 0.1rem;
-                }
-                &:hover {
-                    background: transparentize($white, 0.5);
-                }
-            }
-        }
-
         &.login {
             float: right;
             line-height: 2rem;
