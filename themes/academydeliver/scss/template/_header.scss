@@ -100,6 +100,7 @@
             margin: 0;
             padding: 0;
             list-style: none;
+            text-transform: uppercase;
 
             &.navigation {
                 @extend %vertical-align;
@@ -135,18 +136,12 @@
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.7rem;
-
-                        &.active, &:focus {
-                            background: white;
-                            color: $core-accent;
-                            color: darken($core-accent, 20%);
-                        }
                     }
                     &:hover, &:focus {
-                        background: rgb(244, 244, 244);
+                        background-color: $core-accent-dark;
 
                         a {
-                            color: $core-accent;
+                            color: white;
                         }
                     }
                     ul {
@@ -165,7 +160,7 @@
                         & > ul {
                             display: block;
                             position: absolute;
-                            background: rgba(244, 244, 244, 0.9);
+                            background: white;
                             width: 18rem;
                         }
 
@@ -178,9 +173,11 @@
                                 padding: 0.5rem 0.8rem;
                                 display: block;
                                 text-transform: none;
+                                color: $core-accent-dark;
 
-                                &:focus {
+                                &:hover, &:focus {
                                     border-bottom: 0;
+                                    color: white;
                                 }
 
                                 &:before, &:after {
@@ -305,17 +302,6 @@
         }
         a:before, a:after {
             background-color: rgba($header-text,0.7) !important;
-        }
-
-        #navbar ul.navigation  {
-            ul li a {
-                color: $core-accent;
-                text-transform: none;
-                &:hover {
-                    color: darken($core-accent, 20%);
-                    border-bottom: 0;
-                }
-            }
         }
     }
 }

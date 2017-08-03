@@ -211,7 +211,8 @@ b, strong, label, th {
   #header #navbar ul {
     margin: 0;
     padding: 0;
-    list-style: none; }
+    list-style: none;
+    text-transform: uppercase; }
     #header #navbar ul.navigation {
       display: inline-block;
       float: left; }
@@ -240,14 +241,10 @@ b, strong, label, th {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
           padding: 0.3rem 0.7rem; }
-          #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:focus {
-            background: white;
-            color: #00adef;
-            color: #006389; }
         #header #navbar ul.navigation li:hover, #header #navbar ul.navigation li:focus {
-          background: #f4f4f4; }
+          background-color: #001f49; }
           #header #navbar ul.navigation li:hover a, #header #navbar ul.navigation li:focus a {
-            color: #00adef; }
+            color: white; }
         #header #navbar ul.navigation li ul {
           display: none;
           padding: 0; }
@@ -257,7 +254,7 @@ b, strong, label, th {
         #header #navbar ul.navigation li:focus > ul {
           display: block;
           position: absolute;
-          background: rgba(244, 244, 244, 0.9);
+          background: white;
           width: 18rem; }
         #header #navbar ul.navigation li:focus li {
           float: none;
@@ -266,9 +263,11 @@ b, strong, label, th {
           #header #navbar ul.navigation li:focus li a {
             padding: 0.5rem 0.8rem;
             display: block;
-            text-transform: none; }
-            #header #navbar ul.navigation li:focus li a:focus {
-              border-bottom: 0; }
+            text-transform: none;
+            color: #001f49; }
+            #header #navbar ul.navigation li:focus li a:hover, #header #navbar ul.navigation li:focus li a:focus {
+              border-bottom: 0;
+              color: white; }
             #header #navbar ul.navigation li:focus li a:before, #header #navbar ul.navigation li:focus li a:after {
               display: none; }
           #header #navbar ul.navigation li:focus li.active > a {
@@ -337,12 +336,6 @@ b, strong, label, th {
     text-transform: none; }
   .header-image #header a:before, .header-image #header a:after {
     background-color: rgba(255, 255, 255, 0.7) !important; }
-  .header-image #header #navbar ul.navigation ul li a {
-    color: #00adef;
-    text-transform: none; }
-    .header-image #header #navbar ul.navigation ul li a:hover {
-      color: #006389;
-      border-bottom: 0; }
 
 .header-lite #header {
   box-shadow: none;
