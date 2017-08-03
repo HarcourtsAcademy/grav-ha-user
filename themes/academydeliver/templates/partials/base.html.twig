@@ -103,6 +103,7 @@
 {% endblock head%}
 </head>
 {% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
+{% set body_classes = page.taxonomy.category ? body_classes ~ ' ' ~ page.taxonomy.category[0] : body_classes %}
 <body id="top" class="template-{{ page.template }} {{ body_classes }}">
     <div id="sb-site">
         {% block header %}
