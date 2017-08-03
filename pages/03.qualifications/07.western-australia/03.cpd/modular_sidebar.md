@@ -8,9 +8,6 @@ taxonomy:
   tag: [online_learning,courses,continuing professional development,cpd,continuing education,ce]
   country: australia
   region: western-australia
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

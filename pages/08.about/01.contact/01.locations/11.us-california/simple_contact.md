@@ -3,10 +3,6 @@ title: California Office
 menu: false
 onpage_menu: false
 slug: california
-
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
-
 taxonomy:
   category: about_us
   tag: [about us, contact us,academy office,academy location]

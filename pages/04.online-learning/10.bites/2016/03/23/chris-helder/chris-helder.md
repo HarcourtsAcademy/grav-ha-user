@@ -6,16 +6,12 @@ date: 23-03-2016
 onpage_menu: false
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [success]
   format: [audio]
   audience: [sales consultants,property managers,business owners,managers]
   people: [chris helder]
-
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
   active: true

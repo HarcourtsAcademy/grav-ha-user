@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/05/jamie-benjamin'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [auction, culture, customer service, customer experience]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [jamie benjamin]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 metadata:
     description: 'Jamie Benjamin gives us some insight into the auction culture at Harcourts Hills Living, discussing both the importance of following process and how they use teams to improve the customer experience.'
     keywords: 'jamie benjamin, real estate, auction, client experience, harcourts'

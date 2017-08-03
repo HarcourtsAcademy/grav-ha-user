@@ -9,9 +9,6 @@ taxonomy:
   category: courses
   tag: [courses,auction,workshops,sales consultants,business owners,auctioneer,managers]
   training_paths: [auction]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

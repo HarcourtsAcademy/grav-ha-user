@@ -6,9 +6,6 @@ published: true
 taxonomy:
   category: courses
   tag: [courses,featured,sales,sales programme,sales consultants,administrators,buyer assistants,personal assistants]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

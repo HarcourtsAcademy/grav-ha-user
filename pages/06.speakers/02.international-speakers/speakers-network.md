@@ -5,9 +5,6 @@ slug: international-speakers
 template: modular_sidebar
 onpage_menu: false
 published: true
-
-body_classes: "modular header-image fullwidth speakers"
-
 taxonomy:
   category: speakers
   tag: [speakers network]

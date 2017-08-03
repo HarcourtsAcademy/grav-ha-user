@@ -10,9 +10,6 @@ taxonomy:
   tag: [queensland,sales consultants,sales licence,real estate licence,sales]
   country: australia
   region: queensland
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

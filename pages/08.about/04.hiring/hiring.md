@@ -13,10 +13,6 @@ routes:
   aliases:
     - '/hiring'
     - '/jobs'
-
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
-
 side_bar_menu: true
 
 list_subpages: true

@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/03/tina-sander'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [sales, customer service]
   format: [image]
   audience: [sales consultants,business owners,managers]
   people: [tina sander]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 metadata:
     description: 'Key conference takeaway messages from Tina Sanders'' 2017 USA Harcourts Conference presentation.'
     keywords: 'tina sander, real estate, conference, harcourts'

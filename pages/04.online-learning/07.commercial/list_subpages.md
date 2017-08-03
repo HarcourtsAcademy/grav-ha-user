@@ -8,10 +8,6 @@ published: true
 taxonomy:
   category: online_learning
   tag: [commercial,nai harcourts,sales consultants,property managers]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 side_bar_menu: true
 
 list_subpages: short

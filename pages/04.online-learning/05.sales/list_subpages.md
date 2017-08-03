@@ -8,10 +8,6 @@ published: true
 taxonomy:
   category: online_learning
   tag: [sales,sales-consultants]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 side_bar_menu: true
 
 content:

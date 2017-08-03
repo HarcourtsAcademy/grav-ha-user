@@ -9,9 +9,6 @@ taxonomy:
   tag: [speakers]
 
 side_bar_menu: true;
-
-body_classes: "modular header-image fullwidth speakers"
-
 list_subpages: true
 
 content:

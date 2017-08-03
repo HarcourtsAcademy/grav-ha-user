@@ -10,9 +10,6 @@ taxonomy:
   tag: [online_learning,courses,sales,sales programme,istart,istart24,sales consultants]
   country: [australia, canada, new zealand, usa, south africa]
   training_paths: [sales-new]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 youtube:

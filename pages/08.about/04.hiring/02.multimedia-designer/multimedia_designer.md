@@ -11,10 +11,6 @@ taxonomy:
   ## 'academy role' tag is required for the role to appear in the brag section of the home page.
 
 side_bar_menu: true;
-
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
-
 ---
 
 We are currently seeking a creative and talented person to join our award winning Academy team in the role of Multimedia Designer.

@@ -11,9 +11,6 @@ taxonomy:
   tag: [online_learning,courses,queensland,sales consultants,sales registration,sales]
   country: australia
   region: queensland
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

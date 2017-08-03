@@ -12,9 +12,6 @@ template: modular
 taxonomy:
   category: courses
   tag: [courses]
-
-body_classes: "modular header-image fullwidth courses"
-
 featherlight:
   active: true
   gallery: false

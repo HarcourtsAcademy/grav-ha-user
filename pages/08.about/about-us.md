@@ -11,10 +11,6 @@ taxonomy:
   tag: [about us]
 
 side_bar_menu: true;
-
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
-
 content:
     items: '@self.modular'
     order:

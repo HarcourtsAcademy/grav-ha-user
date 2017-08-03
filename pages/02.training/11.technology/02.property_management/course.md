@@ -7,9 +7,6 @@ published: true
 taxonomy:
   category: courses
   tag: [technology,workshops,property management,property managers]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 target_groups:

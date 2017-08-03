@@ -6,15 +6,11 @@ date: 07-10-2016
 onpage_menu: false
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [open homes]
   format: [infographic]
   audience: [sales consultants,property managers,business owners,managers]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 jscomments:
   active: true
 

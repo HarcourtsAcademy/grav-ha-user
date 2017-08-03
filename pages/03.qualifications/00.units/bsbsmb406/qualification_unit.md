@@ -8,9 +8,6 @@ published: true
 taxonomy:
   category: qualifications
   tag: [qualification unit,bsbsmb406A]
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 ---

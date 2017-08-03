@@ -6,7 +6,7 @@ date: 27-01-2016
 onpage_menu: false
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [customer service]
   format: [audio]

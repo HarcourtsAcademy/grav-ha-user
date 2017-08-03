@@ -10,9 +10,6 @@ taxonomy:
   category: courses
   tag: [online_learning,courses,continuing education,ce,continuing professional development,cpd]
   country: [new zealand]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

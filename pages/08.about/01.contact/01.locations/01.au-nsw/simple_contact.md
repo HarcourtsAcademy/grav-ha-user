@@ -3,10 +3,6 @@ title: New South Wales Office
 menu: false
 onpage_menu: false
 slug: new-south-wales
-
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
-
 taxonomy:
   category: about_us
   tag: [about us, contact us,academy office,academy location]

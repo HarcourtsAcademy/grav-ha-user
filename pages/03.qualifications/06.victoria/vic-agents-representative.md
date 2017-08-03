@@ -11,9 +11,6 @@ taxonomy:
   tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,victoria]
   country: australia
   region: victoria
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

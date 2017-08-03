@@ -6,9 +6,6 @@ published: true
 taxonomy:
   category: courses
   tag: [courses,sales,workshops,sales consultants,business owners,managers]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

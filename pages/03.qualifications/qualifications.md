@@ -6,9 +6,6 @@ published: true
 
 taxonomy:
   category: qualifications
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 ---

@@ -12,9 +12,6 @@ taxonomy:
 routes:
   aliases:
     - '/courses/sales/sales-workshops/post-pin-tweet'
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

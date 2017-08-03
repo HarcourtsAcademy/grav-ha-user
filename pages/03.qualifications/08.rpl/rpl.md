@@ -9,9 +9,6 @@ taxonomy:
   category: qualifications
   tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,australia]
   country: australia
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 ---

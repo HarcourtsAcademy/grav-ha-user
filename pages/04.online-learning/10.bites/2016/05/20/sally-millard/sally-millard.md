@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/05/sally-millard'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [social media]
   format: [interview]
   audience: [property managers,property managers,business owners,managers]
   people: [sally millard]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 jscomments:
   active: true
 

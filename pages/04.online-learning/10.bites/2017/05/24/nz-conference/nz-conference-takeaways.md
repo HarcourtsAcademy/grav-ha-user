@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/05/nz-conference'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [sales, customer service]
   format: [image]
   audience: [sales consultants,business owners,managers]
 #  people: []
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 metadata:
     description: 'Key conference takeaway messages from 2017 Harcourts New Zealand Conference.'
     keywords: 'real estate, conference, harcourts'

@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/03/bridget-gabites'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [sales, customer service]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [bridget gabites]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 jscomments:
   active: true
 

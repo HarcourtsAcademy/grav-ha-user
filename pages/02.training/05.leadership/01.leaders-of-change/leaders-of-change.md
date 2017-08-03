@@ -9,9 +9,6 @@ taxonomy:
   category: courses
   tag: [leadership,business owners,managers,future leaders, induction]
   training_paths: [leadership]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

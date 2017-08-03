@@ -6,7 +6,7 @@ date: 30-03-2016
 onpage_menu: false
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   format: [audio]
   audience: [sales consultants,business owners,managers]

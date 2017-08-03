@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/07/scott-moon'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [team, effective business unit, personal assistant]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [scott moon]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 metadata:
     description: 'Our South Australian Trainer Ray Brincat caught up with Scott Moon from Harcourts Brock Estates to discuss his first 12 months in real estate. Scott shares some insights into his social media strategy as well as his decision to bring on a PA to help him accelerate his business.'
     keywords: 'scott moon, teams, ebu, real estate, sales, client experience, harcourts'

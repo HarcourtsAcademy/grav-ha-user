@@ -9,9 +9,6 @@ taxonomy:
   tag: [qualification-region,qualification,sales registration,sales,sales consultants,tasmania]
   country: australia
   region: tasmania
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

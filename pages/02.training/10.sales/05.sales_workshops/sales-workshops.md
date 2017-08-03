@@ -9,9 +9,6 @@ taxonomy:
   category: courses
   tag: [courses,sales,workshops,sales consultants,business owners,managers]
   training_paths: [sales-new, sales-experienced]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

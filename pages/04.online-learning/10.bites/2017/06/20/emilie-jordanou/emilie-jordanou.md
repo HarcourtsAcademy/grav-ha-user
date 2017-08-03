@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/06/emilie-jordanou'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [team, effective business unit, personal assistant]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [emilie jordanou]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 metadata:
     description: 'Emilie Jordanou from Harcourts Wantirna shares some advice on building your team to assist you in taking your business to the next level. Some great takeaways from our No. 1 Sales Consultant in Victoria (2017)!'
     keywords: 'emilie jordanou, teams, ebu, real estate, sales, client experience, harcourts'

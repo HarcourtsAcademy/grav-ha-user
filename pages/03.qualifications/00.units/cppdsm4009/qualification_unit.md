@@ -7,9 +7,6 @@ published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4009]
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 ---

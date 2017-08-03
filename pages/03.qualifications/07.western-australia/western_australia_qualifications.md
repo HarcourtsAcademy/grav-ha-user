@@ -9,9 +9,6 @@ taxonomy:
   tag: [qualification-region,western australia,sales consultants,business owners,sales,qualification,property managers,property management]
   country: australia
   region: western-australia
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 list_subpages: true

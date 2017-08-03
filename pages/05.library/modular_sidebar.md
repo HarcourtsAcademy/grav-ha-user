@@ -7,9 +7,6 @@ published: true
 taxonomy:
   category: library
   tag: []
-
-body_classes: "modular header-image fullwidth library"
-
 sidebar_links:
   - heading: Visit the Library
     links:

@@ -10,9 +10,6 @@ taxonomy:
   tag: [online_learning,courses,qualification,sales registration,sales,sales consultants,western australia]
   country: australia
   region: western-australia
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

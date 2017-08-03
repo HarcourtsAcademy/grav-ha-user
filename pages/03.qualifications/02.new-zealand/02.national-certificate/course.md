@@ -8,9 +8,6 @@ taxonomy:
   category: qualifications
   tag: [online_learning,courses,qualification-region,qualification,national-certificate,sales,sales consultant,new zealand]
   country: 'new zealand'
-
-body_classes: "modular header-image fullwidth qualifications"
-
 side_bar_menu: true
 
 target_groups:

@@ -13,9 +13,6 @@ taxonomy:
 routes:
   aliases:
     - '/agents-of-change'
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

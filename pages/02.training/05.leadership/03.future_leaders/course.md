@@ -6,9 +6,6 @@ published: true
 taxonomy:
   category: courses
   tag: [leadership,business owners,managers,future leaders]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 target_groups:

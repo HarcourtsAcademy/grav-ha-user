@@ -10,16 +10,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/03/dexter-prack'
 
 taxonomy:
-  category: online_learning_bites
+  category: [online_learning, online_learning_bites]
   tag: [learning bites]
   topic: [auction,marketing]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [dexter prack]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 jscomments:
   active: true
 

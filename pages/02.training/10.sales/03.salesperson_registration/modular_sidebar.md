@@ -6,9 +6,6 @@ published: true
 taxonomy:
   category: courses
   tag: [courses,sales,sales registration,sales consultant,national certificate]
-
-body_classes: "modular header-image fullwidth courses"
-
 side_bar_menu: true;
 
 ---

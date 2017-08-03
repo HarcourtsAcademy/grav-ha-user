@@ -14,14 +14,13 @@ routes:
   aliases:
     - '/harcourts-and-you'
     - '/courses/harcourts-and-you-day'
+    - '/courses/harcourts-and-you'
 
 mautic:
   formid: 1
   prefill:
     - fieldid: mauticform_input_registrationrequest_course_name
       fieldvalue: Harcourts and You
-
-body_classes: "modular header-image fullwidth courses"
 
 side_bar_menu: true;
 
