@@ -227,26 +227,21 @@ b, strong, label, th {
           opacity: 0;
           visibility: hidden;
           transition: visibility 0.5s; }
-        #header #navbar ul.navigation li:focus.onclick-menu .onclick-menu-items {
+        #header #navbar ul.navigation li:focus .onclick-menu-items {
           opacity: 1;
           visibility: visible;
           pointer-events: auto; }
         #header #navbar ul.navigation li.onclick-menu:focus {
           pointer-events: none; }
-          #header #navbar ul.navigation li.onclick-menu:focus .onclick-menu-items {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto; }
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
           padding: 0.3rem 0.7rem; }
-        #header #navbar ul.navigation li:hover, #header #navbar ul.navigation li:focus {
+        #header #navbar ul.navigation li:hover, #header #navbar ul.navigation li:focus, #header #navbar ul.navigation li:active {
           background-color: #001f49; }
-          #header #navbar ul.navigation li:hover a, #header #navbar ul.navigation li:focus a {
+          #header #navbar ul.navigation li:hover a, #header #navbar ul.navigation li:focus a, #header #navbar ul.navigation li:active a {
             color: white; }
         #header #navbar ul.navigation li ul {
-          display: none;
           padding: 0; }
         #header #navbar ul.navigation li ul ul {
           left: 100%;

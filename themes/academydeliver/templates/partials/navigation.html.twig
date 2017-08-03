@@ -9,13 +9,17 @@
     {% for p in page.children %}
         {% if p.visible %}
             {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+            {% if depth < maxdepth %}
             <li tabindex="0" class="{{ current_page }} onclick-menu">
-              {% if p.children.count > 0 %}
+            {% else %}
+            <li class="{{ current_page }}">
+            {% endif %}
+              {% if p.children.count > 0 and depth == 1 %}
                 <a> 
                     {{ p.menu }} {% if depth < maxdepth %}<i class="fa fa-caret-down"></i>{% endif %}
                 </a>
               {% else %}
-                <a href="{{ page.url }}"> 
+                <a href="{{ p.url }}"> 
                     {{ p.menu }}
                 </a>
               {% endif %}

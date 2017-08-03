@@ -118,26 +118,20 @@
                         visibility: hidden;
                         transition: visibility 0.5s;
                     }
-                    &:focus.onclick-menu .onclick-menu-items {
+                    &:focus .onclick-menu-items {
                         opacity: 1;
                         visibility: visible;
                         pointer-events: auto;
                     }
                     &.onclick-menu:focus {
                         pointer-events: none;
-
-                        .onclick-menu-items {
-                            opacity: 1;
-                            visibility: visible;
-                            pointer-events: auto;
-                        }
                     }
                     a {
                         font-family: $font-family-header;
                         display: inline-block;
                         padding: 0.3rem 0.7rem;
                     }
-                    &:hover, &:focus {
+                    &:hover, &:focus, &:active {
                         background-color: $core-accent-dark;
 
                         a {
@@ -145,9 +139,7 @@
                         }
                     }
                     ul {
-                        display: none;
                         padding: 0;
-
                     }
 
                     ul ul {
