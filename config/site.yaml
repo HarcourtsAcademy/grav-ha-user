@@ -30,9 +30,13 @@ othermenu:
   - text: "Contact Us"
     url: "base_url:about-us/contact-us"
 
+contactus:
+  url: "base_url:about-us/contact-us"
+  icon: comments-o
+
 studentlogin:
   url: 'https://www.academyrealestatetraining.com/moodle/my/'
-  icon: 'globe'
+  icon: 'sign-in'
 
 quicklinks:
   - text: "Courses"

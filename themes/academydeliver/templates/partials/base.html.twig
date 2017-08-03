@@ -116,18 +116,20 @@
                                 <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
                             {% endif %}
                     </a></h3>
-                    <ul class="contact-us">
-                      <li>
-                        <a href="{{ site.studentlogin.url }}">
-                          <span class="contact-us-label">Contact Us</span>
-                        </a>
-                      </li>
-                    </ul>
                     {% if site.studentlogin.url %}
                     <ul class="login">
                       <li>
                         <a href="{{ site.studentlogin.url }}">
-                          <i class="fa fa-{{ site.studentlogin.icon }}"></i><span class="login-label"> Learn Online</span>
+                          <i class="fa fa-{{ site.studentlogin.icon }}"></i> <span class="login-label"> Learn Online</span>
+                        </a>
+                      </li>
+                    </ul>
+                    {% endif %}
+                    {% if site.studentlogin.url %}
+                    <ul class="contact-us">
+                      <li>
+                        <a href="{{ site.contactus.url }}">
+                          <i class="fa fa-{{ site.contactus.icon }}"></i> <span class="contact-us-label">Contact Us</span>
                         </a>
                       </li>
                     </ul>

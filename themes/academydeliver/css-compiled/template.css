@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#header .logo h3, #header .logo ul.login, #header .search-box, #header #navbar ul.navigation, #header #navbar ul.login, #header #navbar .panel-activation, .footer ul.social-icons, .simplesearch .search-box {
+#header .logo h3, #header .logo ul.login, #header .logo ul.contact-us, #header .search-box, #header #navbar ul.navigation, #header #navbar ul.login, #header #navbar .panel-activation, .footer ul.social-icons, .simplesearch .search-box {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -120,7 +120,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.login li, #header #navbar ul.login li a, .footer ul.social-icons li, .footer ul.social-icons li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.login li, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.login li, #header #navbar ul.login li a, .footer ul.social-icons li, .footer ul.social-icons li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.login li, .logo ul.contact-us li, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -2233,18 +2233,18 @@ img.inline-left {
     margin: 0;
     padding: 0;
     list-style: none; }
-    .logo ul.login {
+    .logo ul.login, .logo ul.contact-us {
       float: right;
       line-height: 2rem;
       margin: 0; }
-      .logo ul.login li {
+      .logo ul.login li, .logo ul.contact-us li {
         text-align: center;
         margin-left: 0.8rem;
         padding: 0 0.3rem; }
-        .logo ul.login li a {
+        .logo ul.login li a, .logo ul.contact-us li a {
           color: #000;
           display: block; }
-        .logo ul.login li:hover {
+        .logo ul.login li:hover, .logo ul.contact-us li:hover {
           background: rgba(255, 255, 255, 0.3); }
 
 .notebook {
