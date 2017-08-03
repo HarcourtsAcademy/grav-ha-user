@@ -103,6 +103,6 @@
 {% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
 <div class="sidebar-content">
     <h4>Learning Bite Topics</h4>
-    {% include 'partials/taxonomylist.html.twig' with {'base_url':'/online-learning/bites', 'taxonomy':'topic'} %}
+    {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/online-learning/bites', 'taxonomy':'topic'} %}
 </div>
 {% endif %}
