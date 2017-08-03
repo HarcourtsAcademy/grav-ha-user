@@ -1,16 +1,16 @@
 ---
-title: 'Commercial Sales Programme'
-slug: commercial-programme
+title: 'Commercial Sales'
+slug: commercial-sales
 onpage_menu: false
 published: true
 taxonomy:
-    category: courses
+    category: training
     tag:
         - sales
         - commercial
         - 'commercial sales consultants'
-body_classes: 'modular header-image fullwidth courses'
-banner_image: 'theme://images/banners/courses.jpg'
+body_classes: 'modular header-image fullwidth training'
+banner_image: 'theme://images/banners/training.jpg'
 side_bar_menu: true;
 template: modular_sidebar
 

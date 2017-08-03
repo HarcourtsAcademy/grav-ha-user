@@ -6,8 +6,8 @@ published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [courses,featured,induction]
+  category: training
+  tag: [training,featured,induction]
   training_paths: [sales-new, sales-experienced, auction, leadership]
 
 routes:
@@ -22,7 +22,6 @@ mautic:
       fieldvalue: Harcourts and You
 
 body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 

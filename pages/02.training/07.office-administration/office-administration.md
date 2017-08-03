@@ -1,16 +1,16 @@
 ---
-title: Office Administrator Programme
-slug: office-administrator-programme
+title: Office Administrator Training Pathway
+slug: office-administrator
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,office administrator programme,office administrators]
+  category: training
+  tag: [training,office administrator programme,office administrators]
 
-body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
-
+body_classes: "modular header-image fullwidth training"
+banner_image: theme://images/banners/training.jpg
 side_bar_menu: true;
+template: course
 
 target_groups:
   - Office Administrators

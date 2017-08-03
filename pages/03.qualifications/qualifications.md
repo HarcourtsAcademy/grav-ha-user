@@ -1,6 +1,6 @@
 ---
-title: Get Qualified
-menu: Qualifications
+title: Industry Qualifications
+menu: Industry Qualifications
 slug: get-qualified
 published: true
 

@@ -1,17 +1,17 @@
 ---
-title: Academy Courses
-menu: Courses
+title: Training
+menu: Training
 onpage_menu: false
-slug: courses
+slug: training
 published: true
 template: modular_sidebar
 
 taxonomy:
-  category: courses
-  tag: [courses]
+  category: training
+  tag: [training]
 
-body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
+body_classes: "modular header-image fullwidth training"
+banner_image: theme://images/banners/training.jpg
 
 side_bar_menu: true
 
@@ -26,11 +26,11 @@ content:
 buttons:
   - text: Training Calendars
     icon: fa-calendar
-    url: /courses/calendars-and-upcoming-courses
+    url: base_url:calendars
     primary: true
   - text: "Find your training pathway"
     icon: fa-road
-    url: /courses/training-pathways
+    url: base_url:landing/training-pathways
 
 ---
 

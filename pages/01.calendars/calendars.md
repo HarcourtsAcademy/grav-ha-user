@@ -1,16 +1,16 @@
 ---
-title: Calendars and Upcoming Courses
-menu: Calendars and Upcoming Courses
-slug: calendars-and-upcoming-courses
+title: Training Calendars
+menu: Training Calendars
+slug: calendars
 onpage_menu: false
 published: true
 template: modular_sidebar
 taxonomy:
-  category: courses
-  tag: [courses,calendars]
+  category: training
+  tag: [training,calendars]
 
-body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
+body_classes: "modular header-image fullwidth training"
+banner_image: theme://images/banners/training.jpg
 
 side_bar_menu: true
 visible: true

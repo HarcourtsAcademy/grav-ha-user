@@ -1,17 +1,17 @@
 ---
-title: Auction Programme
-menu: Auction & Auctioneering
+title: Auction Training Pathway
+menu: Auction Training Pathway
 slug: auction
 onpage_menu: false
 published: true
 template: modular_sidebar
 
 taxonomy:
-  category: courses
-  tag: [courses,sales,auction,sales consultants,business owners,auctioneer,managers]
+  category: training
+  tag: [training,sales,auction,sales consultants,business owners,auctioneer,managers]
 
-body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
+body_classes: "modular header-image fullwidth training"
+banner_image: theme://images/banners/training.jpg
 
 side_bar_menu: true;
 
