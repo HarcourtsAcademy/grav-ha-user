@@ -1,6 +1,6 @@
 ---
-title: Harcourts and You
-menu: Harcourts and You
+title: Harcourts and You (Induction)
+menu: Induction
 slug: harcourts-and-you
 published: true
 template: course
