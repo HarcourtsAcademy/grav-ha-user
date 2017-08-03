@@ -154,7 +154,7 @@
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block showcase %}
-              {% set banner_image = page.header.banner_image ? page.header.banner_image : 'theme://images/banners/default.jpg' %}
+              {% set banner_image = page.taxonomy.category ? 'theme://images/banners/' ~ page.taxonomy.category[0] ~ '.jpg' : 'theme://images/banners/default.jpg' %}
               <div class="showcase_container">
                 <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
                   <div class="showcaseoverlay modular-row"></div>
