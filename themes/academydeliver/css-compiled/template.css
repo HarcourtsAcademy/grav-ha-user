@@ -1030,7 +1030,7 @@ div#breadcrumbs {
   background-color: #f6f6f6; }
   @media only all and (max-width: 47.938em) {
     #sidebar {
-      margin: 0 1rem 0 0; } }
+      margin: 0; } }
   #sidebar .sidebar-content {
     margin-bottom: 3rem; }
     #sidebar .sidebar-content h4, #sidebar .sidebar-content .archive-list label, .archive-list #sidebar .sidebar-content label, #sidebar .sidebar-content .modular .bottom table th, .modular .bottom table #sidebar .sidebar-content th, #sidebar .sidebar-content .contact label, .contact #sidebar .sidebar-content label, #sidebar .sidebar-content .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #sidebar .sidebar-content .name, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content .button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #sidebar .sidebar-content button, #sidebar .sidebar-content .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button, #sidebar .sidebar-content .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #sidebar .sidebar-content button, #sidebar .sidebar-content .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #sidebar .sidebar-content button {
@@ -1038,6 +1038,9 @@ div#breadcrumbs {
       text-align: left; }
     #sidebar .sidebar-content p, #sidebar .sidebar-content ul {
       margin-top: 1rem; }
+    @media only all and (max-width: 47.938em) {
+      #sidebar .sidebar-content {
+        margin-bottom: 0; } }
 
 ul.pagination {
   margin: 0 0 3rem;
