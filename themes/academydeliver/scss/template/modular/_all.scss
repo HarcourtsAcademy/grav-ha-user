@@ -32,26 +32,6 @@
         margin: 0;
         padding: 0;
         list-style: none;
-
-        &.login, &.contact-us {
-            float: right;
-            line-height: 2rem;
-            margin: 0;
-
-            li {
-                @extend .default-animation;
-                text-align: center;
-                margin-left: 0.8rem;
-                padding: 0 0.3rem;
-                a {
-                    color: $black;
-                    display: block;
-                }
-                &:hover {
-                    background: transparentize($white, 0.7);
-                }
-            }
-        }
     }
 }
 
