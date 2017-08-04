@@ -86,9 +86,13 @@
             {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
-    {{ page.content }}
-    {% for module in page.collection() %}
-        <div id="{{ _self.pageLinkName(module.menu) }}"></div>
-        {{ module.content }}
-    {% endfor %}
+    <div class="content-wrapper g-grid pure-g-r">
+        <div id="content" class="g-block pure-u-1-1">
+        {{ page.content }}
+        {% for module in page.collection() %}
+            <div id="{{ _self.pageLinkName(module.menu) }}"></div>
+            {{ module.content }}
+        {% endfor %}
+        </div>
+    </div>
 {% endblock %}
