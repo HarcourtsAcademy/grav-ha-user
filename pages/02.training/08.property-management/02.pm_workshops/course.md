@@ -4,8 +4,8 @@ slug: property-management-workshops
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,workshops,property management,property management workshops,property managers]
+  category: training
+  tag: [training,workshops,property management,property management workshops,property managers]
 side_bar_menu: true;
 
 target_groups:

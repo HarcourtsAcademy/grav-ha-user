@@ -7,8 +7,8 @@ published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [courses,sales,panel,sales consultants,business owners, managers]
+  category: training
+  tag: [training,sales,panel,sales consultants,business owners, managers]
   training_paths: [sales-new,sales-experienced]
 side_bar_menu: true;
 

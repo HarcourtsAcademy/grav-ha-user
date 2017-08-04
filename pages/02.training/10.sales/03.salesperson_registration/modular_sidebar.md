@@ -4,8 +4,8 @@ slug: salesperson-registration
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,sales,sales registration,sales consultant,national certificate]
+  category: training
+  tag: [training,sales,sales registration,sales consultant,national certificate]
 side_bar_menu: true;
 
 ---

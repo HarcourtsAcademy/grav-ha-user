@@ -4,8 +4,8 @@ slug: property-management-programme
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,property management,property management programme,property managers]
+  category: training
+  tag: [training,property management,property management programme,property managers]
 side_bar_menu: true;
 
 target_groups:

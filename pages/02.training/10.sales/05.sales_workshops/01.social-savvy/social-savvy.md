@@ -6,8 +6,8 @@ published: true
 template: modular_sidebar
 
 taxonomy:
-  category: courses
-  tag: [courses,sales,workshops,sales consultants,business owners,managers,post pin tweet]
+  category: training
+  tag: [training,sales,workshops,sales consultants,business owners,managers,post pin tweet]
 
 routes:
   aliases:

@@ -4,8 +4,8 @@ slug: our-promise
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,sales,workshops,sales consultants,business owners,managers]
+  category: training
+  tag: [training,sales,workshops,sales consultants,business owners,managers]
 side_bar_menu: true;
 
 ---

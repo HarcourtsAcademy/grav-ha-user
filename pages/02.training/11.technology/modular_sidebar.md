@@ -4,8 +4,8 @@ slug: technology
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,technology]
+  category: training
+  tag: [training,technology]
 side_bar_menu: true;
 
 list_subpages: true

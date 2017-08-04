@@ -6,8 +6,8 @@ published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [courses,sales,sales consultants]
+  category: training
+  tag: [training,sales,sales consultants]
   training_paths: [sales-experienced]
 
 routes:

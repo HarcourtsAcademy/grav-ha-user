@@ -5,8 +5,8 @@ slug: shared-knowledge-programme
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,shared knowledge,property management,property managers]
+  category: training
+  tag: [training,shared knowledge,property management,property managers]
 side_bar_menu: true;
 
 target_groups:

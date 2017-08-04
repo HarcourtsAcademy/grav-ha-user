@@ -10,8 +10,8 @@ template: modular
     - /training-pathways -->
 
 taxonomy:
-  category: courses
-  tag: [courses]
+  category: training
+  tag: [training]
 featherlight:
   active: true
   gallery: false

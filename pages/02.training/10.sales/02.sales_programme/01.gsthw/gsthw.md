@@ -6,8 +6,8 @@ published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [courses,sales,sales programme,sales registration,sales consultants,administrators,buyer assistants,personal assistants]
+  category: training
+  tag: [training,sales,sales programme,sales registration,sales consultants,administrators,buyer assistants,personal assistants]
   training_paths: [sales-new]
 
 routes:

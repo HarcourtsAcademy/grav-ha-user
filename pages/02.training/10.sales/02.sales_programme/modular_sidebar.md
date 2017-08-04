@@ -4,8 +4,8 @@ slug: sales-programme
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,featured,sales,sales programme,sales consultants,administrators,buyer assistants,personal assistants]
+  category: training
+  tag: [training,featured,sales,sales programme,sales consultants,administrators,buyer assistants,personal assistants]
 side_bar_menu: true;
 
 ---

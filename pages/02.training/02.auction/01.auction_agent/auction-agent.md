@@ -6,8 +6,8 @@ published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [courses,auction,workshops,sales consultants,business owners,auctioneer,managers]
+  category: training
+  tag: [training,auction,workshops,sales consultants,business owners,auctioneer,managers]
   training_paths: [auction]
 side_bar_menu: true;
 
