@@ -47,7 +47,6 @@
     <div class="sidebar-content">
       {{ dump('page children: ' ~ page.children.count) }}
         {% if page.children.count > 0 %}
-          <h4>{{ page.title }}</h4>
           <ul class="navigation">
           {% for childpage in page.children %}
             {{ _self.subpage_menu(childpage, maxdepth, depth) }}
