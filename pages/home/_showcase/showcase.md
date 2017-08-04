@@ -8,9 +8,9 @@ slides:
     buttons:
     - text: "Register for training"
       icon: fa-calendar
-      url: /courses/calendars-and-upcoming-courses
+      url: base_url:training/calendars
     - text: "Find your path"
       icon: fa-road
-      url: /courses/training-pathways
+      url: base_url:landing/training-pathways
 
 ---
