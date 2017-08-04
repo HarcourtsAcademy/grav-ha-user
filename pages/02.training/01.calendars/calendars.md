@@ -4,12 +4,14 @@ menu: Training Calendars
 slug: calendars
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: modular_alt
 taxonomy:
   category: training
   tag: [training,calendars]
 
-body_classes: "modular header-image fullwidth training"
+routes:
+  aliases:
+    - '/courses/calendars-and-upcoming-courses'
 
 side_bar_menu: true
 visible: true
