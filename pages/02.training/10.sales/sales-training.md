@@ -1,19 +1,18 @@
 ---
-title: Sales Courses
+title: Sales Training
 menu: Sales
 slug: sales
 onpage_menu: false
 published: true
 taxonomy:
-  category: courses
-  tag: [courses,sales]
+  category: training
+  tag: [training,sales]
 side_bar_menu: true
+template: modular_sidebar
 
 list_subpages: true
 
 content:
   items: @self.children
-  order:
-    by: title
 
 ---
