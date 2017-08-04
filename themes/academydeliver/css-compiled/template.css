@@ -191,7 +191,8 @@ b, strong, label, th {
           #header .logo ul.login li a, #header .logo ul.contact-us li a {
             display: block; }
       #header .logo ul.navigation {
-        float: right; }
+        float: right;
+        clear: right; }
         #header .logo ul.navigation li {
           float: left;
           position: relative;
@@ -1041,7 +1042,7 @@ div#breadcrumbs {
       display: none; } }
 
 #sidebar {
-  padding: 0 1rem;
+  padding: 0.8rem 1rem 0;
   margin: 0 2rem 0 0;
   background-color: #f6f6f6; }
   @media only all and (max-width: 47.938em) {
