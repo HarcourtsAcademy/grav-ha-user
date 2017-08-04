@@ -22,6 +22,10 @@ $panel-text:        #ddd;
                 padding: 0.5rem 0.5rem;
                 font-weight: 600;
 
+                i.fa {
+                    font-size: 75%;
+                }
+
                 &:hover {
                     color: lighten($panel-text,20%);
                     background-color: darken($sidebar-color,5%);

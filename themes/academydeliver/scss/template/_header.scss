@@ -153,6 +153,10 @@
                         font-size: $font-size-base;
                         display: inline-block;
                         padding: 0.3rem 0.7rem;
+
+                        i.fa {
+                            font-size: 75%;
+                        }
                     }
                     &:hover, &:focus, &:active {
                         background-color: $core-accent-dark;
