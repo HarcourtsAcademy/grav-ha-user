@@ -1,12 +1,13 @@
 ---
-title: Learn Online
+title: Academy TV
 onpage_menu: false
-slug: online-learning
+slug: tv
 published: true
 taxonomy:
-  category: online_learning
+  category: tv
   tag: []
 side_bar_menu: true
+template: modular_sidebar
 
 content:
   items: '@self.modular'
@@ -33,7 +34,6 @@ The Academy provides self-paced and webinar online learning across Australia, Ne
 
 ===
 
-The [Harcourts Resource Library](/the-library) is also available. It contains a wealth of information, scripts, letters, videos and more for every Harcourts team member.
 
 ## Self-paced Online Learning
 Self-paced online learning is training that is consumed at your own pace using your own computer. Topics covering business planning and law, ethics and documentation are avilable now. Additional programmes are always being developed.
