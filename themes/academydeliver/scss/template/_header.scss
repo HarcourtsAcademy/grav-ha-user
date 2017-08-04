@@ -244,6 +244,7 @@
         }
 
         .search-box {
+            @extend %vertical-align;
             @include breakpoint(no-mobile) {
                display: none;
             }

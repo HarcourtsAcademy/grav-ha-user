@@ -1,5 +1,5 @@
 @charset "UTF-8";
-#header .logo h3, #header #navbar .panel-activation, .footer ul.social-icons, .simplesearch .search-box {
+#header .logo h3, #header #navbar .panel-activation, #header #navbar .search-box, .footer ul.social-icons, .simplesearch .search-box {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
