@@ -1,6 +1,6 @@
 ---
 title: About Us
-menu: About Us
+menu: About
 onpage_menu: false
 slug: about-us
 published: true
