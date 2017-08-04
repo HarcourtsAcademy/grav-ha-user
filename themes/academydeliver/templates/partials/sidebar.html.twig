@@ -44,18 +44,6 @@
       {% endif %}
     {% endmacro %}
 
-    <!-- <div class="sidebar-content">
-        {% for toplevelpage in pages.children %}
-          {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
-            <h4>{{ toplevelpage.title }}</h4>
-            <ul class="navigation">
-            {% for page in toplevelpage.children %}
-              {{ _self.subpage_menu(page, maxdepth, depth) }}
-            {% endfor %}
-            </ul>
-          {% endif %}
-        {% endfor %}
-    </div> -->
     <div class="sidebar-content">
       {{ dump('page children: ' ~ page.children.count) }}
         {% if page.children.count > 0 %}
