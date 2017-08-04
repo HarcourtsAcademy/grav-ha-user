@@ -816,6 +816,23 @@ dt, dd {
           background-color: #262626; }
         #panel .navigation li a:last-child {
           border-bottom: 0; }
+      #panel .navigation li.onclick-menu .onclick-menu-items {
+        position: relative;
+        max-height: 0;
+        transition: max-height 1s ease-out;
+        z-index: 1;
+        opacity: 0;
+        visibility: hidden;
+        transition: visibility 1s ease-out; }
+      #panel .navigation li:focus .onclick-menu-items {
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+        opacity: 1;
+        visibility: visible;
+        transition: visibility 2s ease-in;
+        pointer-events: auto; }
+      #panel .navigation li.onclick-menu:focus {
+        pointer-events: none; }
       #panel .navigation li.active > a {
         background: #fff;
         color: #9A9898; }
@@ -827,9 +844,6 @@ dt, dd {
         list-style: none;
         padding: 0;
         margin: 0; }
-        @media only all and (max-width: 47.938em) {
-          #panel .navigation li ul {
-            display: none; } }
         #panel .navigation li ul li {
           border: 0 !important; }
           #panel .navigation li ul li a {

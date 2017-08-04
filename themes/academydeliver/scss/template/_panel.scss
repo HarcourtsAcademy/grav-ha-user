@@ -31,7 +31,26 @@ $panel-text:        #ddd;
                     border-bottom: 0;
                 }
             }
-
+            &.onclick-menu .onclick-menu-items {
+                position: relative;
+                max-height: 0;
+                transition: max-height 1s ease-out;
+                z-index: 1;
+                opacity: 0;
+                visibility: hidden;
+                transition: visibility 1s ease-out;
+            }
+            &:focus .onclick-menu-items {
+                max-height: 5000px;
+                transition: max-height 2s ease-in;
+                opacity: 1;
+                visibility: visible;
+                transition: visibility 2s ease-in;
+                pointer-events: auto;
+            }
+            &.onclick-menu:focus {
+                pointer-events: none;
+            }
             &.active {
                 & > a {
                     background: #fff;
@@ -47,9 +66,6 @@ $panel-text:        #ddd;
             }
 
             ul {
-                @include breakpoint(mobile-only) {
-                  display: none;
-                }
                 list-style: none;
                 padding: 0;
                 margin: 0;
