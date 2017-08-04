@@ -128,7 +128,7 @@
                     {% if site.studentlogin.url %}
                     <ul class="contact-us">
                       <li>
-                        <a href="{{ site.contactus.url }}">
+                        <a href="{% if "base_url:" in site.contactus.url %}{{ base_url_absolute }}/{{ site.contactus.url|replace({"base_url:": ""}) }}{% else %}{{ site.contactus.url }}{% endif %}">
                           <i class="fa fa-{{ site.contactus.icon }}"></i> <span class="contact-us-label">Contact Us</span>
                         </a>
                       </li>
