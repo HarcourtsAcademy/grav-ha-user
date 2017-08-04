@@ -160,6 +160,7 @@ b, strong, label, th {
   #header .logo h3 img {
     max-height: 42px; }
   #header .logo ul.login, #header .logo ul.contact-us {
+    font-size: 14px;
     color: white;
     text-transform: uppercase;
     float: right;
@@ -251,6 +252,7 @@ b, strong, label, th {
           pointer-events: none; }
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
+          font-size: 14px;
           display: inline-block;
           padding: 0.3rem 0.7rem; }
         #header #navbar ul.navigation li:hover, #header #navbar ul.navigation li:focus, #header #navbar ul.navigation li:active {

@@ -28,6 +28,7 @@
 
             &.login, &.contact-us {
                 @extend %vertical-align;
+                font-size: $font-size-base;
                 color: white;
                 text-transform: uppercase;
                 float: right;
@@ -149,6 +150,7 @@
                     }
                     a {
                         font-family: $font-family-header;
+                        font-size: $font-size-base;
                         display: inline-block;
                         padding: 0.3rem 0.7rem;
                     }
