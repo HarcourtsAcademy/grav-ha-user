@@ -1,7 +1,6 @@
 // Header styling
 
 #header {
-    @extend .padding-horiz;
     position: absolute;
     z-index: 11;
     width: 100%;
@@ -14,6 +13,9 @@
     }
 
     .logo {
+        background-color: transparentize($core-accent, 0.7);
+        border-bottom: 1px solid $core-accent;
+
         h3 {
             @extend %vertical-align;
 
@@ -24,10 +26,20 @@
                 max-height: 42px;
             }
         }
-        ul {
+        .header-links {
+            position: relative;
+            top: 20%;
 
+            .header-buttons {
+                /*@extend %vertical-align;*/
+                position: relative;
+                // min-height: 2rem;
+                top: 20%;
+                transform: translateY(-20%);
+            }
+        }
+        ul {
             &.login, &.contact-us {
-                @extend %vertical-align;
                 font-size: $font-size-base;
                 color: white;
                 text-transform: uppercase;
@@ -48,76 +60,6 @@
                     }
                 }
             }
-        }
-
-        .search-box {
-            @include breakpoint(mobile-only) {
-               display: none;
-            }
-        }
-    }
-
-    .search-box {
-        @extend %vertical-align;
-        display: block;
-        float: right;
-        text-align: right;
-        margin-right: 0.75rem;
-        padding: ($leading-margin / 4) 0;
-        i {
-            color: $header-text;
-            position: absolute;
-            top: 0.5rem;
-            right: 0.6rem;
-            padding-top: ($leading-margin / 4);
-            z-index: -1;
-            cursor: pointer;
-        }
-        input::-webkit-search-decoration,
-        input::-webkit-search-cancel-button {
-            display: none;
-        }
-        input[type=search] {
-            outline: none;
-            cursor: pointer;
-            -webkit-appearance: textfield;
-            -webkit-box-sizing: content-box;
-            -webkit-appearance:none;  
-            -webkit-border-radius:0px;
-            font-family: inherit;
-            font-size: 100%;
-            border: 0 none;
-            box-shadow: none;
-            color: transparent;
-            background: transparent;
-            width: 4rem;
-            height: 2rem;
-            line-height: 2rem;
-            margin-bottom: 0;
-            padding: 0 ($leading-margin / 4);
-            font-size:  $core-font-size - 0.1rem;
-            @include transition(all .5s);
-
-            &:focus {
-                width: 12rem;
-                background-color: transparentize($header-text, 0.7);
-                cursor: auto;
-                color: $header-text;
-            }
-        }
-
-        input:-moz-placeholder {
-            color: transparent;
-        }
-        input::-webkit-input-placeholder {
-            color: transparent;
-        }
-
-    }
-
-    #navbar {
-        //font-size: $core-font-size + 0.1rem;
-        ul {
 
             margin: 0;
             padding: 0;
@@ -125,9 +67,7 @@
             text-transform: uppercase;
 
             &.navigation {
-                @extend %vertical-align;
-                display: inline-block;
-                float: left;
+                float: right;
                 li {
                     float: left;
                     position: relative;
@@ -139,6 +79,7 @@
                         opacity: 0;
                         visibility: hidden;
                         transition: visibility 0.5s;
+                        right: 0px;
                     }
                     &:focus .onclick-menu-items {
                         opacity: 1;
@@ -217,37 +158,77 @@
                     display: none;
                 }
             }
+        }
 
-            &.login {
-                float: right;
-                line-height: 2rem;
-                margin: 0;
-                @extend %vertical-align;
-
-                li {
-                    @extend .default-animation;
-                    width: 2.1rem;
-                    background: $white;
-                    border-radius: 100%;
-                    text-align: center;
-                    margin-left: 0.8rem;
-                    .fa {
-                        color: white;
-                    }
-                    a {
-                        @extend .default-animation;
-                        color: $black;
-                        display: block;
-                    }
-                    &:hover {
-                        background: transparentize($white, 0.5);
-                        .fa {
-                          color: $light-gray;
-                        }
-                    }
-                }
+        .search-box {
+            @include breakpoint(mobile-only) {
+               display: none;
             }
         }
+    }
+
+    .search-box {
+        display: block;
+        float: right;
+        text-align: right;
+        margin-right: 0.75rem;
+        padding: 0;
+        i.fa {
+            color: $header-text;
+            float: right;
+            padding-top: ($leading-margin / 4);
+            z-index: -1;
+            cursor: pointer;
+        }
+        form {
+            float: right;
+            position: relative;
+            right: -1.4rem;
+        }
+        input::-webkit-search-decoration,
+        input::-webkit-search-cancel-button {
+            display: none;
+        }
+        input[type=search] {
+            outline: none;
+            cursor: pointer;
+            -webkit-appearance: textfield;
+            -webkit-box-sizing: content-box;
+            -webkit-appearance:none;  
+            -webkit-border-radius:0px;
+            font-family: inherit;
+            font-size: 100%;
+            border: 0 none;
+            box-shadow: none;
+            color: transparent;
+            background: transparent;
+            width: 4rem;
+            height: 2rem;
+            line-height: 2rem;
+            margin-bottom: 0;
+            padding: 0 ($leading-margin / 4);
+            font-size:  $core-font-size - 0.1rem;
+            @include transition(all .5s);
+
+            &:focus {
+                width: 12rem;
+                background-color: transparentize($header-text, 0.7);
+                cursor: auto;
+                color: $header-text;
+            }
+        }
+
+        input:-moz-placeholder {
+            color: transparent;
+        }
+        input::-webkit-input-placeholder {
+            color: transparent;
+        }
+
+    }
+
+    #navbar {
+        //font-size: $core-font-size + 0.1rem;
 
         .panel-activation {
             @extend %vertical-align;
@@ -296,10 +277,6 @@
             margin-top: - $header-height - $padding-vert - 0.5rem;
             padding-top: $header-height + 2rem;
         }
-    }
-
-    #breadcrumbs {
-        //margin-top: 1rem;
     }
 
     #header {
