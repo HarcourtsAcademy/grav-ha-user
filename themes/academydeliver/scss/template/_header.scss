@@ -8,13 +8,23 @@
     background-color: rgba(255,255,255,0.90);
     box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
 
-    > .grid, .logo, #navbar {
+    > .grid, #navbar {
         height: 50%;
     }
 
+    &.scrolled {
+        .logo {
+            background-color: $core-accent-dark;
+            transition: background-color 1s ease;
+        }
+    }
+
     .logo {
-        background-color: transparentize($core-accent, 0.7);
+        background-color: transparentize($core-accent-dark, 0.2);
         border-bottom: 1px solid $core-accent;
+        position: fixed;
+        height: $header-height / 2;
+        width: 100%;
 
         h3 {
             @extend %vertical-align;
