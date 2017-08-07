@@ -22,7 +22,7 @@ mautic:
     - fieldid: mauticform_input_registrationrequest_course_name
       fieldvalue: Harcourts and You
 
-side_bar_menu: true;
+#side_bar_menu: true;
 
 course_information:
   - key: Duration
