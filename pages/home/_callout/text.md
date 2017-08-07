@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: scott-moon.jpg
-      title: July interview@academy
-      desc: Scott Moon from Harcourts Brock Estates discusses his first 12 months in real estate. He shares some insights into his social media strategy as well as his decision to bring on a PA to help him accelerate his business.
+    - image: amanda-stevens.jpg
+      title: August interview@academy
+      desc: Amanda shares some key tips on how to turn your customers into advocates.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/07/scott-moon#pk_campaign=Web-2017-07
-      date: <strong>Released</strong> July 2017
+      url: /online-learning/interviews-at-academy/2017/08/amanda-stevens#pk_campaign=Web-2017-08
+      date: <strong>Released</strong> August 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
