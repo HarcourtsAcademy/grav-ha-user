@@ -5,7 +5,7 @@
     z-index: 11;
     width: 100%;
     height: $header-height / 2;
-    background-color: transparentize($core-accent-dark, 0.2);
+    background-color: transparentize($core-accent-dark, 0.3);
     border-bottom: 1px solid $core-accent;
     text-align: center;
 
@@ -20,7 +20,6 @@
 
 
     .logo {
-        /*@extend %vertical-align;*/
         float: left;
         position: relative;
         top: 50%;
@@ -39,16 +38,10 @@
         }
     }
     .header-links {
-        /*position: relative;
-        top: 20%;*/
+        position: relative;
+        top: 15%;
 
         .header-buttons {
-            /*@extend %vertical-align;
-            position: relative;
-            // min-height: 2rem;
-            top: 20%;
-            transform: translateY(-20%);*/
-
             .search-box {
                 @include breakpoint(mobile-only) {
                     display: none;
@@ -64,10 +57,14 @@
             float: right;
             line-height: 2rem;
             margin: 0;
-
-            &:hover {
-                background: $core-accent-dark;
+            a {
+                border-bottom: 1px solid transparent;
+                &:hover {
+                    // background: $core-accent-dark;
+                    border-bottom: 1px solid white;
+                }
             }
+
             li {
                 @extend .default-animation;
                 text-align: center;
@@ -103,11 +100,14 @@
         &.navigation {
             float: right;
             clear: right;
+            text-align: left;
             li {
                 float: left;
                 position: relative;
                 cursor: pointer;
                 outline: 0;
+                border-bottom: 1px solid transparent;
+
                 &.onclick-menu .onclick-menu-items {
                     position: absolute;
                     z-index: 1;
@@ -135,7 +135,7 @@
                     }
                 }
                 &:hover, &:focus, &:active {
-                    background-color: $core-accent-dark;
+                    border-bottom: 1px solid white;
 
                     a {
                         color: white;
@@ -143,6 +143,9 @@
                 }
                 ul {
                     padding: 0;
+                    li:hover {
+                        background-color: $core-accent-dark;
+                    }
                 }
 
                 ul ul {
@@ -236,7 +239,7 @@
             box-shadow: none;
             color: transparent;
             background: transparent;
-            width: 4rem;
+            width: 1rem;
             height: 2rem;
             line-height: 2rem;
             margin-bottom: 0;
@@ -244,11 +247,15 @@
             font-size:  $core-font-size - 0.1rem;
             @include transition(all .5s);
 
+            &:hover {
+                border-bottom: 1px solid white;
+            }
             &:focus {
                 width: 12rem;
                 background-color: transparentize($header-text, 0.7);
                 cursor: auto;
                 color: $header-text;
+                border-bottom: 1px solid transparent;
             }
         }
 

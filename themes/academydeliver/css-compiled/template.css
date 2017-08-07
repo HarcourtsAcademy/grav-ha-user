@@ -150,7 +150,7 @@ b, strong, label, th {
   z-index: 11;
   width: 100%;
   height: 6rem;
-  background-color: rgba(0, 31, 73, 0.8);
+  background-color: rgba(0, 31, 73, 0.7);
   border-bottom: 1px solid #00adef;
   text-align: center;
     /*.navbar {
@@ -180,7 +180,6 @@ b, strong, label, th {
     background-color: #001f49;
     transition: background-color 1s ease; }
   #header .logo {
-    /*@extend %vertical-align;*/
     float: left;
     position: relative;
     top: 50%;
@@ -200,17 +199,11 @@ b, strong, label, th {
     #header .logo img {
       max-height: 42px; }
   #header .header-links {
-    /*position: relative;
-    top: 20%;*/ }
-    #header .header-links .header-buttons {
-      /*@extend %vertical-align;
-      position: relative;
-      // min-height: 2rem;
-      top: 20%;
-      transform: translateY(-20%);*/ }
-      @media only all and (max-width: 47.938em) {
-        #header .header-links .header-buttons .search-box {
-          display: none; } }
+    position: relative;
+    top: 15%; }
+    @media only all and (max-width: 47.938em) {
+      #header .header-links .header-buttons .search-box {
+        display: none; } }
   #header ul {
     margin: 0;
     padding: 0;
@@ -223,8 +216,10 @@ b, strong, label, th {
       float: right;
       line-height: 2rem;
       margin: 0; }
-      #header ul.navbar:hover, #header ul.login:hover, #header ul.contact-us:hover {
-        background: #001f49; }
+      #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
+        border-bottom: 1px solid transparent; }
+        #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
+          border-bottom: 1px solid white; }
       #header ul.navbar li, #header ul.login li, #header ul.contact-us li {
         text-align: center;
         margin-left: 0.8rem;
@@ -244,12 +239,14 @@ b, strong, label, th {
       float: right; }
     #header ul.navigation {
       float: right;
-      clear: right; }
+      clear: right;
+      text-align: left; }
       #header ul.navigation li {
         float: left;
         position: relative;
         cursor: pointer;
-        outline: 0; }
+        outline: 0;
+        border-bottom: 1px solid transparent; }
         #header ul.navigation li.onclick-menu .onclick-menu-items {
           position: absolute;
           z-index: 1;
@@ -271,11 +268,13 @@ b, strong, label, th {
           #header ul.navigation li a i.fa {
             font-size: 75%; }
         #header ul.navigation li:hover, #header ul.navigation li:focus, #header ul.navigation li:active {
-          background-color: #001f49; }
+          border-bottom: 1px solid white; }
           #header ul.navigation li:hover a, #header ul.navigation li:focus a, #header ul.navigation li:active a {
             color: white; }
         #header ul.navigation li ul {
           padding: 0; }
+          #header ul.navigation li ul li:hover {
+            background-color: #001f49; }
         #header ul.navigation li ul ul {
           left: 100%;
           top: 0; }
@@ -339,7 +338,7 @@ b, strong, label, th {
       box-shadow: none;
       color: transparent;
       background: transparent;
-      width: 4rem;
+      width: 1rem;
       height: 2rem;
       line-height: 2rem;
       margin-bottom: 0;
@@ -348,11 +347,14 @@ b, strong, label, th {
       -webkit-transition: all 0.5s;
       -moz-transition: all 0.5s;
       transition: all 0.5s; }
+      #header .search-box input[type=search]:hover {
+        border-bottom: 1px solid white; }
       #header .search-box input[type=search]:focus {
         width: 12rem;
         background-color: rgba(255, 255, 255, 0.3);
         cursor: auto;
-        color: #ffffff; }
+        color: #ffffff;
+        border-bottom: 1px solid transparent; }
     #header .search-box input:-moz-placeholder {
       color: transparent; }
     #header .search-box input::-webkit-input-placeholder {
