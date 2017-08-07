@@ -34,6 +34,8 @@
 {% endmacro %}
 
 <ul class="navigation">
+    {% include 'partials/search.html.twig' %}
+    
     {% if config.themes.academydeliver.dropdown.enabled %}
         {{ _self.loop(pages, maxdepth, depth) }}
     {% else %}

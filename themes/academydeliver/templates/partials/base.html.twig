@@ -108,51 +108,48 @@
     <div id="sb-site">
         {% block header %}
         <header id="header">
-                <div class="logo">
-                    <h3><a href="{{ base_url_absolute }}">
-                            {% if 'logo-dark' in page.header.body_classes %}
-                                <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% else %}
-                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% endif %}
-                    </a></h3>
-                    <div class="header-links">
-                        <div class="header-buttons">
-                            {% if site.studentlogin.url %}
-                            <ul class="login">
-                            <li>
-                                <a href="{{ site.studentlogin.url }}">
-                                <i class="fa fa-{{ site.studentlogin.icon }}"></i> <span class="login-label"> Learn Online</span>
-                                </a>
-                            </li>
-                            </ul>
-                            {% endif %}
-                            {% if site.studentlogin.url %}
-                            <ul class="contact-us">
-                            <li>
-                                <a href="{% if "base_url:" in site.contactus.url %}{{ base_url_absolute }}/{{ site.contactus.url|replace({"base_url:": ""}) }}{% else %}{{ site.contactus.url }}{% endif %}">
-                                <i class="fa fa-{{ site.contactus.icon }}"></i> <span class="contact-us-label">Contact Us</span>
-                                </a>
-                            </li>
-                            </ul>
-                            {% endif %}
-                            {#% block social %}
-                                {% include 'partials/social.html.twig' %}
-                            {% endblock %#}
-                            {% include 'partials/search.html.twig' %}
-                        </div>
-                        {% block header_extra %}{% endblock %}
-                        {% block header_navigation %}
-                        {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
-                    </div>
-                </div>
-                <div id="navbar">
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
-                        <span class="menu-btn-label">Menu</span>
-                    </span>
+            <div class="logo"><a href="{{ base_url_absolute }}">
+                    {% if 'logo-dark' in page.header.body_classes %}
+                        <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                    {% else %}
+                        <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                    {% endif %}
+            </a></div>
+            <div class="header-links">
+                <div class="header-buttons">
+                    {% if site.studentlogin.url %}
+                    <ul class="login">
+                    <li>
+                        <a href="{{ site.studentlogin.url }}">
+                        <i class="fa fa-{{ site.studentlogin.icon }}"></i> <span class="login-label"> Learn Online</span>
+                        </a>
+                    </li>
+                    </ul>
+                    {% endif %}
+                    {% if site.studentlogin.url %}
+                    <ul class="contact-us">
+                    <li>
+                        <a href="{% if "base_url:" in site.contactus.url %}{{ base_url_absolute }}/{{ site.contactus.url|replace({"base_url:": ""}) }}{% else %}{{ site.contactus.url }}{% endif %}">
+                        <i class="fa fa-{{ site.contactus.icon }}"></i> <span class="contact-us-label">Contact Us</span>
+                        </a>
+                    </li>
+                    </ul>
+                    {% endif %}
+                    <ul class="navbar">
+                        <li class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
+                            <span class="menu-btn-label">Menu</span>
+                        </li>
+                    </ul>
+                    {#% block social %}
+                        {% include 'partials/social.html.twig' %}
+                    {% endblock %#}
                     {% include 'partials/search.html.twig' %}
                 </div>
+                {% block header_extra %}{% endblock %}
+                {% block header_navigation %}
+                {% include 'partials/navigation.html.twig' %}
+                {% endblock %}
+            </div>
         </header>
         {% endblock %}
 
