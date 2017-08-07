@@ -273,31 +273,34 @@ b, strong, label, th {
             color: white; }
         #header ul.navigation li ul {
           padding: 0; }
-          #header ul.navigation li ul li:hover {
-            background-color: #001f49; }
+          #header ul.navigation li ul li {
+            border-bottom: 0; }
+            #header ul.navigation li ul li:hover {
+              background-color: #001f49;
+              border-bottom: 0; }
         #header ul.navigation li ul ul {
           left: 100%;
           top: 0; }
-        #header ul.navigation li:focus > ul {
+        #header ul.navigation li:focus > ul, #header ul.navigation li:active > ul {
           display: block;
           position: absolute;
           background: white;
           width: 18rem; }
-        #header ul.navigation li:focus li {
+        #header ul.navigation li:focus li, #header ul.navigation li:active li {
           float: none;
           margin: 0;
           padding: 0; }
-          #header ul.navigation li:focus li a {
+          #header ul.navigation li:focus li a, #header ul.navigation li:active li a {
             padding: 0.5rem 0.8rem;
             display: block;
             text-transform: none;
             color: #001f49; }
-            #header ul.navigation li:focus li a:hover, #header ul.navigation li:focus li a:focus {
+            #header ul.navigation li:focus li a:hover, #header ul.navigation li:focus li a:focus, #header ul.navigation li:active li a:hover, #header ul.navigation li:active li a:focus {
               border-bottom: 0;
               color: white; }
-            #header ul.navigation li:focus li a:before, #header ul.navigation li:focus li a:after {
+            #header ul.navigation li:focus li a:before, #header ul.navigation li:focus li a:after, #header ul.navigation li:active li a:before, #header ul.navigation li:active li a:after {
               display: none; }
-          #header ul.navigation li:focus li.active > a {
+          #header ul.navigation li:focus li.active > a, #header ul.navigation li:active li.active > a {
             background: #00adef;
             color: #fff; }
       @media only all and (max-width: 47.938em) {
