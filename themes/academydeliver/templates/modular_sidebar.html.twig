@@ -167,34 +167,6 @@
             {% endfor %}
           {% endif %}
 
-          {% set inspirational_women_collection = page.collection('inspirational-women') %}
-          {% if inspirational_women_collection %}
-          <section class="inspirational-women-list g-grid pure-g-r">
-            {% for page in inspirational_women_collection %}
-              <div class="inspirational-women-item size-1-3 pure-u-1-3">
-
-                  {% set banner = page.media.images|first %}
-
-                  {% if banner %}
-                  <div class="profile-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').zoomresize(200,200).html }}</a>
-                  </div>
-                  {% endif %}
-
-                  <div class="profile-name"><a href="{{ page.url }}">{{ page.title }}</a></div>
-                  {% if page.header.inspirational_women.region %}
-                    <div class="profile-region">{{ page.header.inspirational_women.region }}</div>
-                  {% else %}
-                      <div class="profile-region">{{ page.header.inspirational_women.country }}</div>
-                  {% endif %}
-
-
-              </div>
-
-            {% endfor %}
-          </section>
-          {% endif %}
-
         </div>
     </div>
 
