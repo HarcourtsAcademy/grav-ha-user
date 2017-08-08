@@ -25,6 +25,30 @@ $panel-text:        #ddd;
 #panel {
     padding-top: $panel-padding;
     color: $panel-text;
+
+    a.sb-close {
+        position: fixed;
+        top: 0.6rem;
+        right: 1rem;
+        text-decoration: none !important;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1;
+        color: white;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+
+        &:focus, &:hover {
+            text-decoration: none;
+            cursor: pointer;
+            filter: alpha(opacity=50);
+            opacity: .5;
+        }
+        &:hover {
+            color: $core-accent;
+        }
+    }
+
     .navigation {
         list-style: none;
         padding: 0;

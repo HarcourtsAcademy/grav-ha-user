@@ -110,6 +110,10 @@
             float: right;
             clear: right;
             text-align: left;
+
+            .sb-close {
+                display: none;
+            }
             li {
                 float: left;
                 position: relative;

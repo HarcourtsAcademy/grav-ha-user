@@ -226,6 +226,8 @@ b, strong, label, th {
       float: right;
       clear: right;
       text-align: left; }
+      #header ul.navigation .sb-close {
+        display: none; }
       #header ul.navigation li {
         float: left;
         position: relative;
@@ -826,6 +828,24 @@ dt, dd {
 #panel {
   padding-top: 1rem;
   color: #ddd; }
+  #panel a.sb-close {
+    position: fixed;
+    top: 0.6rem;
+    right: 1rem;
+    text-decoration: none !important;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20); }
+    #panel a.sb-close:focus, #panel a.sb-close:hover {
+      text-decoration: none;
+      cursor: pointer;
+      filter: alpha(opacity=50);
+      opacity: .5; }
+    #panel a.sb-close:hover {
+      color: #00adef; }
   #panel .navigation {
     list-style: none;
     padding: 0;
