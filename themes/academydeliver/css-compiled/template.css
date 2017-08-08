@@ -245,7 +245,10 @@ b, strong, label, th {
           max-height: 80vh;
           overflow: scroll; }
         #header ul.navigation li.onclick-menu:focus {
-          pointer-events: none; }
+          pointer-events: none;
+          background-color: white; }
+          #header ul.navigation li.onclick-menu:focus a {
+            color: #001f49; }
         #header ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           font-size: 14px;

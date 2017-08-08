@@ -133,6 +133,10 @@
                 }
                 &.onclick-menu:focus {
                     pointer-events: none;
+                    background-color: white;
+                    a {
+                        color: $core-accent-dark;
+                    }
                 }
                 a {
                     font-family: $font-family-header;
