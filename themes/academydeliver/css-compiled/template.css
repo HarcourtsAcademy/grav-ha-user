@@ -152,28 +152,7 @@ b, strong, label, th {
   height: 6rem;
   background-color: rgba(0, 31, 73, 0.7);
   border-bottom: 1px solid #00adef;
-  text-align: center;
-    /*.navbar {
-        .panel-activation {
-            @extend %vertical-align;
-            padding: 1rem;
-            display: none;
-            font-size: $core-font-size + 0.25rem;
-            cursor: pointer;
-            float: left;
-            text-transform: uppercase;
-            @include breakpoint(mobile-only) {
-                display: inline-block;
-            }
-        }
-
-        .search-box {
-            @extend %vertical-align;
-            @include breakpoint(no-mobile) {
-               display: none;
-            }
-        }
-    }*/ }
+  text-align: center; }
   #header > .grid {
     height: 50%; }
   #header.scrolled {
@@ -200,7 +179,10 @@ b, strong, label, th {
       max-height: 42px; }
   #header .header-links {
     position: relative;
-    top: 15%; }
+    top: 10%; }
+    @media only all and (min-width: 48em) {
+      #header .header-links {
+        top: 15%; } }
     @media only all and (max-width: 47.938em) {
       #header .header-links .header-buttons .search-box {
         display: none; } }
@@ -214,8 +196,10 @@ b, strong, label, th {
       color: white;
       text-transform: uppercase;
       float: right;
-      line-height: 2rem;
       margin: 0; }
+      @media only all and (min-width: 48em) {
+        #header ul.navbar, #header ul.login, #header ul.contact-us {
+          line-height: 2rem; } }
       #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
         border-bottom: 1px solid transparent; }
         #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
@@ -824,7 +808,19 @@ dt, dd {
   line-height: 20px; }
 
 .sb-slidebar {
-  background-color: #333 !important; }
+  background-color: #001f49 !important;
+  width: 80vw !important; }
+  .sb-slidebar .search-box {
+    color: #001f49; }
+    .sb-slidebar .search-box i.fa {
+      color: #001f49;
+      position: fixed;
+      margin: 0.5rem; }
+    .sb-slidebar .search-box input[type="search"] {
+      width: 100%;
+      padding-left: 2rem;
+      -webkit-appearance: none;
+      border-radius: 0; }
 
 #panel {
   padding-top: 1rem;
@@ -832,10 +828,11 @@ dt, dd {
   #panel .navigation {
     list-style: none;
     padding: 0;
-    margin-left: 0; }
+    margin-left: 0;
+    text-transform: uppercase; }
     #panel .navigation li {
       padding: 0.5rem 0;
-      border-bottom: 1px solid #3d3d3d; }
+      border-bottom: 1px solid #00285d; }
       #panel .navigation li a {
         color: #ddd;
         display: block;
@@ -845,7 +842,7 @@ dt, dd {
           font-size: 75%; }
         #panel .navigation li a:hover {
           color: white;
-          background-color: #262626; }
+          background-color: #001430; }
         #panel .navigation li a:last-child {
           border-bottom: 0; }
       #panel .navigation li.onclick-menu .onclick-menu-items {
@@ -855,7 +852,8 @@ dt, dd {
         z-index: 1;
         opacity: 0;
         visibility: hidden;
-        transition: visibility 1s ease-out; }
+        transition: visibility 1s ease-out;
+        text-transform: none; }
       #panel .navigation li:focus .onclick-menu-items {
         max-height: 5000px;
         transition: max-height 2s ease-in;
@@ -865,13 +863,18 @@ dt, dd {
         pointer-events: auto; }
       #panel .navigation li.onclick-menu:focus {
         pointer-events: none; }
+        #panel .navigation li.onclick-menu:focus a {
+          color: #001f49;
+          background-color: white; }
+      #panel .navigation li.onclick-menu:focus .onclick-menu-items a {
+        background-color: unset;
+        color: #ddd; }
       #panel .navigation li.active > a {
-        background: #fff;
-        color: #9A9898; }
+        color: #00adef !important; }
         #panel .navigation li.active > a:hover {
-          color: #9A9898; }
+          color: #9A9898 !important; }
       #panel .navigation li:first-child {
-        border-top: 1px solid #3d3d3d; }
+        border-top: 1px solid #00285d; }
       #panel .navigation li ul {
         list-style: none;
         padding: 0;

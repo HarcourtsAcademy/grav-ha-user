@@ -1,9 +1,25 @@
-$sidebar-color:     #333;
+$sidebar-color:     $core-accent-dark;
 $panel-padding:     1rem;
 $panel-text:        #ddd;
 
 .sb-slidebar {
     background-color: $sidebar-color !important;
+    width: 80vw !important;
+    .search-box {
+        color: $sidebar-color;
+
+        i.fa {
+            color: $sidebar-color;
+            position: fixed;
+            margin: 0.5rem;
+        }
+        input[type="search"] {
+            width: 100%;
+            padding-left: 2rem;
+            -webkit-appearance: none;
+            border-radius: 0;
+        }
+    }
 }
 
 #panel {
@@ -13,6 +29,7 @@ $panel-text:        #ddd;
         list-style: none;
         padding: 0;
         margin-left: 0;
+        text-transform: uppercase;
 
         li {
             padding: 0.5rem 0;
@@ -43,6 +60,7 @@ $panel-text:        #ddd;
                 opacity: 0;
                 visibility: hidden;
                 transition: visibility 1s ease-out;
+                text-transform: none;
             }
             &:focus .onclick-menu-items {
                 max-height: 5000px;
@@ -54,13 +72,20 @@ $panel-text:        #ddd;
             }
             &.onclick-menu:focus {
                 pointer-events: none;
+                a {
+                    color: $core-accent-dark;
+                    background-color: white;
+                }
+            }
+            &.onclick-menu:focus .onclick-menu-items a {
+                background-color: unset;
+                color: $panel-text;
             }
             &.active {
                 & > a {
-                    background: #fff;
-                    color: $core-text;
+                    color: $core-accent !important;
                     &:hover {
-                        color: $core-text;
+                        color: $core-text !important;
                     }
                 }
             }
