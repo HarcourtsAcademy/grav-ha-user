@@ -1,15 +1,14 @@
 ---
-title: Office Administrator Training Pathway
+title: Office Administrator Program
 slug: office-administrator
-onpage_menu: false
 published: true
+template: course
+
 taxonomy:
   category: training
   tag: [training,office administrator programme,office administrators]
 
-body_classes: "modular header-image fullwidth training"
-side_bar_menu: true;
-template: course
+side_bar_menu: false
 
 target_groups:
   - Office Administrators
@@ -31,6 +30,6 @@ further_information: true
 
 ---
 
-Based on the Disney model, the Office Administrator Programme provides front line administrators with the skills, knowledge and resources to assist the office team to deliver quality service to exceed customer expectations.
+Based on the Disney model, the Office Administrator Program provides front line administrators with the skills, knowledge and resources to assist the office team to deliver quality service to exceed customer expectations.
 
 ===

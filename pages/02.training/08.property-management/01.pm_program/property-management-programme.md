@@ -1,12 +1,12 @@
 ---
-title: Property Management Programme
-slug: property-management-programme
-onpage_menu: false
+title: Property Management Program
+slug: property-management-program
 published: true
+template: course
+
 taxonomy:
   category: training
   tag: [training,property management,property management programme,property managers]
-side_bar_menu: true;
 
 target_groups:
   - New and experienced property managers
@@ -36,6 +36,6 @@ further_information: true
 
 ---
 
-Property Management Programme provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
+Property Management Program provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
 
 ===

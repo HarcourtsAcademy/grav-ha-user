@@ -1,6 +1,6 @@
 ---
-title: Property Management Training Pathway
-menu: Property Management Training Pathway
+title: Property Management Training
+menu: Property Management Training
 slug: property-management
 onpage_menu: false
 published: true
@@ -14,7 +14,11 @@ template: modular_sidebar
 list_subpages: true;
 
 content:
-  items: @self.children
+  items:
+    - '@taxonomy': 
+        category: training
+        tag: 'property management'
+    - '@self.children'
   order:
-    by: title
+    by: default
 ---

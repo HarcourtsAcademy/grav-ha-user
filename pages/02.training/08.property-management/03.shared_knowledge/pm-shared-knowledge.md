@@ -1,13 +1,13 @@
 ---
-title: Shared Knowledge Programme (Property Management)
-menu: Shared Knowledge Programme
-slug: shared-knowledge-programme
-onpage_menu: false
+title: Shared Knowledge Program (Property Management)
+menu: Shared Knowledge Program
+slug: shared-knowledge-program
 published: true
+template: course
+
 taxonomy:
   category: training
   tag: [training,shared knowledge,property management,property managers]
-side_bar_menu: true;
 
 target_groups:
   - Property Managers
