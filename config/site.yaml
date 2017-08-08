@@ -216,8 +216,8 @@ qualification_units:
     id: CPPDSM4007A
     name: Identify legal and ethical requirements of property management to complete agency work
   CPPDSM4008:
-      id: CPPDSM4008A
-      name: Identify legal and ethical requirements of property sales to complete agency work
+    id: CPPDSM4008A
+    name: Identify legal and ethical requirements of property sales to complete agency work
   CPPDSM4009:
     id: CPPDSM4009
     name: Interpret legislation to complete work in the property industry
@@ -251,6 +251,7 @@ qualification_units:
   CPPDSM4019:
     id: CPPDSM4019A
     name: Prepare for auction and complete sale
+    url: http://training.gov.au/Training/Details/CPPDSM4019A
   CPPDSM4022:
     id: CPPDSM4022A
     name: Sell and finalise the sale of property by private treaty

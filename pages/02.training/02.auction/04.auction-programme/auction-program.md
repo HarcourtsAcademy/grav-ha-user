@@ -9,7 +9,10 @@ taxonomy:
   category: training
   tag: [training,sales,auction,sales consultants,business owners,auctioneer,managers]
   training_paths: [auction]
-side_bar_menu: false
+
+qualification_units:
+  - id: CPPDSM4019
+  - id: CPPDSM4004
 
 ---
 
@@ -30,9 +33,6 @@ Target Group: Sales Consultants, Office Managers and Business Owners
 - How to handle offers prior to auction and hold buyer interest up until the auction day
 - How to establish a strong working relationship and communicate effectively with sellers
 
-### Industry Qualification Units Delivered
-- [CPPDSM4019A](/get-qualified/units/cppdsm4019) Prepare for auction and complete sale
-
 ### Programme Structure
 The Auction for Sales Programme is a full day often run in conjunction with our Auctioneering Programme out of Academy training rooms.
 
@@ -42,9 +42,6 @@ The Auction for Sales Programme is a full day often run in conjunction with our 
 - Those wishing to become an auctioneer
 - Sales Consultants, managers and business owners wanting an understanding of the auction day process
 - Those completing their full Real Estate Licence
-
-### Industry Qualification Units Delivered
-- [CPPDSM4004A](/get-qualified/units/cppdsm4004) Conduct auction
 
 ### What you will Learn
 - Responsibilities of an auctioneer and sales team

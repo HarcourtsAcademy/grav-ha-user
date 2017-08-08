@@ -73,7 +73,7 @@
           <h2>Industry Qualification Units Delivered</h2>
           <ul>
           {% for unit in page.header.qualification_units %}
-              <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
+              <li class="qualification-unit"><a href="http://training.gov.au/Training/Details/{{ site.qualification_units[unit.id].id|upper }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
           {% endfor %}
           </ul>
           {% endif %}
