@@ -175,7 +175,7 @@
             <ul>
             {% for pathway in page.header.taxonomy.training_paths %}
               {% set pathwaycollection = taxonomy.findTaxonomy( { 'category': 'training_pathway', 'tag': pathway } ).order('folder', 'asc')  %}
-              <li><a href="/courses/training-pathways#{{ pathwaycollection|first.slug }}">{{ pathwaycollection|first.title }}</a></li>
+              <li><a href="{{ base_url}}/landing/training-pathways#{{ pathwaycollection|first.slug }}">{{ pathwaycollection|first.title }}</a></li>
             {% endfor %}
             </ul>
           {% endif %}

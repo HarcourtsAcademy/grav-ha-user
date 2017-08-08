@@ -133,7 +133,7 @@
                     visibility: visible;
                     pointer-events: auto;
                     max-height: 80vh;
-                    overflow: scroll;
+                    overflow: auto;
                 }
                 &.onclick-menu:focus {
                     pointer-events: none;
