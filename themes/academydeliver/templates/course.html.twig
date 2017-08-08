@@ -33,10 +33,14 @@
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
+        {% if header.side_bar_menu == true%}
         <div id="sidebar" class="g-block size-1-3 pure-u-1-3">
           {% include 'partials/sidebar.html.twig' %}
         </div>
         <div id="content" class="g-block pure-u-2-3">
+        {% else %}
+        <div id="content" class="g-block pure-u-1-1">
+        {% endif %}
 
           {% set page_image = page.media.images|first %}
           {% if page_image %}
@@ -153,7 +157,6 @@
           {% endif %}
 
           {% if page.header.further_information %}
-          {{ dump(page.header.taxonomy.region) }}
             {% if page.header.taxonomy.region %}
               {% set contactus = base_url ~ '/about-us/contact-us' ~ '/locations/' ~ page.header.taxonomy.region %}
             {% else %}
