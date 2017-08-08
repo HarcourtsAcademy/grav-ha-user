@@ -6,7 +6,7 @@ template: course
 
 taxonomy:
   category: training
-  tag: [leadership,business owners,managers,future leaders, induction]
+  tag: [leadership,business owners,managers,future leaders]
   training_paths: [leadership]
 
 side_bar_menu: false
