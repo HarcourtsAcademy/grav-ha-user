@@ -1,6 +1,6 @@
 {% extends 'partials/base.html.twig' %}
 
-{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% set show_onpage_menu = header.onpage_menu == true %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% block javascripts %}
@@ -99,6 +99,8 @@
 
           {{ page.content }}
 
+          <hr />
+
           {% for button in page.header.buttons %}
             <a class="button{% if button.primary %} primary{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
           {% endfor %}
@@ -122,34 +124,36 @@
           {% endfor %}
 
           {% if page.header.list_subpages %}
-            {% for page in page.collection %}
+            {% for subpage in page.collection %}
+
+              {% if page != subpage %}
 
               <section class="subpage-item">
 
-                  {% set banner = page.media.images|first %}
+                  {% set banner = subpage.media.images|first %}
 
                   {% if banner %}
                   <div class="subpage-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+                      <a href="{{ subpage.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
                   </div>
                   {% endif %}
 
-                  {% if page.routable %}
+                  {% if subpage.routable %}
 
-                      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                      <h3><a href="{{ subpage.url }}">{{ subpage.title }}</a></h3>
                       <div class="subpage-date">
-                          {{ page.date|date(config.system.pages.dateformat.short) }}
+                          {{ subpage.date|date(config.system.pages.dateformat.short) }}
                       </div>
-                      <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
-                        {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                      <div>{{ subpage.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ subpage.url }}">
+                        {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                       </a></div>
                   {% else %}
                     {% for route_from, route_to in site.routes %}
-                      {% if page.route == route_from %}
-                        {% set page_to = page.find(route_to) %}
+                      {% if subpage.route == route_from %}
+                        {% set page_to = subpage.find(route_to) %}
                         <h3><a href="{{ page_to.url }}">{{ page_to.title }}</a></h3>
-                        <p>{{ page_to.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
-                          {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                        <p>{{ page_to.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
+                          {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                         </a></p>
                       {% endif %}
                     {% endfor %}
@@ -158,6 +162,7 @@
                   <hr/>
 
               </section>
+                {% endif %}
 
             {% endfor %}
           {% endif %}

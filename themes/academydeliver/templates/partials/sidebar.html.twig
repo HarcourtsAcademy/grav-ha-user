@@ -45,10 +45,12 @@
     {% endmacro %}
 
     <div class="sidebar-content">
-      {% if page.children.count > 0 %}
+      {% if page.collection.count > 0 %}
         <ul class="navigation">
-        {% for childpage in page.children %}
-          {{ _self.subpage_menu(childpage, maxdepth, depth) }}
+        {% for subpage in page.collection %}
+          {% if page != subpage %}
+            {{ _self.subpage_menu(subpage, maxdepth, depth) }}
+          {% endif %}
         {% endfor %}
         </ul>
       {% endif %}

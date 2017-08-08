@@ -8,6 +8,7 @@ taxonomy:
   category: training
   tag: [leadership,business owners,managers,future leaders, induction]
   training_paths: [leadership]
+
 side_bar_menu: false
 
 ---

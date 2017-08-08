@@ -3,19 +3,23 @@ title: Leadership Training Pathway
 menu: Leadership Training Pathway
 slug: leadership
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: training
   tag: [leadership,business owners,managers]
 
 side_bar_menu: true
-template: modular_sidebar
-
 list_subpages: true
 
 content:
-  items: @self.children
+  items:
+    - '@taxonomy': 
+        category: training
+        tag: leadership
+    - '@self.children'
   order:
-    by: title
+    by: default
 
 ---
 

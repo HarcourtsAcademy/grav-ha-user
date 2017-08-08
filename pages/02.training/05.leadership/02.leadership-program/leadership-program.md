@@ -1,14 +1,14 @@
 ---
-title: Leadership Programme
-slug: leadership-programme
-onpage_menu: false
+title: Leadership Program
+slug: leadership-program
 published: true
 template: course
 
 taxonomy:
-  category: courses
+  category: training
   tag: [leadership,business owners,managers,future leaders, partners in excellence, the critical ingredient, effective marketing, establishing an auction culture, training and coaching your people, recruitment the life blood of your business, essentials of finance, building a business plan, communication profit from connections, know your people to manage their performance, the art of leadership, marketing for impact and influence, master mentor, building a secure business, advanced money matters, managing change]
-side_bar_menu: true;
+  training_paths: [leadership]
+side_bar_menu: false
 
 target_groups:
   - For all Harcourts business owners, managers and future leaders

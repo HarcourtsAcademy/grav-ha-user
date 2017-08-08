@@ -1,15 +1,14 @@
 ---
 title: Expert Panel Programme
 slug: expert-panel-programme
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
-  category: courses
+  category: training
   tag: [leadership,business owners,managers,future leaders]
   training_paths: [leadership]
-side_bar_menu: true;
+side_bar_menu: false
 
 ---
 
