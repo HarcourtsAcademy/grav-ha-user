@@ -1,6 +1,6 @@
 ---
-title: Sales Training
-menu: Sales
+title: Sales Training Pathway
+menu: Sales Training Pathway
 slug: sales
 onpage_menu: false
 published: true
