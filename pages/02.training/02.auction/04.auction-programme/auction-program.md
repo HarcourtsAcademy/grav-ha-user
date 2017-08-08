@@ -1,18 +1,15 @@
 ---
-title: Auction Training Pathway
-menu: Auction Training Pathway
-slug: auction
-onpage_menu: false
+title: Auction Program
+menu: Auction Program
+slug: auction-program
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: training
   tag: [training,sales,auction,sales consultants,business owners,auctioneer,managers]
-
-body_classes: "modular header-image fullwidth training"
-
-side_bar_menu: true;
+  training_paths: [auction]
+side_bar_menu: false
 
 ---
 
