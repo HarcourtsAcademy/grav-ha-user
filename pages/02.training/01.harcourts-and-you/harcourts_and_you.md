@@ -1,13 +1,13 @@
 ---
-title: Harcourts and You (Induction)
-menu: Induction
+title: Harcourts and You Induction
+menu: Harcourts and You Induction
 slug: harcourts-and-you
 published: true
 template: course
 
 taxonomy:
   category: training
-  tag: [training,featured,induction]
+  tag: [training,featured,induction,leadership,sales,property management,administration,auction]
   training_paths: [sales-new, sales-experienced, auction, leadership]
 
 routes:
@@ -21,8 +21,6 @@ mautic:
   prefill:
     - fieldid: mauticform_input_registrationrequest_course_name
       fieldvalue: Harcourts and You
-
-#side_bar_menu: true;
 
 course_information:
   - key: Duration
