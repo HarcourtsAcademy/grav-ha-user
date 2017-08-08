@@ -17,11 +17,11 @@ side_bar_menu: true
 visible: true
 ---
 
-Download the latest Academy training calendars for Australia, New Zealand and the USA:
+Download the latest Academy training calendars for [Australia](#australia), [New Zealand](#new-zealand) and the [USA](#usa):
 
 ===
 
-## Australia Training Calendars {#australia}
+## Australia Training Calendars {#australia .anchor}
 * [New South Wales 2017 Calendar](_calendars/2017/NSW-Training-Calendar-2017.pdf)
 * [Queensland 2017 Calendar](_calendars/2017/QLD-Training-Calendar-2017.pdf)
 * [South Australia 2017 Calendar](_calendars/2017/SA-Training-Calendar-2017.pdf)
@@ -29,14 +29,14 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [Victoria 2017 Calendar](_calendars/2017/Vic-Training-Calendar-2017.pdf)
 * [Western Australia 2017 Calendar](_calendars/2017/WA-Training-Calendar-2017.pdf)
 
-## New Zealand Training Calendars {#new-zealand}
+## New Zealand Training Calendars {#new-zealand .anchor}
 <!--* Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx)-->
 * [Central Region 2017 Calendar](_calendars/2017/NZ-Central-Training-Calendar-2017.pdf)
 * [South Island Region 2017 Calendar](_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf)
 * [Northern Region 2017 Calendar](_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf)
 * [Wellington Region 2017 Calendar](_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf)
 
-## USA Training Calendar {#usa}
+## USA Training Calendar {#usa .anchor}
 * [USA 2017 Calendar](_calendars/2017/USA-Training-Calendar-2017.pdf)
 
 ## Upcoming Training
