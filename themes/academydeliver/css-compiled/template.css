@@ -257,7 +257,9 @@ b, strong, label, th {
         #header ul.navigation li:focus .onclick-menu-items {
           opacity: 1;
           visibility: visible;
-          pointer-events: auto; }
+          pointer-events: auto;
+          max-height: 80vh;
+          overflow: scroll; }
         #header ul.navigation li.onclick-menu:focus {
           pointer-events: none; }
         #header ul.navigation li a {
