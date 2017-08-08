@@ -44,7 +44,7 @@ $panel-text:        #ddd;
                 }
 
                 &:hover {
-                    color: lighten($panel-text,20%);
+                    color: $core-accent;
                     background-color: darken($sidebar-color,5%);
                 }
 
@@ -80,6 +80,9 @@ $panel-text:        #ddd;
             &.onclick-menu:focus .onclick-menu-items a {
                 background-color: unset;
                 color: $panel-text;
+                &:hover {
+                    color: $core-accent;
+                }
             }
             &.active {
                 & > a {

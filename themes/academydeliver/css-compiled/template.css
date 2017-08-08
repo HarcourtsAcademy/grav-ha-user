@@ -76,7 +76,7 @@ b, strong, label, th {
 
 #body {
   background: #fff;
-  padding-top: 15rem; }
+  padding-top: 13rem; }
 
 #content {
   margin: 1rem 0; }
@@ -149,7 +149,7 @@ b, strong, label, th {
   position: fixed;
   z-index: 11;
   width: 100%;
-  height: 6rem;
+  height: 5rem;
   background-color: rgba(0, 31, 73, 0.7);
   border-bottom: 1px solid #00adef;
   text-align: center; }
@@ -179,10 +179,10 @@ b, strong, label, th {
       max-height: 42px; }
   #header .header-links {
     position: relative;
-    top: 10%; }
-    @media only all and (min-width: 48em) {
+    top: 13%; }
+    @media only all and (max-width: 47.938em) {
       #header .header-links {
-        top: 15%; } }
+        top: 0; } }
     @media only all and (max-width: 47.938em) {
       #header .header-links .header-buttons .search-box {
         display: none; } }
@@ -193,17 +193,18 @@ b, strong, label, th {
     text-transform: uppercase; }
     #header ul.navbar, #header ul.login, #header ul.contact-us {
       font-size: 14px;
-      color: white;
+      color: #9A9898;
       text-transform: uppercase;
       float: right;
       margin: 0; }
       @media only all and (min-width: 48em) {
         #header ul.navbar, #header ul.login, #header ul.contact-us {
           line-height: 2rem; } }
-      #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
-        border-bottom: 1px solid transparent; }
-        #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
-          border-bottom: 1px solid white; }
+      #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
+        color: #00adef; }
+        @media only all and (max-width: 47.938em) {
+          #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
+            color: white; } }
       #header ul.navbar li, #header ul.login li, #header ul.contact-us li {
         text-align: center;
         margin-left: 0.8rem;
@@ -229,8 +230,7 @@ b, strong, label, th {
         float: left;
         position: relative;
         cursor: pointer;
-        outline: 0;
-        border-bottom: 1px solid transparent; }
+        outline: 0; }
         #header ul.navigation li.onclick-menu .onclick-menu-items {
           position: absolute;
           z-index: 1;
@@ -256,10 +256,8 @@ b, strong, label, th {
           padding: 0.3rem 0.7rem; }
           #header ul.navigation li a i.fa {
             font-size: 75%; }
-        #header ul.navigation li:hover, #header ul.navigation li:focus, #header ul.navigation li:active {
-          border-bottom: 1px solid white; }
-          #header ul.navigation li:hover a, #header ul.navigation li:focus a, #header ul.navigation li:active a {
-            color: white; }
+        #header ul.navigation li:hover a, #header ul.navigation li:focus a, #header ul.navigation li:active a {
+          color: #00adef; }
         #header ul.navigation li ul {
           padding: 0; }
           #header ul.navigation li ul li {
@@ -361,11 +359,11 @@ b, strong, label, th {
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
 .header-image #body .slideme_container .showcase {
-  margin-top: -15.5rem;
-  padding-top: 16rem; }
-.header-image #body .showcase_container .showcase {
-  margin-top: -15.5rem;
+  margin-top: -13.5rem;
   padding-top: 14rem; }
+.header-image #body .showcase_container .showcase {
+  margin-top: -13.5rem;
+  padding-top: 12rem; }
 .header-image #header #logo h3, .header-image #header #logo a {
   color: #ffffff; }
 .header-image #header a, .header-image #header .menu-btn {
@@ -844,7 +842,7 @@ dt, dd {
         #panel .navigation li a i.fa {
           font-size: 75%; }
         #panel .navigation li a:hover {
-          color: white;
+          color: #00adef;
           background-color: #001430; }
         #panel .navigation li a:last-child {
           border-bottom: 0; }
@@ -872,6 +870,8 @@ dt, dd {
       #panel .navigation li.onclick-menu:focus .onclick-menu-items a {
         background-color: unset;
         color: #ddd; }
+        #panel .navigation li.onclick-menu:focus .onclick-menu-items a:hover {
+          color: #00adef; }
       #panel .navigation li.active > a {
         color: #00adef !important; }
         #panel .navigation li.active > a:hover {
@@ -1320,8 +1320,8 @@ img.inline-left {
 
 .slideme_container {
   overflow: hidden;
-  margin-top: -15rem;
-  padding-top: 15rem;
+  margin-top: -13rem;
+  padding-top: 13rem;
   height: 34.7rem; }
   .slideme_container:after {
     content: "";
@@ -1338,8 +1338,8 @@ img.inline-left {
 
 .showcase_container {
   overflow: hidden;
-  margin-top: -15rem;
-  padding-top: 13rem;
+  margin-top: -13rem;
+  padding-top: 11rem;
   position: relative; }
   .showcase_container:after {
     content: "";

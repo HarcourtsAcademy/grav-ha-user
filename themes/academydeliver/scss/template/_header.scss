@@ -39,11 +39,11 @@
     }
     .header-links {
         position: relative;
-        top: 10%;
+        top: 13%;
         @extend .padding-horiz;
 
-        @include breakpoint(no-mobile) {
-            top: 15%
+        @include breakpoint(mobile-only) {
+            top: 0;
         }
 
         .header-buttons {
@@ -57,7 +57,7 @@
     ul {
         &.navbar, &.login, &.contact-us {
             font-size: $font-size-base;
-            color: white;
+            color: $core-text;
             text-transform: uppercase;
             float: right;
             margin: 0;
@@ -66,10 +66,11 @@
                 line-height: 2rem;
             }
             a {
-                border-bottom: 1px solid transparent;
                 &:hover {
-                    // background: $core-accent-dark;
-                    border-bottom: 1px solid white;
+                    color: $core-accent;
+                    @include breakpoint(mobile-only) {
+                        color: white;
+                    }
                 }
             }
 
@@ -114,7 +115,6 @@
                 position: relative;
                 cursor: pointer;
                 outline: 0;
-                border-bottom: 1px solid transparent;
 
                 &.onclick-menu .onclick-menu-items {
                     position: absolute;
@@ -149,10 +149,8 @@
                     }
                 }
                 &:hover, &:focus, &:active {
-                    border-bottom: 1px solid white;
-
                     a {
-                        color: white;
+                        color: $core-accent;
                     }
                 }
                 ul {
