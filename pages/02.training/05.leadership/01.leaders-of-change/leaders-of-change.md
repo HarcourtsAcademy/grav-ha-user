@@ -1,15 +1,14 @@
 ---
 title: Leaders of Change
 slug: leaders-of-change
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
-  category: courses
+  category: training
   tag: [leadership,business owners,managers,future leaders, induction]
   training_paths: [leadership]
-side_bar_menu: true;
+side_bar_menu: false
 
 ---
 

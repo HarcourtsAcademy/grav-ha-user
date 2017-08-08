@@ -9,10 +9,8 @@ taxonomy:
         - sales
         - commercial
         - 'commercial sales consultants'
-body_classes: 'modular header-image fullwidth training'
-banner_image: 'theme://images/banners/training.jpg'
-side_bar_menu: true;
-template: modular_sidebar
+side_bar_menu: false
+template: course
 
 ---
 
