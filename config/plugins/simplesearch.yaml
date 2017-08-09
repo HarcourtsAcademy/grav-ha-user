@@ -3,5 +3,5 @@ built_in_css: true
 route: /search
 template: simplesearch_results
 filters:
-    category: [training,qualifications,online learning,online learning bites,about us]
+    category: [courses,qualifications,online learning,online learning bites,about us]
 filter_combinator: or
