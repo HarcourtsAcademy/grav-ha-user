@@ -1,7 +1,6 @@
 ---
 title: Learning Bites
 template: 'modular/learning-bites'
-onpage_menu: false
 
 taxonomy:
   category: online_learning

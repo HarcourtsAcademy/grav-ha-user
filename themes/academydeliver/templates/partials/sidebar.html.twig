@@ -78,10 +78,10 @@
       {% endfor %}
     </div>
     {% endif %}
-    {% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
+    {% if config.plugins.taxonomylist.enabled and 'tv' in page.taxonomy.category%}
     <div class="sidebar-content">
-        <h4>Learning Bite Topics</h4>
-        {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/tv/bites', 'taxonomy':'topic'} %}
+        <h4>Topics</h4>
+        {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/tv/all', 'taxonomy':'content'} %}
     </div>
     {% endif %}
 {% endif %}
