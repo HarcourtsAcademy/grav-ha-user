@@ -93,7 +93,7 @@ This session is designed to expand your knowledge of the auction system and the 
 This workshop series has been designed for Business Owners, Managers and Future Leaders, wanting to increase their skills or refresh their knowledge in a particular area of leadership.
 
 ## Training Requirements
-Completion of [Leaders of Change](/training/leadership/leaders-of-change)
+Completion of [Leaders of Change](/courses/leadership/leaders-of-change)
 
 ## Course Fee
 All sales workshops are complimentary

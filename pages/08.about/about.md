@@ -33,7 +33,7 @@ Registering for training is quick and simple. Our training pathways allow you to
 
 Our programmes, workshops and webinars are available in all regions throughout the year.
 
-[Learn More](/courses/training-pathways){.button .button-small}
+[Learn More](/landing/training-pathways){.button .button-small}
 
 
 ## Leadership - Guiding futures.
