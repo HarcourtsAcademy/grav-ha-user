@@ -171,7 +171,11 @@
 
           {% if page.header.taxonomy.training_paths %}
             <h2>Training Pathways</h2>
+            {% if page.header.taxonomy.training_paths|length > 1 %}
+            <p>{{ page.title }} are offered in the following Training Pathways:</p>
+            {% else %}
             <p>{{ page.title }} is offered in the following Training Pathways:</p>
+            {% endif %}
             <ul>
             {% for pathway in page.header.taxonomy.training_paths %}
               {% set pathwaycollection = taxonomy.findTaxonomy( { 'category': 'training_pathway', 'tag': pathway } ).order('folder', 'asc')  %}

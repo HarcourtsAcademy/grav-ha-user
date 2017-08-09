@@ -1,26 +1,18 @@
 ---
 title: Social Savvy Workshop
 slug: social-savvy
-onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: training
-  tag: [training,sales,workshops,sales consultants,business owners,managers,post pin tweet]
-
-routes:
-  aliases:
-    - '/courses/sales/sales-workshops/post-pin-tweet'
-side_bar_menu: true;
+  tag: [training,sales,workshops,sales consultants,business owners,managers,post pin tweet, socialsavvy]
 
 ---
 
 Are you looking for a more cost effective way to get in front of prospects? Searching for a better way to research and monitor what people are saying about your business and the real estate industry? Wanting to build trust and improve your online brand presence? If you are ready to turn your marketing up a level, then this workshop is a must to attend.
 
 ===
-
-![](social-savvy@2x.jpg)
 
 **Target group**: Consultants wishing to gain a better understanding of how to create and manage their online social presence. Suitable for beginner to intermediate levels of online marketing experience.
 

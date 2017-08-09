@@ -1,16 +1,14 @@
 ---
 title: iStart Online
 slug: istart
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
-  category: courses
-  tag: [online_learning,courses,sales,sales programme,istart,istart24,sales consultants]
-  country: [australia, canada, new zealand, usa, south africa]
+  category: training
+  tag: [online learning,sales,sales consultants]
+  country: [australia, canada, indonesia, new zealand, usa, south africa]
   training_paths: [sales-new]
-side_bar_menu: true;
 
 youtube:
     player_parameters:
@@ -57,4 +55,4 @@ iStart Online consists of 12 workshops
 This programme is designed for new to real estate salespersons as well as those who operate as a personal or buyer’s assistant.
 
 ## Course Fee
-$60.00 / ZAR R250  (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Programme)
+$60.00 / ZAR R250  (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program)

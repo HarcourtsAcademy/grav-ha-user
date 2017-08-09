@@ -1,19 +1,17 @@
 ---
 title: Agents of Change
 slug: agents-of-change
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
   category: training
-  tag: [training,sales,sales consultants]
+  tag: [training,sales,sales consultants,experienced]
   training_paths: [sales-experienced]
 
 routes:
   aliases:
     - '/agents-of-change'
-side_bar_menu: true;
 
 ---
 
