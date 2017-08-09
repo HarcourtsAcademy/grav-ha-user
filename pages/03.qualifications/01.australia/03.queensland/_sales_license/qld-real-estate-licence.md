@@ -1,16 +1,16 @@
 ---
 title: Queensland Real Estate Licence
 slug: queensland-real-estate-licence
-onpage_menu: false
 published: false
 template: course
 
 taxonomy:
   category: qualifications
   tag: [queensland,sales consultants,sales licence,real estate licence,sales]
+  role: [sales consultant,property manager,auctioneer,business owner]
+  topic: [sales,property management,auctioneering]
   country: australia
   region: queensland
-side_bar_menu: true
 
 target_groups:
   - Those who wish to become registered real estate salespersons in Australia
@@ -63,7 +63,7 @@ course_costs:
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
 online_learning:
-  name: Sales Licence Online
+  name: Queensland Sales Licence Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=110
 
 disclaimer: true

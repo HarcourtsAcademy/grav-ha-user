@@ -1,21 +1,21 @@
 ---
 title: Western Australia Property Management Registration
 menu: Property Management Registration
-slug: western-australia-property-management-registration
+slug: property-management-registration
 template: course
-onpage_menu: false
 published: true
+
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification,property management registration,property management,property managers,western australia]
+  tag: [online learning,property management registration]
+  role: property manager
+  topic: property management
   country: australia
-  region: western-australia
-side_bar_menu: true
+  region: western australia
 
 target_groups:
   - New and experienced property managers
   - Office managers and business owners wanting to stay current in The Harcourts Way and those wanting to achieve their real estate licence
-
 
 course_content :
   - title: Programme Content

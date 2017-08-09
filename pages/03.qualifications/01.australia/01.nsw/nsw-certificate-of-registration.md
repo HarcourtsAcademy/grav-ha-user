@@ -1,15 +1,15 @@
 ---
 title: New South Wales Certificate of Registration
 menu: New South Wales
-slug: new-south-wales
-onpage_menu: false
+slug: nsw-certificate-of-registration
 published: true
+template: course
+
 taxonomy:
   category: qualifications
   tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants]
   country: australia
   region: new-south-wales
-side_bar_menu: true
 
 target_groups:
   - Those who wish to become registered real estate salespersons in Australia
@@ -43,8 +43,6 @@ core_qualification_units:
 course_structure: A blended learning programme that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 
 elective_qualification_units:
-  course_name: Sales Programme
-  course_link: /courses/sales/sales-programme
   course_units:
   - id: CPPDSM4003
   - id: CPPDSM4005
@@ -56,10 +54,11 @@ elective_qualification_units:
 
 further_information: |
   For New South Wales legislation and other information visit [NSW Fair Trading](http://www.fairtrading.nsw.gov.au/).
+  
   [Register for next course](http://newsouthwales.harcourts.com.au/Home/Certificate-of-Registration/101443){.button}
 
 online_learning:
-  name: Certificate of Registration Online
+  name: NSW Certificate of Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
 
 disclaimer: true

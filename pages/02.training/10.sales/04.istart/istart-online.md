@@ -6,8 +6,10 @@ template: course
 
 taxonomy:
   category: training
-  tag: [online learning,sales,sales consultants]
-  country: [australia, canada, indonesia, new zealand, usa, south africa]
+  tag: [online learning]
+  role: sales consultant
+  topic: sales
+  country: [australia,canada,indonesia,new zealand,usa,south africa]
   training_paths: [sales-new]
 
 youtube:

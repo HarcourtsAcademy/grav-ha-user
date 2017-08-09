@@ -1,17 +1,17 @@
 ---
 title: Victoria Agents' Representative
 menu: Victoria
-slug: victoria
-onpage_menu: false
+slug: victoria-agents-representative
 published: true
 template: course
 
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,victoria]
+  tag: [online learning]
+  role: [sales consultant]
+  topic: [sales]
   country: australia
   region: victoria
-side_bar_menu: true
 
 target_groups:
   - People who wish to become registered agents’ representatives in Victoria. Usually this group will have had little or no experience in the industry.
@@ -66,7 +66,7 @@ further_information: For Victoria legislation and other information visit [Consu
 disclaimer: true
 
 online_learning:
-  name: Agents Rep. Online
+  name: Victoria Agents Representative Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=106
 
 ---

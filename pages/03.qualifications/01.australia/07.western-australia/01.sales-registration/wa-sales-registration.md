@@ -1,16 +1,18 @@
 ---
 title: Western Australia Sales Registration
 menu: Sales Registration
-slug: western-australia-sales-registration
+slug: sales-registration
 template: course
 onpage_menu: false
 published: true
+
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification,sales registration,sales,sales consultants,western australia]
+  tag: [online learning,qualification,sales registration,sales,sales consultants,western australia]
+  role: sales consultant
+  topic: sales
   country: australia
-  region: western-australia
-side_bar_menu: true
+  region: western australia
 
 target_groups:
   - Those who wish to become registered real estate salespersons in Australia

@@ -1,14 +1,17 @@
 ---
-title: Western Australia CPD
-slug: western-australia-cpd
-onpage_menu: false
+title: Western Australia Continuing Professional Development
+menu: Continuing Professional Development
+slug: cpd
 published: true
+template: course
+
 taxonomy:
-  category: courses
-  tag: [online_learning,courses,continuing professional development,cpd,continuing education,ce]
+  category: qualifications
+  tag: [online learning,continuing professional development,cpd]
+  role: [sales consultant,property manager,auctioneer,business owner]
+  topic: [sales,property management,auctioneering]
   country: australia
-  region: western-australia
-side_bar_menu: true;
+  region: western australia
 
 ---
 
@@ -72,7 +75,7 @@ Harcourts Academy can provide 7 elective points. The 3 mandatory points must be 
 
 <dl class="dl-horizontal">
   <dt>Classroom</td>
-  <dd markdown="1">Visit [Harcourts One](http://one.harcourts.com.au) and look for CPD training in the Event Calendar. (Our [annual classroom training calendars](/courses/calendars-and-upcoming-courses) are online)</dd>
+  <dd markdown="1">Visit [HarcourtsOne](http://one.harcourts.com.au) and look for CPD training in the Event Calendar. (Our [annual classroom training calendars](/courses/calendars/au/western-australia) are online)</dd>
   <dt>Online</td>
   <dd markdown="1">Gain all your elective CPD points online. Two 3.5 point workshops are available for $60 (inc. GST) each. To begin [contact your local Academy](/about-us/contact-us/locations/western-australia)</dd>
   <dt>Online</td>

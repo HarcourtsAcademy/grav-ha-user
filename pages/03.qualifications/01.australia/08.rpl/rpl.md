@@ -1,15 +1,16 @@
 ---
-title: Australia Recognition of Prior Learning (RPL)
+title: Recognition of Prior Learning (RPL)
 menu: Recognition of Prior Learning (RPL)
 slug: rpl
-template: modular_sidebar
-onpage_menu: false
 published: true
+template: modular_alt
+
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,australia]
+  tag: [online learning,sales registration,property management registration,auctioneering,real estate licence]
+  role: [sales consultant,property manager,auctioneer,business owner]
+  topic: [sales,property management,auctioneering]
   country: australia
-side_bar_menu: true
 
 ---
 

@@ -1,16 +1,17 @@
 ---
 title: South Australia Sales Registration
 menu: South Australia
-slug: south-australia
-template: course
-onpage_menu: false
+slug: south-australia-sales-registration
 published: true
+template: course
+
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,south australia]
+  tag: [online learning]
+  role: [sales consultant,property manager,auctioneer,business owner]
+  topic: [sales,property management,auctioneering]
   country: australia
-  region: south-australia
-side_bar_menu: true
+  region: south australia
 
 target_groups:
   - Those who wish to become registered real estate salespersons in Australia
@@ -55,7 +56,7 @@ further_information: For South Australia legislation and other information visit
 disclaimer: true
 
 online_learning:
-  name: Sales Registration Online
+  name: South Australia Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=127
 
 ---

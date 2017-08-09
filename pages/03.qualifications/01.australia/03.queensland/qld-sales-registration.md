@@ -2,23 +2,22 @@
 title: Queensland Sales Registration
 menu: Queensland
 slug: queensland-sales-registration
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,queensland,sales consultants,sales registration,sales]
+  tag: [online learning]
+  role: [sales consultant]
+  topic: [sales]
   country: australia
   region: queensland
-side_bar_menu: true
 
 target_groups:
   - Those who wish to become registered real estate salespersons in Australia
   - Existing real estate salespersons moving interstate or from another country wishing to register as a salesperson
   - People from other sectors of the real estate industry wishing to further develop their knowledge or skills in specific areas
   - Managers wishing to have a clearer understanding of what their new recruits are learning
-
 
 course_content :
   - title: The Programme
@@ -55,7 +54,7 @@ elective_qualification_units:
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
 online_learning:
-  name: Sales Registration Online
+  name: Queensland Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=5
 
 disclaimer: true
