@@ -5,19 +5,12 @@ visible: false
 date: 27-01-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [customer service]
   format: [audio]
   audience: [office administrations,sales consultants,property managers,business owners,managers]
   people: [mike green]
-
-
-body_classes: "header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
-jscomments:
-  active: true
 
 metadata:
     description: 'Mike Green, Managing Director of Harcourts International, discusses Harcourts approach to customer service.'

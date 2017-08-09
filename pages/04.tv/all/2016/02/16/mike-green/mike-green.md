@@ -5,15 +5,13 @@ visible: false
 date: 16-02-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [leadership,recruitment]
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [mike green]
 
-jscomments:
-  active: true
 
 metadata:
     description: 'Mike Green, Managing Director of Harcourts International, discusses the importance of leadership in every real estate business, recruitment strategies and more.'

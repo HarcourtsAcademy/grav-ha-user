@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/01/anders-sorman-nilsson'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [sales, customer service]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [anders sorman-nilsson]
-jscomments:
-  active: true
 
 metadata:
     description: 'Kickstart your 2017 with some tips from Anders Sorman-Nilsson. What does the future of your business look like? What are the moments of friction in your current customer journeys? What can you do to alleviate them? How can you amplify the positive feelings that your customers experience?'

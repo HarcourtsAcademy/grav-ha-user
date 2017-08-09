@@ -10,7 +10,7 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [learning bites]
+  tag: []
   content: [marketing, customer service]
   format: [interview]
   audience: [property managers, sales consultants,business owners,managers]

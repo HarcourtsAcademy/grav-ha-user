@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/03/dexter-prack'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [auction,marketing]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [dexter prack]
-jscomments:
-  active: true
 
 metadata:
     description: 'Dexter Prack overviews some of his recent successful marketing campaigns and explains why his business is pushing auctions.'

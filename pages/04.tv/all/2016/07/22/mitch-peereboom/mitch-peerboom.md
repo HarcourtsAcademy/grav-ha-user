@@ -10,7 +10,7 @@ routes:
 
 taxonomy:
   category: [tv]
-  tag: [learning bites]
+  tag: []
   content: [auction]
   format: [audio]
   audience: [sales consultants,business owners,managers]

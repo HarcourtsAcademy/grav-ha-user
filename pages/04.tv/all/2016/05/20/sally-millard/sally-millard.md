@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/05/sally-millard'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [social media]
   format: [interview]
   audience: [property managers,property managers,business owners,managers]
   people: [sally millard]
-jscomments:
-  active: true
 
 metadata:
     description: 'Sally Millard explains how Harcourts Rental Management Solutions grew their rent roll of over 700 properties organically and through acquisition.'

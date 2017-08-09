@@ -5,15 +5,13 @@ visible: false
 date: 23-03-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [success]
   format: [audio]
   audience: [sales consultants,property managers,business owners,managers]
   people: [chris helder]
 
-jscomments:
-  active: true
 
 metadata:
     description: 'Chris Helder explains Code Success versus Code Failure and what he was doing when at his most successful.'

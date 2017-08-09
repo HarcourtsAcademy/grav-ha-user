@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/07/gilbert-enoka'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [sales]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [gilbert enoka]
-jscomments:
-  active: true
 
 metadata:
     description: 'All Blacks manager of leadership, Gilbert Enoka, runs us through some of the key aspects of what it takes to achieve your personal growth goals.'

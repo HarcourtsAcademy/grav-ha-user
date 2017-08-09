@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/08/mitch-peerboom'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [auction]
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [mitch peerboom]
-jscomments:
-  active: true
 
 metadata:
     description: 'Mitch Peereboom runs us through a few of the more common scenarios and questions he has come across in regards to the auction process and how he handles them as Chief Auctioneer of Harcourts Queensland.'

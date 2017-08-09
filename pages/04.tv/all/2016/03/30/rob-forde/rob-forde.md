@@ -5,18 +5,11 @@ visible: false
 date: 30-03-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [rob forde]
-
-
-body_classes: "header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
-jscomments:
-  active: true
 
 metadata:
     description: 'Rob Forde Regional Director of Harcourts Pacific gives an update on the real estate market in the USA.'

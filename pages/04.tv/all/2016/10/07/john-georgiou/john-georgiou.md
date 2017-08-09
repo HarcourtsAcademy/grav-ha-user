@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/10/07/john-georgiou'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [commercial]
   format: [interview]
   audience: [commercial sales consultants,business owners,managers]
   people: [john georgiou]
-jscomments:
-  active: true
 
 metadata:
     description: 'What do you get when you combine a residential sales team and a commercial sales team? A winning combination. Director of NAI Harcourts Platinum John Georgiou, lists a few of the benefits since joining forces with Robert Ozzimo and the team from Harcourts Platinum.'

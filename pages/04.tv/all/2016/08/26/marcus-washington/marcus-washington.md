@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/08/marcus-washington'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [sales]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [marcus washington]
-jscomments:
-  active: true
 
 metadata:
     description: 'Marcus Washington has been having some serious success in the real estate game using social media. Want to know a few of his secrets? Watch our interview with him to find out more!'

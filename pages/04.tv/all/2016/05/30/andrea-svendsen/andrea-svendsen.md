@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/05/andrea-svendsen'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [home staging]
   format: [how to]
   audience: [sales consultants,property managers,business owners,managers]
   people: [andrea svendsen]
-jscomments:
-  active: true
 
 ---
 

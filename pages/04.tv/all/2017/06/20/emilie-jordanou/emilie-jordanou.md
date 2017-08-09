@@ -9,8 +9,8 @@ routes:
     - '/online-learning/interviews-at-academy/2017/06/emilie-jordanou'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [team, effective business unit, personal assistant]
   format: [interview]
   audience: [sales consultants,business owners,managers]

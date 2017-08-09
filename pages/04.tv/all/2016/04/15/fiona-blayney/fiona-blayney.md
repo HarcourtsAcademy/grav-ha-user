@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/04/fiona-blayney'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [social media]
   format: [interview]
   audience: [sales consultants,property managers,property managers,business owners,managers]
   people: [fiona blayney]
-jscomments:
-  active: true
 
 metadata:
     description: 'Short, sharp and to the point - Fiona Blayney explains what content you should be posting on social media to effectively market your business.'

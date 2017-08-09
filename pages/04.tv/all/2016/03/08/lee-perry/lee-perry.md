@@ -5,15 +5,13 @@ visible: false
 date: 08-03-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [listing]
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [lee perry]
 
-jscomments:
-  active: true
 
 metadata:
     description: 'Lee Perry, Director & Sales Executive at Harcourts Mandurah, discusses his pre-listing strategies that helped him become a top 10 Harcourts sales consultant worldwide in 2015.'

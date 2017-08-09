@@ -5,15 +5,13 @@ visible: false
 date: 16-03-2016
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [listing]
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [lee perry]
 
-jscomments:
-  active: true
 
 metadata:
     description: 'Lee Perry, Director & Sales Executive at Harcourts Mandurah, discusses the listing management strategies that helped his office become Harcourts #1 Australian office in 2015.'

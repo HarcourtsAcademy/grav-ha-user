@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/02/mitch-peerboom'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [auction]
   format: [audio]
   audience: [sales consultants,business owners,managers]
   people: [mitch peerboom]
-jscomments:
-  active: true
 
 metadata:
     description: 'Mitch Peereboom, Chief Auctioneer of Harcourts Queensland is back to give us some more sound advice on how to hold buyer interest through the auction process.'

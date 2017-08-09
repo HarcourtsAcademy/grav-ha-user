@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/03/bridget-gabites'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [sales, customer service]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [bridget gabites]
-jscomments:
-  active: true
 
 metadata:
     description: 'Want some ideas on how you can use your social media effectively to build your business and relationships with the public? Bridget Gabites tells us how having fun, being relatable, and being ‛real’ across her various social media platforms has helped her create stronger connections with her clients.'

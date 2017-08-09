@@ -17,7 +17,7 @@ taxonomy:
 
 content:
   items:
-    '@taxonomy.category': online_learning_bites
+    '@taxonomy.category': tv
   order:
     by: date
     dir: desc

@@ -9,14 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2016/06/tina-sander'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [sales]
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [tina sander]
-jscomments:
-  active: true
 
 metadata:
     description: 'Tina Sander speaks about the fundamentals of getting ahead in real estate sales.'

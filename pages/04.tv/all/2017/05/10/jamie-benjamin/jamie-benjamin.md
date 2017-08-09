@@ -9,8 +9,8 @@ routes:
     - '/online-learning/interviews-at-academy/2017/05/jamie-benjamin'
 
 taxonomy:
-  category: [online_learning, online_learning_bites]
-  tag: [learning bites]
+  category: [tv]
+  tag: []
   content: [auction, culture, customer service, customer experience]
   format: [interview]
   audience: [sales consultants,business owners,managers]
