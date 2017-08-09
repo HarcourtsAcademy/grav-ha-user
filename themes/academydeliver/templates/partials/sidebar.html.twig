@@ -63,27 +63,6 @@
   {% include 'partials/relatedpages.html.twig' %}
 </div>
 {% endif %}
-{% if 'courses' in page.taxonomy.category and 'calendars' not in page.taxonomy.tag %}
-<div class="sidebar-content">
-  <h4>Training Calendars</h4>
-  <ul class="calendar-links">
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#australia">Australia Calendars</a></li>
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#new-zealand">New Zealand Calendars</a></li>
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#usa">USA Calendar</a></li>
-    </ul>
-</div>
-<div class="sidebar-content">
-  <h4>Upcoming Training</h4>
-  <ul class="upcoming-training-links">
-    <li><a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a></li>
-<!--    <li><a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a></li> -->
-    <li><a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a></li>
-    <li><a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a></li>
-    <li><a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="nofollow">South Africa Upcoming Training</a></li>
-    <li><a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="nofollow">USA Upcoming Training</a></li>
-    </ul>
-</div>
-{% endif %}
 {% if page.header.side_bar_content %}
 {% set side_bar_content = page.header.side_bar_content %}
 <div class="sidebar-content">
