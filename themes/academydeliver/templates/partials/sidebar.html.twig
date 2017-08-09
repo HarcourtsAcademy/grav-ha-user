@@ -44,8 +44,15 @@
       {% endif %}
     {% endmacro %}
 
+    {% set hassubpages = false %}
+    {% for subpage in page.collection %}
+      {% if page != subpage and subpage.visible %}
+        {% set hassubpages = true %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if page.collection.count > 0 and hassubpages == true %}
     <div class="sidebar-content">
-      {% if page.collection.count > 0 %}
         <ul class="navigation">
         {% for subpage in page.collection %}
           {% if page != subpage %}
@@ -53,27 +60,28 @@
           {% endif %}
         {% endfor %}
         </ul>
-      {% endif %}
     </div>
-{% endif %}
-{### Related pages menu ###}
-{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
-<div class="sidebar-content">
-  <h4>Related Pages</h4>
-  {% include 'partials/relatedpages.html.twig' %}
-</div>
-{% endif %}
-{% if page.header.side_bar_content %}
-{% set side_bar_content = page.header.side_bar_content %}
-<div class="sidebar-content">
-  {% for item in side_bar_content %}
-    {{ item.content|markdown }}
-  {% endfor %}
-</div>
-{% endif %}
-{% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
-<div class="sidebar-content">
-    <h4>Learning Bite Topics</h4>
-    {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/online-learning/bites', 'taxonomy':'topic'} %}
-</div>
+    {% endif %}
+
+    {### Related pages menu ###}
+    {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+    <div class="sidebar-content">
+      <h4>Related Pages</h4>
+      {% include 'partials/relatedpages.html.twig' %}
+    </div>
+    {% endif %}
+    {% if page.header.side_bar_content %}
+    {% set side_bar_content = page.header.side_bar_content %}
+    <div class="sidebar-content">
+      {% for item in side_bar_content %}
+        {{ item.content|markdown }}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
+    <div class="sidebar-content">
+        <h4>Learning Bite Topics</h4>
+        {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/tv/bites', 'taxonomy':'topic'} %}
+    </div>
+    {% endif %}
 {% endif %}

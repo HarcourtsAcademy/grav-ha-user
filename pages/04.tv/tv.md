@@ -1,13 +1,13 @@
 ---
 title: Academy TV
-onpage_menu: false
 slug: tv
 published: true
+side_bar_menu: true
+template: modular_sidebar
+
 taxonomy:
   category: tv
   tag: []
-side_bar_menu: true
-template: modular_sidebar
 
 content:
   items: '@self.modular'
@@ -39,7 +39,7 @@ The Academy provides self-paced and webinar online learning across Australia, Ne
 Self-paced online learning is training that is consumed at your own pace using your own computer. Topics covering business planning and law, ethics and documentation are avilable now. Additional programmes are always being developed.
 
 ## Webinars
-Webinars are live online learning spaces where people meet to receive live training and participate in discussions and presentations.  During a webinar, each participant sits at his or her own computer and is connected to a presenter and other participants over the internet.  Webinars can be one-way, where the audience listens to a presenter, or collaborative, where the audience interacts with the presenter and other participants. Stay current while saving time and money by attending webinar training from your home or office. If you're unable to attend live, you can visit the [Harcourts Resource Library](/the-library) to watch any you've missed.
+Webinars are live online learning spaces where people meet to receive live training and participate in discussions and presentations.  During a webinar, each participant sits at his or her own computer and is connected to a presenter and other participants over the internet.  Webinars can be one-way, where the audience listens to a presenter, or collaborative, where the audience interacts with the presenter and other participants. Stay current while saving time and money by attending webinar training from your home or office. If you're unable to attend live, you can visit the [HarcourtsOne Library](https://library.harcourts.net/) to watch any you've missed.
 
 ## Benefits
 Real Estate professionals around the world are benefiting from online learning.  The benefits include:
