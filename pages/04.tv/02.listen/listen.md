@@ -4,18 +4,20 @@ menu: Sound Advice
 slug: listen
 published: true
 template: modular_sidebar
+side_bar_menu: true
+
+list_subpages: true
+list_subpage_dates: true
 
 taxonomy:
   category: tv
-  tag: [interview,interviews,listen,podcast,audio,sales,auction,office administrations,sales consultants,property managers,property managers,business owners,managers]
-side_bar_menu: true
-
-list_subpages: default
+  tag: [listen]
+  role: []
 
 content:
   items:
     '@taxonomy':
-      category: online_learning_bites
+      category: tv
       format: audio
   order:
     by: date

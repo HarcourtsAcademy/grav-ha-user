@@ -18,7 +18,7 @@ taxonomy:
 content:
   items:
     '@taxonomy':
-      category: online_learning_bites
+      category: tv
       format: interview
   order:
     by: date
