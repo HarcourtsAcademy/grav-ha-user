@@ -1,7 +1,7 @@
 ---
 title: Industry Qualifications
 menu: Qualifications
-slug: get-qualified
+slug: qualifications
 published: true
 
 taxonomy:
