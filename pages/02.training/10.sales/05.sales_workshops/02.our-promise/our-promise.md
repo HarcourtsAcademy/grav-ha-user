@@ -1,12 +1,12 @@
 ---
 title: Our Promise Workshop
 slug: our-promise
-onpage_menu: false
 published: true
+template: course
+
 taxonomy:
   category: training
-  tag: [training,sales,workshops,sales consultants,business owners,managers]
-side_bar_menu: true;
+  tag: [training,sales,workshops,sales workshop,sales consultants,business owners,managers]
 
 ---
 

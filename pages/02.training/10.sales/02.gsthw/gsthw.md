@@ -1,19 +1,17 @@
 ---
 title: Getting Started the Harcourts Way
 slug: getting-started-the-harcourts-way
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
   category: training
-  tag: [training,sales,sales programme,sales registration,sales consultants,administrators,buyer assistants,personal assistants]
+  tag: [training,sales,sales consultants,administrators,buyer assistants,personal assistants]
   training_paths: [sales-new]
 
 routes:
   aliases:
     - '/getting-started-the-harcourts-way'
-side_bar_menu: true;
 
 ---
 
@@ -44,7 +42,7 @@ TBD: INCLUDE per state fee table
 -	Getting Started the Harcourts Way Student Pack
 -	[iStart Online](/courses/sales/istart) –  coaching and accountability programme providing clear instruction and activities for new to the industry sales professionals.
 -	Harcourts Apps – 12-month subscription to Harcourts eOne, eCampaign & eOpen Apps
--	Graduate Day attendance
+-	[Graduate Day](/sales-graduate-day) attendance
 
 ## Availability
 Getting Started the Harcourts Way is presented in all the main Academy training centres by the Academy’s team of specialist trainers.

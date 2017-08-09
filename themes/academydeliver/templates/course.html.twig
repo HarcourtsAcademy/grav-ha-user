@@ -69,6 +69,15 @@
             {% endfor %}
           {% endif %}
 
+          {% set workshops = page.collection('workshops') %}
+          {% if workshops|length > 0 %}
+            <h2>Available Workshops</h2>
+            {% for workshop in workshops %}
+              <h3><a href="{{ workshop.url }}">{{ workshop.title }}</a></h3>
+              <p>{{ workshop.summary }}</p>
+            {% endfor %}
+          {% endif %}
+
           {% if page.header.qualification_units %}
           <h2>Industry Qualification Units Delivered</h2>
           <ul>

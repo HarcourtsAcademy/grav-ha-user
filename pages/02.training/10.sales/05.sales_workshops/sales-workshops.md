@@ -3,17 +3,17 @@ title: Sales Workshops
 slug: sales-workshops
 published: true
 template: course
-side_bar_menu: true
-list_subpages: true
 
 taxonomy:
   category: training
   tag: [training,sales,workshops,sales consultants,business owners,managers]
   training_paths: [sales-new, sales-experienced]
 
-content:
+workshops:
   items:
-    '@page.children'
+    '@taxonomy':
+      category: training
+      tag: ['sales workshop']
 
 ---
 
@@ -36,5 +36,3 @@ All sales workshops are complimentary
 
 ## Availability
 The Sales Workshop Series is presented in all the main Academy training centres by the Academy’s team of specialist trainers.
-
-## Available Workshops

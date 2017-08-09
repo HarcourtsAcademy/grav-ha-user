@@ -1,19 +1,17 @@
 ---
 title: Graduate Day
 slug: graduate-day
-onpage_menu: false
 published: true
 template: course
 
 taxonomy:
   category: training
-  tag: [training,sales,sales programme,sales registration,sales consultants]
+  tag: [training,sales,sales consultants,administrators,buyer assistants,personal assistants]
   training_paths: [sales-new]
 
 routes:
   aliases:
     - '/sales-graduate-day'
-side_bar_menu: true;
 
 ---
 

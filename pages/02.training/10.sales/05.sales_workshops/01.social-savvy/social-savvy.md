@@ -6,7 +6,7 @@ template: course
 
 taxonomy:
   category: training
-  tag: [training,sales,workshops,sales consultants,business owners,managers,post pin tweet, socialsavvy]
+  tag: [training,sales,workshops,sales workshop,sales consultants,business owners,managers,post pin tweet, socialsavvy]
 
 ---
 

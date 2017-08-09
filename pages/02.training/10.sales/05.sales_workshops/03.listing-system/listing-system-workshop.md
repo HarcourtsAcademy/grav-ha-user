@@ -1,20 +1,19 @@
 ---
 title: Listing System Workshop
 slug: listing-system
-onpage_menu: false
 published: true
+template: course
+
 taxonomy:
   category: training
-  tag: [training,sales,workshops,sales consultants,business owners,managers]
-side_bar_menu: true;
+  tag: [training,sales,workshops,sales workshop,sales consultants,business owners,managers]
+
 
 ---
 
 In line with our brand refresh we have reinvented our listing system and the products that sit within this range. Join us at the Academy to witness the transformation from the old to the new listing system and learn how to implement the new products into your business.
 
 ===
-
-![](listing-system@2x.jpg)
 
 **Target group**: New and experienced Harcourts team members in a sales or management role.
 
