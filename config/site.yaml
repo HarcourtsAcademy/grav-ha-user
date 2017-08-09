@@ -22,7 +22,7 @@ contact:
 metadata:
     description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
 
-taxonomies: [category,tag,country,region,topic,format,audience,people,training_paths,experience_level]
+taxonomies: [category,tag,country,region,role,topic,format,audience,people,training_paths,experience_level]
 
 othermenu:
   - text: "Privacy Policy"
