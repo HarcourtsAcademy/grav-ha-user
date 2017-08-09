@@ -200,6 +200,9 @@ qualification_units:
   CPPDSM3019:
     id: CPPDSM3019
     name: Communicate with clients in the property industry
+  CPPDSM4002:
+    id: CPPDSM4002A
+    name: Apply knowledge of state or territory legislative and regulatory framework to complete agency work
   CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
