@@ -39,16 +39,14 @@ studentlogin:
   icon: 'sign-in'
 
 quicklinks:
-  - text: "Courses"
+  - text: "Training"
     url: "base_url:courses"
   - text: "Qualifications"
     url: "base_url:get-qualified"
-  - text: "Online Learning"
-    url: "base_url:online-learning"
-  - text: "Library"
-    url: "base_url:the-library"
-  - text: "Speakers"
-    url: "base_url:speakers"
+  - text: "Academy TV"
+    url: "base_url:tv"
+  - text: "News"
+    url: "base_url:news"
   - text: "About Us"
     url: "base_url:about-us"
 
@@ -59,7 +57,7 @@ sidebar_navigation:
   maxdepth: 4
 
 blog:
-  route: '/blog'                            # Route to blog
+  route: '/news'                            # Route to blog
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
