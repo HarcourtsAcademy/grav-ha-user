@@ -1,16 +1,20 @@
 ---
 title: 2017 New Zealand REAA Continuing Education (CE)
-menu: New Zealand Continuing Education
+menu: Continuing Education
 slug: new-zealand-continuing-education
-onpage_menu: false
 published: true
-template: modular_sidebar
+template: modular_alt
 
 taxonomy:
   category: courses
-  tag: [online_learning,courses,continuing education,ce,continuing professional development,cpd]
+  tag: [online learning,continuing education,ce]
+  role: [sales consultant,business owner]
+  topic: [sales]
   country: [new zealand]
-side_bar_menu: true;
+
+routes:
+  aliases:
+    - '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
 
 ---
 
@@ -39,7 +43,7 @@ We **report** your results to the REAA on your behalf
 
 ## Get Started {#get-started}
 
-Register via Harcourts One to complete all 10 hours of Verifiable CE online
+Register via HarcourtsOne to complete all 10 hours of Verifiable CE online
 
 Module 1 (Topics 1-3)
 : [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4839){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=167&noprocess){.button}
@@ -175,7 +179,7 @@ The Academy is not offering 2016 Verifiable Continuing Education Referesher trai
 ## The Support Behind You
 - Contact your local Academy trainer for information, assistance and advice ([Northern and Central](/about-us/contact-us/locations/auckland), [Wellington](/about-us/contact-us/locations/wellington), [South Island](/about-us/contact-us/locations/christchurch)
 - Use the [Academy helpdesk](/about-us/contact-us/customer-support) during self-paced learning online
-- Go to [Harcourts One](http://one.harcourts.co.nz) > Search Directory > (your name) > Training Attended to access your classroom training attendance - records (Please note that your verifiable online CE records are updated nightly)
+- Go to [HarcourtsOne](http://one.harcourts.co.nz) > Search Directory > (your name) > Training Attended to access your classroom training attendance - records (Please note that your verifiable online CE records are updated nightly)
 - All verifiable training records will be sent to the REAA by Harcourts on your behalf
 
 <!-- ## Harcourts REINZ Classroom CE Training Calendar

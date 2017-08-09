@@ -1,14 +1,14 @@
 ---
 title: New Zealand National Certificate (Salesperson)
-menu: New Zealand
-slug: new-zealand
-onpage_menu: false
+menu: National Certificate
+slug: new-zealand-national-certificate
 published: true
+template: course
+
 taxonomy:
   category: qualifications
   tag: [online_learning,courses,qualification-region,qualification,national-certificate,sales,sales consultant,new zealand]
   country: 'new zealand'
-side_bar_menu: true
 
 target_groups:
   - Those who wish to become registered real estate salespersons in New Zealand
