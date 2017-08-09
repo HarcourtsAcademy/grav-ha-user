@@ -73,8 +73,10 @@
           {% if workshops|length > 0 %}
             <h2>Available Workshops</h2>
             {% for workshop in workshops %}
-              <h3><a href="{{ workshop.url }}">{{ workshop.title }}</a></h3>
-              <p>{{ workshop.summary }}</p>
+              <div class="subpage-item">
+                <h3><a href="{{ workshop.url }}">{{ workshop.title }}</a></h3>
+                <div>{{ workshop.summary }}</div>
+              </div>
             {% endfor %}
           {% endif %}
 

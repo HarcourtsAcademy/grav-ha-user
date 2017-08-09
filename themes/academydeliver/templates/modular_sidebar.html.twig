@@ -141,9 +141,11 @@
                   {% if subpage.routable %}
 
                       <h3><a href="{{ subpage.url }}">{{ subpage.title }}</a></h3>
+                      {% if page.header.list_subpage_dates %}
                       <div class="subpage-date">
                           {{ subpage.date|date(config.system.pages.dateformat.short) }}
                       </div>
+                      {% endif %}
                       <div>{{ subpage.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ subpage.url }}">
                         {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                       </a></div>
