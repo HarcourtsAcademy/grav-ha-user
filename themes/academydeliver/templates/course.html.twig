@@ -49,6 +49,14 @@
 
           {{ page.content }}
 
+          {% if page.header.online_learning %}
+          {% set online_learning = page.header.online_learning %}
+          <h3>Already Registered?</h3>
+          <div class="online-learning-link">
+            <a href="{{ online_learning.url }}" class="button button-secondary">Start {{ online_learning.name }}</a>
+          </div>
+          {% endif %}
+
           {% if page.header.target_groups %}
             {% if page.header.target_groups|length > 1 %}
               <h2>Target Groups</h2>
@@ -93,13 +101,13 @@
           <h2>The Core Qualification Units You Will Achieve</h2>
           <ul>
           {% for unit in page.header.core_qualification_units %}
-              <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
+              <li class="qualification-unit"><a href="http://training.gov.au/Training/Details/{{ site.qualification_units[unit.id].id|upper }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
           {% endfor %}
           </ul>
           {% endif %}
 
           {% if page.header.course_structure %}
-            <h2>Programme Structure</h2>
+            <h2>Program Structure</h2>
             <p>{{ page.header.course_structure|markdown }}</p>
           {% endif %}
 
@@ -111,7 +119,7 @@
               {{ page.header.elective_qualification_units.course_name }}
               </a>
             {% else %}
-              Elective Units Delivered Through This Programme
+              Elective Units Delivered Through This Program
             {% endif %}
           </h2>
           <ul>
