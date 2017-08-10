@@ -59,7 +59,14 @@ members:
       office: queensland
       email: ashley.dawes@harcourts.net
       bio: |
-        Ashley joins the Harcourts Team as Administrative Support in Brisbane’s Head Office. Her primary focus will be around providing quality administrative support, coordinating Academy events and promoting excellent culture within the Academy Team. With a background in administration and customer service in finance and insurance industries, Ashley is passionate about the effects that positive team culture and good communication have on the workplace, and seeks to promote these in her everyday work. 
+        Ashley joins the Harcourts Team as Administrative Support in Brisbane’s Head Office. Her primary focus will be around providing quality administrative support, coordinating Academy events and promoting excellent culture within the Academy Team. With a background in administration and customer service in finance and insurance industries, Ashley is passionate about the effects that positive team culture and good communication have on the workplace, and seeks to promote these in her everyday work.
+    - name: Paula Irvine
+      placeholder_image: placeholder-female.png
+      title: RTO Compliance Contractor
+      office: queensland
+      email: paula.irvine@harcourts.net
+      bio: |
+        Paula has over 30 years’ experience working in real estate and education and training. She holds a Batchelor of Arts (Adult Education), Certificate IV TAE, and has held real estate licenses in Queensland, the ACT and New South Wales. During her time as the General Manager of Property at Kaplan Professional, she developed strategic partnerships with all facets of the real estate industry to deliver real estate training and CPD. She has consistently developed and implemented initiatives that significantly improved business performance in all her education management roles. Paula’s strong leadership skills, financial management and ability to drive change has built her reputation as a professional, go-to person for any real estate training. 
 
 taxonomy:
   category: about_us

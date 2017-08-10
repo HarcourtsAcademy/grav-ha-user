@@ -8,10 +8,12 @@
           {% set firstname = member.name|split(" ")|first %}
           
           {% if member.image %}
-            {% set profileimage =  page.media[member.image].cropResize(226,300).quality(80).url %}
+            {% set profileimage      =  page.media[member.image].cropResize(226,300).quality(80).url %}
+            {% set profileimagemodal =  page.media[member.image].cropResize(399,289).quality(80).url %}
           {% endif %}
           {% if member.placeholder_image %}
-            {% set profileimage =  page.find('/images').media[member.placeholder_image].cropResize(226,300).quality(80).url %}
+            {% set profileimage      =  page.find('/images').media[member.placeholder_image].cropResize(226,300).quality(80).url %}
+            {% set profileimagemodal =  page.find('/images').media[member.placeholder_image].cropResize(399,289).quality(80).url %}
           {% endif %}
           {% set modalid = random() %}
 
@@ -31,7 +33,7 @@
                   <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
                   <div class="modal-body">
                       <h1>{{ member.name }}</h1>
-                      <img src="{{ page.media[member.image].cropResize(399, 289).url }}" class="img-responsive" alt="{{ portfolio.alt }}">
+                      <img src="{{ profileimagemodal }}" class="img-responsive" alt="{{ portfolio.alt }}">
                       <p>{{ member.bio|markdown }}</p>
                       <ul class="contact-icons">
                           <li><i class="fa fa-map-marker"></i> <a href="{{ officepage.url }}">{{ officepage.title  }}</a> </li>
