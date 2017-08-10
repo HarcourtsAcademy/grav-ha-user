@@ -95,7 +95,6 @@ $panel-text:        #ddd;
                 pointer-events: auto;
             }
             &.onclick-menu:focus {
-                pointer-events: none;
                 a {
                     color: $core-accent-dark;
                     background-color: white;

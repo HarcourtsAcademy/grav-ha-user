@@ -882,11 +882,9 @@ dt, dd {
         visibility: visible;
         transition: visibility 2s ease-in;
         pointer-events: auto; }
-      #panel .navigation li.onclick-menu:focus {
-        pointer-events: none; }
-        #panel .navigation li.onclick-menu:focus a {
-          color: #001f49;
-          background-color: white; }
+      #panel .navigation li.onclick-menu:focus a {
+        color: #001f49;
+        background-color: white; }
       #panel .navigation li.onclick-menu:focus .onclick-menu-items a {
         background-color: unset;
         color: #ddd; }
