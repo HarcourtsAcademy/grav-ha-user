@@ -247,7 +247,6 @@ b, strong, label, th {
           max-height: 80vh;
           overflow: auto; }
         #header ul.navigation li.onclick-menu:focus {
-          pointer-events: none;
           background-color: white; }
           #header ul.navigation li.onclick-menu:focus a {
             color: #001f49; }
@@ -813,7 +812,7 @@ dt, dd {
 
 .sb-slidebar {
   background-color: #001f49 !important;
-  width: 80vw !important; }
+  width: 100vw !important; }
   .sb-slidebar .search-box {
     color: #001f49; }
     .sb-slidebar .search-box i.fa {
@@ -831,10 +830,10 @@ dt, dd {
   color: #ddd; }
   #panel a.sb-close {
     position: fixed;
-    top: 0.6rem;
+    top: 0.4rem;
     right: 1rem;
     text-decoration: none !important;
-    font-size: 21px;
+    font-size: 1.8rem;
     font-weight: 700;
     line-height: 1;
     color: white;

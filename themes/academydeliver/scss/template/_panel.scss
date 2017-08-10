@@ -4,7 +4,7 @@ $panel-text:        #ddd;
 
 .sb-slidebar {
     background-color: $sidebar-color !important;
-    width: 80vw !important;
+    width: 100vw !important;
     .search-box {
         color: $sidebar-color;
 
@@ -28,10 +28,10 @@ $panel-text:        #ddd;
 
     a.sb-close {
         position: fixed;
-        top: 0.6rem;
+        top: 0.4rem;
         right: 1rem;
         text-decoration: none !important;
-        font-size: 21px;
+        font-size: 1.8rem;
         font-weight: 700;
         line-height: 1;
         color: white;
