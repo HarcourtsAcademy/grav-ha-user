@@ -7,17 +7,19 @@ $panel-text:        #ddd;
     width: 100vw !important;
     .search-box {
         color: $sidebar-color;
+        padding-top: 0.5rem;
 
         i.fa {
             color: $sidebar-color;
             position: fixed;
-            margin: 0.5rem;
+            margin: 0.7rem 0.5rem;
         }
         input[type="search"] {
             width: 100%;
             padding-left: 2rem;
             -webkit-appearance: none;
             border-radius: 0;
+            margin-bottom: 0 !important;
         }
     }
 }
@@ -26,10 +28,35 @@ $panel-text:        #ddd;
     padding-top: $panel-padding;
     color: $panel-text;
 
-    a.sb-close {
+    a.sb-home {
         position: fixed;
         top: 0.4rem;
+        left: 0.4rem;
+        padding: 0.5rem 0;
+        text-decoration: none !important;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1;
+        color: white;
+        text-shadow: 0 1px 0 #fff;
+        filter: alpha(opacity=20);
+
+        &:focus, &:hover {
+            text-decoration: none;
+            cursor: pointer;
+            filter: alpha(opacity=50);
+            opacity: .5;
+        }
+        &:hover {
+            color: $core-accent;
+        }
+    }
+
+    a.sb-close {
+        position: fixed;
+        top: 0.2rem;
         right: 1rem;
+        padding: 0.5rem 0;
         text-decoration: none !important;
         font-size: 1.8rem;
         font-weight: 700;

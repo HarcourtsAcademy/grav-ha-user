@@ -126,7 +126,6 @@
                     </li>
                     </ul>
                     {% endif %}
-                    {% if site.studentlogin.url %}
                     <ul class="contact-us">
                     <li>
                         <a href="{% if "base_url:" in site.contactus.url %}{{ base_url_absolute }}/{{ site.contactus.url|replace({"base_url:": ""}) }}{% else %}{{ site.contactus.url }}{% endif %}">
@@ -134,7 +133,6 @@
                         </a>
                     </li>
                     </ul>
-                    {% endif %}
                     <ul class="navbar">
                         <li class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
                             <span class="menu-btn-label">Menu</span>

@@ -111,7 +111,13 @@
             clear: right;
             text-align: left;
 
+            .sb-home {
+                display: none;
+            }
             .sb-close {
+                display: none;
+            }
+            .sb-contact-us {
                 display: none;
             }
             li {
