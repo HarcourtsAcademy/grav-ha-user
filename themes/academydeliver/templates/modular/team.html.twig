@@ -9,11 +9,11 @@
           
           {% if member.image %}
             {% set profileimage      =  page.media[member.image].cropResize(226,300).quality(80).url %}
-            {% set profileimagemodal =  page.media[member.image].cropResize(399,289).quality(80).url %}
+            {% set profileimagemodal =  page.media[member.image].cropResize(400,290).quality(80).url %}
           {% endif %}
           {% if member.placeholder_image %}
             {% set profileimage      =  page.find('/images').media[member.placeholder_image].cropResize(226,300).quality(80).url %}
-            {% set profileimagemodal =  page.find('/images').media[member.placeholder_image].cropResize(399,289).quality(80).url %}
+            {% set profileimagemodal =  page.find('/images').media[member.placeholder_image].cropResize(400,290).quality(80).url %}
           {% endif %}
           {% set modalid = random() %}
 
@@ -32,9 +32,9 @@
               <div class="modal-content">
                   <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
                   <div class="modal-body">
-                      <h1>{{ member.name }}</h1>
                       <img src="{{ profileimagemodal }}" class="img-responsive" alt="{{ portfolio.alt }}">
-                      <p>{{ member.bio|markdown }}</p>
+                      <h1>{{ member.name }}</h1>
+                      <h3>{{ member.title }} </h3>
                       <ul class="contact-icons">
                           <li><i class="fa fa-map-marker"></i> <a href="{{ officepage.url }}">{{ officepage.title  }}</a> </li>
                           {% if member.email %}
@@ -45,8 +45,7 @@
                           {% endif %}
                           <li><i class="fa fa-phone"></i> <a href="tel:officepage.header.office.phone">{{ officepage.header.office.phone }}</a></li>
                       </ul>
-                      <ul class="teammember-details">
-                      </ul>
+                      <p class="bio">{{ member.bio|markdown }}</p>
                       <button type="button" class="button-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                   </div>
               </div>

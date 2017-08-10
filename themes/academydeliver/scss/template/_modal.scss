@@ -49,8 +49,20 @@ body.modal-open {
         }
         img {
             float: left;
-            padding: 0.5rem 1rem 1rem;
+            padding: 0.5rem 1rem 1rem 0;
             max-width: 40vw;
+        }
+        h1 {
+            text-align: unset;
+        }
+        .contact-icons {
+            /* Prevent contact icons to wrap around the image. */
+            @media only all and (max-width: ((290px * 100) / 60)) {
+                padding-left: 40vw;
+            }
+        }
+        .bio {
+            clear: both;
         }
     }
 }

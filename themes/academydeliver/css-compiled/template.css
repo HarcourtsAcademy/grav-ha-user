@@ -984,8 +984,17 @@ body.modal-open {
         padding-bottom: 2rem; } }
     .modal.teammember-modal .modal-body img {
       float: left;
-      padding: 0.5rem 1rem 1rem;
+      padding: 0.5rem 1rem 1rem 0;
       max-width: 40vw; }
+    .modal.teammember-modal .modal-body h1 {
+      text-align: unset; }
+    .modal.teammember-modal .modal-body .contact-icons {
+      /* Prevent contact icons to wrap around the image. */ }
+      @media only all and (max-width: 483.33333px) {
+        .modal.teammember-modal .modal-body .contact-icons {
+          padding-left: 40vw; } }
+    .modal.teammember-modal .modal-body .bio {
+      clear: both; }
 
 .modal {
   display: none;
