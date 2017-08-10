@@ -160,10 +160,8 @@
                 ul {
                     padding: 0;
                     li {
-                        border-bottom: 0;
                         &:hover {
                             background-color: $core-accent-dark;
-                            border-bottom: 0;
                         }
                     }
                 }
@@ -194,7 +192,6 @@
                             color: $core-accent-dark;
 
                             &:hover, &:focus {
-                                border-bottom: 0;
                                 color: white;
                             }
 
@@ -230,6 +227,9 @@
         text-align: right;
         margin-right: 0.75rem;
         padding: 0;
+        &:hover i.fa {
+            color: $core-accent;
+        }
         i.fa {
             color: $header-text;
             float: right;
@@ -267,15 +267,11 @@
             font-size:  $core-font-size - 0.1rem;
             @include transition(all .5s);
 
-            &:hover {
-                border-bottom: 1px solid white;
-            }
             &:focus {
                 width: 12rem;
                 background-color: transparentize($header-text, 0.7);
                 cursor: auto;
                 color: $header-text;
-                border-bottom: 1px solid transparent;
             }
         }
 
