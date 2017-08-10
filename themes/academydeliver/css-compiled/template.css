@@ -383,7 +383,8 @@ b, strong, label, th {
   font-size: 0.9rem;
   background: #001f49;
   width: 100%;
-  padding-top: 2rem; }
+  padding-top: 2rem;
+  box-shadow: 0px 500px 0px 500px #001f49; }
   .footer:after {
     content: "";
     display: table;
@@ -414,8 +415,7 @@ b, strong, label, th {
       .footer ul.social-icons {
         float: none;
         clear: both;
-        width: 100%;
-        padding-top: 2rem; } }
+        width: 100%; } }
     .footer ul.social-icons li {
       float: left;
       width: 2.1rem;
@@ -449,8 +449,10 @@ b, strong, label, th {
     .footer .footer-module.large {
       width: 40%; }
     .footer .footer-module.centered {
-      text-align: center;
       width: 30%; }
+      @media only all and (min-width: 48em) {
+        .footer .footer-module.centered {
+          text-align: center; } }
     @media only all and (min-width: 30.063em) and (max-width: 47.938em) {
       .footer .footer-module {
         margin-top: 1rem;
