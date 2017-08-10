@@ -1,14 +1,14 @@
 ---
-title: Contact the Academy
-menu: Select Your Location
+title: Academy Locations
+menu: Locations
 onpage_menu: false
 slug: locations
 published: true
+
 taxonomy:
   category: about_us
-  tag: [about us]
 
-side_bar_menu: true;
+side_bar_menu: false
 list_locations: true
 
 sidebar-navigation:
