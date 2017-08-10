@@ -6,7 +6,7 @@ logo:
 author:
   name: Harcourts Academy
   email: 'academy@harcourts.net'
-  email_link: "base_url:about-us/contact-us/customer-support"
+  email_link: "base_url:about/contact-us"
   copyright: "&copy; Harcourts International Limited"
 social:
   - url: 'https://facebook.com/harcourtsacademy'
@@ -28,10 +28,10 @@ othermenu:
   - text: "Privacy Policy"
     url: "base_url:privacy"
   - text: "Contact Us"
-    url: "base_url:about-us/contact-us"
+    url: "base_url:about/contact-us"
 
 contactus:
-  url: "base_url:about-us/contact-us"
+  url: "base_url:about/contact-us"
   icon: comments-o
 
 studentlogin:
