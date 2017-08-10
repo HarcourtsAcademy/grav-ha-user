@@ -1,10 +1,11 @@
 ---
-title: Contact Us
-slug: contact-us
-onpage_menu: false
+title: Meet the Team
+slug: team
+template: modular_alt
+
 taxonomy:
   category: about_us
-  tag: [about us, contact us]
+  tag: [team]
 
 content:
     items: @self.modular
