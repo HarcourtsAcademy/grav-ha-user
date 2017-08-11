@@ -200,11 +200,15 @@ b, strong, label, th {
       @media only all and (min-width: 48em) {
         #header ul.navbar, #header ul.login, #header ul.contact-us {
           line-height: 2rem; } }
-      #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
-        color: #00adef; }
-        @media only all and (max-width: 47.938em) {
-          #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
-            color: white; } }
+      #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
+        background-color: #00adef;
+        padding: 0 0.5rem; }
+        #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
+          color: #00adef;
+          background-color: #f6f6f6; }
+          @media only all and (max-width: 47.938em) {
+            #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
+              color: white; } }
       #header ul.navbar li, #header ul.login li, #header ul.contact-us li {
         text-align: center;
         margin-left: 0.8rem;
@@ -251,14 +255,15 @@ b, strong, label, th {
           max-height: 80vh;
           overflow: auto; }
         #header ul.navigation li.onclick-menu:focus {
-          background-color: white; }
+          background-color: #f6f6f6; }
           #header ul.navigation li.onclick-menu:focus a {
             color: #001f49; }
         #header ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           font-size: 14px;
           display: inline-block;
-          padding: 0.3rem 0.7rem; }
+          padding: 0.3rem 0.7rem;
+          font-weight: bold; }
           #header ul.navigation li a i.fa {
             font-size: 75%; }
         #header ul.navigation li:hover a, #header ul.navigation li:focus a, #header ul.navigation li:active a {
@@ -273,7 +278,7 @@ b, strong, label, th {
         #header ul.navigation li:focus > ul, #header ul.navigation li:active > ul {
           display: block;
           position: absolute;
-          background: white;
+          background: #f6f6f6;
           width: 18rem; }
         #header ul.navigation li:focus li, #header ul.navigation li:active li {
           float: none;
@@ -285,7 +290,7 @@ b, strong, label, th {
             text-transform: none;
             color: #001f49; }
             #header ul.navigation li:focus li a:hover, #header ul.navigation li:focus li a:focus, #header ul.navigation li:active li a:hover, #header ul.navigation li:active li a:focus {
-              color: white; }
+              color: #f6f6f6; }
             #header ul.navigation li:focus li a:before, #header ul.navigation li:focus li a:after, #header ul.navigation li:active li a:before, #header ul.navigation li:active li a:after {
               display: none; }
           #header ul.navigation li:focus li.active > a, #header ul.navigation li:active li.active > a {

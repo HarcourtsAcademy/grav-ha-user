@@ -66,8 +66,11 @@
                 line-height: 2rem;
             }
             a {
+                background-color: $core-accent;
+                padding: 0 0.5rem;
                 &:hover {
                     color: $core-accent;
+                    background-color: $secondary-bg;
                     @include breakpoint(mobile-only) {
                         color: white;
                     }
@@ -142,7 +145,7 @@
                     overflow: auto;
                 }
                 &.onclick-menu:focus {
-                    background-color: white;
+                    background-color: $secondary-bg;
                     a {
                         color: $core-accent-dark;
                     }
@@ -152,6 +155,7 @@
                     font-size: $font-size-base;
                     display: inline-block;
                     padding: 0.3rem 0.7rem;
+                    font-weight: bold;
 
                     i.fa {
                         font-size: 75%;
@@ -181,7 +185,7 @@
                     & > ul {
                         display: block;
                         position: absolute;
-                        background: white;
+                        background: $secondary-bg;
                         width: 18rem;
                     }
 
@@ -197,7 +201,7 @@
                             color: $core-accent-dark;
 
                             &:hover, &:focus {
-                                color: white;
+                                color: $secondary-bg;
                             }
 
                             &:before, &:after {
