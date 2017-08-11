@@ -201,14 +201,17 @@ b, strong, label, th {
         #header ul.navbar, #header ul.login, #header ul.contact-us {
           line-height: 2rem; } }
       #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
-        background-color: #00adef;
         padding: 0 0.5rem; }
+        @media only all and (min-width: 48em) {
+          #header ul.navbar a, #header ul.login a, #header ul.contact-us a {
+            background-color: #00adef; } }
         #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
           color: #00adef;
           background-color: #f6f6f6; }
           @media only all and (max-width: 47.938em) {
             #header ul.navbar a:hover, #header ul.login a:hover, #header ul.contact-us a:hover {
-              color: white; } }
+              color: white;
+              background-color: transparent; } }
       #header ul.navbar li, #header ul.login li, #header ul.contact-us li {
         text-align: center;
         margin-left: 0.8rem;

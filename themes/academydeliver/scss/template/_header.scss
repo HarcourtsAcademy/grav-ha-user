@@ -66,13 +66,16 @@
                 line-height: 2rem;
             }
             a {
-                background-color: $core-accent;
+                @include breakpoint(no-mobile) {
+                    background-color: $core-accent;
+                }
                 padding: 0 0.5rem;
                 &:hover {
                     color: $core-accent;
                     background-color: $secondary-bg;
                     @include breakpoint(mobile-only) {
                         color: white;
+                        background-color: transparent;
                     }
                 }
             }
