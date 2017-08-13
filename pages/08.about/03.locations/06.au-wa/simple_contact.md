@@ -5,7 +5,9 @@ onpage_menu: false
 slug: western-australia
 taxonomy:
   category: about_us
-  tag: [about us, contact us,academy office,academy location]
+  tag: [about us,contact us,academy office,academy location]
+  region: [western australia]
+  country: australia
 
 process:
   markdown: false

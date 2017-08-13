@@ -56,6 +56,20 @@ navigation:
 sidebar_navigation:
   maxdepth: 4
 
+location_maps:
+  - id: au
+    title: 'Australia'
+    embed: 1nvLOYPxKk9CowQzfHahq5bZYieY
+  - id: nz
+    title: 'New Zealand'
+    embed: 18yNl5vVRww2gm6RZ6UtO5YEhX6A
+  - id: us
+    title: 'USA'
+    embed: 1pr0t_qTwerYKdijJhbCKSMMeSaI
+  - id: za
+    title: 'South Africa'
+    embed: 1_E7gYZzSKzRr6VgKtjCfrSceiY4
+
 blog:
   route: '/news'                            # Route to blog
 summary:

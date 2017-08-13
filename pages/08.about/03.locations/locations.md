@@ -1,9 +1,9 @@
 ---
 title: Academy Locations
 menu: Locations
-onpage_menu: false
 slug: locations
 published: true
+template: location_list
 
 taxonomy:
   category: about_us
@@ -11,8 +11,17 @@ taxonomy:
 side_bar_menu: false
 list_locations: true
 
-sidebar-navigation:
-  maxdepth: 2
+bootstrap:
+  enabled: true
+
+
+content:
+  items:
+    '@taxonomy':
+      tag: ['academy location']
+    order:
+      by: header.taxonomy.country
+
 
 ---
 
