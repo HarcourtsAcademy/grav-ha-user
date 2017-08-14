@@ -1,6 +1,5 @@
 ---
 title: Training Pathways
-onpage_menu: false
 slug: training-pathways
 published: true
 template: modular
@@ -10,8 +9,9 @@ template: modular
     - /training-pathways -->
 
 taxonomy:
-  category: training
-  tag: [training]
+  category: courses
+  tag: [training pathway]
+
 featherlight:
   active: true
   gallery: false
