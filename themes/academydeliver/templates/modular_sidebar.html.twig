@@ -97,9 +97,12 @@
         </div>
         <div id="content" class="g-block pure-u-2-3">
 
-          {{ page.content }}
+          {% set page_image = page.media.images|first %}
+          {% if page_image %}
+              <p><img src="{{ page_image.url }}"/></p>
+          {% endif %}
 
-          <hr />
+          {{ page.content }}
 
           {% for button in page.header.buttons %}
             <a class="button{% if button.primary %} primary{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>

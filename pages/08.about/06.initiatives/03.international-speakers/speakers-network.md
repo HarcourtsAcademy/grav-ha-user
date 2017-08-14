@@ -3,8 +3,8 @@ title: Speakers Network
 menu: Speakers Network
 slug: international-speakers
 template: modular_sidebar
-onpage_menu: false
-published: true
+
+
 taxonomy:
   category: speakers
   tag: [speakers network]
