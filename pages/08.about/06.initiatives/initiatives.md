@@ -1,15 +1,14 @@
 ---
-title: Speakers
-menu: Speakers
-onpage_menu: false
-slug: speakers
-published: true
-taxonomy:
-  category: speakers
-  tag: [speakers]
-
-side_bar_menu: true;
+title: Initiatives
+slug: initiatives
+template: modular_sidebar
+side_bar_menu: true
 list_subpages: true
+
+taxonomy:
+  category: about_us
+  tag: [initiatives,professional development]
+
 
 content:
   items: @self.children
