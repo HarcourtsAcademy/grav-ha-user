@@ -37,11 +37,11 @@
     <a href="{{ base_url_absolute }}" class="sb-home" aria-label="home" title="home"><i class="fa fa-home"></i></a>
     <a href="#" class="sb-close" aria-label="close" title="close">×</a>
     {% include 'partials/search.html.twig' %}
-    <li class="sb-contact-us">
-        <a href="{% if "base_url:" in site.contactus.url %}{{ base_url_absolute }}/{{ site.contactus.url|replace({"base_url:": ""}) }}{% else %}{{ site.contactus.url }}{% endif %}">
-        <span class="contact-us-label">Contact Us</span>
-        </a>
+    {% if site.studentlogin.url %}
+    <li class="login">
+        <a href="{{ site.studentlogin.url }}">Learn Online</a>
     </li>
+    {% endif %}
     
     {% if config.themes.academydeliver.dropdown.enabled %}
         {{ _self.loop(pages, maxdepth, depth) }}

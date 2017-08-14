@@ -928,6 +928,12 @@ dt, dd {
         color: #00adef !important; }
         #panel .navigation li.active > a:hover {
           color: #9A9898 !important; }
+      #panel .navigation li.login a {
+        background-color: #00adef;
+        color: white; }
+        #panel .navigation li.login a:hover {
+          background-color: #001430;
+          color: #00adef; }
       #panel .navigation li:first-child {
         border-top: 1px solid #00285d; }
       #panel .navigation li ul {
