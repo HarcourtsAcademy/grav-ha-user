@@ -1,14 +1,13 @@
 ---
 title: Christchurch Office
-menu: false
-onpage_menu: false
+routable: false
 slug: christchurch
+
 taxonomy:
   category: about_us
-  tag: [about us, contact us,academy office,academy location]
-
-process:
-  markdown: false
+  tag: [academy office,academy location]
+  region: christchurch
+  country: [new zealand]
 
 office:
   location:
@@ -18,11 +17,11 @@ office:
     postcode: 8024
     country: New Zealand
   phone: +64 3 348 8784
+  email: yvonne.duff@harcourts.net
+  url: https://maps.google.com/?cid=7717168493965756779
   hours: |
     **Monday - Friday**			9 am - 5 pm
     **Saturday - Sunday**			Closed
     **Holidays**					Closed
 
-simple_contact:
-  recipient: yvonne.duff@harcourts.net
 ---

@@ -1,14 +1,13 @@
 ---
 title: South Australia Office
-menu: false
-onpage_menu: false
+routable: false
 slug: south-australia
+
 taxonomy:
   category: about_us
-  tag: [about us, contact us,academy office,academy location]
-
-process:
-  markdown: false
+  tag: [academy office,academy location]
+  region: [south australia]
+  country: australia
 
 office:
   location:
@@ -18,11 +17,11 @@ office:
     postcode: 5000
     country: Australia
   phone: +61 8 8410 4444
+  email: academysa@harcourts.net
+  url: https://www.google.com/maps?cid=10300517606648705333
   hours: |
     **Monday - Friday**			9 am - 5 pm  
     **Saturday - Sunday**			Closed  
     **Holidays**					Closed
 
-simple_contact:
-  recipient: academysa@harcourts.net
 ---

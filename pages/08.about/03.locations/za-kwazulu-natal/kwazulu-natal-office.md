@@ -1,14 +1,13 @@
 ---
 title: KwaZulu-Natal Office
-menu: false
-onpage_menu: false
+routable: false
 slug: kwazulu-natal
+
 taxonomy:
   category: about_us
-  tag: [about us, contact us,academy office,academy location]
-
-process:
-  markdown: false
+  tag: [academy office,academy location]
+  region: [kwazulu natal]
+  country: [south africa]
 
 office:
   location:
@@ -18,11 +17,11 @@ office:
     postcode: 4001
     country: South Africa
   phone: +27 31 201 1060
+  email: learning@harcourts.co.za
+  url: https://maps.google.com/?cid=10114149043633482233
   hours: |
     **Monday - Friday**			9 am - 5 pm  
     **Saturday - Sunday**			Closed  
     **Holidays**					Closed
 
-simple_contact:
-  recipient: learning@harcourts.co.za
 ---

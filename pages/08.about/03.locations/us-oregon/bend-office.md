@@ -1,14 +1,13 @@
 ---
 title: Oregon Office
-menu: false
-onpage_menu: false
+routable: false
 slug: oregon
+
 taxonomy:
   category: about_us
-  tag: [about us, contact us,academy office,academy location]
-
-process:
-  markdown: false
+  tag: [academy office,academy location]
+  region: oregon
+  country: usa
 
 office:
   location:
@@ -18,11 +17,11 @@ office:
     postcode: 97702
     country: USA
   phone: +1 541-388-7301
+  email: academy@harcourtsusa.com
+  url: https://maps.google.com/?cid=14059846927085149922
   hours: |
     **Monday - Friday**			9 am - 5 pm  
     **Saturday - Sunday**			Closed  
     **Holidays**					Closed
 
-simple_contact:
-  recipient: academy@harcourtsusa.com
 ---

@@ -2,7 +2,7 @@
     {{ content }}
     <div class="members">
         {% for member in page.header.members %}
-          {% set officepage = page.find('/about/locations/' ~ member.office) %}
+          {% set office = page.find('/about/locations/' ~ member.office) %}
           {% set shortaddress = member.address.region %}
           {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
           {% set firstname = member.name|split(" ")|first %}
@@ -36,14 +36,14 @@
                       <h1>{{ member.name }}</h1>
                       <h3>{{ member.title }} </h3>
                       <ul class="contact-icons">
-                          <li><i class="fa fa-map-marker"></i> <a href="{{ officepage.url }}">{{ officepage.title  }}</a> </li>
+                          <li><i class="fa fa-map-marker"></i> <a href="{{ office.header.office.url }}">{{ office.title  }}</a> </li>
                           {% if member.email %}
                           <li><i class="fa fa-envelope"></i> <a href="mailto:{{ member.email|safe_email }}">Email {{ member.name|split(" ")|first }}</a> </li>
                           {% endif %}
                           {% if member.contact %}
                           <li><i class="fa fa-envelope"></i> <a href="{{ member.contact }}">Contact {{ member.name|split(" ")|first }}</a> </li>
                           {% endif %}
-                          <li><i class="fa fa-phone"></i> <a href="tel:officepage.header.office.phone">{{ officepage.header.office.phone }}</a></li>
+                          <li><i class="fa fa-phone"></i> <a href="tel:{{ office.header.office.phone }}">{{ office.header.office.phone }}</a></li>
                       </ul>
                       <p class="bio">{{ member.bio|markdown }}</p>
                       <button type="button" class="button-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
