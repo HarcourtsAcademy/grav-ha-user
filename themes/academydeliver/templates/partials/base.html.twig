@@ -54,7 +54,6 @@
         {% if header.bootstrap.enabled %}
             {% do assets.addJs('theme://js/bootstrap/collapse.js', {'priority':102, 'group':'bottom'}) %}
             {% do assets.addJs('theme://js/bootstrap/transition.js', {'priority':103, 'group':'bottom'}) %}
-            {% do assets.addJs('theme://js/bootstrap/tab.js', {'priority':104, 'group':'bottom'}) %}
         {% endif %}
         {% if header.salvattore.enabled %}
             {% do assets.addJs('theme://js/salvattore.js', {'priority':104, 'group':'bottom'}) %}
