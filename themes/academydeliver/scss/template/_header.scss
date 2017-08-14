@@ -26,12 +26,7 @@
         @include transform(translateY(-50%));
 
         @include breakpoint(mobile-only) {
-            float: none;
-            position: static;
-            top: auto;
-            transform: unset;
-            font-size: 1.9rem;
-            clear: both;
+            float: right;
         }
         img {
             max-height: 42px;
@@ -43,7 +38,10 @@
         @extend .padding-horiz;
 
         @include breakpoint(mobile-only) {
-            top: 0;
+            float: left;
+            position: relative;
+            top: 50%;
+            @include transform(translateY(-50%));
         }
 
         .header-buttons {
@@ -55,8 +53,7 @@
         }
     }
     ul {
-        &.navbar, &.login, &.contact-us {
-            font-size: $font-size-base;
+        &.navbar, &.login {
             color: $core-text;
             text-transform: uppercase;
             float: right;
@@ -64,6 +61,7 @@
 
             @include breakpoint(no-mobile) {
                 line-height: 2rem;
+                font-size: $font-size-base;
             }
             a {
                 @include breakpoint(no-mobile) {
@@ -98,13 +96,10 @@
                 display: none;
             }
         }
-        &.contact-us {
+        &.login {
             @include breakpoint(mobile-only) {
                display: none;
             }
-        }
-        &.login {
-            float: right;
         }
 
         margin: 0;
@@ -123,7 +118,7 @@
             .sb-close {
                 display: none;
             }
-            .sb-contact-us {
+            .sb-login {
                 display: none;
             }
             li {
