@@ -15,6 +15,7 @@ taxonomy:
   format: [interview]
   audience: [sales consultants,business owners,managers]
   people: [scott moon]
+
 metadata:
     description: 'Our South Australian Trainer Ray Brincat caught up with Scott Moon from Harcourts Brock Estates to discuss his first 12 months in real estate. Scott shares some insights into his social media strategy as well as his decision to bring on a PA to help him accelerate his business.'
     keywords: 'scott moon, teams, ebu, real estate, sales, client experience, harcourts'

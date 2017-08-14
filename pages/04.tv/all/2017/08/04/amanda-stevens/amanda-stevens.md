@@ -9,15 +9,12 @@ routes:
     - '/online-learning/interviews-at-academy/2017/08/amanda-stevens'
 
 taxonomy:
-  category: online_learning_bites
+  category: [tv]
   tag: []
   content: [marketing, customer service]
   format: [interview]
   audience: [property managers, sales consultants,business owners,managers]
   people: [amanda stevens]
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
 
 metadata:
     description: 'Amanda shares some key tips on how to turn your customers into advocates.'
