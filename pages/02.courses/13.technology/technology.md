@@ -1,7 +1,6 @@
 ---
 title: Technology
 slug: technology
-published: true
 list_subpages: true
 side_bar_menu: true
 template: modular_sidebar

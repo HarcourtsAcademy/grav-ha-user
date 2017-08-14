@@ -3,12 +3,12 @@ title: Office Administrator Program
 slug: office-administrator
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: courses
-  tag: [training,office administrator programme,office administrators]
-
-side_bar_menu: false
+  tag: [training,office administrator programme]
+  role: [office administrator]
 
 target_groups:
   - Office Administrators

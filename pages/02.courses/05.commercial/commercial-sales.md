@@ -3,14 +3,15 @@ title: 'Commercial Sales'
 slug: commercial-sales
 onpage_menu: false
 published: true
+side_bar_menu: true
+template: course
+
 taxonomy:
     category: training
     tag:
         - sales
         - commercial
         - 'commercial sales consultants'
-side_bar_menu: false
-template: course
 
 ---
 

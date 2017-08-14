@@ -2,9 +2,9 @@
 title: Training Calendars
 menu: Training Calendars
 slug: calendars
-onpage_menu: false
 published: true
-template: modular_alt
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [training,calendars]
