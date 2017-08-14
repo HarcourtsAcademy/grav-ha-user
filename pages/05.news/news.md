@@ -1,9 +1,8 @@
 ---
 title: News
 slug: news
-published: true
 template: modular_sidebar
-side_bar_menu: true
+side_bar_menu: false
 
 taxonomy:
   category: news
