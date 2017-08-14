@@ -1,6 +1,6 @@
 ---
-title: Mortgage Express
-menu: Mortgage Express
+title: Mortgage Express Training
+menu: Mortgage Express Training
 slug: mortgage-express
 published: true
 side_bar_menu: true
