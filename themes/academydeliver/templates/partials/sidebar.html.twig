@@ -20,7 +20,7 @@
       {% set maxdepth = config.site.sidebar_navigation.maxdepth %}
     {% endif %}
 
-    {% macro subpage_menu(page, maxdepth, depth) %}
+    {% macro page_list(page, maxdepth, depth) %}
 
       {% if page.visible %}
           {% set current_page = (page.active) ? 'active' : '' %}
@@ -50,14 +50,28 @@
         {% set hassubpages = true %}
       {% endif %}
     {% endfor %}
+
+    {% set hassiblingpages = false %}
+    {% set parent = page.parent %}
+    {% for siblingpage in parent.children if siblingpage.visible %}
+      {% set hassiblingpages = true %}
+    {% endfor %}
     
     {% if page.collection.count > 0 and hassubpages == true %}
     <div class="sidebar-content">
         <ul class="navigation">
         {% for subpage in page.collection %}
           {% if page != subpage %}
-            {{ _self.subpage_menu(subpage, maxdepth, depth) }}
+            {{ _self.page_list(subpage, maxdepth, depth) }}
           {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    {% elseif hassiblingpages %}
+    <div class="sidebar-content">
+        <ul class="navigation">
+        {% for siblingpage in parent.children %}
+          {{ _self.page_list(siblingpage, maxdepth, depth) }}
         {% endfor %}
         </ul>
     </div>
