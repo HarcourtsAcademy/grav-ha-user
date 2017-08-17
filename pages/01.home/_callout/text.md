@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: amanda-stevens.jpg
+    - image: lee-perry.jpg
       title: August interview@academy
-      desc: Amanda shares some key tips on how to turn your customers into advocates.
+      desc: Lee discusses the challenging Western Australian market, and the importance of team culture.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/08/amanda-stevens#pk_campaign=Web-2017-08
+      url: /online-learning/interviews-at-academy/2017/08/lee-perry#pk_campaign=Web-2017-08
       date: <strong>Released</strong> August 2017
       button: Watch
       icon: fa-play
