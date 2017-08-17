@@ -49,7 +49,7 @@ members:
       
       Megan holds a Sales Consultant's License, Assistant Property Manager's Licence and has completed a Diploma in Property and is currently studying a Diploma in Leadership & Management. Megan also holds a Certificate IV in Workplace Training & Assessment and is a trainer for the Real Estate Institute of Tasmania.
   - name: Chantelle Iannello
-    placeholder_image: placeholder-female.png
+    image: chantelle-iannello.jpg
     title: Academy Trainer <nobr>(Western Australia)</nobr>
     office: western-australia
     email: trainer.wa@harcourts.net

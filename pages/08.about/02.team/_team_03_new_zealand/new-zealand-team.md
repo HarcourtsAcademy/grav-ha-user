@@ -5,7 +5,7 @@ template: modular/team
 
 members:
   - name: Rhiana Kenny-Dowall
-    image: support-female.png
+    image: rhiana-kenny-dowall.jpg
     title: Academy Administrator
     office: auckland
     email: academy.nz@harcourts.net
@@ -15,7 +15,7 @@ members:
     office: auckland
     email: melanie-tan@harcourts.net
   - name: Tamsin Mason
-    placeholder_image: placeholder-female.png
+    image: tamsin-mason.jpg
     title: Academy Trainer (Wellington)
     office: wellington
     email: tamsin.mason@harcourts.net
@@ -37,7 +37,7 @@ members:
     bio: |
       Andrew Simich started his career in Real Estate in 2004, selling residential property before moving into a management and training role with the same organisation. Andrew has been on board with the Harcourts team since October 2015 as the New Zealand Professional Development & Academy Manager and is enjoying working in a likeminded team of people, helping to grow new salespeople and the existing team, across the network. 
   - name: Yvonne Duff
-    placeholder_image: placeholder-female.png
+    image: yvonne-duff.jpg
     title: Academy Trainer (Christchurch)
     office: christchurch
     email: yvonne.duff@harcourts.net

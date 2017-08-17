@@ -79,7 +79,7 @@ members:
     bio: |
       Ashley joins the Harcourts Team as Administrative Support in Brisbane’s Head Office. Her primary focus will be around providing quality administrative support, coordinating Academy events and promoting excellent culture within the Academy Team. With a background in administration and customer service in finance and insurance industries, Ashley is passionate about the effects that positive team culture and good communication have on the workplace, and seeks to promote these in her everyday work.
   - name: Paula Irvine
-    placeholder_image: placeholder-female.png
+    image: paula-irvine.jpg
     title: RTO Compliance Contractor
     office: queensland
     email: paula.irvine@harcourts.net
