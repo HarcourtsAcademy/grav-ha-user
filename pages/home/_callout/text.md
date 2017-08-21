@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: lee-perry.jpg
+    - image: lee-perry-part-2.jpg
       title: August interview@academy
-      desc: Lee discusses the challenging Western Australian market, and the importance of team culture.
+      desc: In this second instalment, Lee Perry from Harcourts Mandurah shares insights into the make-up of his team and provides some tips on setting up a structure that works.
       modalid: 13
-      url: /tv/all/2017/08/18/lee-perry#pk_campaign=Web-2017-08
+      url: /tv/all/2017/08/19/lee-perry#pk_campaign=Web-2017-08
       date: <strong>Released</strong> August 2017
       button: Watch
       icon: fa-play

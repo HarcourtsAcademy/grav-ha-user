@@ -22,6 +22,7 @@ We caught up with our recent Hall of Fame inductee [Lee Perry](https://www.faceb
 
 ===
 
+[View Part 2 of Lee's interview](../../19/lee-perry).
 
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
