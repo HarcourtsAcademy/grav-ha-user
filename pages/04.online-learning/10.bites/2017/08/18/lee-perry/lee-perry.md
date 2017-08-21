@@ -28,6 +28,8 @@ metadata:
 
 We caught up with our recent Hall of Fame inductee [Lee Perry](https://www.facebook.com/lee.perry.73/) from [Harcourts Mandurah](https://www.facebook.com/harcourts.mandurah/) to discuss what has been happening since he was last interviewed. Lee shared so much great content with us that we have had to split the interview into three parts! In this instalment Lee discusses the challenging Western Australian market, and the importance of team culture.
 
+[View Part 2 of Lee's interview](../../19/lee-perry).
+
 ===
 
 
