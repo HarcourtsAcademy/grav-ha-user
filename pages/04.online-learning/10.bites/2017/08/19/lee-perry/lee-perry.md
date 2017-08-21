@@ -28,10 +28,9 @@ metadata:
 
 In this second instalment, [Lee Perry](https://www.facebook.com/lee.perry.73/) from [Harcourts Mandurah](https://www.facebook.com/harcourts.mandurah/) shares insights into the make-up of his team and provides some tips on setting up a structure that works.
 
-[View Part 1 of Lee's interview](../../18/lee-perry).
-
 ===
 
+[View Part 1 of Lee's interview](../../18/lee-perry).
 
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
