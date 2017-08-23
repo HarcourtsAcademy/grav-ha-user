@@ -4,7 +4,7 @@ menu: false
 
 members:
   - name: Melissa Armstrong
-    placeholder_image: placeholder-female.png
+    image: melissa-armstrong.jpg
     title: Head of Academy
     office: queensland
     email: melissa.armstrong@harcourts.net
