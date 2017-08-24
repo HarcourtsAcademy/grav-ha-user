@@ -31,9 +31,6 @@ Bring your offline and online personal marketing inline. Discuss agent websites,
 ### SocialSavvy
 Are you looking for a more cost-effective way to get in front of prospects? Searching for a better way to research and monitor what people are saying about your business and the real estate industry? Wanting to build trust and improve your online brand presence? If you are ready to turn your marketing up a level, then this workshop is a must to attend. [Read More](/courses/sales/sales-workshops/social-savvy)
 
-### Our Promise
-Our Promise is a powerful point of difference which no other brand offers – our written assurance that we do exactly what we say we are going to do. Our Promise is a part of the Harcourts Way, part of our mission to create clients for life. Take a closer look at Our Promise and its significance within your business - and how do we use it, Available Tools & Resources & Campaign Marketing. Our Promise is an opportunity for us to show our clients what exceptional service really means! [Read More](/courses/sales/sales-workshops/our-promise)
-
 ### Tech Tools for Sellers & Tech Tools for Buyers
 Learn everything an agent needs to know to be tech savy! Examine your listing ability and consistency of service using our Harcourts Technology systems. Both sessions are interactive and technology driven utilising the Harcourts listing system tools & resources, eCampaign app, Our Promise, the client login, email marketing as well as contact management using Harcourts One, eOne and eOpen apps. 
 
