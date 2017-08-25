@@ -3,13 +3,12 @@ title: Speakers Network
 menu: Speakers Network
 slug: international-speakers
 template: modular_sidebar
-
+side_bar_menu: true
 
 taxonomy:
   category: speakers
   tag: [speakers network]
 
-side_bar_menu: true
 
 content:
     items: @self.modular

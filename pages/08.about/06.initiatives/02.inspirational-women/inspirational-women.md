@@ -2,6 +2,7 @@
 title: Harcourts Inspirational Women
 slug: inspirational-women
 template: modular_sidebar
+side_bar_menu: true
 
 buttons:
   - primary: true

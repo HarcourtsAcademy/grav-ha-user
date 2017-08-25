@@ -2,6 +2,7 @@
 title: Harcourts Events
 slug: harcourts-events
 template: modular_sidebar
+side_bar_menu: true
 
 buttons:
   - primary: true
