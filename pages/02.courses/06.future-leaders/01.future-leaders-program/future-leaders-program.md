@@ -1,13 +1,14 @@
 ---
 title: Future Leaders Program
 slug: future-leaders-program
-published: false
+published: true
 template: course
+side_bar_menu: false
 
 taxonomy:
   category: courses
-  tag: [leadership,business owners,managers,future leaders]
-side_bar_menu: false
+  tag: [future leaders]
+  roles: [sales consultant,office administrator,property manager,manager]
 
 target_groups:
   - Those seeking a future leadership role in Harcourts. Selection of Harcourts Future Leaders is not based on age, gender nor time with the organisation but rather on potential to lead our people The Harcourts Way.

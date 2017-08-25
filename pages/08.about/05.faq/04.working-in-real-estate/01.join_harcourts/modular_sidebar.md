@@ -2,7 +2,6 @@
 title: How do I join Harcourts?
 menu: Join Harcourts
 slug: how-do-i-join-harcourts
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

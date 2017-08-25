@@ -1,7 +1,6 @@
 ---
 title: Multimedia Designer
 menu: Multimedia Designer
-onpage_menu: false
 slug: multimedia-designer
 published: false
 template: modular_sidebar

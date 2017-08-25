@@ -3,7 +3,7 @@ title: Office Administrator Program
 slug: office-administrator
 published: true
 template: course
-side_bar_menu: true
+side_bar_menu: false
 
 taxonomy:
   category: courses

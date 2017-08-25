@@ -2,7 +2,6 @@
 title: What's the difference between a Real Estate licence and sales registration certificate?
 menu: Qualification Differences
 slug: the-difference-between-a-real-estate-licence-and-sales-registration-certificate
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

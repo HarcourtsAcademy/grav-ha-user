@@ -4,6 +4,7 @@ menu: Workshops for Sales
 slug: workshops-for-sales
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: courses

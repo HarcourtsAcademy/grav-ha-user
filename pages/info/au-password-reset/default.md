@@ -1,6 +1,5 @@
 ---
 title: Forgotten your details?
-onpage_menu: false
 slug: au-password-reset
 published: true
 taxonomy:

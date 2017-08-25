@@ -2,7 +2,6 @@
 title: New Zealand National Certificate
 menu: National Certificate
 slug: new-zealand-national-certificate-in-real-estate-salesperson
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

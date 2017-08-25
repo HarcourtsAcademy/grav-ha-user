@@ -4,6 +4,7 @@ menu: Auction Program
 slug: auction-program
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: courses

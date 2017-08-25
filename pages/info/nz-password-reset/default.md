@@ -1,6 +1,5 @@
 ---
 title: Forgotten your details?
-onpage_menu: false
 slug: nz-password-reset
 published: true
 taxonomy:

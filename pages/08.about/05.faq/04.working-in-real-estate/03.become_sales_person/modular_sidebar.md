@@ -2,7 +2,6 @@
 title: How do I become a real estate sales person?
 menu: Become a sales person
 slug: how-do-i-become-a-real-estate-sales-person
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

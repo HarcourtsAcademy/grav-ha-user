@@ -2,7 +2,6 @@
 title: Will my qualifications be recognised if I move overseas?
 menu: Qualification Recognition
 slug: will-my-qualifications-be-recognised-if-i-move-overseas
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

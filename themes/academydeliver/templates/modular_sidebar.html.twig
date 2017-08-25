@@ -57,25 +57,32 @@
 
               {% if page != subpage %}
 
+              {% if (subpage.header.include_page) %}
+                {% set subpageurl = subpage.url %}
+                {% set subpage = page.find(subpage.header.include_page) %}
+              {% else %}
+                {% set subpageurl = subpage.url %}
+              {% endif %}
+
               <section class="subpage-item">
 
                   {% set banner = subpage.media.images|first %}
 
                   {% if banner %}
                   <div class="subpage-image">
-                      <a href="{{ subpage.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+                      <a href="{{ subpageurl }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
                   </div>
                   {% endif %}
 
                   {% if subpage.routable %}
 
-                      <h3><a href="{{ subpage.url }}">{{ subpage.title }}</a></h3>
+                      <h3><a href="{{ subpageurl }}">{{ subpage.title }}</a></h3>
                       {% if page.header.list_subpage_dates %}
                       <div class="subpage-date">
                           {{ subpage.date|date(config.system.pages.dateformat.short) }}
                       </div>
                       {% endif %}
-                      <div>{{ subpage.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ subpage.url }}">
+                      <div>{{ subpage.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ subpageurl }}">
                         {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                       </a></div>
                   {% else %}

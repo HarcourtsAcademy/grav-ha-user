@@ -14,9 +14,6 @@ taxonomy:
 
 content:
   items:
-    - '@taxonomy': 
-        category: training
-        tag: leadership
     - '@self.children'
   order:
     by: default

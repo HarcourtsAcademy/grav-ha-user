@@ -2,7 +2,6 @@
 title: Do you offer programmes online?
 menu: Online Learning
 slug: do-you-offer-programmes-online
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

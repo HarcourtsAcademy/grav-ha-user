@@ -1,7 +1,6 @@
 ---
 title: Working in Real Estate
 slug: working-in-real-estate
-onpage_menu: false
 published: true
 
 taxonomy:

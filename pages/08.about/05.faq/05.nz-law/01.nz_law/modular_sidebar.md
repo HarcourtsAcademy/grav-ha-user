@@ -2,7 +2,6 @@
 title: New Zealand Real Estate Agents Act 2008
 menu: New Zealand Law
 slug: new-zealand-real-estate-agents-act
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

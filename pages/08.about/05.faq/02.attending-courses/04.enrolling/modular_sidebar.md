@@ -2,7 +2,6 @@
 title: How do I enrol in training?
 menu: Enrol
 slug: how-do-i-enrol
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

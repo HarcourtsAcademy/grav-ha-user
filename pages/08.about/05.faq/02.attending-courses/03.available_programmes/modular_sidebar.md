@@ -2,7 +2,6 @@
 title: What training is available?
 menu: Available training
 slug: what-training-is-available
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

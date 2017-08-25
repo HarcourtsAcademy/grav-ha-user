@@ -3,12 +3,12 @@ title: Auction Essentials
 slug: auction-essentials
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: courses
   tag: [training,auction,workshops,sales consultants,business owners,auctioneer,managers]
   training_paths: [auction]
-side_bar_menu: false
 
 ---
 

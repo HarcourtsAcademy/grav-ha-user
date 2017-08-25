@@ -4,6 +4,7 @@ menu: Workshops for Property Management
 slug: workshops-for-property-management
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: courses

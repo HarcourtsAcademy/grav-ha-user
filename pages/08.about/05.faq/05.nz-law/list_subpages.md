@@ -1,7 +1,6 @@
 ---
 title: New Zealand Real Estate Agents Act
 slug: nz-real-estate-agents-act
-onpage_menu: false
 published: true
 
 taxonomy:

@@ -4,7 +4,7 @@ menu: Harcourts and You Induction
 slug: harcourts-and-you
 published: true
 template: course
-side_bar_menu: true
+side_bar_menu: false
 
 taxonomy:
   category: courses

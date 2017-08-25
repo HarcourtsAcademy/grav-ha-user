@@ -2,7 +2,6 @@
 title: How do I gain a Real Estate Licence?
 menu: Obtain a Real Estate Sales Licence
 slug: how-do-i-gain-a-real-estate-licence
-onpage_menu: false
 published: false
 taxonomy:
   category: about_us

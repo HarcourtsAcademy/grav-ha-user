@@ -3,7 +3,6 @@ title: Western Australia Sales Registration
 menu: Sales Registration
 slug: sales-registration
 template: course
-onpage_menu: false
 published: true
 
 taxonomy:

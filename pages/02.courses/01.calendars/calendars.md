@@ -3,7 +3,8 @@ title: Training Calendars
 menu: Training Calendars
 slug: calendars
 published: true
-template: modular_sidebar
+template: course
+side_bar_menu: false
 
 taxonomy:
   category: courses

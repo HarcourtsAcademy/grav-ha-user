@@ -1,7 +1,6 @@
 ---
 title: Attending Academy Programmes
 slug: attending-academy-programmes
-onpage_menu: false
 published: true
 
 taxonomy:

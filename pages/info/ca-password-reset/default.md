@@ -1,6 +1,5 @@
 ---
 title: Forgotten your details?
-onpage_menu: false
 slug: ca-password-reset
 published: true
 taxonomy:

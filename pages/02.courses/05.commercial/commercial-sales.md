@@ -3,11 +3,11 @@ title: 'Commercial Sales'
 slug: commercial-sales
 onpage_menu: false
 published: true
-side_bar_menu: true
 template: course
+side_bar_menu: false
 
 taxonomy:
-    category: training
+    category: courses
     tag:
         - sales
         - commercial

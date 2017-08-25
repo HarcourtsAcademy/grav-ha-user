@@ -1,6 +1,5 @@
 ---
 title: Forgotten your details?
-onpage_menu: false
 slug: id-password-reset
 published: true
 taxonomy:

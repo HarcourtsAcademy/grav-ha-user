@@ -2,7 +2,6 @@
 title: How do I gain a Real Estate Salesperson's Registration Certificate?
 menu: Obtain Sales Registration
 slug: how-do-i-gain-a-real-estate-salesperson-certificate
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

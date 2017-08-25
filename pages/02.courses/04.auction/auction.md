@@ -16,7 +16,7 @@ list_subpages: true
 content:
   items:
     - '@taxonomy': 
-        category: training
+        category: courses
         tag: induction
     - '@self.children'
   order:

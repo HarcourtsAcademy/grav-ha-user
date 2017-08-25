@@ -13,9 +13,6 @@ taxonomy:
 
 content:
   items:
-    - '@taxonomy': 
-        category: training
-        tag: 'property management'
     - '@self.children'
   order:
     by: default

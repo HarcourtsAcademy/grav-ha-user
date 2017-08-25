@@ -2,7 +2,6 @@
 title: How do I become a property manager?
 menu: Become a property manager
 slug: how-do-i-become-a-property-manager
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

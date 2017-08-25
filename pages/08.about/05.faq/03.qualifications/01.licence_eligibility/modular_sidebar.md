@@ -2,7 +2,6 @@
 title: Am I eligible to gain a Real Estate Licence?
 menu: Licence Eligibility
 slug: am-i-eligible-to-gain-a-real-estate-licence
-onpage_menu: false
 published: true
 taxonomy:
   category: about_us

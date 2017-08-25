@@ -1,6 +1,5 @@
 ---
 title: Contact Us
-onpage_menu: false
 slug: contact-us
 template: course
 

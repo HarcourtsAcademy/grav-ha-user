@@ -13,9 +13,6 @@ taxonomy:
 
 content:
   items:
-    - '@taxonomy': 
-        category: training
-        tag: [sales,induction]
     - '@self.children'
   order:
     by: default

@@ -1,7 +1,6 @@
 ---
 title: Training
 menu: Training
-onpage_menu: false
 slug: courses
 published: true
 template: modular_sidebar

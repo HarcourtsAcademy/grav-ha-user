@@ -14,7 +14,7 @@
 {% if page.header.side_bar_menu == true %}
     {% set depth = 1 %}
 
-    {% if page.header.sidebar_navigation.maxdepth %}
+    {% if page.header.sidebar_navigation.maxdepth is defined %}
       {% set maxdepth = page.header.sidebar_navigation.maxdepth %}
     {% else %}
       {% set maxdepth = config.site.sidebar_navigation.maxdepth %}

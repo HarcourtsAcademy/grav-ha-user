@@ -1,7 +1,6 @@
 ---
 title: New Zealand Qualifications
 slug: nz-qualifications
-onpage_menu: false
 published: true
 
 taxonomy:

@@ -1,7 +1,6 @@
 ---
 title: Gaining Accreditations
 slug: gaining-accreditations
-onpage_menu: false
 published: true
 
 taxonomy:
