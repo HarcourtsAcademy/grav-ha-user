@@ -175,7 +175,7 @@ redirects:
   /nz/istart24/week24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=116
   /nz/istart24/week25survey: http://www.academyrealestatetraining.com/nz/moodle/mod/questionnaire/view.php?id=2608
   ## Webinars
-  /upload-webinar: https://www.academyrealestatetraining.com/moodle/mod/assign/view.php?id=1032&action=editsubmission
+  /upload-webinar: https://www.academyrealestatetraining.com/moodle/mod/url/view.php?id=1039
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
