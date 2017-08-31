@@ -4,7 +4,7 @@ menu: Other Pages
 buttons:
     - text: Training Calendars
       icon: fa-calendar
-      url: /courses/calendars-and-upcoming-courses
+      url: base_url:courses/calendars
       primary: true
 ---
 
