@@ -4,6 +4,7 @@ menu: Sales Registration
 slug: sales-registration
 template: course
 published: true
+side_bar_menu: true
 
 taxonomy:
   category: qualifications

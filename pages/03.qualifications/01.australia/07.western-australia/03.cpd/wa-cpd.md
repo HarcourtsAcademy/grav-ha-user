@@ -4,6 +4,7 @@ menu: Continuing Professional Development
 slug: cpd
 published: true
 template: course
+side_bar_menu: true
 
 taxonomy:
   category: qualifications

@@ -4,6 +4,7 @@ menu: Property Management Registration
 slug: property-management-registration
 template: course
 published: true
+side_bar_menu: true
 
 taxonomy:
   category: qualifications
