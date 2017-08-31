@@ -6,7 +6,7 @@ side_bar_menu: true
 
 buttons:
   - primary: true
-    url: https://www.inspirationalwomen.net/
+    url: http://www.inspirationalwomen.net/
     icon: fa-external-link
     text: Visit InspirationalWomen.net
 
