@@ -22,4 +22,4 @@ content:
 
 ---
 
-[Sales Registration](/get-qualified/australia/western-australia/sales-registration), [Property Management Registration]((/get-qualified/australia/western-australia/property-management-registration)) and [Continuing Professinal Development (CPD)](/get-qualified/australia/western-australia/cpd) are available in Western Australia.
+[Sales Registration](/qualifications/australia/western-australia/sales-registration), [Property Management Registration](/qualifications/australia/western-australia/property-management-registration) and [Continuing Professinal Development (CPD)](/qualifications/australia/western-australia/cpd) are available in Western Australia.

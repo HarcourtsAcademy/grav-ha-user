@@ -13,4 +13,4 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 ---
 
-You can gain your [Queensland Real Estate Licence](/get-qualified/queensland/queensland-real-estate-licence) through Harcourts Academy.
+You can gain your [Queensland Real Estate Licence](/qualifications/queensland/queensland-real-estate-licence) through Harcourts Academy.
