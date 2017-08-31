@@ -3,7 +3,6 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% block javascripts %}
-    {% do assets.add('theme://js/singlePageNav.min.js') %}
     {{ parent() }}
 {% endblock %}
 
@@ -119,7 +118,7 @@
           </h2>
           <ul>
           {% for unit in page.header.elective_qualification_units.course_units %}
-              <li class="qualification-unit"><a href="{{ base_url~site.qualification_unit_path~unit.id|lower }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
+              <li class="qualification-unit"><a href="http://training.gov.au/Training/Details/{{ site.qualification_units[unit.id].id|upper }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
           {% endfor %}
           </ul>
           {% endif %}

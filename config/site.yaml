@@ -206,7 +206,6 @@ footer:
     rto_provider: 31139
     copyright_text: "Copyright 2017 Harcourts International Ltd."
 
-qualification_unit_path: /get-qualified/units/
 qualification_units:
   BSBSMB406:
     id: BSBSMB406
