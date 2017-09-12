@@ -120,7 +120,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header ul.navbar li, #header ul.login li, .footer ul.social-icons li, .footer ul.social-icons li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header ul.navigationbar li, #header ul.login li, .footer ul.social-icons li, .footer ul.social-icons li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -193,38 +193,38 @@ b, strong, label, th {
     padding: 0;
     list-style: none;
     text-transform: uppercase; }
-    #header ul.navbar, #header ul.login {
+    #header ul.navigationbar, #header ul.login {
       color: #9A9898;
       text-transform: uppercase;
       float: right;
       margin: 0; }
       @media only all and (min-width: 48em) {
-        #header ul.navbar, #header ul.login {
+        #header ul.navigationbar, #header ul.login {
           line-height: 2rem;
           font-size: 14px; } }
-      #header ul.navbar a, #header ul.login a {
+      #header ul.navigationbar a, #header ul.login a {
         padding: 0 0.5rem; }
         @media only all and (min-width: 48em) {
-          #header ul.navbar a, #header ul.login a {
+          #header ul.navigationbar a, #header ul.login a {
             background-color: #00adef; } }
-        #header ul.navbar a:hover, #header ul.login a:hover {
+        #header ul.navigationbar a:hover, #header ul.login a:hover {
           color: #00adef;
           background-color: #f6f6f6; }
           @media only all and (max-width: 47.938em) {
-            #header ul.navbar a:hover, #header ul.login a:hover {
+            #header ul.navigationbar a:hover, #header ul.login a:hover {
               color: white;
               background-color: transparent; } }
-      #header ul.navbar li, #header ul.login li {
+      #header ul.navigationbar li, #header ul.login li {
         text-align: center;
         margin-left: 0.8rem;
         padding: 0 0.3rem; }
-        #header ul.navbar li a, #header ul.login li a {
+        #header ul.navigationbar li a, #header ul.login li a {
           display: block; }
-    #header ul.navbar {
+    #header ul.navigationbar {
       float: left;
       cursor: pointer; }
       @media only all and (min-width: 48em) {
-        #header ul.navbar {
+        #header ul.navigationbar {
           display: none; } }
     @media only all and (max-width: 47.938em) {
       #header ul.login {

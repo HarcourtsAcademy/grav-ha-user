@@ -53,7 +53,7 @@
         }
     }
     ul {
-        &.navbar, &.login {
+        &.navigationbar, &.login {
             color: $core-text;
             text-transform: uppercase;
             float: right;
@@ -89,7 +89,7 @@
             }
         }
 
-        &.navbar {
+        &.navigationbar {
             float: left;
             cursor: pointer;
             @include breakpoint(no-mobile) {
