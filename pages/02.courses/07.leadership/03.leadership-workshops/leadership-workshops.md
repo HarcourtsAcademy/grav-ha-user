@@ -26,9 +26,9 @@ A variety of workshops provide specialist knowledge in all areas of real Leaders
 - [Know Your People to Manage Their Performance](#know-your-people)
 - [Help Them Business Plan](#business-plan)
 - [Train](#train)
+- [Coach](#coach)
   </div>
   <div class="g-block size-1-2 pure-u-1-2" markdown="1">
-- [Coach](#coach)
 - [Present](#present)
 - [Building A Secure Business](#secure-business)
 - [Buying and Valuing a Rent Roll](#buy-and-value-rent-roll)
