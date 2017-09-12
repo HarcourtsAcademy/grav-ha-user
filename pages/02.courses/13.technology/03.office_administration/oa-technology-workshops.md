@@ -18,7 +18,7 @@ target_groups:
 
 course_content:
   - title: Learn Online
-    list: Step by step [online video tutorials](/online-learning) are also available. These pre-recorded audio-visual instructions act as a 1 on 1 coach for all aspects of Harcourts Technology.
+    list: Step by step online video tutorials are also available. These pre-recorded audio-visual instructions act as a 1 on 1 coach for all aspects of Harcourts Technology.
   - title: What You Will Learn
     list: |
       * Harcourts products, services and resource library
