@@ -1,5 +1,5 @@
 ---
-title: Sales Workshops
+title: Sales Workshop Series
 slug: sales-workshops
 published: true
 template: course

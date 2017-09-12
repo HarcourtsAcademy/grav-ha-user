@@ -1,6 +1,6 @@
 ---
 title: Shared Knowledge Programme (Sales)
-menu: Shared Knowledge Sales
+menu: Shared Knowledge (Sales)
 slug: shared-knowledge-sales
 published: true
 template: course
