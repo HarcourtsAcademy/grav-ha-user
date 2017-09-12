@@ -44,7 +44,7 @@ course_content:
 
       <h3>Introduction to Harcourts One for Sales Consultants</h3>
 
-      This course links directly with what you learn in the 4 day Sales Programme, and it’s best to book in while the information is still fresh in your mind. The course will also cover Campaign Track – how to build: an email signature, personal profile and property drops.
+      This course links directly with what you learn in the 4 day Sales Program, and it’s best to book in while the information is still fresh in your mind. The course will also cover Campaign Track – how to build: an email signature, personal profile and property drops.
 
       <h3>Advanced Harcourts One for Sales Consultants</h3>
 
@@ -66,7 +66,7 @@ course_content:
     list: |
       **Duration:** 4 hours
 
-      The Web Page Management Programme helps you take your profile to the next level by maximising your marketing potential. Topics covered include:
+      The Web Page Management Program helps you take your profile to the next level by maximising your marketing potential. Topics covered include:
 
       * Uploading photos
       * Embedding YouTube and other Videos

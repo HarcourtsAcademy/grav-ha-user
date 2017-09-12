@@ -7,7 +7,7 @@ side_bar_menu: true
 
 taxonomy:
   category: courses
-  tag: [training,property management,property management programme,property managers]
+  tag: [training,property management,property management program,property managers]
 
 target_groups:
   - New and experienced property managers
@@ -31,7 +31,7 @@ course_content:
       * Completing property management documentation
       * Rights obligations of the property manager, property owner and tenant in accordance to legislation
 
-course_structure: The Property Management Programme consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
+course_structure: The Property Management Program consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
 
 further_information: true
 

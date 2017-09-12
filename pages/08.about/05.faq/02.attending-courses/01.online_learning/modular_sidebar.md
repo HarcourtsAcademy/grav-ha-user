@@ -1,7 +1,7 @@
 ---
-title: Do you offer programmes online?
+title: Do you offer programs online?
 menu: Online Learning
-slug: do-you-offer-programmes-online
+slug: do-you-offer-programs-online
 published: true
 taxonomy:
   category: about_us
@@ -13,8 +13,8 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 ---
 
-Yes, the Academy offers the following programmes entirely online:
+Yes, the Academy offers the following programs entirely online:
 
 - [iStart Online](/courses/sales/istart)
 
-Programmes at some Real Estate training institutions focus on 'what' to know and do. Harcourts Academy programmes also focus on 'how' and therefore favour in classroom training delivery where participants can take a more hands-on approach to learning.
+Programs at some Real Estate training institutions focus on 'what' to know and do. Harcourts Academy programs also focus on 'how' and therefore favour in classroom training delivery where participants can take a more hands-on approach to learning.

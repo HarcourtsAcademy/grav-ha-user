@@ -22,7 +22,7 @@ content:
 
 Provides participants with the knowledge and skills to demonstrate competency in the required units required for industry registration.
 
-The programme is made up of a combination of online learning and classroom attendance. Completion of the required units of competency will enable participants to submit their statement of attainment to their local governing body in application to become registered as a real estate salesperson, property manager or auctioneer.
+The program is made up of a combination of online learning and classroom attendance. Completion of the required units of competency will enable participants to submit their statement of attainment to their local governing body in application to become registered as a real estate salesperson, property manager or auctioneer.
 
 ===
 

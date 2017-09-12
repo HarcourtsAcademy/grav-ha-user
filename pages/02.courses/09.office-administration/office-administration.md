@@ -7,7 +7,7 @@ side_bar_menu: false
 
 taxonomy:
   category: courses
-  tag: [training,office administrator programme]
+  tag: [training,office administrator program]
   role: [office administrator]
 
 target_groups:
@@ -24,7 +24,7 @@ course_content:
       * How to better support your business owner in the areas of weekly returns, franchise returns, banking and accounts, taxation, payroll * and staff leave
       * Develop skills for personal time management and efficiency
 
-course_structure: The Office Administrator Programme is a full day session at your local Academy training venue.
+course_structure: The Office Administrator Program is a full day session at your local Academy training venue.
 
 further_information: true
 

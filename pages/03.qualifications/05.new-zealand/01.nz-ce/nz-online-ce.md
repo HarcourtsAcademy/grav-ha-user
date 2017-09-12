@@ -60,7 +60,7 @@ The Real Estate Agents Authority (REAA) recognises that continuing education is 
 - raise and maintain industry standards
 - promote consumer confidence in the real estate industry
 
-The REAA has therefore designed a continuing education programme to improve licensees’ knowledge of the law, rules and regulations that govern the industry, to understand and uphold the concepts of ethics and professional competence in a real estate context, and to improve their skills and judgement.
+The REAA has therefore designed a continuing education program to improve licensees’ knowledge of the law, rules and regulations that govern the industry, to understand and uphold the concepts of ethics and professional competence in a real estate context, and to improve their skills and judgement.
 
 **20 hours** of continuing education is required each year.
 * 10 hours **Verifiable** education covering industry content and assessment specified by the REAA.
@@ -128,7 +128,7 @@ All topics are compulsory and there are no specialist strands.
 
 The topic for 2017 is **Knowing and communicating what you are selling.**
 
-The key learning objectives for this programme are to understand the following:
+The key learning objectives for this program are to understand the following:
 - Protection against complaints to the REAA through adequate disclosure.
 - The importance of obtaining consent of client vendor / lessor to disclose.
 - What disclosure means and important rules and legislation relating to disclosure obligations to client and customer.

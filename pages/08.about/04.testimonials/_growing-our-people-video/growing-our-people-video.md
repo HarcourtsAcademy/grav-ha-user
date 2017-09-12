@@ -13,5 +13,5 @@ Students rave about the difference our training makes and we've captured their c
 
 ===
 
-> “This programme helped me to understand the fundamentals of real estate and the unique approach Harcourts use with their clients. It was fantastic to be in a room full of dedicated and passionate real estate consultants”
+> “This program helped me to understand the fundamentals of real estate and the unique approach Harcourts use with their clients. It was fantastic to be in a room full of dedicated and passionate real estate consultants”
 > <cite>Antonia, New South Wales</cite>

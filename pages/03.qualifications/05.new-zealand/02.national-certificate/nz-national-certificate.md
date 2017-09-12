@@ -32,29 +32,29 @@ course_content :
       * Unit Standard 26150 - Demonstrate knowledge of methods for sale of real estate in New Zealand
   - title: Important Note: Student Expectations
     list: |
-      The National Certificate in Real Estate (Salesperson) programme in association with The Skills Organisation is completed by correspondence. With classroom-based training there is a teacher on hand to facilitate student learning and assessment and can be completed faster than training by correspondence. However, there are many benefits to training by correspondence, namely:
+      The National Certificate in Real Estate (Salesperson) program in association with The Skills Organisation is completed by correspondence. With classroom-based training there is a teacher on hand to facilitate student learning and assessment and can be completed faster than training by correspondence. However, there are many benefits to training by correspondence, namely:
 
-      * Students can study at any time and at any place. They can maintain a full-time job and complete the programme at home * after work.
-      * Students in regional areas, where there are no classroom delivered courses available, have access to the programme.
+      * Students can study at any time and at any place. They can maintain a full-time job and complete the program at home * after work.
+      * Students in regional areas, where there are no classroom delivered courses available, have access to the program.
       * Lower course fees.
 
 
-      This is a correspondence programme, students must be aware that:
+      This is a correspondence program, students must be aware that:
 
       1. Correspondence training courses take, on average, twice as long to complete as those delivered in the classroom. Students 1. should allow 3-weeks turnaround time after completing each study unit, longer if re-submissions are required.
       2. Guidance is via email, phone and an online support forum. It is essential that students use the online support forum to 1. post any questions.
-      3. There is a face-to-face component of the assessment. Please ask the student to contact your local Academy trainer to check for available dates that fit their study time frame before registering for this programme.
+      3. There is a face-to-face component of the assessment. Please ask the student to contact your local Academy trainer to check for available dates that fit their study time frame before registering for this program.
 
-      **Note**: The cost of the Certificate is **not** included with the cost of the Harcourts Academy Sales Programme.
-  - title: Harcourts Academy Sales Programme
-    list: Harcourts offers some the most comprehensive training in the industry. On completion of the National Certificate in Real Estate (Salesperson), participants go on to complete the Harcourts Academy [Sales Programme](/courses/sales/sales-programme).
-  - title: Programme Cost
+      **Note**: The cost of the Certificate is **not** included with the cost of the Harcourts Academy Sales Program.
+  - title: Harcourts Academy Sales Program
+    list: Harcourts offers some the most comprehensive training in the industry. On completion of the National Certificate in Real Estate (Salesperson), participants go on to complete the Harcourts Academy [Sales Program](/courses/sales/sales-program).
+  - title: Program Cost
     list: |
       The National Certificate in Real Estate (Salesperson) is $1,095 (inc. GST) for the 11 unit standards.
 
       Salespersons new to the industry and Harcourts may incur the following additional costs:
 
-      * Harcourts Academy [Sales Programme](/courses/sales/sales-programme): $705.00 (inc. GST)
+      * Harcourts Academy [Sales Program](/courses/sales/sales-program): $705.00 (inc. GST)
       * Real Estate Agents Authority Licence: $939.55 (inc. GST)
 
 course_structure: The National Certificate is a self-paced course that includes a number of written assessment activities, online interactive practise and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 8 months to complete the course however the average time taken to finish it is between one and three months.

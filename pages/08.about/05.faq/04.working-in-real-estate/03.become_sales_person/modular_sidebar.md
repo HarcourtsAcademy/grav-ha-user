@@ -20,7 +20,7 @@ To become a real estate salesperson in Australia you need a Real Estate Salesper
 2. A correctly completed application form
 3. Payment of required fees
 
-Harcourts [Sales Programme](/courses/sales/sales-programme) provides you with the required training for you to be a real estate sales person. Upon successful completion of the Harcourts Sales Programme you will achieve a Statement of Attainment and we can also assist you to complete the application form.
+Harcourts [Sales Program](/courses/sales/sales-program) provides you with the required training for you to be a real estate sales person. Upon successful completion of the Harcourts Sales Program you will achieve a Statement of Attainment and we can also assist you to complete the application form.
 
 ### Cost involved
-The cost of the Sales Programme is $1,690. If you secure a position with a Harcourts office prior to attending the training you receive a $1,000 sponsorship from Harcourts, and the cost to you will be $690.
+The cost of the Sales Program is $1,690. If you secure a position with a Harcourts office prior to attending the training you receive a $1,000 sponsorship from Harcourts, and the cost to you will be $690.

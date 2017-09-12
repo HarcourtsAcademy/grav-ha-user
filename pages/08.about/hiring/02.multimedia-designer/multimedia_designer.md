@@ -30,7 +30,7 @@ Direct Report
 : Head of Academy
 
 Indirect Reports
-: Academy Programme Development Manager
+: Academy Program Development Manager
 
 Geographical Location
 : Brisbane, Australia
@@ -71,12 +71,12 @@ Key Purpose
 ### Key Tasks
 1. Academy marketing resource design
   - Design marketing flyers, email banners and ecards
-  - In collaboration with Programme Development Manager create new product launch videos
-  - Design programme launch ecards and infographics for social media posts
+  - In collaboration with Program Development Manager create new product launch videos
+  - Design program launch ecards and infographics for social media posts
   - In collaboration with Online Learning manager design website graphics and online brand personality
   - Edit and produce Academy testimonial videos
 2. Academy classroom training resource design
-  - Design PowerPoint presentations templates and produce slides for all programmes
+  - Design PowerPoint presentations templates and produce slides for all programs
   - Design workbook and textbook covers
   - Design classroom training posters including infographic wall charts
   - Design training activity resources
@@ -85,7 +85,7 @@ Key Purpose
   - Produce training how-to videos
   - Film edit and produce training AV presentations including in the field case studies
   - Record, edit and produce bite size training audio recordings for Academy ‘Sound Advice’ &amp; podcasts
-  - Produce animated presentations with audio for online learning programmes
+  - Produce animated presentations with audio for online learning programs
   - Improve existing RTO online learning delivery and assessment to be more engaging
 4. Harcourts online media library
   - Cull old brand videos and identify video library content gaps
@@ -93,7 +93,7 @@ Key Purpose
   - Arrange to interview and film our visiting international speakers and other guests at conference
   - Cut, edit and re-encode existing video and audio content
 5. Be an active contributor to the Academy team and wider Harcourts family
-  - Work in conjunction with the Academy Programme Development manager, Online Learning Manager and Head of Academy to achieve projects within the Academy business plan
+  - Work in conjunction with the Academy Program Development manager, Online Learning Manager and Head of Academy to achieve projects within the Academy business plan
   - Build relationships with the Harcourts marketing team and remain compliant with the Harcourts brand
   - Actively participate in daily, weekly, monthly and quarterly team meetings
   - Attend the annual 3-day Academy Forum, strategic planning days and quarterly business plan reviews

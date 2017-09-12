@@ -35,7 +35,7 @@ Join us at the Academy to discover how educating your sellers on price is one of
 This session places great importance on building a relationship of trust and rapport with your sellers by providing them with up to date information about the current market and delivering quality buyer feedback throughout the campaign.
 
 
-## Programme structure
+## Program structure
 Educating Sellers Workshop is a half a day session at your local Academy training venue.
 
 ## Further information

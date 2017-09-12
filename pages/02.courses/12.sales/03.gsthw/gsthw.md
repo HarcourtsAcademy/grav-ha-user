@@ -16,7 +16,7 @@ routes:
 
 ---
 
-A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification. Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants. Let their experience guide you along your journey.
+A blended learning program incorporating online learning, in-class training and in-the-field projects, this program provides the required qualifications for industry certification. Throughout the program we’ve provided real life examples that have worked for some of our most successful sales consultants. Let their experience guide you along your journey.
 
 ===
 
@@ -31,7 +31,7 @@ A blended learning programme incorporating online learning, in-class training an
 - Gain your Salesperson Registration qualification for industry certification (Australia only)
 
 ## Who should complete this training?
-This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as a personal or buyer’s assistant.
+This program is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as a personal or buyer’s assistant.
 
 ## Training Requirements
 3–4 days completing pre-course reading and set tasks online, 4 days in-class training, study during the student’s own time, one-on-one coaching in the field with the student’s manager, in the field guidance and project work prior to graduation. After a minimum of 45 days in the field, students return to the classroom to complete Graduate Day.
@@ -41,7 +41,7 @@ TBD: INCLUDE per state fee table
 
 ## Included in Course Fee
 -	Getting Started the Harcourts Way Student Pack
--	[iStart Online](/courses/sales/istart) –  coaching and accountability programme providing clear instruction and activities for new to the industry sales professionals.
+-	[iStart Online](/courses/sales/istart) –  coaching and accountability program providing clear instruction and activities for new to the industry sales professionals.
 -	Harcourts Apps – 12-month subscription to Harcourts eOne, eCampaign & eOpen Apps
 -	[Graduate Day](/sales-graduate-day) attendance
 

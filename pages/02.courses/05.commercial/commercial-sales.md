@@ -15,7 +15,7 @@ taxonomy:
 
 ---
 
-The Commercial, Industrial and Retail programme is made up of a series of workshops and resources unmatched in the commercial arena.
+The Commercial, Industrial and Retail program is made up of a series of workshops and resources unmatched in the commercial arena.
 
 ===
 
@@ -26,8 +26,8 @@ The fundamentals of prospecting, leasing and selling commercial real estate  plu
 
 Practical guidance on operating a successful career from listing techniques and customer service through to expert negotiation and completion of sale.
 
-## Programme Structure
-The Commercial, Industrial and Retail programme is comprised of;
+## Program Structure
+The Commercial, Industrial and Retail program is comprised of;
 
 - Workshops delivered regionally
 - Webinars both live and recorded

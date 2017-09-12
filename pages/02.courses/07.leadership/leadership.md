@@ -24,7 +24,7 @@ content:
 
 Our leadership training includes applied topics such as leadership, coaching and training, marketing, systems, financial planning, technology, and business strategy. 
 
-The many workshops within this programme will help you to manage people for high performance and achieve extraordinary success in your business.
+The many workshops within this program will help you to manage people for high performance and achieve extraordinary success in your business.
 
 ---
 

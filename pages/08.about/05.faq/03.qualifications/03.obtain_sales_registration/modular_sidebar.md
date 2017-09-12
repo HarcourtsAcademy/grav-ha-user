@@ -23,10 +23,10 @@ ___
 ## Australia{#australia}
 To become a real estate consultant in Australia you need to gain your Real Estate Salesperson's Certificate. It is a legal requirement.
 
-Sales Registration can be gained through the Harcourts Academy's Sales Programme. This involves:
+Sales Registration can be gained through the Harcourts Academy's Sales Program. This involves:
 
-1. Completing approximately 4 hours of online learning prior to the commencement of the Sales Programme classroom training
-2. Attending 4 days Sales Programme - Getting Started the Harcourts Way - classroom training
+1. Completing approximately 4 hours of online learning prior to the commencement of the Sales Program classroom training
+2. Attending 4 days Sales Program - Getting Started the Harcourts Way - classroom training
 3. Receiving a Statement of Attainment certificate from Harcourts Academy
 4. Submitting the Statement of Attainment with an application form to the Office of Fair Trading
 5. Receive the official Sales Registration Certificate from the state governing body in 1 to 8 weeks

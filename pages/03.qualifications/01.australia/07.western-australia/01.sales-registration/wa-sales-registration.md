@@ -21,11 +21,11 @@ target_groups:
   - Managers wishing to have a clearer understanding of what their new recruits are learning
 
 course_content :
-  - title: The Programme
+  - title: The Program
     list: |
-      <h3>Harcourts Academy Sales Programme (Sales Registration)</h3>
+      <h3>Harcourts Academy Sales Program (Sales Registration)</h3>
 
-      A blended learning programme consisting of a number of online pre-course tasks, 4 days in class training, one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training. The Programme:
+      A blended learning program consisting of a number of online pre-course tasks, 4 days in class training, one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training. The Program:
 
       * Will provide participants with the knowledge, skills and attitudes to build a successful career in real estate sales
       * Incorporates 12 units of competency from the CPP07 Certificate IV in Property Services (Real Estate)

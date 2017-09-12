@@ -30,7 +30,7 @@ Are you an experienced sales person, new to our brand? Needing help understandin
 -	Further workshops and training to attend
 
 ## Who should complete this training?
-This programme is designed for experienced real estate salespersons or those who operate as a personal or buyer’s assistant, who are new to the Harcourts brand.
+This program is designed for experienced real estate salespersons or those who operate as a personal or buyer’s assistant, who are new to the Harcourts brand.
 
 ## Training Requirements
 Half day, in-class training

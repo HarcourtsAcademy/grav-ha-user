@@ -31,7 +31,7 @@ Learn the about the importance of using social media to:
 
 After attending this workshop, students will have a better understanding of content creation, engagement psychology, how to effectively use each platform as well as the tools available to help plan and manage their social presence.
 
-## Programme structure
+## Program structure
 Listing Presentation Workshop is a half a day session at your local Academy training venue.
 
 ## Workshop Cost

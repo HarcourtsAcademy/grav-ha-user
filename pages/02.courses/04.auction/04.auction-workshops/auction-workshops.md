@@ -42,7 +42,7 @@ The Auction Workshop Series has been designed for real estate salespersons or th
 
 ## Training Requirements
 1. Completion of [Are you an Auction Agent?](/courses/auction/auction-agent)
-2. Completion of [Auction Essentials](/courses/auction/auction-essentials) Programme
+2. Completion of [Auction Essentials](/courses/auction/auction-essentials) Program
 
 ## Course Fee
 Complimentary 

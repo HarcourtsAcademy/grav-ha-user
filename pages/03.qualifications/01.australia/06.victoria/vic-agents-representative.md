@@ -19,7 +19,7 @@ target_groups:
   - Thirdly, people from other sectors of the real estate industry wishing to further develop their knowledge or skills in specific areas; e.g. personal assistants, registered salespersons, real estate franchise owners and managers wanting to up-skill or remain current in real estate practice.
 
 course_content :
-  - title: The Programme
+  - title: The Program
     list: |
       - Provides participants with the knowledge, skills and attitudes to demonstrate competency in three units from the CPP40307 Certificate IV in Property Services (Real Estate).
       - Is recognised nationally throughout Australia.
@@ -31,7 +31,7 @@ core_qualification_units:
   - id: CPPDSM4080
 
 course_structure: |
-  A blended learning programme consisting of computer-assessed online tasks followed by three days in-class training.
+  A blended learning program consisting of computer-assessed online tasks followed by three days in-class training.
 
   <h3>Upon Successful Completion You Could Become a</h3>
 

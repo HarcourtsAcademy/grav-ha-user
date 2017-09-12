@@ -27,11 +27,11 @@ members:
       A long-time member of the Harcourts Team since 1999 Heather has been a hugely successful Sales Consultant, Sales Manager and Business Owner and more recently in her role as Business Development Manager for Queensland Corporate Support Team, a role she has been dedicated to for many years.
       Through Harcourts’ collaboration with Disney, Heather was selected to attend the world renowned ‘Disney Institute’ in Orlando Florida, where she participated in their training program, ‘Leading and Sustaining a Service Culture’.  This previous training will assist her in the new role of Professional Development Manager for Harcourts Queensland. This is a natural progression for Heather and involves determining and driving the strategic direction and operation of Harcourts Professional Development initiatives which includes:
 
-      -	The quality and delivery of the Harcourts Academy core programmes in Sales, Leadership, Culture & Technology
+      -	The quality and delivery of the Harcourts Academy core programs in Sales, Leadership, Culture & Technology
       -	Assisting Business Owners with a focus on recruitment and growing our Future Leaders
       -	Support and guidance of our Queensland Trainers
 
-      Assisting in the retention of our people through programmes designed to enhance their skills and challenge their minds.
+      Assisting in the retention of our people through programs designed to enhance their skills and challenge their minds.
   - name: Ray Brincat
     image: ray-brincat.jpg
     title: Academy Trainer <nobr>(South Australia)</nobr>

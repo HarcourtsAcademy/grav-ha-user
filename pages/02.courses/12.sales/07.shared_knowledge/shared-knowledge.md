@@ -1,5 +1,5 @@
 ---
-title: Shared Knowledge Programme (Sales)
+title: Shared Knowledge Program (Sales)
 menu: Shared Knowledge (Sales)
 slug: shared-knowledge-sales
 published: true
@@ -14,7 +14,7 @@ side_bar_menu: true;
 
 ---
 
-Our most successful team members are also our most generous when it comes to sharing what they do with others. The Shared Knowledge programme is a series of talk and Q&A sessions where we ask a panel of Harcourts top performing sales consultants share their knowledge.
+Our most successful team members are also our most generous when it comes to sharing what they do with others. The Shared Knowledge program is a series of talk and Q&A sessions where we ask a panel of Harcourts top performing sales consultants share their knowledge.
 
 Shared Knowledge workshops usually comprise of 3 to 4 panelists who will each speak briefly before the facilitator opens up to questions from the floor. 
 

@@ -37,11 +37,11 @@ core_qualification_units:
   - id: CPPDSM4080
 
 course_structure: |
-  A blended learning programme consisting of a number of online pre-course tasks, 4 days in class training, one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training.
+  A blended learning program consisting of a number of online pre-course tasks, 4 days in class training, one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training.
 
   <h3>Property Agents Board Exam</h3>
 
-  After completing the Academy Sales Programme, participants must pass a Tasmanian Property Agents Board examination to gain their property representative registration certificate.
+  After completing the Academy Sales Program, participants must pass a Tasmanian Property Agents Board examination to gain their property representative registration certificate.
 
 further_information: For Tasmania legislation and other information visit [Consumer Affairs and Fair Trading](http://www.consumer.tas.gov.au/property).
 

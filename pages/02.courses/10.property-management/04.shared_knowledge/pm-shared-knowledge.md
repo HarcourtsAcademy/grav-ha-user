@@ -32,6 +32,6 @@ further_information: true
 
 ---
 
-Our most successful team members are also our most generous when it comes to sharing what they do with others. The Shared Knowledge programme is a series of workshops where we ask a panel of Harcourts top performing property managers share their knowledge.
+Our most successful team members are also our most generous when it comes to sharing what they do with others. The Shared Knowledge program is a series of workshops where we ask a panel of Harcourts top performing property managers share their knowledge.
 
 ===

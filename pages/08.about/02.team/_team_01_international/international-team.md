@@ -25,7 +25,7 @@ members:
     bio: |
       Beginning with Harcourts as a real estate business owner Irene and husband Mike were the number 1 franchise for New Zealand. Moving to Australia in 1997 the duo began the global expansion of Harcourts and ultimately purchased the company with partner Paul Wright in 2000.
 
-      Irene believed a strong focus on growing their people would be their point of difference and has been an integral part of Harcourts Academy for over 25 years introducing successful and diverse programmes in Harcourts training rooms across 10 countries as well as online.
+      Irene believed a strong focus on growing their people would be their point of difference and has been an integral part of Harcourts Academy for over 25 years introducing successful and diverse programs in Harcourts training rooms across 10 countries as well as online.
 
       As Head of the Academy Irene was the driving force behind becoming a Registered Training Organisation in Australia in 2004 and developing affiliations with industry training providers in New Zealand, South Africa and Indonesia.
 
@@ -54,14 +54,14 @@ members:
     office: queensland
     email: alinta.ward@harcourts.net
     bio: |
-      Alinta’s primary role is to evolve existing and develop new training programmes and resources for the Academy.  Alinta has worked within many roles during her time with Harcourts from administration, property management, sales & marketing, enabling her to draw from her in-the-field knowledge and experiences when developing new resources. Alinta’s aim is to ensure all our Academy Manuals, Workbooks, PowerPoints, AV, Leader’s guides and Assessment tools are comprehensive, easy to use and are readily available to our trainers.
+      Alinta’s primary role is to evolve existing and develop new training programs and resources for the Academy.  Alinta has worked within many roles during her time with Harcourts from administration, property management, sales & marketing, enabling her to draw from her in-the-field knowledge and experiences when developing new resources. Alinta’s aim is to ensure all our Academy Manuals, Workbooks, PowerPoints, AV, Leader’s guides and Assessment tools are comprehensive, easy to use and are readily available to our trainers.
   - name: Debbie Warshawsky
     image: debbie-warshawsky.jpg
     title: Academy Operations Manager Australasia
     office: queensland
     email: debbie.warshawsky@harcourts.net
     bio: |
-      With a passion for growth and professional development, Debbie is committed to producing real estate ‘stars’ in the field and corporate world. An award-winning Queensland Real Estate Consultant and a Qualified trainer, Debbie joined Harcourts in 2003 as the State Trainer for Queensland. With Certificate IV in Workplace Training and Assessment and her full licence, Debbie’s focus is working with Harcourts Academy Trainers for their induction, training and ongoing support. Covering Academy programme delivery and consistency, RTO compliance, Debbie is responsible for communication between regions and Academy team contribution.
+      With a passion for growth and professional development, Debbie is committed to producing real estate ‘stars’ in the field and corporate world. An award-winning Queensland Real Estate Consultant and a Qualified trainer, Debbie joined Harcourts in 2003 as the State Trainer for Queensland. With Certificate IV in Workplace Training and Assessment and her full licence, Debbie’s focus is working with Harcourts Academy Trainers for their induction, training and ongoing support. Covering Academy program delivery and consistency, RTO compliance, Debbie is responsible for communication between regions and Academy team contribution.
   - name: Alan Hossack
     image: alan-hossack.jpg
     title: Marketing Multimedia Manager

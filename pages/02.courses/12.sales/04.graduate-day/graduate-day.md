@@ -31,7 +31,7 @@ Graduate Day is the follow up session to [Getting Started the Harcourts Way](/ge
 
 ## Training Requirements
 -	Full day, in-class training
--	Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Programme 
+-	Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program 
 -	Undertaken a minimum of 45 days in the field
 
 ## Course Fee

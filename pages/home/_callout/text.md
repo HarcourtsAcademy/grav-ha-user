@@ -19,7 +19,7 @@ portfolio:
       date: <strong>Released</strong> March 2017
     - image: work3.jpg
       title: iStart Online
-      desc: The new iStart Online replaces the old iStart24 24-week online programme. We have refined and updated the new iStart making it faster and easier to complete.
+      desc: The new iStart Online replaces the old iStart24 24-week online program. We have refined and updated the new iStart making it faster and easier to complete.
       modalid: 15
       url: /courses/sales/istart
       date: <strong>Released</strong> February 2015

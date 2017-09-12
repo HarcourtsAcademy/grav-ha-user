@@ -12,7 +12,7 @@ taxonomy:
 
 ---
 
-Looking to learn from the very best Auctioneers? Obtain the blueprint for success by attending this comprehensive two-day programme where you will learn about:
+Looking to learn from the very best Auctioneers? Obtain the blueprint for success by attending this comprehensive two-day program where you will learn about:
  
 -	How to establish a strong working relationship and communicate effectively with sellers
 -	Scripts to assist you with handling common seller concerns about auction

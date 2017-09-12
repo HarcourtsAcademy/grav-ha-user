@@ -17,7 +17,7 @@ qualification_units:
 
 ---
 
-The exclusive Harcourts Auction Programme provides real estate professionals with the necessary skills, knowledge and resources to enable them to list and sell property using the Auction method of marketing.
+The exclusive Harcourts Auction Program provides real estate professionals with the necessary skills, knowledge and resources to enable them to list and sell property using the Auction method of marketing.
 
 ===
 
@@ -34,10 +34,10 @@ Target Group: Sales Consultants, Office Managers and Business Owners
 - How to handle offers prior to auction and hold buyer interest up until the auction day
 - How to establish a strong working relationship and communicate effectively with sellers
 
-### Programme Structure
-The Auction for Sales Programme is a full day often run in conjunction with our Auctioneering Programme out of Academy training rooms.
+### Program Structure
+The Auction for Sales Program is a full day often run in conjunction with our Auctioneering Program out of Academy training rooms.
 
-## Auctioneering Programme (Day 2)
+## Auctioneering Program (Day 2)
 
 ### Target Groups
 - Those wishing to become an auctioneer
@@ -54,8 +54,8 @@ The Auction for Sales Programme is a full day often run in conjunction with our 
 - Communicating with sellers during the auction
 - Procedures for a successful sale under the hammer or when passed in
 
-### Programme Structure
-The Auctioneering Programme is a full day and usually runs in conjunction with the Auction Sales Programme to provide both industry qualification units required for an Auctioneering Licence.
+### Program Structure
+The Auctioneering Program is a full day and usually runs in conjunction with the Auction Sales Program to provide both industry qualification units required for an Auctioneering Licence.
 
 ## Further information
 For all course enquiries and pricing details, please [contact us](/about-us/contact-us).

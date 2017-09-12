@@ -18,7 +18,7 @@ We are currently seeking an organised and driven person to join our award winnin
 
 In this role you will be working in our [Head Office](/about-us/contact-us/locations/queensland) based in Eagle Farm, Brisbane to support the Academy in its mission to teach, guide, inspire and help others to be great.
 
-Working closely with our marketing, human resources, programme development and online learning managers and of course Irene, our Head of Academy, you&rsquo;ll be responsible for reports, expenses, training resource preparation, human resource filing, handling student enquiries and other administration support duties.
+Working closely with our marketing, human resources, program development and online learning managers and of course Irene, our Head of Academy, you&rsquo;ll be responsible for reports, expenses, training resource preparation, human resource filing, handling student enquiries and other administration support duties.
 
 Your ability to organise and communicate is outstanding. Your Microsoft Office skills are superb and your experience with supporting teams is unmatched. You&rsquo;re also passionate about real estate and helping others. You have a refined attention to detail and are able to work independently and deliver results on time.
 

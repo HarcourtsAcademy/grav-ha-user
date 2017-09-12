@@ -19,7 +19,7 @@ target_groups:
   - Office managers and business owners wanting to stay current in The Harcourts Way and those wanting to achieve their real estate licence
 
 course_content :
-  - title: Programme Content
+  - title: Program Content
     list: |
       *	Systemise and streamline every property management task
       *	Build large databases of prospective clients and clients for life

@@ -19,14 +19,14 @@ target_groups:
   - Managers wishing to have a clearer understanding of what their new recruits are learning
 
 course_content :
-  - title: Programme Structure
+  - title: Program Structure
     list: |
-      Students may attend and complete the following Academy programmes and obtain 19 units of competency required for licensing in Queensland. Note that Recognition of Prior Learning (RPL) is available.
+      Students may attend and complete the following Academy programs and obtain 19 units of competency required for licensing in Queensland. Note that Recognition of Prior Learning (RPL) is available.
 
       - Law, Ethics and Documents (online) - 3 days
-      - [Sales Programme](/courses/sales/sales-programme) - 6 days
-      - [Property Management Programme](/courses/property-management/property-management-programme) - 3 days
-      - [Auction Sales Programme](/courses/sales/auction)- 1 day
+      - [Sales Program](/courses/sales/sales-program) - 6 days
+      - [Property Management Program](/courses/property-management/property-management-program) - 3 days
+      - [Auction Sales Program](/courses/sales/auction)- 1 day
       - Licence Workshop - 4 days
 
 core_qualification_units:
@@ -51,7 +51,7 @@ core_qualification_units:
   - id: CPPDSM4080
 
 course_costs:
-  - name: Sales Programme
+  - name: Sales Program
     amount: $340
   - name: 15 RTO units with Harcourts Academy @ $50 each
     amount: $750
@@ -69,7 +69,7 @@ online_learning:
 disclaimer: true
 ---
 
-For busy real estate people who want to advance their career without the pressure of huge study commitments. An interactive programme provided by flexible means including online self-paced learning, classroom attendance and study by correspondence. Your programme can be tailor-made to suit your needs and reduce your costs and time spent on study.
+For busy real estate people who want to advance their career without the pressure of huge study commitments. An interactive program provided by flexible means including online self-paced learning, classroom attendance and study by correspondence. Your program can be tailor-made to suit your needs and reduce your costs and time spent on study.
 
 ===
 

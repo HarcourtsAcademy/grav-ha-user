@@ -26,7 +26,7 @@ During this session, you will preview sales & property management offerings:
 -	Further workshops and training to attend
 
 ## Who should complete this training?
-This programme is designed for Business Owners & Managers who are new to the Harcourts brand, or existing leaders wanting to refresh their knowledge of Harcourts offerings.
+This program is designed for Business Owners & Managers who are new to the Harcourts brand, or existing leaders wanting to refresh their knowledge of Harcourts offerings.
 
 ## Training Requirements
 Half day, in-class training

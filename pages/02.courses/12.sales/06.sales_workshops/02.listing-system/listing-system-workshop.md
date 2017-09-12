@@ -26,7 +26,7 @@ In line with our brand refresh we have reinvented our listing system and the pro
 - How to order
 - Implementing the system within your office
 
-## Programme structure
+## Program structure
 Listing Presentation Workshop is a half a day session at your local Academy training venue.
 
 ## Further information

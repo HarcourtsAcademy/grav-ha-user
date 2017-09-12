@@ -40,7 +40,7 @@ core_qualification_units:
   - id: CPPDSM4008
   - id: CPPDSM4080
 
-course_structure: A blended learning programme that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
+course_structure: A blended learning program that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 
 elective_qualification_units:
   course_units:

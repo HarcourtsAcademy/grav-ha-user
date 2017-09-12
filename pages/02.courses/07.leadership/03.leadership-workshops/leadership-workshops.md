@@ -63,7 +63,7 @@ Sales consultants serious about succeeding in the RE industry will document a co
 A practical look at planning, implementing and executing in-office training with your sales team. Learn how to structure a training session that is relevant in today’s market using the 30 minute planner. Draw on the talent within your team and apply de Bono’s tools of facilitation to guide productive discussions.
 
 ### Coach - Be the Reason Behind Their Success <a id="coach"></a>
-Understanding the difference between leading and coaching will compel you to take a closer look at how truly effective your current coaching programme is.  Know how to set meaningful goals, uncover their present reality and plan for their future success.  Through valuable measurement and feedback you can become the reason behind your people’s success.
+Understanding the difference between leading and coaching will compel you to take a closer look at how truly effective your current coaching program is.  Know how to set meaningful goals, uncover their present reality and plan for their future success.  Through valuable measurement and feedback you can become the reason behind your people’s success.
 
 ### Present <a id="present"></a>
 Overcome your fear of public speaking in this safe but interactive session on presentation skills. Capture your audience with cleverly designed speech content and engaging oration. Uncover the dos and don’ts of using power point presentations and understand the power of gesture by studying your own body language. This session will also explore stage mechanics, using humour and taking questions from the audience. 

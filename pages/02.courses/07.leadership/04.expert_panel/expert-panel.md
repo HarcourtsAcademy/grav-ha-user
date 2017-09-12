@@ -1,6 +1,6 @@
 ---
-title: Expert Panel Programme
-slug: expert-panel-programme
+title: Expert Panel Program
+slug: expert-panel-program
 published: true
 template: course
 side_bar_menu: true
@@ -12,7 +12,7 @@ taxonomy:
 
 ---
 
-People learn from books and teachers, videos and programmes but nothing is as effective or memorable as learning from experience. Expert Panel programme panellists include specialists from outside of our industry, experts in finance, marketing, psychology, great CEOs from successful organisations and of course our very own skilled leaders from inside Harcourts.
+People learn from books and teachers, videos and programs but nothing is as effective or memorable as learning from experience. Expert Panel program panellists include specialists from outside of our industry, experts in finance, marketing, psychology, great CEOs from successful organisations and of course our very own skilled leaders from inside Harcourts.
 
 ===
 

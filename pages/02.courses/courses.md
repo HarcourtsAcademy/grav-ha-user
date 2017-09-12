@@ -30,4 +30,4 @@ buttons:
 
 ---
 
-The Academy offers a wide selection of training programmes in areas from real estate administration to real estate management. Browse this section for more information on specific programmes.
+The Academy offers a wide selection of training programs in areas from real estate administration to real estate management. Browse this section for more information on specific programs.
