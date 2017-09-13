@@ -4,11 +4,11 @@ menu: false
 template: modular/team
 
 members:
-  - name: Rhiana Kenny-Dowall
-    image: rhiana-kenny-dowall.jpg
-    title: Academy Administrator
-    office: auckland
-    email: academy.nz@harcourts.net
+#  - name: Rhiana Kenny-Dowall
+#    image: rhiana-kenny-dowall.jpg
+#    title: Academy Administrator
+#    office: auckland
+#    email: academy.nz@harcourts.net
   - name: Melanie Tan 
     placeholder_image: placeholder-female.png
     title: Academy Trainer
