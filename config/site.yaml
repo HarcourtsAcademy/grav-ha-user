@@ -75,16 +75,17 @@ blog:
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
-  /ce-cpd: '/courses/continuing-education-and-cpd'
+  /ce-cpd: '/qualifications/new-zealand/new-zealand-continuing-education'
   /courses/sales/auction: '/courses/auction'
   /courses/leadership/auction: '/courses/auction'
   /info: '/'
-  ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
   /online-learning/istart-online: '/courses/sales/istart'
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
-  /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
+  /online-learning/western-australia-cpd: '/qualifications/australia/western-australia/cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
-  /training-paths: '/'
+  /training-paths: '/landing/training-pathways'
+  ## ARCHIVE
+  ## ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
 
 redirects:
   /favicon.ico: /user/themes/academydeliver/images/icons/favicon.ico
