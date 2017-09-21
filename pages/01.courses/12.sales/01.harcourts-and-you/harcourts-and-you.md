@@ -7,7 +7,7 @@ template: course
 side_bar_menu: true
 
 taxonomy:
-  category: courses
+  category: courses_included
   training_paths: [sales-new, sales-experienced]
 
 ---

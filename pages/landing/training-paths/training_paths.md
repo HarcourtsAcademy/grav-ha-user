@@ -34,7 +34,7 @@ content:
 
 ---
 
-The Academy have developed training pathways for Harcourts team members. We currently have training pathways designed specifically for Sales, Administration, Auction, and Leadership with more on the way!
+The Academy have developed training pathways for Harcourts team members. We currently have training pathways designed specifically for Sales, Auction, Administration and Leadership with more on the way!
 
 ===
 

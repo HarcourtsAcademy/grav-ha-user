@@ -18,7 +18,7 @@ mautic:
 
 <p class="lead">Harcourts has long held a reputation for providing quality education for the continuous growth of our people and we are with you every step of the way.</p>
 
-We currently have training pathways designed specifically for Sales, Administration, Auction, and Leadership with more on the way! Set the foundation for your future growth, follow your pathway at your own pace and commit to your future success today.
+We currently have training pathways designed specifically for Sales, Auction, Administration and Leadership with more on the way! Set the foundation for your future growth, follow your pathway at your own pace and commit to your future success today.
 
 [<i class="fa fa-arrow-right"></i> Register for a Training Pathway](https://www.academyrealestatetraining.com/moodle/){.button .button-primary}
 
