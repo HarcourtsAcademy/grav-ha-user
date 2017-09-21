@@ -45,9 +45,9 @@
 
           {% if page.header.online_learning %}
           {% set online_learning = page.header.online_learning %}
-          <h3>Already Registered?</h3>
+          <h3>{{ (online_learning.title) ? online_learning.title : 'Already Registered?' }}</h3>
           <div class="online-learning-link">
-            <a href="{{ online_learning.url }}" class="button button-secondary">Start {{ online_learning.name }}</a>
+            <a href="{{ online_learning.url }}" class="button button-secondary">Open {{ online_learning.name }}</a>
           </div>
           {% endif %}
 
