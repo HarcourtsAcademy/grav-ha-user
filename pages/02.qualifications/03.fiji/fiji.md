@@ -1,13 +1,13 @@
 ---
-title: Indonesia
-slug: indonesia
+title: Fiji
+slug: fiji
 published: false
 template: modular_sidebar
 side_bar_menu: true
 
 taxonomy:
   category: qualifications
-  tag: [canada]
+  tag: [fiji]
 
 list_subpages: true
 

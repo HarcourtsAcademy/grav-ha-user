@@ -37,8 +37,9 @@ This program is designed for people who wish to become registered real estate sa
 ## Training Requirements
 3–4 days completing pre-course reading and set tasks online, 4 days in-class training, study during the student’s own time, one-on-one coaching in the field with the student’s manager, in the field guidance and project work prior to graduation. After a minimum of 45 days in the field, students return to the classroom to complete Graduate Day.
 
-## Course Fee
+<!-- ## Course Fee
 TBD: INCLUDE per state fee table
+-->
 
 ## Included in Course Fee
 -	Getting Started the Harcourts Way Student Pack
