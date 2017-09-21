@@ -88,6 +88,7 @@ routes:
 
 redirects:
   /favicon.ico: /user/themes/academydeliver/images/icons/favicon.ico
+  /about-us/(.*): '/about/$1' # Used in 'please contact your local Academy trainer.' links in Training Pathway classroom courses
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/istart24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150
