@@ -1,7 +1,7 @@
 ---
 title: Rural Sales Training
 mlug: rural
-published: true
+published: false
 side_bar_menu: true
 template: modular_sidebar
 list_subpages: true

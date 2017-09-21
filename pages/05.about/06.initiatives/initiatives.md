@@ -17,6 +17,4 @@ content:
 
 ---
 
->>>> Content TBD
-
 ===

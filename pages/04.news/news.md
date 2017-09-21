@@ -2,6 +2,7 @@
 title: News
 slug: news
 template: modular_sidebar
+published: false
 side_bar_menu: false
 
 taxonomy:

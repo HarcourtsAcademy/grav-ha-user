@@ -1,8 +1,8 @@
 ---
-title: Future Leaders Training Pathway
-menu: Future Leaders Training Pathway
+title: Future Leaders Training
+menu: Future Leaders Training
 slug: future-leaders
-published: true
+published: false
 side_bar_menu: false
 template: course
 list_subpages: true

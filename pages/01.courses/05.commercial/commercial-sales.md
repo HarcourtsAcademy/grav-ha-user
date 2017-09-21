@@ -1,5 +1,5 @@
 ---
-title: 'Commercial Sales'
+title: 'Commercial Sales Training'
 slug: commercial-sales
 onpage_menu: false
 published: true
