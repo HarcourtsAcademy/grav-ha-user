@@ -104,6 +104,11 @@
 </head>
 {% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
 {% set body_classes = page.taxonomy.category ? body_classes ~ ' ' ~ page.taxonomy.category[0] : body_classes %}
+{% if page.header.side_bar_menu == true %}
+	{% set pagetitle = page.parent.title %}
+{% else %}
+	{% set pagetitle = uri.param('content') ? uri.param('content') : page.title %}
+{% endif %}
 <body id="top" class="template-{{ page.template }} {{ body_classes }}">
     <div id="sb-site">
         {% block header %}
@@ -152,7 +157,7 @@
               <div class="showcase_container">
                 <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
                   <div class="showcaseoverlay modular-row"></div>
-                  <h1>{% set pagetitle = uri.param('content') ? uri.param('content') : page.title %}{{ pagetitle }}</h1>
+                  <h1>{{ pagetitle }}</h1>
                 </div>
               </div>
             {% endblock %}
