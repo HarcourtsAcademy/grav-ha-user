@@ -135,8 +135,8 @@ redirects:
   /courses/calendars/nz/wellington  :       /calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf
   /courses/calendars/us/pacific:            /calendars/2017/USA-Training-Calendar-2017.pdf
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
-  /landing/eone: /online-learning/bites/#pk_campaign=app-eone
-  /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
+  /landing/eone: tv/interviews/#pk_campaign=app-eone
+  /landing/eopen: tv/interviews/#pk_campaign=app-eopen
   ## START Redirection links used in Academy H1 Course Registration Notification Emails
   /download/eone/universal: https://harcourts-ecloud.back4app.io/applications/eOne/releases/universal
   /download/eone/au: https://harcourts-ecloud.back4app.io/applications/eOne/releases/AU
