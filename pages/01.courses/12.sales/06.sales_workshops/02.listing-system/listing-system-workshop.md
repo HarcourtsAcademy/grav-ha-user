@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Listing System Workshop
 slug: listing-system
 published: true

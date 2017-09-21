@@ -1,6 +1,6 @@
 ---
 title: Leadership Training Pathway
-menu: Leadership Training Pathway
+menu: Leadership Training
 slug: leadership
 published: true
 template: modular_sidebar

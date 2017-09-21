@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Interview@Academy Videos
 menu: Interviews
 slug: interviews

@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Are You an Auction Agent?
 slug: auction-agent
 published: true

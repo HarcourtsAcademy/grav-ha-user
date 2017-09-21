@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Expert Panel Program
 slug: expert-panel-program
 published: true

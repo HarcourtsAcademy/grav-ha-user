@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: All TV
 slug: all
 published: true

@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Technology Workshops for Property Mangement
 menu: Workshops for Property Management
 slug: workshops-for-property-management

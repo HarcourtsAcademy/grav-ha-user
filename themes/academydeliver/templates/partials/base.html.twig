@@ -104,7 +104,7 @@
 </head>
 {% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
 {% set body_classes = page.taxonomy.category ? body_classes ~ ' ' ~ page.taxonomy.category[0] : body_classes %}
-{% if page.header.side_bar_menu == true %}
+{% if page.header.header_title == 'use-parent-title' %}
 	{% set pagetitle = page.parent.title %}
 {% else %}
 	{% set pagetitle = uri.param('content') ? uri.param('content') : page.title %}

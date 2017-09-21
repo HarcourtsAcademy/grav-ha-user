@@ -1,5 +1,5 @@
 ---
-title: Technology
+title: Technology Training
 slug: technology
 list_subpages: true
 side_bar_menu: true

@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Property Management Workshops
 slug: property-management-workshops
 published: true

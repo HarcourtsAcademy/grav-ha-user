@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Workshop Series
 slug: workshops
 published: true

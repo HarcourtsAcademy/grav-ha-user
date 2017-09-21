@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Educating Sellers Workshop
 slug: educating-sellers
 published: true

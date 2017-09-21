@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Sound Advice
 menu: Sound Advice
 slug: listen

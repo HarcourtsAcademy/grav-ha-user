@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Shared Knowledge Program (Property Management)
 menu: Shared Knowledge Program
 slug: shared-knowledge-program

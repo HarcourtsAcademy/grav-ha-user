@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Social Savvy Workshop
 slug: social-savvy
 published: true

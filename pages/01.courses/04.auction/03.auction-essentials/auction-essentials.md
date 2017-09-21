@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Auction Essentials
 slug: auction-essentials
 published: true

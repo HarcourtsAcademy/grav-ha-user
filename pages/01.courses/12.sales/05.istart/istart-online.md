@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: iStart Online
 slug: istart
 published: true

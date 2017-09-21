@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Leadership Workshop Series
 slug: leadership-workshops
 published: true

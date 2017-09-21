@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: PA Professional Online
 menu: PA Professional Online
 slug: pa-professional

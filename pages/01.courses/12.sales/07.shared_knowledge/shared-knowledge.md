@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Shared Knowledge Program (Sales)
 menu: Shared Knowledge (Sales)
 slug: shared-knowledge-sales

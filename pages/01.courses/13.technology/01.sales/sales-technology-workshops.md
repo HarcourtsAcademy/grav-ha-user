@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Technology Workshops for Sales
 menu: Workshops for Sales
 slug: workshops-for-sales

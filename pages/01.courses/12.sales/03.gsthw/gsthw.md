@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Getting Started the Harcourts Way
 slug: getting-started-the-harcourts-way
 published: true

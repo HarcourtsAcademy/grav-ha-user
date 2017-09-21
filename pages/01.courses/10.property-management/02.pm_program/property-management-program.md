@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Property Management Program
 slug: property-management-program
 published: true

@@ -1,6 +1,6 @@
 ---
-title: Sales Training Pathway
-menu: Sales Training Pathway
+title: Sales Training
+menu: Sales Training
 slug: sales
 template: modular_sidebar
 side_bar_menu: true

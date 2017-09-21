@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Office Administrator Program
 slug: office-administrator
 published: true

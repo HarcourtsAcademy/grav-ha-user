@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Harcourts and You Induction
 slug: harcourts-and-you
 published: true

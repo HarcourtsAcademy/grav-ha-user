@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Graduate Day
 slug: graduate-day
 published: true

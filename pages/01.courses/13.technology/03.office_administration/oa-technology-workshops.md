@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Technology Workshops for Office Administration
 menu: Workshops for Office Administration
 slug: workshops-for-office-administration

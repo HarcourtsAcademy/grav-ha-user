@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Agents of Change
 slug: agents-of-change
 published: true

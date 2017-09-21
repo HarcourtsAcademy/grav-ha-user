@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Leaders of Change
 slug: leaders-of-change
 published: true

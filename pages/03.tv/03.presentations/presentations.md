@@ -1,4 +1,5 @@
 ---
+header_title: use-parent-title
 title: Featured Presentations
 slug: presentations
 published: true
