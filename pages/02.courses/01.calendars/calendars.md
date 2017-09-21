@@ -14,6 +14,11 @@ banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true
 visible: true
+
+routes:
+  aliases:
+    - '/courses/calendars'
+
 ---
 
 Download the latest Academy training calendars for Australia, New Zealand and the USA:
