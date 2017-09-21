@@ -34,7 +34,7 @@ Registering to attend the National Certificate in Real Estate (Salesperson) thro
 
 ### Members of the public
 
-[Contact the Academy](/about-us/contact-us).
+[Contact the Academy](/about/contact-us).
 
 ### Harcourts One members
 

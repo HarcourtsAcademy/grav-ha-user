@@ -31,4 +31,4 @@ In line with our brand refresh we have reinvented our listing system and the pro
 Listing Presentation Workshop is a half a day session at your local Academy training venue.
 
 ## Further information
-For all course enquiries and pricing details, please [contact us](/about-us/contact-us).
+For all course enquiries and pricing details, please [contact us](/about/contact-us).

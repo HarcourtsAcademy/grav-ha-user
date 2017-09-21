@@ -177,8 +177,8 @@ You must complete the continuing education by 31 December of the year in which y
 The Academy is not offering 2016 Verifiable Continuing Education Referesher training this year.
 
 ## The Support Behind You
-- Contact your local Academy trainer for information, assistance and advice ([Northern and Central](/about-us/contact-us/locations/auckland), [Wellington](/about-us/contact-us/locations/wellington), [South Island](/about-us/contact-us/locations/christchurch)
-- Use the [Academy helpdesk](/about-us/contact-us/customer-support) during self-paced learning online
+- Contact your local Academy trainer for information, assistance and advice ([Northern and Central](/about/contact-us/locations/auckland), [Wellington](/about/contact-us/locations/wellington), [South Island](/about/contact-us/locations/christchurch)
+- Use the [Academy helpdesk](/about/contact-us/customer-support) during self-paced learning online
 - Go to [HarcourtsOne](http://one.harcourts.co.nz) > Search Directory > (your name) > Training Attended to access your classroom training attendance - records (Please note that your verifiable online CE records are updated nightly)
 - All verifiable training records will be sent to the REAA by Harcourts on your behalf
 

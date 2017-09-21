@@ -16,7 +16,7 @@ We are currently seeking an organised and driven person to join our award winnin
 
 ===
 
-In this role you will be working in our [Head Office](/about-us/contact-us/locations/queensland) based in Eagle Farm, Brisbane to support the Academy in its mission to teach, guide, inspire and help others to be great.
+In this role you will be working in our [Head Office](/about/contact-us/locations/queensland) based in Eagle Farm, Brisbane to support the Academy in its mission to teach, guide, inspire and help others to be great.
 
 Working closely with our marketing, human resources, program development and online learning managers and of course Irene, our Head of Academy, you&rsquo;ll be responsible for reports, expenses, training resource preparation, human resource filing, handling student enquiries and other administration support duties.
 

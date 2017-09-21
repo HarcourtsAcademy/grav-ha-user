@@ -59,4 +59,4 @@ The Auction for Sales Program is a full day often run in conjunction with our Au
 The Auctioneering Program is a full day and usually runs in conjunction with the Auction Sales Program to provide both industry qualification units required for an Auctioneering Licence.
 
 ## Further information
-For all course enquiries and pricing details, please [contact us](/about-us/contact-us).
+For all course enquiries and pricing details, please [contact us](/about/contact-us).

@@ -39,4 +39,4 @@ Listing Presentation Workshop is a half a day session at your local Academy trai
 Complimentary
 
 ## Further information
-For all course enquiries and pricing details, please [contact us](/about-us/contact-us).
+For all course enquiries and pricing details, please [contact us](/about/contact-us).

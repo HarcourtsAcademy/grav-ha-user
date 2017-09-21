@@ -39,4 +39,4 @@ The Commercial, Industrial and Retail program is comprised of;
 - Online resource library of information, processes, forms and letters
 
 ## Further information
-For all course enquires, please [contact us](/about-us/contact-us).
+For all course enquires, please [contact us](/about/contact-us).

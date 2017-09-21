@@ -40,7 +40,7 @@ course_content:
       * Attend retreats and conferences
   - title: Support
     list: |
-      [Contact your local Academy](/about-us/contact-us) office for;
+      [Contact your local Academy](/about/contact-us) office for;
       * Further information or advice
       * Future Leader application forms
       * An initial meeting between Future Leader, manager and coordinator to customize your program and to schedule training attendance

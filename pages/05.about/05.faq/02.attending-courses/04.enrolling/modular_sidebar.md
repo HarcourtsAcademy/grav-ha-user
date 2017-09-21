@@ -15,7 +15,7 @@ banner_image: theme://images/banners/about_us.jpg
 
 There are a number of ways to enrol in most Academy programs:
 
-- Contact your nearest [Academy office](/about-us/contact-us) and ask to speak to the Academy Trainer or Administrator.
+- Contact your nearest [Academy office](/about/contact-us) and ask to speak to the Academy Trainer or Administrator.
 - Harcourts One members can enrol online using the Event Calendar on the home page.
 
-For further enrolment enquiries [contact the Academy](/about-us/contact-us).
+For further enrolment enquiries [contact the Academy](/about/contact-us).

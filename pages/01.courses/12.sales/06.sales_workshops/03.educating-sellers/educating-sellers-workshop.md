@@ -40,4 +40,4 @@ This session places great importance on building a relationship of trust and rap
 Educating Sellers Workshop is a half a day session at your local Academy training venue.
 
 ## Further information
-For all course enquiries and pricing details, please [contact us](/about-us/contact-us).
+For all course enquiries and pricing details, please [contact us](/about/contact-us).
