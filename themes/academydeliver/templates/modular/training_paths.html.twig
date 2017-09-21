@@ -33,7 +33,7 @@
           </div>
           <div class="training-path-list g-block size-1-2 pure-u-1-2">
             <ol>
-              {% for course in taxonomy.findTaxonomy( { 'category': 'training', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
+              {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
                 <li>{{ course.title }}</li>
               {% endfor %}
             </ol>
@@ -42,7 +42,7 @@
 
         <div class="salvattore-grid" data-columns>
         {% set counter = 1 %}
-        {% for course in taxonomy.findTaxonomy( { 'category': 'training', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
+        {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
           <div class="training-paths-course" id="{{ pathway.slug }}-{{ course.slug }}">
             <h4><a href="{{ course.link }}">{{ counter}}. {{ course.title }}</a></h4>
             <p>{{ course.summary }}</p>

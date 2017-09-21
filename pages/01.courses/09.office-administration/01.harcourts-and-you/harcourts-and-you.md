@@ -8,7 +8,7 @@ side_bar_menu: true
 
 taxonomy:
   category: courses
-  training_paths: [leadership]
+  training_paths: [administration]
 
 ---
 

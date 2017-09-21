@@ -9,7 +9,6 @@ side_bar_menu: false
 taxonomy:
   category: courses
   tag: [training,featured,induction,leadership,sales,property management,administration,auction]
-  training_paths: [sales-new, sales-experienced, auction, leadership]
 
 routes:
   aliases:
@@ -17,11 +16,11 @@ routes:
     - '/courses/harcourts-and-you-day'
     - '/courses/harcourts-and-you'
 
-mautic:
-  formid: 1
-  prefill:
-    - fieldid: mauticform_input_registrationrequest_course_name
-      fieldvalue: Harcourts and You
+#mautic:
+#  formid: 1
+#  prefill:
+#    - fieldid: mauticform_input_registrationrequest_course_name
+#      fieldvalue: Harcourts and You
 
 course_information:
   - key: Duration
