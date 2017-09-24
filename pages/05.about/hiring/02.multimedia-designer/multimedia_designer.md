@@ -16,7 +16,7 @@ We are currently seeking a creative and talented person to join our award winnin
 
 ===
 
-Join our Academy corporate team in our [Head Office](/about/contact-us/locations/queensland) based in Eagle Farm Brisbane. Working full time, you'll lead the design and creation of marketing, training room and online multimedia content.
+Join our Academy corporate team in our [Head Office](mailto:academy@harcourts.net) based in Eagle Farm Brisbane. Working full time, you'll lead the design and creation of marketing, training room and online multimedia content.
 
 Your ability to organise and communicate is outstanding. You have used Adobe Creative Cloud and Microsoft Office to create content that wows. You have experience producing professional audio and video material from the recording to exporting. You have the know-how to setup and operate cameras, sound and lighting equipment. You're able to create content that reflects its own style while working within existing design and brand standards. You welcome feedback and input from your team and are able to give reasons behind your design decisions. You have a sharp attention to detail and deliver results on time.
 
