@@ -17,6 +17,6 @@ Academy programs include [Sales](/courses/sales), [Property Management](/courses
 
 Some popular programs include:
 
-- [Sales Program](/courses/sales/sales-program)
+- [Sales Training Pathway](/courses/sales)
 - [Property Management Program](/courses/property-management/property-management-program)
 - [Leadership Workshops](/courses/leadership/leadership-workshops)

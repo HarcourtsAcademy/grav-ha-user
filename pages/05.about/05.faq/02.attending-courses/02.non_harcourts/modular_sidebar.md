@@ -14,9 +14,9 @@ banner_image: theme://images/banners/about_us.jpg
 ---
 
 ## Sales Program
-Yes, you can attend the [Sales Program](/courses/sales/sales-program).
+Yes, you can attend [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way).
 
-The cost of attending the Sales Program as a non-Harcourts member is $1,690. If you secure a position with a Harcourts office prior to attending the training you receive a $1,000 sponsorship from Harcourts, and the cost to you will be $690. The Harcourts Sales Program is a crucial part of our culture and covers how to perform successfully using Harcourts specific systems and tools.
+The cost of attending the Getting Started the Harcourts Way as a non-Harcourts member is $1,690. If you secure a position with a Harcourts office prior to attending the training you receive a $1,000 sponsorship from Harcourts, and the cost to you will be $690. The program is a crucial part of our culture and covers how to perform successfully using Harcourts specific systems and tools.
 
 ## Property Management
 Yes, you can attend the [Property Management Program](/courses/property-management/property-management-program).

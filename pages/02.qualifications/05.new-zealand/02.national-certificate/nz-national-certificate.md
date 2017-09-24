@@ -47,14 +47,14 @@ course_content :
 
       **Note**: The cost of the Certificate is **not** included with the cost of the Harcourts Academy Sales Program.
   - title: Harcourts Academy Sales Program
-    list: Harcourts offers some the most comprehensive training in the industry. On completion of the National Certificate in Real Estate (Salesperson), participants go on to complete the Harcourts Academy [Sales Program](/courses/sales/sales-program).
+    list: Harcourts offers some the most comprehensive training in the industry. On completion of the National Certificate in Real Estate (Salesperson), participants go on to complete [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way).
   - title: Program Cost
     list: |
       The National Certificate in Real Estate (Salesperson) is $1,095 (inc. GST) for the 11 unit standards.
 
       Salespersons new to the industry and Harcourts may incur the following additional costs:
 
-      * Harcourts Academy [Sales Program](/courses/sales/sales-program): $705.00 (inc. GST)
+      * Harcourts Academy [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way): $705.00 (inc. GST)
       * Real Estate Agents Authority Licence: $939.55 (inc. GST)
 
 course_structure: The National Certificate is a self-paced course that includes a number of written assessment activities, online interactive practise and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 8 months to complete the course however the average time taken to finish it is between one and three months.
