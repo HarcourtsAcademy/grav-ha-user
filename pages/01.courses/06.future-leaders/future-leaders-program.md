@@ -34,9 +34,9 @@ course_content:
     list: |
       * Initial meeting to complete a strategic business plan and training schedule
       * Complete all Academy [sales](/courses/sales) and [technology](/courses/technology) programs
-      * Complete the [Office Administration Program](/courses/office-administrator-program)
+      * Complete the [Office Administration Program](/courses/administration/office-administrator)
       * Complete the [Property Management Program](/courses/property-management/property-management-program)
-      * Complete the [Leadership Program](/courses/leadership/leadership-program) – all units
+      * Complete the [Leadership Workshop Series](/courses/leadership/leadership-workshops) – all units
       * Attend retreats and conferences
   - title: Support
     list: |

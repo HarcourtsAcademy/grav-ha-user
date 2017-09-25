@@ -174,7 +174,7 @@
 
           {% if page.header.further_information %}
             {% if page.header.taxonomy.region %}
-              {% set contactus = base_url ~ '/about-us/contact-us' ~ '/locations/' ~ page.header.taxonomy.region %}
+              {% set contactus = base_url ~ '/about-us/contact-us' ~ '/location:' ~ page.header.taxonomy.region %}
             {% else %}
               {% set contactus = base_url ~ '/about-us/contact-us' %}
             {% endif %}

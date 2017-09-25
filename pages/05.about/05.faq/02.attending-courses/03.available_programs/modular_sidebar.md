@@ -13,10 +13,10 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 ---
 
-Academy programs include [Sales](/courses/sales), [Property Management](/courses/property-management), [Leadership](/courses/leadership), [Administration](/courses/office-administrator-program), [Technology](/courses/technology) and other specialist fields.
+Academy programs include [Sales](/courses/sales), [Property Management](/courses/property-management), [Leadership](/courses/leadership), [Administration](/courses/administration/office-administrator), [Technology](/courses/technology) and other specialist fields.
 
 Some popular programs include:
 
-- [Sales Program](/courses/sales/sales-program)
+- [Sales Training Pathway](/courses/sales)
 - [Property Management Program](/courses/property-management/property-management-program)
-- [Leadership Program](/courses/leadership/leadership-program)
+- [Leadership Workshops](/courses/leadership/leadership-workshops)

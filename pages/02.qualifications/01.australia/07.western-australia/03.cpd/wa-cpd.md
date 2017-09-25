@@ -78,15 +78,15 @@ Harcourts Academy can provide 7 elective points. The 3 mandatory points must be 
   <dt>Classroom</td>
   <dd markdown="1">Visit [HarcourtsOne](http://one.harcourts.com.au) and look for CPD training in the Event Calendar. (Our [annual classroom training calendars](/courses/calendars/au/western-australia) are online)</dd>
   <dt>Online</td>
-  <dd markdown="1">Gain all your elective CPD points online. Two 3.5 point workshops are available for $60 (inc. GST) each. To begin [contact your local Academy](/about/contact-us/locations/western-australia)</dd>
+  <dd markdown="1">Gain all your elective CPD points online. Two 3.5 point workshops are available for $60 (inc. GST) each. To begin [contact your local Academy](http://waopportunities.harcourts.com.au/Meet-the-Team)</dd>
   <dt>Online</td>
   <dd markdown="1">Register for conference via [www.harcourtsevents.com](http://www.harcourtsevents.com).</dd>
 </dl>
 
 ## Where and when
 ### Mandatory
-Mandatory activity workshops are held throughout the year and can be found at the Department of Commerce website
-The Department of Commerce will fund the required Mandatory training for each agent
+Mandatory activity workshops are held throughout the year and can be found at the Department of Commerce website.
+The Department of Commerce will fund the required Mandatory training for each agent.
 
 ### Elective
 1. Harcourts conference
@@ -94,8 +94,7 @@ The Department of Commerce will fund the required Mandatory training for each ag
 3. Harcourts Academy online workshops
 
 ## Support behind you
-- [Contact your local Academy](/about/contact-us/locations/western-australia) for information, assistance and advice
-- Use the [Academy helpdesk](/about/contact-us/customer-support) during self-paced learning online
+- [Contact your local Academy](http://waopportunities.harcourts.com.au/Meet-the-Team) for information, assistance and advice
 - To access your classroom training records go to [Harcourts One](http://one.harcourts.com.au) > Search Directory > (your name) > Training Attended.
 - A certificate of completion is available in the online CPD workshops once you have completed the workshop.
 

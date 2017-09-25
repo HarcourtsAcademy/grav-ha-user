@@ -9,7 +9,7 @@ showinfo: 0
 
 Inherent in the Harcourts culture is the pride with which we are actively involved in the personal and professional development of every member of our team. The Academy offers a unique type of structured course path and tailored system of learning.
 
-Students rave about the difference our training makes and we've captured their comments in [Growing Our People](Harcourts_Academy_Growing_Our_People.pdf). 
+Students rave about the difference our training makes and we've captured their comments in [Growing Our People](../Harcourts_Academy_Growing_Our_People.pdf). 
 
 ===
 

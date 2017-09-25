@@ -72,7 +72,7 @@ All costs are including GST.
 ## What additional costs may a new salesperson incur?{#additionalcosts}
 Salespersons new to the industry and Harcourts may incur the following additional costs:
 
-- Harcourts Academy [Sales Program](/courses/sales/sales-program): $705.00 (inc. GST)
+- Harcourts Academy [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way): $705.00 (inc. GST)
 - Real Estate Agents Authority Licence: $1132.00 (inc. GST)
 
 ## What does the Open Polytechnic charge for their National Certificate in Real Estate (Salesperson) course?{#openpolytechnic}

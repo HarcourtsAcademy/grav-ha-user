@@ -23,8 +23,8 @@ course_content :
     list: |
       Students may attend and complete the following Academy programs and obtain 19 units of competency required for licensing in Queensland. Note that Recognition of Prior Learning (RPL) is available.
 
-      - Law, Ethics and Documents (online) - 3 days
-      - [Sales Program](/courses/sales/sales-program) - 6 days
+      - Law, Ethics and Documents (online and in-class) - 3 days
+      - [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way) - 4 days
       - [Property Management Program](/courses/property-management/property-management-program) - 3 days
       - [Auction Sales Program](/courses/sales/auction)- 1 day
       - Licence Workshop - 4 days
