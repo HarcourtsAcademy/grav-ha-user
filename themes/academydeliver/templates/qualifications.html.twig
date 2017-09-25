@@ -7,6 +7,9 @@
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
+        <div class="g-block size-1-3 pure-u-1-3" id="sidebar">
+            {% include 'partials/sidebar.html.twig' %}
+        </div>
         <div class="g-block pure-u-2-3" id="qualifcations-content">
           {% set page_image = page.media.images|first %}
           {% if page_image %}
@@ -17,9 +20,6 @@
 
           {% include 'partials/qualification_regions.html.twig' %}
 
-        </div>
-        <div class="g-block size-1-3 pure-u-1-3" id="sidebar">
-            {% include 'partials/sidebar.html.twig' %}
         </div>
     </div>
 

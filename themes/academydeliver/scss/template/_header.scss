@@ -1,62 +1,253 @@
 // Header styling
 
 #header {
-    @extend .padding-horiz;
-    position: absolute;
+    position: fixed;
     z-index: 11;
     width: 100%;
-    height: $header-height;
-    background-color: rgba(255,255,255,0.90);
-    box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15);
+    height: $header-height / 2;
+    background-color: transparentize($core-accent-dark, 0.3);
+    border-bottom: 1px solid $core-accent;
+    text-align: center;
 
-    > .grid, .logo, #navbar, .social-navigation {
+    > .grid {
         height: 50%;
     }
 
+    &.scrolled {
+        background-color: $core-accent-dark;
+        transition: background-color 1s ease;
+    }
+
+
     .logo {
-        h3 {
-            @extend %vertical-align;
+        float: left;
+        position: relative;
+        top: 50%;
+        @include transform(translateY(-50%));
 
-            @include breakpoint(mobile-only) {
-                font-size: 1.9rem;
-            }
-            img {
-                max-height: 42px;
+        @include breakpoint(mobile-only) {
+            float: right;
+        }
+        img {
+            max-height: 42px;
+        }
+    }
+    .header-links {
+        position: relative;
+        top: 13%;
+        @extend .padding-horiz;
+
+        @include breakpoint(mobile-only) {
+            float: left;
+            position: relative;
+            top: 50%;
+            @include transform(translateY(-50%));
+        }
+
+        .header-buttons {
+            .search-box {
+                @include breakpoint(mobile-only) {
+                    display: none;
+                }
             }
         }
-        ul {
-            &.social-icons {
-                @extend %vertical-align;
+    }
+    ul {
+        &.navigationbar, &.login {
+            color: $core-text;
+            text-transform: uppercase;
+            float: right;
+            margin: 0;
+
+            @include breakpoint(no-mobile) {
+                line-height: 2rem;
+                font-size: $font-size-base;
             }
-        }
-        ul {
-            &.login {
-                @extend %vertical-align;
+            a {
+                @include breakpoint(no-mobile) {
+                    background-color: $core-accent;
+                }
+                padding: 0 0.5rem;
+                &:hover {
+                    color: $core-accent;
+                    background-color: $secondary-bg;
+                    @include breakpoint(mobile-only) {
+                        color: white;
+                        background-color: transparent;
+                    }
+                }
+            }
+
+            li {
+                @extend .default-animation;
+                text-align: center;
+                margin-left: 0.8rem;
+                padding: 0 0.3rem;
+                a {
+                    display: block;
+                }
             }
         }
 
-        .search-box {
+        &.navigationbar {
+            float: left;
+            cursor: pointer;
+            @include breakpoint(no-mobile) {
+                display: none;
+            }
+        }
+        &.login {
             @include breakpoint(mobile-only) {
                display: none;
+            }
+        }
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-transform: uppercase;
+
+        &.navigation {
+            float: right;
+            clear: right;
+            text-align: left;
+
+            .sb-home {
+                display: none;
+            }
+            .sb-close {
+                display: none;
+            }
+            .sb-login {
+                display: none;
+            }
+            li {
+                float: left;
+                position: relative;
+                cursor: pointer;
+                outline: 0;
+
+                &.onclick-menu .onclick-menu-items {
+                    position: absolute;
+                    z-index: 1;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: visibility 0.5s;
+                    right: 0px;
+                }
+                &:focus .onclick-menu-items {
+                    opacity: 1;
+                    visibility: visible;
+                    pointer-events: auto;
+                    max-height: 80vh;
+                    overflow: auto;
+                }
+                &.onclick-menu:focus {
+                    background-color: $secondary-bg;
+                    a {
+                        color: $core-accent-dark;
+                    }
+                }
+                a {
+                    font-family: $font-family-header;
+                    font-size: $font-size-base;
+                    display: inline-block;
+                    padding: 0.3rem 0.7rem;
+                    font-weight: bold;
+
+                    i.fa {
+                        font-size: 75%;
+                    }
+                }
+                &:hover, &:focus, &:active {
+                    a {
+                        color: $core-accent;
+                    }
+                }
+                ul {
+                    padding: 0;
+                    li {
+                        &:hover {
+                            background-color: $core-accent-dark;
+                        }
+                    }
+                }
+
+                ul ul {
+                    left: 100%;
+                    top: 0;
+                }
+
+
+                &:focus, &:active {
+                    & > ul {
+                        display: block;
+                        position: absolute;
+                        background: $secondary-bg;
+                        width: 18rem;
+                    }
+
+                    li {
+                        float: none;
+                        margin: 0;
+                        padding: 0;
+
+                        a {
+                            padding: 0.5rem 0.8rem;
+                            display: block;
+                            text-transform: none;
+                            color: $core-accent-dark;
+
+                            &:hover, &:focus {
+                                color: $secondary-bg;
+                            }
+
+                            &:before, &:after {
+                                display: none;
+                            }
+                        }
+
+                        &.active {
+                            & > a {
+                                background: $core-accent;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+            @include breakpoint(mobile-only) {
+                display: none;
+            }
+
+            .search-box {
+                @include breakpoint(no-mobile) {
+                    display: none;
+                }
             }
         }
     }
 
     .search-box {
-        @extend %vertical-align;
         display: block;
         float: right;
         text-align: right;
         margin-right: 0.75rem;
-        padding: ($leading-margin / 4) 0;
-        i {
+        padding: 0;
+        &:hover i.fa {
+            color: $core-accent;
+        }
+        i.fa {
             color: $header-text;
-            position: absolute;
-            top: 0.5rem;
-            right: 0.6rem;
+            float: right;
             padding-top: ($leading-margin / 4);
             z-index: -1;
             cursor: pointer;
+        }
+        form {
+            float: right;
+            position: relative;
+            right: -1.4rem;
         }
         input::-webkit-search-decoration,
         input::-webkit-search-cancel-button {
@@ -67,13 +258,15 @@
             cursor: pointer;
             -webkit-appearance: textfield;
             -webkit-box-sizing: content-box;
+            -webkit-appearance:none;  
+            -webkit-border-radius:0px;
             font-family: inherit;
             font-size: 100%;
             border: 0 none;
             box-shadow: none;
             color: transparent;
             background: transparent;
-            width: 4rem;
+            width: 1rem;
             height: 2rem;
             line-height: 2rem;
             margin-bottom: 0;
@@ -96,172 +289,6 @@
             color: transparent;
         }
 
-    }
-
-    #navbar {
-        //font-size: $core-font-size + 0.1rem;
-        ul {
-
-            margin: 0;
-            padding: 0;
-            list-style: none;
-
-            &.navigation {
-                @extend %vertical-align;
-                display: inline-block;
-                float: left;
-                li {
-                    float: left;
-                    position: relative;
-
-                    a {
-                        font-family: $font-family-header;
-                        display: inline-block;
-                        padding: 0.3rem 0.7rem;
-
-                        &.active, &:hover {
-                            background: white;
-                            color: $core-accent;
-                            color: darken($core-accent, 20%);
-                        }
-                    }
-                    &:hover {
-                        background: rgba(244, 244, 244, 0.9);
-                        a {
-                            color: $core-accent;
-                        }
-                    }
-
-                    ul {
-                        display: none;
-                        padding: 0;
-
-                    }
-
-                    ul ul {
-                        left: 100%;
-                        top: 0;
-                    }
-
-
-                    &:hover {
-                        & > ul {
-                            display: block;
-                            position: absolute;
-                            background: rgba(244, 244, 244, 0.9);
-                            width: 18rem;
-                        }
-
-                        li {
-                            float: none;
-                            margin: 0;
-                            padding: 0;
-
-                            a {
-                                padding: 0.5rem 0.8rem;
-                                display: block;
-                                text-transform: none;
-
-                                &:hover {
-                                    border-bottom: 0;
-                                }
-
-                                &:before, &:after {
-                                    display: none;
-                                }
-                            }
-
-                            &.active {
-                                & > a {
-                                    background: $core-accent;
-                                    color: $white;
-                                }
-                            }
-                        }
-                    }
-                }
-                @include breakpoint(mobile-only) {
-                    display: none;
-                }
-            }
-
-            &.social-icons {
-                float: right;
-                line-height: 2rem;
-                margin: 0;
-                @extend %vertical-align;
-
-                li {
-                    @extend .default-animation;
-                    float: left;
-                    width: 2.1rem;
-                    height: 2.1rem;
-                    background: $white;
-                    border-radius: 100%;
-                    text-align: center;
-                    margin-right: 0.8rem;
-                    a {
-                        @extend .default-animation;
-                        display: block;
-                        margin-top: 0.1rem;
-                    }
-                    &:hover {
-                        background: transparentize($white, 0.7);
-                    }
-                }
-            }
-
-            &.login {
-                float: right;
-                line-height: 2rem;
-                margin: 0;
-                @extend %vertical-align;
-
-                li {
-                    @extend .default-animation;
-                    width: 2.1rem;
-                    background: $white;
-                    border-radius: 100%;
-                    text-align: center;
-                    margin-left: 0.8rem;
-                    .fa {
-                        color: white;
-                    }
-                    &:hover {
-                    }
-                    a {
-                        @extend .default-animation;
-                        color: $black;
-                        display: block;
-                    }
-                    &:hover {
-                        background: transparentize($white, 0.5);
-                        .fa {
-                          color: $light-gray;
-                        }
-                    }
-                }
-            }
-        }
-
-        .panel-activation {
-            @extend %vertical-align;
-            padding: 1rem;
-            display: none;
-            font-size: $core-font-size + 0.25rem;
-            cursor: pointer;
-            float: left;
-            text-transform: uppercase;
-            @include breakpoint(mobile-only) {
-                display: inline-block;
-            }
-        }
-
-        .search-box {
-            @include breakpoint(no-mobile) {
-               display: none;
-            }
-        }
     }
 }
 
@@ -293,14 +320,7 @@
         }
     }
 
-    #breadcrumbs {
-        //margin-top: 1rem;
-    }
-
     #header {
-        background-color: rgba($header-text,0);
-        box-shadow: none;
-
         #logo h3, #logo a {
             color: $header-text;
         }
@@ -309,83 +329,15 @@
         }
         .menu-btn-label {
             font-family: $font-family-default;
-            font-size: $core-font-size + 0.25rem;
-            text-transform: none;
         }
         a:before, a:after {
             background-color: rgba($header-text,0.7) !important;
         }
-
-        #navbar ul.navigation  {
-            ul li a {
-                color: $core-accent;
-                text-transform: none;
-                &:hover {
-                    color: darken($core-accent, 20%);
-                    border-bottom: 0;
-                }
-            }
-        }
     }
 }
-.header-lite {
-    #header {
-        box-shadow: none;
-        color: $light-gray;
-        a, .menu-btn {
-            color: $light-gray;
-        }
-        #navbar ul.navigation  {
-            ul li a {
-                color: $core-accent;
-                text-transform: none;
-                &:hover {
-                    color: darken($core-accent, 20%);
-                    border-bottom: 0;
-                }
-            }
-        }
-        .search-box {
-            i {
-                color: $light-gray;
-            }
-            input[type=search] {
-                &:focus {
-                    background-color: transparentize($light-gray, 0.6);
-                }
-            }
-        }
-        li.active a {
-            color: $core-accent;
-        }
-        .logo ul.social-icons li {
-            background: transparentize($light-gray, 0.8);
-            .fa {
-                color: white;
-            }
-            &:hover {
-                .fa {
-                    color: $light-gray;
-                }
-            }
-        }
-        .logo ul.login li {
-            background: transparentize($light-gray, 0.8);
-            &:hover {
-                .fa {
-                    color: $light-gray;
-                }
-            }
-        }
-    }
 
-    #body {
-        .showcase_container .showcase {
-            margin-top: -1rem;
-
-            .showcaseoverlay {
-                display: none;
-            }
-        }
-    }
+// Via https://stackoverflow.com/questions/13036142/anchor-links-to-start-below-the-header-which-is-fixed-at-the-top
+.anchor{
+   padding-top: $header-height / 2;
+   margin-top: -$header-height / 2;
 }

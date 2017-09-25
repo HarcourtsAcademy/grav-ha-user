@@ -44,14 +44,14 @@
             <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
             <div class="modal-body">
                 <h1>{{ portfolio.title }}</h1>
-                <a href="{{ portfolio.url }}">
+                <a href="{{ base_url_relative ~ portfolio.url }}">
                     <img src="{{ page.media[portfolio.image].cropResize(399, 289).url }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
                 </a>
                 <p>{{ portfolio.desc|markdown }}</p>
                 <ul class="client-details">
                     <li>{{ portfolio.date }}</li>
                 </ul>
-                <a href="{{ portfolio.url }}" type="button" class="button" ><i class="fa {{ icon }}"></i> {{ button }}</a>
+                <a href="{{ base_url_relative ~ portfolio.url }}" type="button" class="button" ><i class="fa {{ icon }}"></i> {{ button }}</a>
                 <button type="button" class="button-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
         </div>

@@ -24,7 +24,7 @@ $module-bg:        #EEEEEE;
             float: left;
             width: 44%;
             margin: 0 1rem 1rem;
-            min-height: 16rem;
+            min-height: 12rem;
             @include breakpoint(mobile-only) {
                 display: block;
                 width: 100%;
@@ -36,7 +36,7 @@ $module-bg:        #EEEEEE;
                 display: block;
                 width: 44%;
                 margin-bottom: 2rem;
-                min-height: 22rem;
+                min-height: 14rem;
             }
             .profile-picture {
               text-align: right;
@@ -68,6 +68,7 @@ $module-bg:        #EEEEEE;
                 text-align: left;
                 margin-top: 0;
                 margin-bottom: 0;
+                text-transform: unset;
                 @include breakpoint(tablet-range) {
                     margin-top: inherit;
                 }

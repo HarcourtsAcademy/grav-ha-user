@@ -6,7 +6,7 @@
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
           {% for button in slide.buttons %}
-          <a class="button button-chat-bubble" href="{{ button.url }}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          <a class="button button-chat-bubble" href="{% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
           {% endfor %}
       </div>
     {% endfor %}

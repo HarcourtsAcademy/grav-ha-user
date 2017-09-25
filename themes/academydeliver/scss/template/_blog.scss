@@ -157,12 +157,12 @@ div#breadcrumbs {
 
 // Sidebar
 #sidebar {
-    padding: 0 1rem;
-    margin: 0 0 2rem 2rem;
+    padding: 0.8rem 1rem 0;
+    margin: 0 2rem 0 0;
     background-color: $secondary-bg;
 
     @include breakpoint(mobile-only) {
-        margin: 0 0 1rem 0;
+        margin: 0;
     }
     .sidebar-content {
 
@@ -174,6 +174,9 @@ div#breadcrumbs {
             margin-top: 1rem;
         }
         margin-bottom: $padding-vert;
+        @include breakpoint(mobile-only) {
+            margin-bottom: 0;
+        }
     }
 }
 

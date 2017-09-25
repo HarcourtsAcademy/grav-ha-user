@@ -103,43 +103,49 @@
 {% endblock head%}
 </head>
 {% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
+{% set body_classes = page.taxonomy.category ? body_classes ~ ' ' ~ page.taxonomy.category[0] : body_classes %}
+{% if page.header.header_title == 'use-parent-title' %}
+	{% set pagetitle = page.parent.title %}
+{% else %}
+	{% set pagetitle = uri.param('content') ? uri.param('content') : page.title %}
+{% endif %}
 <body id="top" class="template-{{ page.template }} {{ body_classes }}">
     <div id="sb-site">
         {% block header %}
         <header id="header">
-                <div class="logo">
-                    <h3><a href="{{ base_url_absolute }}">
-                            {% if 'logo-dark' in page.header.body_classes %}
-                                <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% else %}
-                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% endif %}
-                    </a></h3>
+            <div class="logo"><a href="{{ base_url_absolute }}">
+                    {% if 'logo-dark' in page.header.body_classes %}
+                        <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                    {% else %}
+                        <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                    {% endif %}
+            </a></div>
+            <div class="header-links">
+                <div class="header-buttons">
                     {% if site.studentlogin.url %}
                     <ul class="login">
-                      <li>
+                    <li>
                         <a href="{{ site.studentlogin.url }}">
-                          <i class="fa fa-{{ site.studentlogin.icon }}"></i><span class="login-label"> Login</span>
+                        <i class="fa fa-{{ site.studentlogin.icon }}" aria-hidden="true"></i> <span class="login-label"> Learn Online</span>
                         </a>
-                      </li>
+                    </li>
                     </ul>
                     {% endif %}
+                    <ul class="navigationbar">
+                        <li class="panel-activation sb-toggle-left navigationbar-left menu-btn fa fa-bars">
+                            <span class="menu-btn-label">Menu</span>
+                        </li>
+                    </ul>
                     {#% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %#}
                     {% include 'partials/search.html.twig' %}
                 </div>
-                <div id="navbar">
-                    {% block header_extra %}{% endblock %}
-                    {% block header_navigation %}
-                    {% include 'partials/navigation.html.twig' %}
-                    {% endblock %}
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars">
-                        <span class="menu-btn-label">Menu</span>
-                    </span>
-                    
-                    {% include 'partials/search.html.twig' %}
-                </div>
+                {% block header_extra %}{% endblock %}
+                {% block header_navigation %}
+                {% include 'partials/navigation.html.twig' %}
+                {% endblock %}
+            </div>
         </header>
         {% endblock %}
 
@@ -147,11 +153,11 @@
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block showcase %}
-              {% set banner_image = page.header.banner_image ? page.header.banner_image : 'theme://images/banners/default.jpg' %}
+              {% set banner_image = page.taxonomy.category ? 'theme://images/banners/' ~ page.taxonomy.category[0] ~ '.jpg' : 'theme://images/banners/default.jpg' %}
               <div class="showcase_container">
                 <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
                   <div class="showcaseoverlay modular-row"></div>
-                  <h1>{{ page.title }}</h1>
+                  <h1>{{ pagetitle }}</h1>
                 </div>
               </div>
             {% endblock %}

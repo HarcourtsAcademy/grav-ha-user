@@ -1,0 +1,44 @@
+.panel-group {
+  $accordion-height: 36;
+  $accordion-icon-width: 2;
+  $accordion-icon-height: 14;
+  $accordion-icon-x: round(($accordion-height - $accordion-icon-height) / 2); // = 11
+  $accordion-icon-y: round(($accordion-height - $accordion-icon-width) / 2); // = 12
+
+  .panel {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    .panel-heading {
+      border: none;
+      border-radius: 0;
+      background-color: $core-accent-dark;
+      padding: 0;
+      &:hover {
+        background-color: $core-accent;
+      }
+      .accordion-toggle {
+        display: block;
+        height: #{$accordion-height}px;
+        /* symbol for opened panels */
+        background-image: #{inline-svg("<svg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'> <rect fill='#000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'></rect> <rect fill='#FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'></rect> </svg>")};
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        h4 {
+          text-align: left;
+          display: inline-block;
+          margin-left: 2rem;
+          padding: 5px 15px;
+        }
+      }
+      .accordion-toggle.collapsed {
+          /* symbol for collapsed panels */
+          background-image: #{inline-svg("<svg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'> <rect fill='#000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'></rect> <rect fill='#FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'></rect> <rect fill='#FFF' width='#{$accordion-icon-width}' height='#{$accordion-icon-height}' x='#{$accordion-icon-y}' y='#{$accordion-icon-x}'></rect> </svg>")};
+      }
+      a.accordion-toggle {
+          text-decoration: none;
+          color: $white;
+      }
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
 // Load Third Party Libraries
 @import "vendor/bourbon/bourbon";
+@import "bootstrap/variables";
 
 // Load Nucleus Configuration
 @import "configuration/nucleus/base";
@@ -86,6 +87,9 @@
 
 // Subpages
 @import "template/subpage";
+
+// Bootstrap accordion
+@import "template/accordion";
 
 // Training Pathways
 @import "template/trainingpaths";

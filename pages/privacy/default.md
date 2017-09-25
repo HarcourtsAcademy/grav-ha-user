@@ -1,6 +1,5 @@
 ---
 title: Privacy Policy & Terms and Conditions
-onpage_menu: false
 slug: privacy
 published: true
 date: 29-03-2013 3:14pm

@@ -6,7 +6,7 @@ logo:
 author:
   name: Harcourts Academy
   email: 'academy@harcourts.net'
-  email_link: "base_url:about-us/contact-us/customer-support"
+  email_link: "base_url:about/contact-us"
   copyright: "&copy; Harcourts International Limited"
 social:
   - url: 'https://facebook.com/harcourtsacademy'
@@ -17,36 +17,36 @@ contact:
     - line: "31 Amy Johnson Place"
     - line: "Eagle Farm, QLD 4009 Australia"
   phone:
-    - region: "+61 (7) 3839-3100"
+    global: "+61 (7) 3839-3100"
 
 metadata:
     description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
 
-taxonomies: [category,tag,country,region,topic,format,audience,people,training_paths,experience_level]
+taxonomies: [category,tag,country,region,role,topic,content,format,audience,people,training_paths,experience_level]
 
 othermenu:
-  - text: "About"
-    url: "base_url:about-us"
   - text: "Privacy Policy"
     url: "base_url:privacy"
-  - text: "Contact"
-    url: "base_url:about-us/contact-us"
+  - text: "Contact Us"
+    url: "base_url:about/contact-us"
+
+contactus:
+  url: "base_url:about/contact-us"
+  icon: comments-o
 
 studentlogin:
   url: 'https://www.academyrealestatetraining.com/moodle/my/'
   icon: 'sign-in'
 
 quicklinks:
-  - text: "Courses"
+  - text: "Training"
     url: "base_url:courses"
   - text: "Qualifications"
     url: "base_url:get-qualified"
-  - text: "Online Learning"
-    url: "base_url:online-learning"
-  - text: "Library"
-    url: "base_url:the-library"
-  - text: "Speakers"
-    url: "base_url:speakers"
+  - text: "Academy TV"
+    url: "base_url:tv"
+  - text: "News"
+    url: "base_url:news"
   - text: "About Us"
     url: "base_url:about-us"
 
@@ -56,24 +56,40 @@ navigation:
 sidebar_navigation:
   maxdepth: 4
 
+location_maps:
+  - id: au
+    title: 'Australia'
+    embed: 1nvLOYPxKk9CowQzfHahq5bZYieY
+  - id: nz
+    title: 'New Zealand'
+    embed: 18yNl5vVRww2gm6RZ6UtO5YEhX6A
+  - id: us
+    title: 'USA'
+    embed: 1pr0t_qTwerYKdijJhbCKSMMeSaI
+  - id: za
+    title: 'South Africa'
+    embed: 1_E7gYZzSKzRr6VgKtjCfrSceiY4
+
 blog:
-  route: '/blog'                            # Route to blog
+  route: '/news'                            # Route to blog
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
-  /ce-cpd: '/courses/continuing-education-and-cpd'
+  /ce-cpd: '/qualifications/new-zealand/new-zealand-continuing-education'
   /courses/sales/auction: '/courses/auction'
   /courses/leadership/auction: '/courses/auction'
   /info: '/'
-  ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
   /online-learning/istart-online: '/courses/sales/istart'
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
-  /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
+  /online-learning/western-australia-cpd: '/qualifications/australia/western-australia/cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
-  /training-paths: '/'
+  /training-paths: '/landing/training-pathways'
+  ## ARCHIVE
+  ## ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
 
 redirects:
   /favicon.ico: /user/themes/academydeliver/images/icons/favicon.ico
+  /about-us/(.*): '/about/$1' # Used in 'please contact your local Academy trainer.' links in Training Pathway classroom courses
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/istart24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150
@@ -108,20 +124,20 @@ redirects:
   /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
   /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
   ## Latest Training Calendars
-  /courses/calendars/au/new-south-wales:    /courses/calendars-and-upcoming-courses/_calendars/2017/NSW-Training-Calendar-2017.pdf
-  /courses/calendars/au/queensland:         /courses/calendars-and-upcoming-courses/_calendars/2017/QLD-Training-Calendar-2017.pdf
-  /courses/calendars/au/south-australia:    /courses/calendars-and-upcoming-courses/_calendars/2017/SA-Training-Calendar-2017.pdf
-  /courses/calendars/au/tasmania:           /courses/calendars-and-upcoming-courses/_calendars/2017/TAS-Training-Calendar-2017.pdf
-  /courses/calendars/au/victoria:           /courses/calendars-and-upcoming-courses/_calendars/2017/Vic-Training-Calendar-2017.pdf
-  /courses/calendars/au/western-australia:  /courses/calendars-and-upcoming-courses/_calendars/2017/WA-Training-Calendar-2017.pdf
-  /courses/calendars/nz/central:            /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Central-Training-Calendar-2017.pdf
-  /courses/calendars/nz/northern:           /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf
-  /courses/calendars/nz/south-island:       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf
-  /courses/calendars/nz/wellington  :       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf
-  /courses/calendars/us/pacific:            /courses/calendars-and-upcoming-courses/_calendars/2017/USA-Training-Calendar-2017.pdf
+  /courses/calendars/au/new-south-wales:    /calendars/2017/NSW-Training-Calendar-2017.pdf
+  /courses/calendars/au/queensland:         /calendars/2017/QLD-Training-Calendar-2017.pdf
+  /courses/calendars/au/south-australia:    /calendars/2017/SA-Training-Calendar-2017.pdf
+  /courses/calendars/au/tasmania:           /calendars/2017/TAS-Training-Calendar-2017.pdf
+  /courses/calendars/au/victoria:           /calendars/2017/Vic-Training-Calendar-2017.pdf
+  /courses/calendars/au/western-australia:  /calendars/2017/WA-Training-Calendar-2017.pdf
+  /courses/calendars/nz/central:            /calendars/2017/NZ-Central-Training-Calendar-2017.pdf
+  /courses/calendars/nz/northern:           /calendars/2017/NZ-Northern-Training-Calendar-2017.pdf
+  /courses/calendars/nz/south-island:       /calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf
+  /courses/calendars/nz/wellington  :       /calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf
+  /courses/calendars/us/pacific:            /calendars/2017/USA-Training-Calendar-2017.pdf
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
-  /landing/eone: /online-learning/bites/#pk_campaign=app-eone
-  /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
+  /landing/eone: tv/interviews/#pk_campaign=app-eone
+  /landing/eopen: tv/interviews/#pk_campaign=app-eopen
   ## START Redirection links used in Academy H1 Course Registration Notification Emails
   /download/eone/universal: https://harcourts-ecloud.back4app.io/applications/eOne/releases/universal
   /download/eone/au: https://harcourts-ecloud.back4app.io/applications/eOne/releases/AU
@@ -143,7 +159,7 @@ redirects:
   /landing/facebook/learning-bites: /online-learning/bites/#pk_campaign=fb-harcourtsacademy
   /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/ce/2016: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
-  /nz/national-certificate: http://www.academyrealestatetraining.com/get-qualified/new-zealand
+  /nz/national-certificate: http://www.academyrealestatetraining.com/qualifications/new-zealand/new-zealand-national-certificate
   /nz/istart24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145
   /nz/istart24/certificates/completion: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2609
   /nz/istart24/certificates/participation: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2610
@@ -175,6 +191,7 @@ redirects:
   /nz/istart24/week24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=116
   /nz/istart24/week25survey: http://www.academyrealestatetraining.com/nz/moodle/mod/questionnaire/view.php?id=2608
   ## Webinars
+  ## Webinars
   /upload-webinar: https://www.academyrealestatetraining.com/moodle/mod/url/view.php?id=1039
   ## Train the Trainer
   /ttt: https://www.academyrealestatetraining.com/moodle/course/view.php?id=73
@@ -191,16 +208,9 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    description: "The Academy delivers a range of training programmes, from training for new real estate professionals to extensive management training for our business leaders. The Academy has an extensive team across the globe focused solely on developing and delivering training and skill building sessions."
     rto_provider: 31139
-    contact_title: "Contact Info"
-    links_title: "Menu"
-    newsletter_title: "Newsletter"
-    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
     copyright_text: "Copyright 2017 Harcourts International Ltd."
-    feedburner: ""   # Your feedburner id for Newsletter footer modul
 
-qualification_unit_path: /get-qualified/units/
 qualification_units:
   BSBSMB406:
     id: BSBSMB406
@@ -208,6 +218,9 @@ qualification_units:
   CPPDSM3019:
     id: CPPDSM3019
     name: Communicate with clients in the property industry
+  CPPDSM4002:
+    id: CPPDSM4002A
+    name: Apply knowledge of state or territory legislative and regulatory framework to complete agency work
   CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
@@ -224,8 +237,8 @@ qualification_units:
     id: CPPDSM4007A
     name: Identify legal and ethical requirements of property management to complete agency work
   CPPDSM4008:
-      id: CPPDSM4008A
-      name: Identify legal and ethical requirements of property sales to complete agency work
+    id: CPPDSM4008A
+    name: Identify legal and ethical requirements of property sales to complete agency work
   CPPDSM4009:
     id: CPPDSM4009
     name: Interpret legislation to complete work in the property industry
@@ -259,6 +272,7 @@ qualification_units:
   CPPDSM4019:
     id: CPPDSM4019A
     name: Prepare for auction and complete sale
+    url: http://training.gov.au/Training/Details/CPPDSM4019A
   CPPDSM4022:
     id: CPPDSM4022A
     name: Sell and finalise the sale of property by private treaty

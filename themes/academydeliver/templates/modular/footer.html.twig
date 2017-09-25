@@ -1,19 +1,15 @@
 <div class="modular-row footer {{ page.header.class}}">
-    <div class="footer-items">
+    <!--<div class="footer-items">
         <div class="footer-module large">
             <div class="logo">
                 <h3><a href="{{ base_url_absolute }}"><img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}"></a></h3>
-                {% block social %}
-                    {% include 'partials/social.html.twig' %}
-                {% endblock %}
+
 
             </div>
             {% if site.footer.description %}
                 <p>{{ site.footer.description }}</p>
             {% endif %}
-            {% if site.footer.rto_provider %}
-                <p>National Training Provider Number <a href="http://training.gov.au/Organisation/Details/{{ site.footer.rto_provider }}">{{ site.footer.rto_provider }}</a></p>
-            {% endif %}
+            
         </div>
         <div class="footer-module large"><h4>{{ site.footer.contact_title }}</h4>
             <p>
@@ -21,32 +17,32 @@
                     <span>{{ item.line }}</span>
                 {% endfor %}
             </p>
-            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="{% if "base_url:" in site.author.email_link %}{{ base_url_absolute }}/{{ site.author.email_link|replace({"base_url:": ""}) }}{% else %}{{ site.author.email_link }}{% endif %}">{{ site.author.email|safe_email }}</a></p>
-            <ul class="quickmenu">
-                {% for item in site.contact.phone %}
-                    <li><i class="fa fa-phone"></i> {{ item.region }}</li>
-                {% endfor %}
-            </ul>
         </div>
-        <div class="footer-module"><h4>{{ site.footer.links_title }}</h4>
-         <ul class="quickmenu">
-            {% for module in site.quicklinks %}
-                <li><i class="fa fa-chevron-right"></i><a href="{% if "base_url:" in module.url %}{{ base_url_absolute }}/{{ module.url|replace({"base_url:": ""}) }}{% else %}{{ module.url }}{% endif %}">{{  module.text }}</a></li>
-            {% endfor %}
+    </div>-->
+  <div class="footer-modules">
+    <div class="footer-module large">
+      <div class="footer-copyright">
+        {{ site.author.copyright }}
+      </div>
+      {% if site.footer.rto_provider %}
+      <div class="footer-rto_provider">
+        National Training Provider Number <a href="http://training.gov.au/Organisation/Details/{{ site.footer.rto_provider }}">{{ site.footer.rto_provider }}</a>
+      </div>
+      {% endif %}
+    </div>
+    <div class="footer-module centered">
+      <div class="footer-social">
+        {% block social %}
+            {% include 'partials/social.html.twig' %}
+        {% endblock %}
+      </div>
+    </div>
+    <div class="footer-module footer-menu">
+        <ul>
+        {% for module in site.othermenu %}
+        <li><a href="{% if "base_url:" in module.url %}{{ base_url_absolute }}/{{ module.url|replace({"base_url:": ""}) }}{% else %}{{ module.url }}{% endif %}">{{  module.text }}</a></li>
+        {% endfor %}
         </ul>
     </div>
-</div>
-<hr>
-<div class="footer-modules">
-    <div class="footer-copyright">
-        {{ site.author.copyright }}
-    </div>
-    <div class="footer-menu">
-    <ul class="othermenu">
-    {% for module in site.othermenu %}
-       <li><a href="{% if "base_url:" in module.url %}{{ base_url_absolute }}/{{ module.url|replace({"base_url:": ""}) }}{% else %}{{ module.url }}{% endif %}">{{  module.text }}</a></li>
-    {% endfor %}
-    </ul>
-    </div>
-</div>
+  </div>
 </div>

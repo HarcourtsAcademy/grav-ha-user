@@ -1,5 +1,10 @@
 
 // Modal Window
+body.modal-open {
+    height: 100vh;
+    overflow: hidden;
+}
+
 .portfolio-modal .close-modal {
     position: absolute;
     top: 0;
@@ -14,6 +19,51 @@
         width: 1.4em;
         height: 1.4em;
         line-height: 1.4em;
+    }
+}
+.modal.teammember-modal {
+    height: 100vh;
+    overflow-y: auto;
+    text-align: unset;
+
+    .close-modal {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5rem;
+        height: 5rem;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 3rem;
+        @include breakpoint(mobile-only) {
+            font-size: 2em;
+            width: 1.4em;
+            height: 1.4em;
+            line-height: 1.4em;
+        }
+    }
+    .modal-body {
+        padding: 1rem;
+        @include breakpoint(mobile-only) {
+            padding-bottom: 2rem;
+        }
+        img {
+            float: left;
+            padding: 0.5rem 1rem 1rem 0;
+            max-width: 40vw;
+        }
+        h1 {
+            text-align: unset;
+        }
+        .contact-icons {
+            /* Prevent contact icons to wrap around the image. */
+            @media only all and (max-width: ((290px * 100) / 60)) {
+                padding-left: 40vw;
+            }
+        }
+        .bio {
+            clear: both;
+        }
     }
 }
 .modal {

@@ -14,13 +14,13 @@
 {% if page.header.side_bar_menu == true %}
     {% set depth = 1 %}
 
-    {% if page.header.sidebar_navigation.maxdepth %}
+    {% if page.header.sidebar_navigation.maxdepth is defined %}
       {% set maxdepth = page.header.sidebar_navigation.maxdepth %}
     {% else %}
       {% set maxdepth = config.site.sidebar_navigation.maxdepth %}
     {% endif %}
 
-    {% macro subpage_menu(page, maxdepth, depth) %}
+    {% macro page_list(page, maxdepth, depth) %}
 
       {% if page.visible %}
           {% set current_page = (page.active) ? 'active' : '' %}
@@ -44,65 +44,58 @@
       {% endif %}
     {% endmacro %}
 
+    {% set hassubpages = false %}
+    {% for subpage in page.collection %}
+      {% if page != subpage and subpage.visible %}
+        {% set hassubpages = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% set hassiblingpages = false %}
+    {% set parent = page.parent %}
+    {% for siblingpage in parent.children if siblingpage.visible %}
+      {% set hassiblingpages = true %}
+    {% endfor %}
+    
+    {% if page.collection.count > 0 and hassubpages == true %}
     <div class="sidebar-content">
-        {% for toplevelpage in pages.children %}
-          {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
-            <h4>{{ toplevelpage.title }}</h4>
-            <ul class="navigation">
-            {% for page in toplevelpage.children %}
-              {{ _self.subpage_menu(page, maxdepth, depth) }}
-            {% endfor %}
-            </ul>
+        <ul class="navigation">
+        {% for subpage in page.collection %}
+          {% if page != subpage %}
+            {{ _self.page_list(subpage, maxdepth, depth) }}
           {% endif %}
         {% endfor %}
+        </ul>
     </div>
-{% endif %}
-{### Related pages menu ###}
-{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
-<div class="sidebar-content">
-  <h4>Related Pages</h4>
-  {% include 'partials/relatedpages.html.twig' %}
-</div>
-{% endif %}
-{% if 'courses' in page.taxonomy.category and 'calendars' not in page.taxonomy.tag %}
-<div class="sidebar-content">
-  <h4>Training Calendars</h4>
-  <ul class="calendar-links">
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#australia">Australia Calendars</a></li>
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#new-zealand">New Zealand Calendars</a></li>
-    <li><a href="{{ base_url_relative }}/courses/calendars-and-upcoming-courses#usa">USA Calendar</a></li>
-    </ul>
-</div>
-<div class="sidebar-content">
-  <h4>Upcoming Training</h4>
-  <ul class="upcoming-training-links">
-    <li><a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a></li>
-<!--    <li><a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a></li> -->
-    <li><a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a></li>
-    <li><a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a></li>
-    <li><a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="nofollow">South Africa Upcoming Training</a></li>
-    <li><a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="nofollow">USA Upcoming Training</a></li>
-    </ul>
-</div>
-{% endif %}
-{% if page.header.online_learning %}
-{% set online_learning = page.header.online_learning %}
-<div class="sidebar-content">
-  <h4>{{ online_learning.name }}</h4>
-  <a href="{{ online_learning.url }}" class="button">Start {{ online_learning.name }}</a>
-</div>
-{% endif %}
-{% if page.header.side_bar_content %}
-{% set side_bar_content = page.header.side_bar_content %}
-<div class="sidebar-content">
-  {% for item in side_bar_content %}
-    {{ item.content|markdown }}
-  {% endfor %}
-</div>
-{% endif %}
-{% if config.plugins.taxonomylist.enabled and 'online_learning' in page.taxonomy.category%}
-<div class="sidebar-content">
-    <h4>Learning Bite Topics</h4>
-    {% include 'partials/taxonomylist.html.twig' with {'base_url':'/online-learning/bites', 'taxonomy':'topic'} %}
-</div>
+    {% elseif hassiblingpages %}
+    <div class="sidebar-content">
+        <ul class="navigation">
+        {% for siblingpage in parent.children %}
+          {{ _self.page_list(siblingpage, maxdepth, depth) }}
+        {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+    {### Related pages menu ###}
+    {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+    <div class="sidebar-content">
+      <h4>Related Pages</h4>
+      {% include 'partials/relatedpages.html.twig' %}
+    </div>
+    {% endif %}
+    {% if page.header.side_bar_content %}
+    {% set side_bar_content = page.header.side_bar_content %}
+    <div class="sidebar-content">
+      {% for item in side_bar_content %}
+        {{ item.content|markdown }}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if config.plugins.taxonomylist.enabled and 'tv' in page.taxonomy.category%}
+    <div class="sidebar-content">
+        <h4>Topics</h4>
+        {% include 'partials/taxonomylist.html.twig' with {'base_url':base_url_relative ~ '/tv/all', 'taxonomy':'content'} %}
+    </div>
+    {% endif %}
 {% endif %}

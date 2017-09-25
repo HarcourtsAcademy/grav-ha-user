@@ -1,88 +1,14 @@
 {% extends 'partials/base.html.twig' %}
 
-{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
 {% block javascripts %}
-    {% if show_onpage_menu %}
-        {% do assets.add('theme://js/singlePageNav.min.js') %}
-    {% endif %}
     {{ parent() }}
 {% endblock %}
 
 
 {% block bottom %}
     {{ parent() }}
-    {% if show_onpage_menu %}
-        <script>
-        // singlePageNav initialization & configuration
-        $('#navbar').singlePageNav({
-            offset: $('#header').outerHeight(),
-            filter: ':not(.external)',
-            updateHash: true,
-            currentClass: 'active'
-        });
-        </script>
-    {% endif %}
-{% endblock %}
-
-
-{% block header_navigation %}
-    {% if show_onpage_menu %}
-        <ul class="navigation">
-
-        {% macro loop(page) %}
-        {% for p in page.children %}
-            {% if p.visible %}
-                {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
-                <li class="{{ current_page }}">
-                    <a href="{{ p.url }}" class="external">
-                        {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
-                        {{ p.menu }}
-                    </a>
-                    {% if p.children.count > 0 %}
-                        <ul>
-                            {{ _self.loop(p) }}
-                        </ul>
-                    {% endif %}
-                </li>
-            {% endif %}
-        {% endfor %}
-        {% endmacro %}
-
-
-        {% if config.themes.deliver.dropdown.enabled %}
-            {{ _self.loop(pages) }}
-        {% else %}
-            {% for page in pages.children %}
-                {% if page.visible %}
-                    {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
-                    <li class="{{ current_page }}">
-                        <a href="{{ page.url }}" class="external">
-                            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
-                            {{ page.menu }}
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-        {% for mitem in site.menu %}
-            <li>
-                <a href="{{ mitem.url }}">
-                    {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
-                    {{ mitem.text }}
-                </a>
-            </li>
-        {% endfor %}
-
-        {% for module in page.collection() %}
-            {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-            <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
-        {% endfor %}
-         </ul>
-    {% else %}
-        {{  parent() }}
-    {% endif %}
 {% endblock %}
 
 {% block content %}
@@ -92,7 +18,18 @@
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
+        <div id="sidebar" class="g-block size-1-3 pure-u-1-3">
+          {% include 'partials/sidebar.html.twig' %}
+        </div>
         <div id="content" class="g-block pure-u-2-3">
+          {% if page.header.header_title is defined %}
+          <h1>{{ page.title }}</h1>
+          {% endif %}
+
+          {% set page_image = page.media.images|first %}
+          {% if page_image %}
+              <p><img src="{{ page_image.url }}"/></p>
+          {% endif %}
 
           {{ page.content }}
 
@@ -119,34 +56,45 @@
           {% endfor %}
 
           {% if page.header.list_subpages %}
-            {% for page in page.collection %}
+            {% for subpage in page.collection %}
+
+              {% if page != subpage %}
+
+              {% if (subpage.header.include_page) %}
+                {% set subpageurl = subpage.url %}
+                {% set subpage = page.find(subpage.header.include_page) %}
+              {% else %}
+                {% set subpageurl = subpage.url %}
+              {% endif %}
 
               <section class="subpage-item">
 
-                  {% set banner = page.media.images|first %}
+                  {% set banner = subpage.media.images|first %}
 
                   {% if banner %}
                   <div class="subpage-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
+                      <a href="{{ subpageurl }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
                   </div>
                   {% endif %}
 
-                  {% if page.routable %}
+                  {% if subpage.routable %}
 
-                      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                      <h3><a href="{{ subpageurl }}">{{ subpage.title }}</a></h3>
+                      {% if page.header.list_subpage_dates %}
                       <div class="subpage-date">
-                          {{ page.date|date(config.system.pages.dateformat.short) }}
+                          {{ subpage.date|date(config.system.pages.dateformat.short) }}
                       </div>
-                      <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
-                        {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                      {% endif %}
+                      <div>{{ subpage.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ subpageurl }}">
+                        {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                       </a></div>
                   {% else %}
                     {% for route_from, route_to in site.routes %}
-                      {% if page.route == route_from %}
-                        {% set page_to = page.find(route_to) %}
+                      {% if subpage.route == route_from %}
+                        {% set page_to = subpage.find(route_to) %}
                         <h3><a href="{{ page_to.url }}">{{ page_to.title }}</a></h3>
-                        <p>{{ page_to.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
-                          {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
+                        <p>{{ page_to.summary }} <a class="{{- subpage.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
+                          {{- subpage.header.readmore_label ? subpage.header.readmore_label : "Read more" -}}
                         </a></p>
                       {% endif %}
                     {% endfor %}
@@ -155,41 +103,11 @@
                   <hr/>
 
               </section>
+                {% endif %}
 
             {% endfor %}
           {% endif %}
 
-          {% set inspirational_women_collection = page.collection('inspirational-women') %}
-          {% if inspirational_women_collection %}
-          <section class="inspirational-women-list g-grid pure-g-r">
-            {% for page in inspirational_women_collection %}
-              <div class="inspirational-women-item size-1-3 pure-u-1-3">
-
-                  {% set banner = page.media.images|first %}
-
-                  {% if banner %}
-                  <div class="profile-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').zoomresize(200,200).html }}</a>
-                  </div>
-                  {% endif %}
-
-                  <div class="profile-name"><a href="{{ page.url }}">{{ page.title }}</a></div>
-                  {% if page.header.inspirational_women.region %}
-                    <div class="profile-region">{{ page.header.inspirational_women.region }}</div>
-                  {% else %}
-                      <div class="profile-region">{{ page.header.inspirational_women.country }}</div>
-                  {% endif %}
-
-
-              </div>
-
-            {% endfor %}
-          </section>
-          {% endif %}
-
-        </div>
-        <div id="sidebar" class="g-block size-1-3 pure-u-1-3">
-            {% include 'partials/sidebar.html.twig' %}
         </div>
     </div>
 

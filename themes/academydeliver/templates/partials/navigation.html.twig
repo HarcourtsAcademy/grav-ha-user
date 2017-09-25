@@ -9,13 +9,22 @@
     {% for p in page.children %}
         {% if p.visible %}
             {% set current_page = (p.active or p.activeChild) ? 'active' : '' %}
+            {% if depth < maxdepth %}
+            <li tabindex="0" class="{{ current_page }} onclick-menu">
+            {% else %}
             <li class="{{ current_page }}">
-                <a href="{{ p.url }}">
-                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+            {% endif %}
+              {% if p.children.count > 0 and depth == 1 %}
+                <a> 
+                    {{ p.menu }} {% if depth < maxdepth %}<i class="fa fa-caret-down"></i>{% endif %}
+                </a>
+              {% else %}
+                <a href="{{ p.url }}"> 
                     {{ p.menu }}
                 </a>
+              {% endif %}
                 {% if p.children.count > 0 and depth < maxdepth %}
-                    <ul>
+                    <ul class="onclick-menu-items">
                         {{ _self.loop(p, maxdepth, (depth + 1)) }}
                     </ul>
                 {% endif %}
@@ -25,6 +34,15 @@
 {% endmacro %}
 
 <ul class="navigation">
+    <a href="{{ base_url_absolute }}" class="sb-home" aria-label="home" title="home"><i class="fa fa-home"></i></a>
+    <a href="#" class="sb-close" aria-label="close" title="close">×</a>
+    {% include 'partials/search.html.twig' %}
+    {% if site.studentlogin.url %}
+    <li class="sb-login">
+        <a href="{{ site.studentlogin.url }}">Learn Online</a>
+    </li>
+    {% endif %}
+    
     {% if config.themes.academydeliver.dropdown.enabled %}
         {{ _self.loop(pages, maxdepth, depth) }}
     {% else %}

@@ -1,22 +1,6 @@
 // Showcase styling
 
 // special case for header
-.header-image {
-    #header {
-        background-color: rgba(255,255,255,0);
-        box-shadow: none;
-
-        #logo h3 {
-            color: $header-text;
-        }
-        #navbar a {
-            color: $header-text;
-        }
-        #navbar .active a {
-            color: $core-accent;
-        }
-    }
-}
 .slideme_container {
      @include clearfix;
      overflow: hidden;

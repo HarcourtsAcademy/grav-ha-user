@@ -1,15 +1,10 @@
 ---
 title: Forgotten your details?
-onpage_menu: false
 slug: za-password-reset
 published: true
 taxonomy:
   category: online_learning
   tag: []
-
-body_classes: "modular header-image fullwidth online-learning"
-banner_image: theme://images/banners/online_learning.jpg
-
 
 ---
 
