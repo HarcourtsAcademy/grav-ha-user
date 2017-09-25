@@ -19,7 +19,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 642
     'og:url': https://soundcloud.com/harcourts-victoria/rob-forde-on-the-us-market
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/30/rob-forde/rob-forde.jpg
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/03/30/rob-forde/rob-forde.jpg
 
 ---
 

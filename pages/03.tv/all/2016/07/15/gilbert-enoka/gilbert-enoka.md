@@ -22,8 +22,8 @@ metadata:
     'og:title': 'Gilbert Enoka - interviews@academy - July 2016'
     'og:description': 'All Blacks manager of leadership, Gilbert Enoka, runs us through some of the key aspects of what it takes to achieve your personal growth goals.'
     'og:type': 'video.other'
-    'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/07/15/gilbert-enoka#pk_campaign=Social-2016-07
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/07/15/gilbert-enoka/gilbert-enoka.jpg
+    'og:url': https://www.academyrealestatetraining.com/tv/all/2016/07/15/gilbert-enoka#pk_campaign=Social-2016-07
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/07/15/gilbert-enoka/gilbert-enoka.jpg
     'og:video': "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fharcourtsacademy%2Fvideos%2F10153554214067676%2F&width=640&show_text=false&appId=667620916615872&height=360"
     'og:video:width': 640
     'og:video:height': 360

@@ -21,7 +21,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 658
     'og:url': https://soundcloud.com/harcourts-victoria/code-success-v-code-failure
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/23/chris-helder/chris-helder.jpg
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/03/23/chris-helder/chris-helder.jpg
 
 ---
 

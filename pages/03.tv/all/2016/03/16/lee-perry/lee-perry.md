@@ -21,7 +21,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 819
     'og:url': https://soundcloud.com/harcourts-victoria/listing-management-price-points-and-price-reductions-with-lee-perry
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/16/lee-perry/lee-perry.jpg
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/03/16/lee-perry/lee-perry.jpg
 
 ---
 

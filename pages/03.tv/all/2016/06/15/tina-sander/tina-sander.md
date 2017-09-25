@@ -22,8 +22,8 @@ metadata:
     'og:title': 'Tina Sander - interviews@academy - June 2016'
     'og:description': 'Tina Sander received Rising Star of the Year at our recent ‪‎Harcourts‬ Australian Conference - during which time we managed to have a quick chat with her about exactly what she is doing to stand out from the crowd and any systems or procedures that she is using to get ahead.'
     'og:type': 'video.other'
-    'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/15/tina-sander#pk_campaign=Social-2016-06
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/15/tina-sander/tina-sander.jpg
+    'og:url': https://www.academyrealestatetraining.com/tv/all/2016/06/15/tina-sander#pk_campaign=Social-2016-06
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/06/15/tina-sander/tina-sander.jpg
     'og:video': "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fharcourtsacademy%2Fvideos%2F10153491498122676%2F&width=640&show_text=false&appId=667620916615872&height=360"
     'og:video:width': 640
     'og:video:height': 360

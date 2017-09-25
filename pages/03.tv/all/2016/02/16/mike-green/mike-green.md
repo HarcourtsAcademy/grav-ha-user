@@ -21,7 +21,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 997
     'og:url': https://soundcloud.com/harcourts-victoria/questions-without-notice-with-mike-green
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/02/16/mike-green/mike-green.jpg
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/02/16/mike-green/mike-green.jpg
 
 ---
 

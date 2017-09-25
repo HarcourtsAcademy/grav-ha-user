@@ -20,7 +20,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 580
     'og:url': https://soundcloud.com/harcourts-victoria/mike-green-on-customer-service
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/01/27/mike-green/mike-green.jpg
+    'og:image': https://www.academyrealestatetraining.com/tv/all/2016/01/27/mike-green/mike-green.jpg
 
 ---
 
