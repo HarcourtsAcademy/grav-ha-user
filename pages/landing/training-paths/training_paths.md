@@ -4,9 +4,9 @@ slug: training-pathways
 published: true
 template: modular
 
-<!-- routes:
+routes:
   aliases:
-    - /training-pathways -->
+    - /courses/training-pathways
 
 taxonomy:
   category: courses
