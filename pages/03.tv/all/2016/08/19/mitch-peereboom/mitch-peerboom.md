@@ -22,7 +22,7 @@ metadata:
 
 ---
 
-[Mitch Peereboom](https://www.facebook.com/mitch.peereboom) runs us through a few of the more common scenarios and questions he has come across in regards to the [auction](/online-learning/bites/topic:auction) process and how he handles them as Chief Auctioneer of Harcourts Queensland.
+[Mitch Peereboom](https://www.facebook.com/mitch.peereboom) runs us through a few of the more common scenarios and questions he has come across in regards to the [auction](/tv/all/content:auction) process and how he handles them as Chief Auctioneer of Harcourts Queensland.
 
 ===
 

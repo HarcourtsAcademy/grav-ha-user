@@ -38,13 +38,13 @@ Registering to attend the National Certificate in Real Estate (Salesperson) thro
 
 ### Harcourts One members
 
-Go to [National Certificate in Real Estate (Salesperson)](/get-qualified/new-zealand) > Pre-Course Pack – Auckland+Central+Northland, South Island or Wellington. Complete the paperwork and post to the Academy. Further details are outlined in the pre-course packs.
+Go to [National Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-national-certificate) > Pre-Course Pack – Auckland+Central+Northland, South Island or Wellington. Complete the paperwork and post to the Academy. Further details are outlined in the pre-course packs.
 
 ## What employment contracts do our new recruits start on?{#startingcontract}
 New recruits that are in the process of completing the National Certificate in Real Estate (Salesperson) are employed on the 'Agreement for Provision of Administration Assistant Services'.
 
 ### Harcourts One members
-To access a copy of this Agreement go to [National Certificate in Real Estate (Salesperson)](/get-qualified/new-zealand) > Agreement for Provision of Administration Assistant Services.
+To access a copy of this Agreement go to [National Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-national-certificate) > Agreement for Provision of Administration Assistant Services.
 
 ## Why do we use this employment contract?{#employmentcontract}
 Our recruits are required to be in employment so that they may have a studycontract with the REAL ITO in order to complete the qualification. Under the Real Estate Agents Act 2008, as the recruits are not licensed sales consultants, they cannot be employed as 'independent contractors' like they were under the RealEstate Agents Act 1976. Recruits will move onto the standard sales consultants 'independent contractor' arrangement once they become licensed.

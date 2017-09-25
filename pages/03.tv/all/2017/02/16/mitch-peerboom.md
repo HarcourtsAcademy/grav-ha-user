@@ -22,7 +22,7 @@ metadata:
 
 ---
 
-[Mitch Peereboom](https://www.facebook.com/mitch.peereboom), Chief Auctioneer of [#Harcourts](https://business.facebook.com/hashtag/harcourts?source=embed) Queensland is back to give us some more [#SoundAdvice](https://business.facebook.com/hashtag/soundadvice?source=embed) on how to hold buyer interest through the [auction](/online-learning/bites/topic:auction) process. [#growingourpeople](https://business.facebook.com/hashtag/growingourpeople?source=embed)
+[Mitch Peereboom](https://www.facebook.com/mitch.peereboom), Chief Auctioneer of [#Harcourts](https://business.facebook.com/hashtag/harcourts?source=embed) Queensland is back to give us some more [#SoundAdvice](https://business.facebook.com/hashtag/soundadvice?source=embed) on how to hold buyer interest through the [auction](/tv/all/content:auction) process. [#growingourpeople](https://business.facebook.com/hashtag/growingourpeople?source=embed)
 
 ===
 
