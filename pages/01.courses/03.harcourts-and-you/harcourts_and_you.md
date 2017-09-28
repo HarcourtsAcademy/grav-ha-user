@@ -28,15 +28,10 @@ course_information:
 ---
 
 Welcome to Harcourts! This session has been designed to provide an in-depth introduction to Harcourts and what it means to be better in blue! 
+
 This is an excellent opportunity to take a behind the scenes tour of each department and how they support you – training, marketing, communications, technology, e-business, finance, specialist divisions, events and recognition.
 
 ===
-
-- Connect with Harcourts, our culture and our people
-- Understand our purpose, key philosophies and the values we live by
-- Discover just how strong our brand is on the world stage
-- Learn about the vast number of advantages Harcourts offers you
-- Feel the difference that is Harcourts
 
 ## Who should complete this training?
 Everyone joining team Harcourts, no matter what role, is warmly welcomed to this interactive and enlightening session.
@@ -46,6 +41,13 @@ Half day, in-class training
 
 ## Course Fee
 Complimentary
+
+## What you will Learn
+- Connect with Harcourts, our culture and our people
+- Understand our purpose, key philosophies and the values we live by
+- Discover just how strong our brand is on the world stage
+- Learn about the vast number of advantages Harcourts offers you
+- Feel the difference that is Harcourts
 
 ## Availability
 Harcourts & You is presented in all the main Academy training centres by the Academy’s team of specialist trainers.

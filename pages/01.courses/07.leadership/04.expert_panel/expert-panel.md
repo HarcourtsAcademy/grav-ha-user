@@ -8,18 +8,19 @@ side_bar_menu: true
 
 taxonomy:
   category: courses
-  tag: [leadership,business owners,managers,future leaders]
+  tag: [leadership]
+  role: [business owners,managers,future leaders]
   training_paths: [leadership]
 
 ---
 
-People learn from books and teachers, videos and programs but nothing is as effective or memorable as learning from experience. Expert Panel program panellists include specialists from outside of our industry, experts in finance, marketing, psychology, great CEOs from successful organisations and of course our very own skilled leaders from inside Harcourts.
+People learn from books and teachers, videos and programs but nothing is as effective or memorable as learning from experience. Expert Panel program panelists include specialists from outside of our industry, experts in finance, marketing, psychology, great CEOs from successful organisations and of course our very own skilled leaders from inside Harcourts.
 
 ===
 
-Expert Panels usually comprise of 3 to 4 panelists who will each speak briefly before the facilitator opens up to questions from the floor. 
+Expert Panels usually comprise of 3 to 4 panelists who will each speak briefly before the facilitator opens to questions from the floor. 
 
-## Who should complete this training?
+## Target Group
 Expert Panels have been designed for Business Owners, Managers and Future Leaders, wanting to increase their skills or refresh their knowledge in a particular area of leadership.
 
 ## Course Fee

@@ -21,22 +21,25 @@ Graduate Day is an opportunity to celebrate your successes and discuss real worl
 
 ===
 
--	Share results from the field, successes & challenges
-- Re-connect with peers, share your experiences and learn from others
--	Identify mindsets and motivation - Learn about proactive behaviours & attitudes, reassess your commitment as well as setting goals & planning to succeed
--	Review core Harcourts systems, tools & resources – System check of which Harcourts resources you are currently utilising and identifying which ones you need to use more effectively or still need to implement into your business
--	Plan future training and self-growth - Create your future training pathway and commit to your future success
-
-## Who should complete this training?
+## Target Group
 Graduate Day is the follow up session to [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) and will explore how you have applied your newly acquired skills and knowledge since completing your sales training. 
 
+## Course Duration
+- Full day, in-class training
+
 ## Training Requirements
--	Full day, in-class training
--	Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program 
--	Undertaken a minimum of 45 days in the field
+- Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program 
+- Undertaken a minimum of 45 days in the field
 
 ## Course Fee
 Complimentary
+
+## What you will Learn
+- Share results from the field, successes & challenges
+- Re-connect with peers, share your experiences and learn from others
+- Identify mindsets and motivation - Learn about proactive behaviours & attitudes, reassess your commitment as well as setting goals & planning to succeed
+- Review core Harcourts systems, tools & resources – System check of which Harcourts resources you are currently utilising and identifying which ones you need to use more effectively or still need to implement into your business
+- Plan future training and self-growth - Create your future training pathway and commit to your future success
 
 ## Availability
 Graduate Day is presented in all the main Academy training centres by the Academy’s team of specialist trainers.

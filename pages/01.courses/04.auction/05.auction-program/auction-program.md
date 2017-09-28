@@ -14,7 +14,6 @@ taxonomy:
 
 qualification_units:
   - id: CPPDSM4019
-  - id: CPPDSM4004
 
 ---
 
@@ -22,41 +21,24 @@ The exclusive Harcourts Auction Program provides real estate professionals with 
 
 ===
 
-## Auction for Sales (Day 1)
-Target Group: Sales Consultants, Office Managers and Business Owners
+## Target Group
+Sales Consultants, Office Managers and Business Owners
 
-### What you will Learn
+## Course Duration 
+One Day, in-class training
+
+## Course Fee
+Complimentary *($50.00 per Australian RTO qualification unit - if required)*
+
+## What you will Learn
 - The auction method of marketing property and why no-price marketing can be so successful
 - Scripts to assist you with handling common seller concerns about auction
 - The importance of the auction listing file and what it should contain
-- How to identify components for bidders packages and review high profile auction marketing plans
+- How to identify components for bidder’s packages and review high profile auction marketing plans
 - How to work with buyers for auction and explain the benefits of the auction process to them
 - Effective scripts for discussing price with buyers of no-price property
 - How to handle offers prior to auction and hold buyer interest up until the auction day
 - How to establish a strong working relationship and communicate effectively with sellers
 
-### Program Structure
-The Auction for Sales Program is a full day often run in conjunction with our Auctioneering Program out of Academy training rooms.
-
-## Auctioneering Program (Day 2)
-
-### Target Groups
-- Those wishing to become an auctioneer
-- Sales Consultants, managers and business owners wanting an understanding of the auction day process
-- Those completing their full Real Estate Licence
-
-### What you will Learn
-- Responsibilities of an auctioneer and sales team
-- How a reserve set meeting is conducted and what your responsibilities are leading up to the auction day
-- Successful auction day strategies and understand auction procedure
-- How to work the auction floor and know the tasks and scripts required of you whether the property is sold or passed in
-- Laws and legislation governing the auction process
-- Calling an auction
-- Communicating with sellers during the auction
-- Procedures for a successful sale under the hammer or when passed in
-
-### Program Structure
-The Auctioneering Program is a full day and usually runs in conjunction with the Auction Sales Program to provide both industry qualification units required for an Auctioneering Licence.
-
-## Further information
-For all course enquiries and pricing details, please [contact us](/about/contact-us).
+## Availability
+The Auction Program is presented in all the main Academy training centres by the Academy's team of specialist trainers.
