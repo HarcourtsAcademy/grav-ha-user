@@ -20,10 +20,6 @@ youtube:
         rel: false
         showinfo: false
 
-course_information:
-  - key: Duration
-    value: Self-paced
-
 ---
 
 An online, self-paced 12 workshop program for those new to real estate sales. iStart will help you create lifetime success in the real estate business. The program requires self-commitment and a willingness to complete all practical activities.
@@ -33,6 +29,15 @@ An online, self-paced 12 workshop program for those new to real estate sales. iS
 [Start iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=OpenNewIStartOnline) {.button}
 
 [plugin:youtube](https://www.youtube.com/watch?v=5hkyVoXiXhw)
+
+## Target Group
+This program is designed for new to real estate salespersons as well as those who operate as a personal or buyer’s assistant.
+
+## Course Duration
+Self-Paced Online Course
+
+## Course Fee
+$60.00 / ZAR R250 (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program)
 
 ## What You Will Learn
 iStart Online consists of 12 workshops
@@ -54,9 +59,3 @@ iStart Online consists of 12 workshops
   <strong>Workshop 12</strong> Service to Sellers<br/>
   </div>
 </div>
-
-## Who should complete this training?
-This program is designed for new to real estate salespersons as well as those who operate as a personal or buyer’s assistant.
-
-## Course Fee
-$60.00 / ZAR R250  (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program)

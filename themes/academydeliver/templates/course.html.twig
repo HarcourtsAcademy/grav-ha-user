@@ -66,6 +66,16 @@
               <p><strong>Target Group:</strong> {{ page.header.target_groups[0] }}</p>
             {% endif %}
           {% endif %}
+          
+          {% if page.header.course_structure %}
+            <h2>Course Duration</h2>
+            <p>{{ page.header.course_structure|markdown }}</p>
+          {% endif %}
+          
+          {% if page.header.course_fee %}
+            <h2>Course Fee</h2>
+            <p>{{ page.header.course_fee|markdown }}</p>
+          {% endif %}
 
           {% if page.header.course_content %}
             {% for content in page.header.course_content %}
@@ -101,11 +111,6 @@
               <li class="qualification-unit"><a href="http://training.gov.au/Training/Details/{{ site.qualification_units[unit.id].id|upper }}">{{ site.qualification_units[unit.id].id }}</a> - {{ site.qualification_units[unit.id].name }}</li>
           {% endfor %}
           </ul>
-          {% endif %}
-
-          {% if page.header.course_structure %}
-            <h2>Program Structure</h2>
-            <p>{{ page.header.course_structure|markdown }}</p>
           {% endif %}
 
           {% if page.header.elective_qualification_units %}

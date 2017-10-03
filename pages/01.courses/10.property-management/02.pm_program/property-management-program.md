@@ -21,20 +21,22 @@ qualification_units:
   - id: CPPDSM4013
   - id: CPPDSM4016
 
+course_structure: The Property Management Program consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
+
+course_fee: Complimentary ($50.00 per unit if required for licensing) 
+
 course_content:
   - title: What You Will Learn
     list: |
-      * Systemise and streamline every property management task
-      * Build large databases of prospective clients and clients for life
-      * Knowledge to perform every task associated with property management
-      * Wow tenants to want to do business with you
-      * Systems that support the property management division
-      * Completing property management documentation
-      * Rights obligations of the property manager, property owner and tenant in accordance to legislation
+      - Systemise and streamline every property management task
+      - Build large databases of prospective clients and clients for life
+      - Knowledge to perform every task associated with property management
+      - Wow tenants to want to do business with you
+      - Systems that support the property management division
+      - Completing property management documentation
+      - Rights obligations of the property manager, property owner and tenant in accordance to legislation
 
-course_structure: The Property Management Program consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
-
-further_information: true
+course_availability: The Property Management Program is presented in all the main Academy training centres by the Academy's team of specialist trainers.
 
 ---
 
