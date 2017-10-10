@@ -12,7 +12,6 @@ content:
             - _showcase
             - _brag
             - _callout
-            - _highlights
             - _bottom
             - _bookmark
 ---
