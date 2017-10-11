@@ -7,6 +7,8 @@ template: modular
 routes:
   aliases:
     - /courses/training-pathways
+    - /training-pathways
+    - /training-paths
 
 taxonomy:
   category: courses

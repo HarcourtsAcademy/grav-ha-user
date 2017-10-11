@@ -83,7 +83,6 @@ routes:
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/qualifications/australia/western-australia/cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
-  /training-paths: '/landing/training-pathways'
   ## ARCHIVE
   ## ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
 
