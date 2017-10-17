@@ -3,7 +3,7 @@ header_title: use-parent-title
 title: Infographics
 menu: Infographics
 slug: infographics
-published: false
+published: true
 template: modular_sidebar
 side_bar_menu: true
 
@@ -27,6 +27,6 @@ content:
 
 ---
 
-TBD
+Interesting content made beautiful.
 
 ===
