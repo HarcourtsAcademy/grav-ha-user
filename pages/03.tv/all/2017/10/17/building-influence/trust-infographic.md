@@ -21,5 +21,6 @@ In order to influence others in any given moment and create a positive Moment of
 
 ===
 
-![Building Influence Through Trust](trust-infographic.png){.infographic}
+![Building Influence Through Trust - Title](trust-infographic01.png){.infographic}
+![Building Influence Through Trust - Infographic](trust-infographic02.png){.infographic}
 
