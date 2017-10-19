@@ -4,21 +4,13 @@ menu: false
 template: modular/team
 
 members:
-  - name: Jan Myburgh
-    image: jan-myburgh.jpg
-    title: Operations and Learning Manager <nobr>(South Africa)</nobr>
+  - name: Gael Hodgson
+    image: gael-hodgson.png
+    title: Head of Academy <nobr>(South Africa)</nobr>
     office: kwazulu-natal
-    email: jan@therealestateacademy.co.za
+    email: gael.hodgson@harcourts.co.za
     bio: |
-      Heading up the Human Resource Development division and Academy for Harcourts Africa, Jan Myburgh has a vision for an integrated approach to developing Real Estate Consultants and Business Owners.  Believing that training provides the foundation for coaching and mentoring and that measurable accountability to daily business actions is the way to deliver five-star client service and grow market share at the same time.
-      
-      Jan has successfully marketed and sold real estate since 2001 as a Consultant.  Jan’s career progressed to managing real estate businesses and presenting training for real estate consultants countrywide for a number of years.
-      
-      He was awarded the Regional and National Manager of the Year Award for 2006 for the largest real estate group in South Africa and acted as an Online Training Facilitator and Trainer.
-      
-      Jan also acted as the Business Development Manager for Richard Robbins International and coached real estate Business Owners and Consultants on a full-time basis, before taking up the position with Harcourts Africa.
-      
-      Jan holds a BA Degree in Sociology and Political Sciences, a Masters Diploma in Human Resource Management, a Certificate in Estate Agency, and has completed Assessor and Moderator qualifications for the Real Estate NQF 4 qualification.  
+      Gael boasts an extensive career in corporate sales and customer service. She joined one of the biggest real estate players in the industry in 2003 as a sales agent and during her 7 years of selling property she won the title of 'Rookie of the Year' as well as many awards including 'Top Agent Based on Commission', 'Most Income Generated' and 'Most Units Sold'. Gael joined Harcourts in 2010 as the Business Development Manager for the KwaZulu-Natal and East London regions where she has been able to combine her previous experience to do what she is most passionate about - growing people and their businesses to their full potential.
   - name: Valerie Acevez
     image: valerie-acevez.jpg
     title: Director of Harcourts Academy (USA)
