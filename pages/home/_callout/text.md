@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: lee-perry-part-2.jpg
+    - image: lee-perry-part-3.jpg
       title: August interview@academy
-      desc: In this second instalment, Lee Perry from Harcourts Mandurah shares insights into the make-up of his team and provides some tips on setting up a structure that works.
+      desc: In this third and final instalment, Lee Perry from Harcourts Mandurah talks about his passion for team culture and how he 'bumps the lamp' when it comes to fostering the culture within the Harcourts Mandurah office.
       modalid: 13
-      url: /tv/all/2017/08/19/lee-perry#pk_campaign=Web-2017-08
+      url: /tv/all/2017/08/22/lee-perry#pk_campaign=Web-2017-08
       date: <strong>Released</strong> August 2017
       button: Watch
       icon: fa-play
