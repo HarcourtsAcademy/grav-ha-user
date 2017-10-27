@@ -27,9 +27,11 @@ course_content:
 course_structure: |
   Shared Knowledge workshops usually comprise of 3 to 4 panelists who will each speak briefly before the facilitator opens up to questions from the floor.
 
-  The courses are are half day sessions at your local Academy training room but can be held off-site at a hired venue when attendee registrations are high.
+course_fee: |
+  [Contact us](/about/contact-us) for all pricing enquiries.
 
-further_information: true
+course_availability: |
+  The courses are are half day sessions at your local Academy training room but can be held off-site at a hired venue when attendee registrations are high.
 
 ---
 

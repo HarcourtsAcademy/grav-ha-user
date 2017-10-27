@@ -11,15 +11,9 @@ taxonomy:
   tag: [training,property management,property management program,property managers]
 
 target_groups:
-  - New and experienced property managers
-  - Office managers and business owners wanting to stay current in The Harcourts Way
-  - Those wanting to achieve their real estate licence
-
-qualification_units:
-  - id: CPPDSM4007
-  - id: CPPDSM4010
-  - id: CPPDSM4013
-  - id: CPPDSM4016
+  -	New and experienced property managers
+  -	Office managers and business owners wanting to stay current in The Harcourts Way
+  -	Those wanting to achieve their real estate licence
 
 course_structure: The Property Management Program consists of online learning and 4 classroom workshops that may run consecutively over 2 days or separately.
 
@@ -40,6 +34,6 @@ course_availability: The Property Management Program is presented in all the mai
 
 ---
 
-Property Management Program provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
+The Property Management Program provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
 
 ===
