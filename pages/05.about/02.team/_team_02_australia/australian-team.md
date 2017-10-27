@@ -53,6 +53,12 @@ members:
     title: Academy Trainer <nobr>(Western Australia)</nobr>
     office: western-australia
     email: trainer.wa@harcourts.net
+    bio: |
+      Chantelle began her early career in her family's real estate office, where she became one of the most successful teenagers in her field. After just a few years she was highly awarded for her work in developing mass growth in property management, before moving on to foster top 10 sales rankings in both the office and individual stats. 
+
+      Chantelle's passion to empower others began when guest lecturing to senior high school students. She went on to work in the training and recruitment of business owners and sales people throughout the state, eventually assisting with specialised RTO Diplomas and CIV programs. 
+
+      Joining Harcourts after several years back in the sales arena, Chantelle brings with her an enormous amount of knowledge and expertise in growing and strengthening businesses, educating and enhancing individuals and teams, and does so with the passion that makes a difference. Chantelle's core values resonate from her family upbringing, and she believes that the greatest gift in life is to make a difference to someone else's.
   - name: Justin Balsillie
     image: justin-balsillie.jpg
     title: Academy Trainer (Victoria)
