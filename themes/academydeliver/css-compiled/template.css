@@ -1246,7 +1246,6 @@ body.error #error {
       position: absolute;
       top: 1rem;
       right: 0.6rem;
-      z-index: 100;
       cursor: pointer; }
     .simplesearch .search-box input[type=search] {
       outline: none;
