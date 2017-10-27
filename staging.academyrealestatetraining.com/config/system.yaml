@@ -4,7 +4,7 @@ pages:
   publish_dates: true
   process:
     markdown: true
-    twig: false
+    twig: true
   markdown:
     extra: true
   expires: 604800                         # Page expires time in seconds (604800 seconds = 7 days)
