@@ -10,10 +10,12 @@ members:
 #    office: auckland
 #    email: academy.nz@harcourts.net
   - name: Melanie Tan 
-    placeholder_image: placeholder-female.png
+    image: melanie-tan.jpg
     title: Academy Trainer
     office: auckland
     email: melanie-tan@harcourts.net
+    bio: |
+      Melanie Tan is Northern and Central Academy Trainer for Harcourts New Zealand. In this role, she provides the wider Harcourts team with relevant knowledge to strengthen their skill sets and enhance their overall professional growth. Mel has been a high performer in the real estate industry, winning loyal clients with a personal commitment to "improve lifestyle through exceptional service". With sales experience, digital savvy and an enthusiastic approach, Mel communicates effectively with students, moving them closer towards their real estate goals. 
   - name: Tamsin Mason
     image: tamsin-mason.jpg
     title: Academy Trainer (Wellington)
