@@ -1,6 +1,6 @@
 <ul>
 {% for post in taxonomy.findTaxonomy({'tag':'qualification-region'}) %}
-    <li><a href="{{ base_url }}/get-qualified/{{ post.slug }}">{{ post.menu }}</a>
+    <li><a href="{{ base_url }}/qualifications/{{ post.slug }}">{{ post.menu }}</a>
     </li>
 {% endfor %}
 <ul>

@@ -3,10 +3,18 @@ title: Industry Qualifications
 menu: Qualifications
 slug: qualifications
 published: true
+template: qualifications
 
 taxonomy:
   category: qualifications
 side_bar_menu: true
+list_subpages: true
+
+content:
+  items:
+    - '@self.children'
+  order:
+    by: default
 
 ---
 
@@ -16,7 +24,6 @@ Our courses are written for busy real estate people who want to advance their ca
 
 ## Industry Qualifications Include
 * Sales Registration
-* Property Management Registration
 * Auctioneering
 <!--* Full Real Estate Licence-->
 

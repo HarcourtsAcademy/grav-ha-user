@@ -9,7 +9,7 @@ template: modular_sidebar
 
 taxonomy:
   category: qualifications
-  tag: [sales registration,property management registration]
+  tag: [qualification-region,sales registration]
   role: [sales consultant,property manager,auctioneer,business owner]
   topic: [sales,property management,auctioneering]
   country: australia

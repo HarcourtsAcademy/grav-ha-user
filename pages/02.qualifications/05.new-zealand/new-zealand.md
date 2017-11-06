@@ -9,7 +9,7 @@ template: modular_sidebar
 
 taxonomy:
   category: qualifications
-  tag: []
+  tag: [qualification-region]
   role: [sales consultant,business owner]
   topic: [sales]
   country: new zealand

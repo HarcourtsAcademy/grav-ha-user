@@ -7,7 +7,7 @@ template: course
 
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants]
+  tag: [online_learning,courses,qualification,sales registration,sales,sales consultants]
   country: australia
   region: new-south-wales
 

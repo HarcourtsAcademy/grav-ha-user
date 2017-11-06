@@ -7,7 +7,7 @@ template: modular_alt
 
 taxonomy:
   category: qualifications
-  tag: [online learning,sales registration,property management registration,auctioneering,real estate licence]
+  tag: [online learning,sales registration,auctioneering,real estate licence]
   role: [sales consultant,property manager,auctioneer,business owner]
   topic: [sales,property management,auctioneering]
   country: australia

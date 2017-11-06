@@ -8,7 +8,7 @@ list_subpages: true
 
 taxonomy:
   category: qualifications
-  tag: [qualification-region]
+  tag: []
   role: [sales consultant,business owner,sales,property manager]
   topic: [sales,property management]
   country: australia
@@ -22,4 +22,4 @@ content:
 
 ---
 
-[Sales Registration](/qualifications/australia/western-australia/sales-registration), [Property Management Registration](/qualifications/australia/western-australia/property-management-registration) and [Continuing Professinal Development (CPD)](/qualifications/australia/western-australia/cpd) are available in Western Australia.
+[Sales Registration](/qualifications/australia/western-australia/sales-registration) and [Continuing Professinal Development (CPD)](/qualifications/australia/western-australia/cpd) are available in Western Australia.
