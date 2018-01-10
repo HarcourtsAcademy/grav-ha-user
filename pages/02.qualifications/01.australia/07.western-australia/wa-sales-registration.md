@@ -1,10 +1,10 @@
 ---
 title: Western Australia Sales Registration
-menu: Sales Registration
-slug: sales-registration
+menu: Western Australia
+slug: wa-sales-registration
 template: course
 published: true
-side_bar_menu: true
+side_bar_menu: false
 
 taxonomy:
   category: qualifications

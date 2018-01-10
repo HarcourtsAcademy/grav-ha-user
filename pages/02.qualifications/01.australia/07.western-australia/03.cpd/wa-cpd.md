@@ -2,7 +2,7 @@
 title: Western Australia Continuing Professional Development
 menu: Continuing Professional Development
 slug: cpd
-published: true
+published: false
 template: course
 side_bar_menu: true
 
