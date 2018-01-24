@@ -1,18 +1,17 @@
 <div class="search-box">
     <i class="fa fa-search"></i>
-    <form action="{{ base_url_relative }}{{ config.plugins.simplesearch.route}}">
-        <input type="search" name="query" placeholder="Search..." value="{{ query }}" data-search-input="{{ base_url_relative }}{{ config.plugins.simplesearch.route}}/query" maxlength="28" />
-        <script>
-        jQuery(document).ready(function($){
-            var input = $('[data-search-input]');
-
-            input.on('keypress', function(event) {
-                if (event.which == 13 && input.val().length > 3) {
-                    event.preventDefault();
-                    window.location.href = input.data('search-input') + ':' + input.val();
-                }
-            });
-        });
-        </script>
+    <form name="search" data-simplesearch-form action="{{ base_url_relative }}{{ config.plugins.simplesearch.route}}">
+        <input
+            name="searchfield"
+            class="search-input"
+            type="search"
+            {% if min_chars > 0 %} min="{{- min_chars -}}" {% endif %}
+            required
+            placeholder="{{"PLUGIN_SIMPLESEARCH.SEARCH_PLACEHOLDER"|t}}"
+            value="{{ query|e }}"
+            data-search-invalid="{{ "PLUGIN_SIMPLESEARCH.SEARCH_FIELD_MINIMUM_CHARACTERS"|t(min_chars)|raw }}"
+            data-search-separator="{{ config.system.param_sep }}"
+            data-search-input="{{ base_url }}{{ config.plugins.simplesearch.route == '@self' ? '' : (config.plugins.simplesearch.route == '/' ? '' : config.plugins.simplesearch.route) }}/query"
+        />
     </form>
 </div>
