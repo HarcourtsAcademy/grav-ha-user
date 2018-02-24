@@ -15,7 +15,7 @@ target_groups:
   - Those who wish to become registered real estate salespersons in Australia
   - Existing real estate salespersons moving interstate or from another country wishing to register as a salesperson
   - People from other sectors of the real estate industry wishing to further develop their knowledge or skills in specific areas
-  - Managers wishing to have a clearer understanding of what their new recruits are learning
+  - Harcourts managers wishing to have a clearer understanding of what their new recruits are learning
 
 course_content :
   - title: You Will Learn
@@ -40,17 +40,17 @@ core_qualification_units:
   - id: CPPDSM4008
   - id: CPPDSM4080
 
-course_structure: A blended learning program that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
+course_structure: A blended learning program that begins online with a number of interactive tasks that you can do from your own computer. This is followed by two full days in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 
-elective_qualification_units:
-  course_units:
-  - id: CPPDSM4003
-  - id: CPPDSM4005
-  - id: CPPDSM4012
-  - id: CPPDSM4014
-  - id: CPPDSM4015
-  - id: CPPDSM4017
-  - id: CPPDSM4022
+# elective_qualification_units:
+#   course_units:
+#   - id: CPPDSM4003
+#   - id: CPPDSM4005
+#   - id: CPPDSM4012
+#   - id: CPPDSM4014
+#   - id: CPPDSM4015
+#   - id: CPPDSM4017
+#   - id: CPPDSM4022
 
 further_information: |
   For New South Wales legislation and other information visit [NSW Fair Trading](http://www.fairtrading.nsw.gov.au/).

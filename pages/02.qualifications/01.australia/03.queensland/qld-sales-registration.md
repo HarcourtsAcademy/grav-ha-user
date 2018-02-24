@@ -17,13 +17,13 @@ target_groups:
   - Those who wish to become registered real estate salespersons in Australia
   - Existing real estate salespersons moving interstate or from another country wishing to register as a salesperson
   - People from other sectors of the real estate industry wishing to further develop their knowledge or skills in specific areas
-  - Managers wishing to have a clearer understanding of what their new recruits are learning
+  - Harcourts managers wishing to have a clearer understanding of what their new recruits are learning
 
 course_content :
   - title: The Program
     list: |
       * Will provide participants with the knowledge, skills and attitudes to build a successful career in real estate sales
-      * Incorporates 12 units of competency from the CPP07 Certificate IV in Property Services (Real Estate)
+      * Incorporates 7 units of competency from the CPP07 Certificate IV in Property Services (Real Estate)
       * Is recognised nationally throughout Australia
       * Combines 'what to know' education with practical 'how to do' instruction
       * Is delivered by certified professional trainers qualified in accelerated learning techniques to enhance learning retention and student engagement
@@ -41,15 +41,7 @@ core_qualification_units:
 course_structure: |
   <h3>Harcourts Academy Sales Program (Sales Registration)</h3>
 
-  A blended learning program consisting of a total of 56 days which includes a number of online pre-course tasks, 4 days in class training, 45 days one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 2 days in class training.
-
-elective_qualification_units:
-  course_units:
-  - id: CPPDSM4003
-  - id: CPPDSM4005
-  - id: CPPDSM4007
-  - id: CPPDSM4014
-  - id: CPPDSM4017
+  A blended learning program consisting of a total of 56 days which includes a number of online pre-course tasks, 4 days in class training, 45 days one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 1 day in class training.
 
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
