@@ -23,7 +23,7 @@ course_content :
   - title: The Program
     list: |
       -  Will provide participants with the knowledge, skills and attitudes to build a successful career in real estate sales
-      -  Incorporates 17 units of competency from the CPP07 Certificate IV in Property Services (Real Estate)
+      -  Incorporates **17 units** of competency from the CPP07 Certificate IV in Property Services (Real Estate)
       -  Is recognised nationally throughout Australia
       -  Combines 'what to know' education with practical 'how to do' instruction
       -  Is delivered by certified professional trainers qualified in accelerated learning techniques to enhance learning retention and student engagement

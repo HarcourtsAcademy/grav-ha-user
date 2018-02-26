@@ -23,7 +23,7 @@ course_content :
   - title: The Program
     list: |
       * Will provide participants with the knowledge, skills and attitudes to build a successful career in real estate sales
-      * Incorporates 7 units of competency from the CPP07 Certificate IV in Property Services (Real Estate)
+      * Incorporates **7 units** of competency from the CPP07 Certificate IV in Property Services (Real Estate)
       * Is recognised nationally throughout Australia
       * Combines 'what to know' education with practical 'how to do' instruction
       * Is delivered by certified professional trainers qualified in accelerated learning techniques to enhance learning retention and student engagement
@@ -41,7 +41,7 @@ core_qualification_units:
 course_structure: |
   <h3>Harcourts Academy Sales Program (Sales Registration)</h3>
 
-  A blended learning program consisting of a total of 56 days which includes a number of online pre-course tasks, 4 days in class training, 45 days one-on-one coaching in the field with the student's office manager with accompanying in the field project work, and then a final 1 day in class training.
+  A blended learning program consisting of a total of 5 classroom days and a number of online pre-course tasks.
 
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
