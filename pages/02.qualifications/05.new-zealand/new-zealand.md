@@ -25,8 +25,8 @@ Provides participants with the knowledge and skills to demonstrate competency in
 ===
 
 ## Industry Training Available
-* [National Certificate](new-zealand-national-certificate)
 * [2018 Continuing Education](new-zealand-continuing-education)
+* [National Certificate](new-zealand-national-certificate)
 
 ## Key Benefits
 
