@@ -102,4 +102,4 @@ If a complaint has been made about an event that occurred before 17 November 200
 In these circumstances, a complaint can only be made about something that could have been the subject of a complaint under the 1976 Act, and the orders that can be made are restricted to those that would have been available under the 1976 Act.
 
 ## How can I find out more?{#findoutmore}
-You can find out more in the [consumer section](http://www.reaa.govt.nz/forbuyersandsellers/Pages/ForBuyersandSellers.aspx) of the Real Estate Agents Authority website, or by [contacting the Real Estate Agents Authority](http://www.reaa.govt.nz/Pages/ContactUs.aspx).
+You can find out more via the [Settled website](https://www.settled.govt.nz/), or by [contacting the Real Estate Authority](http://www.rea.govt.nz/contact-us/).
