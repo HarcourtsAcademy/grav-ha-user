@@ -11,7 +11,7 @@ routes:
 taxonomy:
   category: [tv]
   tag: []
-  content: [social media]
+  content: [social media,property management]
   format: [interview]
   audience: [property managers,property managers,business owners,managers]
   people: [sally millard]
