@@ -14,7 +14,7 @@ taxonomy:
 
 ---
 
-<div style="float: right;"><a href="handbook/Student_Handbook_v2014-08-27.pdf"><img src="handbook/student_handbook@2x.png" style="height: 250px;"></a></div>
+<div style="float: right;"><a href="/qualifications/australia/handbook/Student_Handbook_v2014-08-27.pdf"><img src="handbook/student_handbook@2x.png" style="height: 250px;"></a></div>
 
 Our Student Handbook is a comprehensive guide of our policies and procedures and how they apply to students.
 
