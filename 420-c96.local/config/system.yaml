@@ -32,4 +32,5 @@ piwik:
   enabled: false
 
 google_analytics:
-  enabled: false
+  enabled: true
+  siteid: UA-38488834-3
