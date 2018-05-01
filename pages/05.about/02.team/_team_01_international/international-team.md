@@ -41,13 +41,6 @@ members:
     email: tim.butler@harcourts.net
     bio: |
       Tim joined Harcourts in March 2008, having worked in the Information Technology industry for over seven years as a Multimedia Developer then Interaction Designer. This has given Tim extensive experience in utilising technology to successfully deliver information and knowledge. Tim holds a Bachelor of Multimedia from Griffith University and strongly believes that technology is only useful if it makes people's lives better or easier. As the Academy's Online Learning Manager, Tim is responsible for the vison, design, development and maintenance of all Academy online systems.
-  - name: Mitch Green
-    image: mitch-green.jpg
-    title: Human Resources Manager
-    office: queensland
-    email: mitch.green@harcourts.net
-    bio: |
-      With a background in customer service and a Degree in Psychology, Mitch takes responsibility for Harcourts Human Resources (HR) policies and tools for the team.  The currency and growth of our intellectual property within the Harcourts resource library is a key focus for Mitch; this includes the job descriptions, process and associated resources for every role within Team Harcourts from Sales through to Corporate.  Based in Brisbane, Mitch employs his advanced qualifications in Counselling to consult with our people then communicate and implement Harcourts HR systems and services to the wider Harcourts team. 
   - name: Alinta Ward
     image: alinta-ward.jpg
     title: Academy Program Development Manager
@@ -55,13 +48,6 @@ members:
     email: alinta.ward@harcourts.net
     bio: |
       Alinta’s primary role is to evolve existing and develop new training programs and resources for the Academy.  Alinta has worked within many roles during her time with Harcourts from administration, property management, sales & marketing, enabling her to draw from her in-the-field knowledge and experiences when developing new resources. Alinta’s aim is to ensure all our Academy Manuals, Workbooks, PowerPoints, AV, Leader’s guides and Assessment tools are comprehensive, easy to use and are readily available to our trainers.
-  - name: Debbie Warshawsky
-    image: debbie-warshawsky.jpg
-    title: Academy Operations Manager Australasia
-    office: queensland
-    email: debbie.warshawsky@harcourts.net
-    bio: |
-      With a passion for growth and professional development, Debbie is committed to producing real estate ‘stars’ in the field and corporate world. An award-winning Queensland Real Estate Consultant and a Qualified trainer, Debbie joined Harcourts in 2003 as the State Trainer for Queensland. With Certificate IV in Workplace Training and Assessment and her full licence, Debbie’s focus is working with Harcourts Academy Trainers for their induction, training and ongoing support. Covering Academy program delivery and consistency, RTO compliance, Debbie is responsible for communication between regions and Academy team contribution.
   - name: Alan Hossack
     image: alan-hossack.jpg
     title: Marketing Multimedia Manager
@@ -71,14 +57,14 @@ members:
       Alan is a true creative at heart, with over 10 years working experience across multiple industries in high paced environments. He is versatile, reliable and efficient with a strong eye for detail. Alan has a diversified skill-set encompassing Brand Management, Marketing, Design, Videography, Communications and Training. Alan works closely with Alinta to ensure that our training content both looks great and is engaging for our students.
   - name: Ashley Dawes
     image: ashley-dawes.jpg
-    title: Academy Administration Support
+    title: Academy Communication, Events and Culture Co-ordinator
     office: queensland
     email: ashley.dawes@harcourts.net
     bio: |
       Ashley joins the Harcourts Team as Administrative Support in Brisbane’s Head Office. Her primary focus will be around providing quality administrative support, coordinating Academy events and promoting excellent culture within the Academy Team. With a background in administration and customer service in finance and insurance industries, Ashley is passionate about the effects that positive team culture and good communication have on the workplace, and seeks to promote these in her everyday work.
   - name: Paula Irvine
     image: paula-irvine.jpg
-    title: RTO Compliance Contractor
+    title: Academy Contract Programme Writer
     office: queensland
     email: paula.irvine@harcourts.net
     bio: |
