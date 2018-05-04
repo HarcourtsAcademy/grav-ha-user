@@ -14,12 +14,12 @@ taxonomy:
 
 ---
 
-<div style="float: right;"><a href="/qualifications/australia/handbook/Student_Handbook_v2014-08-27.pdf"><img src="/qualifications/australia/handbook/student_handbook@2x.png" style="height: 250px;"></a></div>
+<div style="float: right;"><a href="/qualifications/australia/handbook/Student_Handbook_v2018-05-03.pdf"><img src="/qualifications/australia/handbook/student_handbook@2x.png" style="height: 250px;"></a></div>
 
 Our Student Handbook is a comprehensive guide of our policies and procedures and how they apply to students.
 
 ===
 
-[Download RTO Student Handbook](Student_Handbook_v2014-08-27.pdf){.button}
+[Download RTO Student Handbook](Student_Handbook_v2018-05-03.pdf){.button}
 
 If you have any questions about our Student Handbook, please [contact us](/about/contact-us).
