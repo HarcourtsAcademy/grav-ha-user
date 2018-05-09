@@ -3,7 +3,10 @@ title: Recognition of Prior Learning (RPL)
 menu: Recognition of Prior Learning (RPL)
 slug: rpl
 published: true
-template: modular_alt
+template: course
+
+bootstrap:
+  enabled: true
 
 taxonomy:
   category: qualifications
@@ -11,6 +14,8 @@ taxonomy:
   role: [sales consultant,property manager,auctioneer,business owner]
   topic: [sales,property management,auctioneering]
   country: australia
+
+disclaimer: true
 
 ---
 
@@ -85,26 +90,44 @@ If you need to undertake additional Units to complete your qualification, we wil
 
 If you require further information about RPL or our application process, please [email](/about/contact-us), call or visit:
 
-Queensland 
+<div class="row">
+  <div class="col-xs-12 col-md-6" markdown="1">
+  
+Queensland
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (7) 3839 3100">+61 (7) 3839 3100</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> 31 Amy Johnson Pl Eagle Farm
 
-New South Wales/ACT 
+
+New South Wales/ACT
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (2) 9380 8665">+61 (2) 9380 8665</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> Suite 1, Level 3, 189 Kent St Sydney
 
-South Australia 
+South Australia
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (8) 8410 4444">+61 (8) 8410 4444</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> Level 2, 285 Wakefield St Adelaide
 
-Western Australia 
+  </div>
+  <div class="col-xs-12 col-md-6" markdown="1">
+  
+Western Australia
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (8) 9388 7700">+61 (8) 9388 7700</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> 125 Cambridge St West Leederville
 
-Victoria 
+Victoria
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:1300 856 773">1300 856 773</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> 3/95 Coventry St Southbank
 
 Tasmania
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (3) 6337 9700">+61 (3) 6337 9700</a>
+
 : <i class="fa fa-map-marker" aria-hidden="true"></i> 112-114 George St Launceston
+
+  </div>
+</div>
+
+<p style="text-align: center;"><a href="rpl/rpl-brochure_v2018-05-10.pdf"><i class="fa fa-print" aria-hidden="true"></i> Open print version</a></p>
