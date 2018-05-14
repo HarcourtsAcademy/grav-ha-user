@@ -6,8 +6,8 @@ video:
       youtube_id: HCt0VFXTEzM
       icon: book
       link: /about/testimonials/Harcourts_Academy_Growing_Our_People.pdf
-    - title: Meet our raving fans
-      youtube_id: mPsUYlzqXPI
+#    - title: Meet our raving fans
+#      youtube_id: mPsUYlzqXPI
 
 awards:
     - title: 2016 Training and Education<br />Program Of The Year
