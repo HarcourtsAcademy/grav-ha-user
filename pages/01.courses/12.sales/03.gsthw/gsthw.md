@@ -9,7 +9,6 @@ side_bar_menu: true
 taxonomy:
   category: courses
   tag: [training,sales,sales consultants,administrators,buyer assistants,personal assistants]
-  training_paths: [sales-new]
 
 routes:
   aliases:

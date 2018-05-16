@@ -12,7 +12,6 @@ sidebar_navigation:
 taxonomy:
   category: courses
   tag: [training,sales,workshops,sales consultants,business owners,managers]
-  training_paths: [sales-new, sales-experienced]
 
 workshops:
   items:

@@ -190,21 +190,6 @@
             {% endif %}
           {% endif %}
 
-          {% if page.header.taxonomy.training_paths %}
-            <h2>Training Pathways</h2>
-            {% if page.header.taxonomy.training_paths|length > 1 %}
-            <p>{{ page.title }} are offered in the following Training Pathways:</p>
-            {% else %}
-            <p>{{ page.title }} is offered in the following Training Pathways:</p>
-            {% endif %}
-            <ul>
-            {% for pathway in page.header.taxonomy.training_paths %}
-              {% set pathwaycollection = taxonomy.findTaxonomy( { 'category': 'training_pathway', 'tag': pathway } ).order('folder', 'asc')  %}
-              <li><a href="{{ base_url}}/landing/training-pathways#{{ pathwaycollection|first.slug }}">{{ pathwaycollection|first.title }}</a></li>
-            {% endfor %}
-            </ul>
-          {% endif %}
-
           {% if page.header.disclaimer %}
             <h2>Disclaimer</h2>
             <blockquote><blockquote><blockquote><blockquote><blockquote><p>Harcourts are always looking for great people. However, completing our training does not mean that there will be a position available in your preferred Harcourts office.</p></blockquote></blockquote></blockquote></blockquote></blockquote>

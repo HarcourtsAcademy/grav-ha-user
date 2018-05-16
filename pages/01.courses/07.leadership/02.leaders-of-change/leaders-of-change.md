@@ -9,7 +9,6 @@ side_bar_menu: true
 taxonomy:
   category: courses
   tag: [leadership,business owners,managers,future leaders]
-  training_paths: [leadership]
 
 ---
 

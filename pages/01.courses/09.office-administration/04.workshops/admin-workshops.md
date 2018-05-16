@@ -13,7 +13,6 @@ taxonomy:
   category: courses
   tag: [training,administration]
   role: [office administrator]
-  training_paths: [administration]
 
 ---
 

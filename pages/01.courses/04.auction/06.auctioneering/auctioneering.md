@@ -10,7 +10,6 @@ side_bar_menu: true
 taxonomy:
   category: courses
   tag: [training,sales,auction,sales consultants,business owners,auctioneer,managers]
-  training_paths: [auction]
 
 qualification_units:
   - id: CPPDSM4004

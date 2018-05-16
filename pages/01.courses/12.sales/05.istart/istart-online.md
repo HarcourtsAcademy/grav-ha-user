@@ -12,7 +12,6 @@ taxonomy:
   role: sales consultant
   topic: sales
   country: [australia,canada,indonesia,new zealand,usa,south africa]
-  training_paths: [sales-new]
 
 youtube:
     player_parameters:

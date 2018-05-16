@@ -10,7 +10,6 @@ taxonomy:
   category: courses
   tag: [leadership]
   role: [business owners,managers,future leaders]
-  training_paths: [leadership]
 
 ---
 

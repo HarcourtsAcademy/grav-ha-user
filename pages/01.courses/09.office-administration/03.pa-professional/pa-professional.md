@@ -11,7 +11,6 @@ taxonomy:
   category: courses
   tag: [training,office administrator program]
   role: [office administrator]
-  training_paths: [administration]
 
 target_groups:
   - Office Administrators

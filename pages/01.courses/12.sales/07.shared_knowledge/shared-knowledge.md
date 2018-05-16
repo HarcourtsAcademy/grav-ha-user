@@ -9,8 +9,7 @@ side_bar_menu: true
 
 taxonomy:
   category: courses
-  tag: [training,sales,panel,sales consultants,business owners, managers]  
-  training_paths: [sales-new,sales-experienced]
+  tag: [training,sales,panel,sales consultants,business owners, managers]
 side_bar_menu: true;
 
 target_groups:

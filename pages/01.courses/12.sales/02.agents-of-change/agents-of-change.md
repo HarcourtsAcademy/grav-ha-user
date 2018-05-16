@@ -9,7 +9,6 @@ side_bar_menu: true
 taxonomy:
   category: courses
   tag: [training,sales,sales consultants,experienced]
-  training_paths: [sales-experienced]
 
 routes:
   aliases:

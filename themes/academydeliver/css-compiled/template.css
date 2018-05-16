@@ -768,7 +768,7 @@ td {
       width: 100%; } }
 
 .three-column-bullet {
-  width: 33.33333%; }
+  width: 33.3333333333%; }
   @media only all and (max-width: 47.938em) {
     .three-column-bullet {
       width: 100%; } }
@@ -1002,7 +1002,7 @@ body.modal-open {
       text-align: unset; }
     .modal.teammember-modal .modal-body .contact-icons {
       /* Prevent contact icons to wrap around the image. */ }
-      @media only all and (max-width: 483.33333px) {
+      @media only all and (max-width: 483.3333333333px) {
         .modal.teammember-modal .modal-body .contact-icons {
           padding-left: 40vw; } }
     .modal.teammember-modal .modal-body .bio {
@@ -2527,102 +2527,6 @@ img.inline-left {
     .panel-group .panel .panel-heading a.accordion-toggle {
       text-decoration: none;
       color: #fff; }
-
-#training_paths_accordion .panel {
-  border: none;
-  box-shadow: none;
-  border-radius: 0; }
-  #training_paths_accordion .panel .panel-heading {
-    border: none;
-    border-radius: 0;
-    background-color: #001f49;
-    padding: 0; }
-    #training_paths_accordion .panel .panel-heading:hover {
-      background-color: #00adef; }
-    #training_paths_accordion .panel .panel-heading .accordion-toggle {
-      display: block;
-      height: 36px;
-      /* symbol for opened panels */
-      background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2736%27%20height%3D%2736%27%20viewBox%3D%270%200%2036%2036%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%20%3Crect%20fill%3D%27%23000%27%20width%3D%2736%27%20height%3D%2736%27%20x%3D%270%27%20y%3D%270%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%2714%27%20height%3D%272%27%20x%3D%2711%27%20y%3D%2717%27%3E%3C%2Frect%3E%20%3C%2Fsvg%3E);
-      background-repeat: no-repeat;
-      background-position: 0% 50%; }
-      #training_paths_accordion .panel .panel-heading .accordion-toggle h4, #training_paths_accordion .panel .panel-heading .accordion-toggle .archive-list label, .archive-list #training_paths_accordion .panel .panel-heading .accordion-toggle label, #training_paths_accordion .panel .panel-heading .accordion-toggle .modular .bottom table th, .modular .bottom table #training_paths_accordion .panel .panel-heading .accordion-toggle th, #training_paths_accordion .panel .panel-heading .accordion-toggle .contact label, .contact #training_paths_accordion .panel .panel-heading .accordion-toggle label, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item #training_paths_accordion .panel .panel-heading .accordion-toggle .name, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle .button, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact #training_paths_accordion .panel .panel-heading .accordion-toggle button, #training_paths_accordion .panel .panel-heading .accordion-toggle .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot #training_paths_accordion .panel .panel-heading .accordion-toggle button {
-        text-align: left;
-        display: inline-block;
-        margin-left: 2rem;
-        padding: 5px 15px; }
-    #training_paths_accordion .panel .panel-heading .accordion-toggle.collapsed {
-      /* symbol for collapsed panels */
-      background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2736%27%20height%3D%2736%27%20viewBox%3D%270%200%2036%2036%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%20%3Crect%20fill%3D%27%23000%27%20width%3D%2736%27%20height%3D%2736%27%20x%3D%270%27%20y%3D%270%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%2714%27%20height%3D%272%27%20x%3D%2711%27%20y%3D%2717%27%3E%3C%2Frect%3E%20%3Crect%20fill%3D%27%23FFF%27%20width%3D%272%27%20height%3D%2714%27%20x%3D%2717%27%20y%3D%2711%27%3E%3C%2Frect%3E%20%3C%2Fsvg%3E); }
-    #training_paths_accordion .panel .panel-heading a.accordion-toggle {
-      text-decoration: none;
-      color: #fff; }
-
-.training-path-actions:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.training-path-summary .training-path-description {
-  padding-right: 2rem; }
-  @media only all and (max-width: 47.938em) {
-    .training-path-summary .training-path-description {
-      padding: inherit; } }
-  .training-path-summary .training-path-description .training-path-actions {
-    text-align: center; }
-    .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
-      min-width: 16rem; }
-      @media only all and (max-width: 47.938em) {
-        .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
-          width: 100%; } }
-.training-path-summary .training-path-list ol {
-  counter-reset: li;
-  /* Initiate a counter */
-  margin-left: 0;
-  /* Remove the default left margin */
-  padding-left: 0;
-  /* Remove the default left padding */ }
-.training-path-summary .training-path-list ol > li {
-  position: relative;
-  /* Create a positioning context */
-  margin: 0 0 6px 2em;
-  /* Give each list item a left margin to make room for the numbers */
-  padding: 4px 8px;
-  /* Add some spacing around the content */
-  list-style: none;
-  /* Disable the normal item numbering */
-  border-top: 2px solid #a7a7a7;
-  background: #f6f6f6; }
-.training-path-summary .training-path-list ol > li:before {
-  content: counter(li);
-  /* Use the counter as content */
-  counter-increment: li;
-  /* Increment the counter by 1 */
-  /* Position and style the number */
-  position: absolute;
-  top: -2px;
-  left: -2em;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 2em;
-  /* Some space between the number and the content in browsers that support
-    generated content but not positioning it (Camino 2 is one example) */
-  margin-right: 8px;
-  padding: 4px;
-  border-top: 2px solid #a7a7a7;
-  color: #fff;
-  background: #a7a7a7;
-  font-weight: bold;
-  text-align: center; }
-.training-path-summary .training-path-list li ol,
-.training-path-summary .training-path-list li ul {
-  margin-top: 6px; }
-.training-path-summary .training-path-list ol ol li:last-child {
-  margin-bottom: 0; }
-
-.salvattore-grid .training-paths-course {
-  margin-bottom: 2rem; }
 
 /**
  * http://salvattore.com/ 
