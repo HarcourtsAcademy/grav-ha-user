@@ -35,13 +35,14 @@ This program is designed for people who wish to become registered real estate sa
 ## Course Fee
 Region|With Qualification [^1] | Without Qualification
 ------|------------------------------------------------|----------------------
-New South Wales|$690|$690
+New South Wales|$765|$490
 Queensland|$690|$340
 South Australia|$2,850|$690
-Tasmania|$790|$690
-Victoria|$1,390|$690
+Tasmania|$985|$690
+Victoria|$1,240|$690
 Western Australia|$690|$340
 
+>>>>>  **Note!** Course fees are subject to change at any time.
 
 ### Included in Course Fee
 - Getting Started the Harcourts Way Student Pack
