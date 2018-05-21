@@ -9,28 +9,28 @@ members:
 #    title: Academy Administrator
 #    office: auckland
 #    email: academy.nz@harcourts.net
-  - name: Melanie Tan 
-    image: melanie-tan.jpg
-    title: Academy Trainer
-    office: auckland
-    email: melanie-tan@harcourts.net
-    bio: |
-      Melanie Tan is Northern and Central Academy Trainer for Harcourts New Zealand. In this role, she provides the wider Harcourts team with relevant knowledge to strengthen their skill sets and enhance their overall professional growth. Mel has been a high performer in the real estate industry, winning loyal clients with a personal commitment to "improve lifestyle through exceptional service". With sales experience, digital savvy and an enthusiastic approach, Mel communicates effectively with students, moving them closer towards their real estate goals. 
-  - name: Tamsin Mason
-    image: tamsin-mason.jpg
-    title: Academy Trainer (Wellington)
-    office: wellington
-    email: tamsin.mason@harcourts.net
-    bio: |
-      Tamsin is the Academy Trainer for Harcourts NZ, responsible for training new and experienced sales consultants within the Harcourts Group. 
-      
-      For Tamsin, it’s all about creating success and improving performance through relevant, current training that can be easily utilised within sales consultants’ businesses.
-      
-      Described as a dynamic and highly successful salesperson who achieves excellent results for her clients, Tamsin has been recognized as a top performer since starting with Harcourts in February 2008. Consistently in the Top 20 for the Wellington Region and Number 1 in the Harcourts Eastbourne office, Tamsin now brings her "in-field" experience and expertise to the role of Academy Trainer.
-      
-      As a top performer for the Region for 9 years, Tamsin understands what it takes in the field to be highly successful.
-      
-      Give Tamsin a call to see what training the Academy offers to help you launch or boost your business success. 
+#  - name: Melanie Tan 
+#    image: melanie-tan.jpg
+#    title: Academy Trainer
+#    office: auckland
+#    email: melanie-tan@harcourts.net
+#    bio: |
+#      Melanie Tan is Northern and Central Academy Trainer for Harcourts New Zealand. In this role, she provides the wider Harcourts team with relevant knowledge to strengthen their skill sets and enhance their overall professional growth. Mel has been a high performer in the real estate industry, winning loyal clients with a personal commitment to "improve lifestyle through exceptional service". With sales experience, digital savvy and an enthusiastic approach, Mel communicates effectively with students, moving them closer towards their real estate goals. 
+#  - name: Tamsin Mason
+#    image: tamsin-mason.jpg
+#    title: Academy Trainer (Wellington)
+#    office: wellington
+#    email: tamsin.mason@harcourts.net
+#    bio: |
+#      Tamsin is the Academy Trainer for Harcourts NZ, responsible for training new and experienced sales consultants within the Harcourts Group. 
+#      
+#      For Tamsin, it’s all about creating success and improving performance through relevant, current training that can be easily utilised within sales consultants’ businesses.
+#      
+#      Described as a dynamic and highly successful salesperson who achieves excellent results for her clients, Tamsin has been recognized as a top performer since starting with Harcourts in February 2008. Consistently in the Top 20 for the Wellington Region and Number 1 in the Harcourts Eastbourne office, Tamsin now brings her "in-field" experience and expertise to the role of Academy Trainer.
+#      
+#      As a top performer for the Region for 9 years, Tamsin understands what it takes in the field to be highly successful.
+#      
+#      Give Tamsin a call to see what training the Academy offers to help you launch or boost your business success. 
   - name: Andrew Simich
     image: andrew-simich.jpg
     title: Professional Development Manager & Academy Manager (Auckland)
