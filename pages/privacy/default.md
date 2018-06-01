@@ -1,125 +1,136 @@
 ---
-title: Privacy Policy & Terms and Conditions
+title: Privacy and Security Policy
 slug: privacy
 published: true
-date: 29-03-2013 3:14pm
+date: 01-06-2018 3:02pm
 taxonomy:
   category: privacy
   tag: [privacy]
 
 metadata:
-    description: Your page description goes here
-    keywords: real estate Harcourts resource media library
-    author: Harcourts Academy
+    description: An overview of the kinds of personal information we collect and hold about you and our use of that information.
+    keywords: real estate Harcourts
+    author: Harcourts International Ltd
 
 body_classes: "default header-image fullwidth privacy"
 ---
 
-# Privacy Policy
+Harcourts Group (Australia) Pty Ltd ACN 074 304 073 and Harcourts Group Ltd (NZ) and their related entities (collectively, **Harcourts**, **us**, **we**, **our**) are committed to protecting the privacy of your personal information.
 
-## You can browse our websites without providing personal information
+Harcourts is required to comply with the _Privacy Act 1988 (Cth)_ including the Australian Privacy Principles (**APPs**) in Australia and the _Privacy Act 1993_ (**Privacy Act**) in New Zealand.
 
-You can access our website without disclosing your personal information, for example:
+This policy is intended to provide a general overview of our policies for the handling of your personal information. It covers the collection, processing and other use of personal data under the General Data Protection Regulations (**GDPR**) 2018. Other policies may apply instead of or in addition to this Privacy Policy in certain circumstances.
 
-- we do not automatically record personal information
-- we do not link information that is recorded automatically with personal information about specific individuals
+By using our websites (including our websites at [www.harcourts.com.au](http://www.harcourts.com.au), [www.harcourts.net](http://www.harcourts.net),  [www.harcourtscomplete.com.au](http://www.harcourtscomplete.com.au), [www.luxurypropertyselection.com](http://www.luxurypropertyselection.com), [www.harcourtsfoundation.org](http://www.harcourtsfoundation.org), [www.strandconveyancing.com](http://www.strandconveyancing.com), [www.academyrealestatetraining.com](http://www.academyrealestatetraining.com) and any other website we may establish or operate from time to time), and/or providing your personal information to us you consent to us handling your personal information in accordance with this Privacy Policy.
 
-## We automatically record some non-personal information
+## Collection of your personal information
 
-We do not attempt to identify you unless you choose to tell us who you are.
+The kinds of personal information we collect and hold about you, and our use of that information, is dependent on the products and services we provide to you.
 
-When you visit our website we automatically record some non-personal information in a log file, for example:
+In addition to operating a national real estate franchise network, the products and services that we (and/or our franchisees and licensees) provide include providing real estate agency services for the buying, selling, leasing, development and advertising of residential, commercial and rural properties, business broking, training and providing services in connection with arranging utility connection, removalists, cleaners, conveyancing, financing and insurance.
 
-- the type of web browser and device you are using
-- the type of operating system you are using
-- the screen resolution of your device
-- the date and time you access our site
-- the pages you visit and any documents you download
-- the internet address from which you accessed our site (i.e. IP address)
-- the search terms you used to find content on our website, and
-- the last site you visited before you accessed the website
+Generally, this personal information may include (but is not limited to) your name, address, date of birth, telephone number, email address, details of the products or services you have enquired about, property value, rental amounts, insurance details, references (in relation to rental arrangements and job applicants) and photo identification.  In addition to the above information, when you enrol in a course we will collect information which may include credit card details for payment of course fees and for Australian nationally recognised training identification documents such as birth certificates, drivers licenses and/or passports in order to create a Unique Student Identifier (USI) unless you can provide a USI to The Academy.  Collection of your personal information may be required by law for the purpose of reporting to Commonwealth, State and Territory government agencies for planning, evaluative and administrative relating to your training or course.
 
-## When we collect personal information you send us
+Generally, we collect your personal information directly from you unless it is impracticable or unreasonable to do so (for example where you deal with our franchisees, rather than us).  From time to time, we may collect personal information about you from third parties (for example, from your representative, from publicly available sources, from your referees where you apply for a position with us, when you transact with our franchisees or if you apply to become a franchisee).  
 
-We collect personal information such as your name, address, contact details and other information you provide to us when you:
+If you enrol in a course we may also collect personal information about you from third parties, for example:
 
-- fill in a form on our website
-- purchase something from our website
-- subscribe to a service or newsletter, or
-- correspond with us
+* from schools and other educational institutions where necessary to verify qualifications and course credits for enrolment and assessment purposes;
+* from organisations where you may be completing a work placement, or practical component of your course;
+* from your employer if your course is being supported by them or incorporated into your employment;
+* from professional or member associations or government departments via website such as confirming membership or registration or license check.
 
-## Use of web cookies
+If you provide us with personal information about a third party, you represent, and we collect it on the basis that, you have that person’s consent for us to collect and handle their personal information in accordance with this privacy policy.
 
-Our website uses analytic services to help analyse how people use our website. These services use 'cookies', which are tiny text files stored on your device, to collect information about your device and your actions on the website in an anonymous form. The tracking data is then used by us to compile statistical reports so we can:
+When collecting your personal information, we will take reasonable steps to provide you with certain information as required under the APPs, including the purpose of collection, who we may disclose your personal information to, any law that requires or authorises us to collect the information and the main consequences if we do not collect all of the personal information we require.  If we collect your personal information from another source, we will take reasonable steps to ensure you are aware of the fact and the circumstances of that collection.
 
-- determine what information on the website is used the most and the least; and
-- make technical and design decisions, to help make our website more useful to visitors.
+Generally, if we are unable to collect the personal information we require we may not be able to provide you with the products and services you seek.  If the information provided is incorrect or incomplete, this may also prevent, limit or otherwise affect our ability to provide products or services to you.
 
-Our website also uses Moodle to deliver online learning. Moodle also uses 'cookies' to identify you as you complete online learning tasks.
+## Purposes for which personal information is collected, held, used and disclosed
 
-## Disabling/enabling cookies
+We will use and disclose your personal information for the purposes for which we collected it, and for other related purposes that you would reasonably expect.  We may hold and process personal data that you provide to us in accordance with the GDPR.
 
-Most web browsers accept cookies automatically, but you can turn this feature off. Be aware that disabling cookies will affect your ability to use our website and prevent you from accessing online learning.
+Generally, these purposes include responding to your enquiries, providing you (or arranging for our franchisees to provide you) with products and services such as those set out in the section above, providing you with marketing information about our products and services and those of our franchisees, obtaining your feedback on your customer experience, conducting promotional activities and for our general business operations (for example, recruitment, maintenance of our business records, compliance with our legal and insurance obligations and statistical purposes).
 
-## We may store your information outside of your country
+By providing us with your personal information, you consent to us using your personal information for these purposes. You agree that we may send you such information by post or by electronic means such as email. You can opt-out of marketing and promotional communications at any time by contacting our Privacy Officer via the details shown below.
 
-The information collected by us and entered by you may be transmitted and stored outside of your country.
+If you are undertaking a Harcourts training course we may disclose information to a third party about you or your course for the purposes of assessing your progress, tracking your attendance, providing student support, issuing your results, and providing certificates of completion and/or Statement of Attainments (SoA for nationally recognised training).  In addition for Australian nationally recognised, this will include:
 
-## Privacy policy queries and concerns
+* disclosure to government agencies with responsibility for administering and regulating education and training providers in Australia such as the Australian Skills Quality Authority (ASQA) and state training authorities
+* disclosure to government agencies or government-appointed providers with responsibility for reviewing and analysing student and other stakeholder feedback, including those administering the Quality Indicators and data reporting requirements.
 
-If you have any queries or concerns about our website privacy policy or your personal data, including the accuracy of your data, please contact us by email at [academy@harcourts.net](mailto:academy@harcourts.net), by mail at P.O Box 8054, Riccarton, Christchurch, New Zealand or call +64 3 348 8784. Please provide us with your customer details including name, address and contact number.
+We may exchange your personal information within the Harcourts corporate group.  We may also disclose your personal information to our franchisees, licensees, agents and contractors for the purposes set out above, and for the purposes of those parties providing services to us or performing business services or functions on our behalf.
 
-Protecting your information is important. If you submit information to us either by using an electronic form or by sending us an email we collect that information and use it for the purposes for which you have provided it.
+Apart from the above instances, we may also use and disclose your personal information with your consent and as otherwise required or permitted by law.
 
-In addition, we may use your information to provide you with promotional material from us and our business partners. If you do not wish to receive any promotional material from us, please let us know by contacting us using any of the contact points above.
+## Sensitive Information
 
-Information about you and your business with us is only accessible by you and by Academy Real Estate Training personnel and their authorised representatives who also must use a password, and are bound to safeguard the information and access it only for approved purposes.
+We will only collect ‘sensitive information’ with your consent.  We will assume that you have consented to us collecting all information which is provided to us by you for use in accordance with this policy, including any ‘sensitive information’, unless you tell us otherwise at the time you provide it to us.
 
-If you have any questions or comments about our privacy policy, please email us at [academy@harcourts.net](mailto:academy@harcourts.net).
+If you are enrolled in a Harcourts training course, we may collect information about you which is considered sensitive information for example, information about whether you identify you as Aboriginal or Torres Strait Islander; information which may disclose your racial or ethnic origin (such as your proficiency languages other than English); and information about your health or a disability where this is relevant to your training needs.
 
-# Terms and Conditions
+## Storage and security of your personal information
 
-## Copyright
+We may hold your personal information in electronic formats or in hard copy. 
 
-Design and contents of the website is Copyright Harcourts International Limited unless otherwise stated. No reproduction, distribution, or transmission of the copyrighted materials at this site is permitted without the written permission of Harcourts International Ltd, unless otherwise specified. Any materials not copyright to Harcourts International Limited is used with permission.
+We take reasonable steps to securely store your personal information to ensure it is protected from unauthorised access, modification and disclosure, and from other types of misuse, interference and loss.  This includes electronic and physical security measures and procedures, staff training and use of password protection software. 
 
-## Access to the web site
+We will take reasonable steps to destroy or permanently de-identify your personal information when we no longer require it for any purpose for which it was collected.  We may retain your personal information for as long as necessary to comply with any applicable law, for legal, insurance and corporate governance purposes, for the prevention of fraud and to resolve disputes.  Your personal information may also be retained in our IT system back-up records.
 
-We want you to be able to access this web site anytime and anywhere. However, access to the web site may be unavailable or terminated at any time.
+The transfer of data over the Internet is inherently insecure.  We cannot guarantee the security, during transmission, of any personal information provided to us via our websites.  Please bear this in mind when transmitting information by this means to us.
 
-## Discussion forums
+The _Privacy Amendment (Notifiable Data Breaches) Act 2017_ established the Notifiable Data Breaches Scheme (**NDB scheme**) in Australia (to be Part IIIC of the Privacy Act 1988 on commencement).  The NDB scheme sets out obligations for notifying affected individuals, and the Australian Information Commissioner (**Commissioner**), about a data breach which is likely to result in serious harm.
 
-Online discussion forums are available in some online learning courses to enable you to discuss the course material with your trainers and fellow students. However, we accept no responsibility for forum posts made by users and our forum moderators may remove or edit any post at any time. Please contact your course trainer if you encounter objectionable content or behaviour in our discussion forums.
+Where serious harm to affected individuals is likely, we will notify those individuals and the Commissioner in accordance with our legal obligations. You may contact our Privacy Officer via the contact details below should you require additional information.
 
-## Abuse
+## Access and correction of your personal information
 
-You agree to treat this web site and other students with respect. We reserve the right to restrict or terminate your access at our discretion without warning and without refund of any costs. You may, however, contact us to appeal this decision but it is up to us whether your access is reinstated.
+The Privacy Act, APPs and the GDPR give you the right to access information held about you by us.  You may lodge a request to access and correct personal information that we hold about you if you believe it is inaccurate, incomplete, out-of-date, irrelevant or misleading by contacting our Privacy Officer via the contact details shown below.
 
-## Security of information
+You may request that we provide you with access to the personal information we hold about you.  Generally, we will provide you with access, except in limited circumstances where the APPs permit us to deny access.  Any such requests must be made in writing and directed to our Privacy Officer via the details shown below.  Under the APPs, we are permitted to charge you a reasonable fee for providing access to your personal information.  Please note that no fee will be incurred for requesting access, and if your request for access is accepted we will inform you of the fee (if any) that will be payable for providing access if you proceed with your request.
 
-You provide personal or other sensitive information over the Internet at your own risk. We take protection of your information very seriously and employ industry standard security to protect your data; but no information sent over the Internet is totally secure.
+You may ask us to inform you of the source of any personal information about you that we have collected from a third party.  We will provide this at no cost, except in limited circumstances where the APPs or other laws permit us to withhold this information.
 
-## Governing law and jurisdiction
+You have the right to change the permissions that you have given us in relation to how we may use your data. You also have the right to request that we cease using your data or that we delete all personal data records that we hold relating to you. You can exercise these rights at any time by writing to our Privacy Officer at the address detailed below.
 
-These Terms and Conditions and Privacy Policy are governed and construed in accordance with New Zealand law.
+## Making a complaint
 
-## Views of individuals
+You may lodge a complaint with us if you believe we have handled your personal information other than in accordance with the APPs.  To do so please contact our Privacy Officer via the contact details below.  We will confirm receipt of your complaint and set out the time frame we require to investigate your complaint and provide you with a response.  We will endeavor to respond as quickly as possible, which will typically be within 14 days of receiving your complaint.
 
-Information contained in the website by named authors express their views, and may not reflect the views of Academy Real Estate Training or Harcourts International Limited.
+## Harcourts  website
 
-## No warranty or liability
+Our websites use cookies. We do not use the information stored in those cookies to collect information about you or your computer.  The cookies are used for statistical purposes and to assist with your use of the website. We may also collect click-stream data when you use the website, such as the date and time of your visit, the pages you accessed, your IP address, the type of browser and operating system you are using and the websites you come from and move to.  This information is collected for statistical purposes to assist us to find out how our website is used and navigated and to improve our website.
 
-We endeavour to ensure that our information is accurate on the day it is published. However, we do not make any express or implied representations or give any warranties regarding the material or services provided by this website, and we accept no liability for:
+Harcourts websites may contain links to third party websites. Harcourts is not responsible for the privacy, security or handling of your personal information via those websites.  You should review the privacy policy and terms of use for those websites each time you visit them.
 
-any loss or damage whatsoever which may arise in any way out of the use of the website,
-any errors in or omissions in the website, or
-the accuracy of any information contained in the website.
-We cannot guarantee that the website will be error free or always be accessible.
+## Overseas disclosure of your personal information
 
-## Refunds
+Generally, we will not disclose your personal information to overseas recipients, except upon your request, or if we are authorised or required to do so by law.  Generally, such disclosures will be to members of our international corporate group.
 
-Choose carefully. We do not refund if you change your mind but we will meet our obligations under the Consumer Guarantees Act.
+If you consent to the disclosure of your personal information to an overseas entity you understand and agree that:
 
-## Changes to our Terms and Conditions and Privacy Policy
+<ol type="a">
+  <li>the overseas recipient is unlikely to be required to comply with the _Privacy Act_ and APPs;</li>
+  <li>the overseas recipient may not be subject to privacy laws that are similar to the _Privacy Act_ or APPs (and may even be compelled to make certain disclosures of your personal information under the privacy regime applicable to them, for example disclosure to the overseas government authorities);</li>
+  <li>Harcourts may not take steps to ensure that the overseas recipient handles your personal information in accordance with the _Privacy Act_ and APPs;</li>
+  <li>the overseas recipient may handle your personal information other than in accordance with the _Privacy Act_ or APPs, in which case you will not be able to seek redress for such acts or practices under the _Privacy Act_; and</li>
+  <li>Harcourts will not be responsible for, or otherwise liable for the way in which the overseas recipient handles your personal information.</li>
+</ol>
 
-We may change our website Privacy Policy and Terms and Conditions at any time by updating this page. We may email you about important changes. All changes will take effect from the moment they are published until the moment they are changed.
+As part of the services offered to you, for example through our Website, the information you provide to us may be transferred to and stored in countries outside of the European Economic Area (**EEA**) as we use remote website server hosts to provide the website and some aspects of our service, which may be based outside of the EEA, or use servers based outside of the EEA – this is generally the nature of data stored in “the Cloud”. It may also be processed by staff operating outside the EEA who work for one of our suppliers, e.g. our website server host, or work for us when temporarily outside of the EEA.
+
+A transfer of your personal data may happen if any of our servers are located in a country outside of the EEA or one of our service providers is located in a country outside of the EEA. If we transfer or store your personal data outside the EEA in this way, we will take steps with the aim of ensuring that your privacy rights continue to be protected, as outlined in this privacy policy and in accordance with the GDPR. If you use our services while you are outside the EEA, your personal data may be transferred outside the EEA in order to provide you with these services.
+
+## Changes to our Privacy Policy
+
+We may amend, modify or replace this Privacy Policy at any time.  You should review our Privacy Policy each time you visit our website or provide us with personal information.
+
+## Contact us
+
+For the purpose of the GDPR, we are the data controller and any enquiry regarding the collection or processing of your data should be addressed to our Privacy Officer at the contact details below.
+
+If you would like further information about the way we manage your personal information, or if you have a privacy-related complaint, please contact our Privacy Officer by telephone on +61 7 3839 3226, by mail at 31 Amy Johnson Place, Eagle Farm, QLD 4009, Australia or by email at [privacy@harcourts.net](mailto:privacy@harcourts.net).
+
+## Office of the Australian Information Commissioner
+
+More information about your rights and our obligations in connection with your personal information are available from the Office of the Australian Information Commissioner at [www.oaic.gov.au](http://www.oaic.gov.au).
