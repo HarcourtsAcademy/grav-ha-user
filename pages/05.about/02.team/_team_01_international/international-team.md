@@ -47,7 +47,7 @@ members:
     office: queensland
     email: alinta.ward@harcourts.net
     bio: |
-      Alinta’s primary role is to evolve existing and develop new training programs and resources for the Academy.  Alinta has worked within many roles during her time with Harcourts from administration, property management, sales & marketing, enabling her to draw from her in-the-field knowledge and experiences when developing new resources. Alinta’s aim is to ensure all our Academy Manuals, Workbooks, PowerPoints, AV, Leader’s guides and Assessment tools are comprehensive, easy to use and are readily available to our trainers.
+      Alinta’s primary role is to evolve existing and develop new training programs and resources for the Academy. Alinta has worked within many roles during her time with Harcourts from administration, property management, sales & marketing, enabling her to draw from her in-the-field knowledge and experiences when developing new resources. Alinta’s aim is to ensure all our Academy Manuals, Workbooks, PowerPoints, AV, Leader’s guides and Assessment tools are comprehensive, easy to use and are readily available to our trainers.
   - name: Alan Hossack
     image: alan-hossack.jpg
     title: Marketing Multimedia Manager
@@ -64,7 +64,7 @@ members:
       Ashley joins the Harcourts Team as Administrative Support in Brisbane’s Head Office. Her primary focus will be around providing quality administrative support, coordinating Academy events and promoting excellent culture within the Academy Team. With a background in administration and customer service in finance and insurance industries, Ashley is passionate about the effects that positive team culture and good communication have on the workplace, and seeks to promote these in her everyday work.
   - name: Paula Irvine
     image: paula-irvine.jpg
-    title: Academy Contract Programme Writer
+    title: RTO Manager
     office: queensland
     email: paula.irvine@harcourts.net
     bio: |
