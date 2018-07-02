@@ -4,6 +4,11 @@ menu: false
 template: modular/team
 
 members:
+  - name: Dody Handoko
+    image: dody-handoko.jpg
+    title: Head of Academy (Indonesia)
+    office: jakarta
+    email: dody@harcourts.co.id
   - name: Gael Hodgson
     image: gael-hodgson.png
     title: Head of Academy <nobr>(South Africa)</nobr>
@@ -28,6 +33,6 @@ members:
 
 ---
 
-## Meet our South Africa and USA teams
+## Meet our Indonesia, South Africa and USA teams
 
-The Academy's South Africa and USA teams.
+The Academy's Indonesia, South Africa and USA teams.
