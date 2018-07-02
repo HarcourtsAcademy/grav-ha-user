@@ -11,13 +11,13 @@ members:
     email: gael.hodgson@harcourts.co.za
     bio: |
       Gael boasts an extensive career in corporate sales and customer service. She joined one of the biggest real estate players in the industry in 2003 as a sales agent and during her 7 years of selling property she won the title of 'Rookie of the Year' as well as many awards including 'Top Agent Based on Commission', 'Most Income Generated' and 'Most Units Sold'. Gael joined Harcourts in 2010 as the Business Development Manager for the KwaZulu-Natal and East London regions where she has been able to combine her previous experience to do what she is most passionate about - growing people and their businesses to their full potential.
-  - name: Valerie Acevez
-    image: valerie-acevez.jpg
-    title: Director of Harcourts Academy (USA)
-    office: california
-    email: valerie.acevez@harcourtsusa.com
-    bio: |
-      With a background in real estate compliance and document training, Valerie brings a depth of experience to her role as Academy Trainer in the Harcourts USA Head Office in California.  Valerie also oversees the training in Reno, Nevada, Orange County, San Diego, Portland, Oregon and the Inland Empire.  Valerie has a vibrant personality and that shows through in her training style.
+  # - name: Valerie Acevez
+  #   image: valerie-acevez.jpg
+  #   title: Director of Harcourts Academy (USA)
+  #   office: california
+  #   email: valerie.acevez@harcourtsusa.com
+  #   bio: |
+  #     With a background in real estate compliance and document training, Valerie brings a depth of experience to her role as Academy Trainer in the Harcourts USA Head Office in California.  Valerie also oversees the training in Reno, Nevada, Orange County, San Diego, Portland, Oregon and the Inland Empire.  Valerie has a vibrant personality and that shows through in her training style.
   - name: Ray Bachman
     image: ray-bachman.jpg
     title: Academy Trainer & Business Operations Manager (Oregon USA)

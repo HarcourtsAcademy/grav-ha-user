@@ -11,13 +11,13 @@ members:
     email: paul.casarotto@harcourts.net
     bio: |
       Paul Casarotto has over 18 years property industry experience, having been a residential and commercial Sales Agent, Business Owner and Sales Manager for a leading Sydney agency.  In addition, he has facilitated numerous auction courses and training seminars for several major franchise groups, leading independent agencies, and the REINSW.  Paul is a practicing Auctioneer and has conducted close to 4,000 property auctions and has also appeared on several national television shows, including ‘Location Location’.  Drawing on his huge experience within the real estate industry, Paul provides support and guidance to Business Owners with their business planning and training whilst also up-skilling new and experienced consultants.
-  - name: Janet Okaro
-    image: janet-okaro.jpg
-    title: Academy Trainer <nobr>(New South Wales)</nobr>
-    office: new-south-wales
-    email: janet.okaro@harcourts.net
-    bio: |
-      Janet spent over 6 years working in the field of Human Resources and Learning and Development and also spent some time studying and working with children in primary education in Australia and abroad.  Janet has a passion for education which is utilised in her dual role at Harcourts NSW as Business Operations Manager and Academy Trainer.  Janet currently provides support and training for technology, office administration and real estate sales. 
+  # - name: Janet Okaro
+  #   image: janet-okaro.jpg
+  #   title: Academy Trainer <nobr>(New South Wales)</nobr>
+  #   office: new-south-wales
+  #   email: janet.okaro@harcourts.net
+  #   bio: |
+  #     Janet spent over 6 years working in the field of Human Resources and Learning and Development and also spent some time studying and working with children in primary education in Australia and abroad.  Janet has a passion for education which is utilised in her dual role at Harcourts NSW as Business Operations Manager and Academy Trainer.  Janet currently provides support and training for technology, office administration and real estate sales. 
   - name: Heather de Fina
     image: heather-de-fina.jpg
     title: Professional Development Manager (Queensland)
@@ -48,17 +48,13 @@ members:
       Megan began working at Harcourts in 2005 and after gaining valuable experience through the Harcourts systems and networks she started her own property management company in 2009.  After 6 successful years in business, she has returned to Harcourts to take up the role of Academy Trainer. Personal career highlights for Megan were being nominated for Australian Property Manager of the Year at the Real Estate Institute of Australia Awards in Darwin in 2012 and being a state finalist in two categories for the Telstra Business Women’s Awards in 2012.  
       
       Megan holds a Sales Consultant's License, Assistant Property Manager's Licence and has completed a Diploma in Property and is currently studying a Diploma in Leadership & Management. Megan also holds a Certificate IV in Workplace Training & Assessment and is a trainer for the Real Estate Institute of Tasmania.
-  - name: Chantelle Iannello
-    image: chantelle-iannello.jpg
-    title: Academy Trainer <nobr>(Western Australia)</nobr>
-    office: western-australia
-    email: trainer.wa@harcourts.net
-    bio: |
-      Chantelle began her early career in her family's real estate office, where she became one of the most successful teenagers in her field. After just a few years she was highly awarded for her work in developing mass growth in property management, before moving on to foster top 10 sales rankings in both the office and individual stats. 
-
-      Chantelle's passion to empower others began when guest lecturing to senior high school students. She went on to work in the training and recruitment of business owners and sales people throughout the state, eventually assisting with specialised RTO Diplomas and CIV programs. 
-
-      Joining Harcourts after several years back in the sales arena, Chantelle brings with her an enormous amount of knowledge and expertise in growing and strengthening businesses, educating and enhancing individuals and teams, and does so with the passion that makes a difference. Chantelle's core values resonate from her family upbringing, and she believes that the greatest gift in life is to make a difference to someone else's.
+  # - name: Jenni Wood
+  #   image: TBD.jpg
+  #   title: Academy Trainer <nobr>(Western Australia)</nobr>
+  #   office: western-australia
+  #   email: trainer.wa@harcourts.net
+  #   bio: |
+  #     TBD
   - name: Justin Balsillie
     image: justin-balsillie.jpg
     title: Academy Trainer (Victoria)
