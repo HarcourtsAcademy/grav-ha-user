@@ -76,7 +76,6 @@ summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
   /ce-cpd: '/qualifications/new-zealand/new-zealand-continuing-education'
-  /courses/sales/auction: '/courses/auction'
   /courses/leadership/auction: '/courses/auction'
   /info: '/'
   /online-learning/istart-online: '/courses/sales/istart'
@@ -84,6 +83,7 @@ routes:
   /online-learning/western-australia-cpd: '/qualifications/australia/western-australia/cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
   ## ARCHIVE
+  ## ^/courses/sales/auction$: '/courses/auction'
   ## ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
 
 redirects:
