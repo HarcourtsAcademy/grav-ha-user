@@ -195,6 +195,8 @@ redirects:
   /upload-webinar: https://www.academyrealestatetraining.com/moodle/mod/url/view.php?id=1039
   ## Train the Trainer
   /ttt: https://www.academyrealestatetraining.com/moodle/course/view.php?id=73
+  ## Academy Events
+  /forum2018: https://www.academyrealestatetraining.com/moodle/course/view.php?id=97
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
