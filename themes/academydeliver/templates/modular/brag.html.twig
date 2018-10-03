@@ -30,10 +30,25 @@
         {% endfor %}
     </div>
 {% endif %}
+{% if page.header.podcast %}
+  <div class="podcasts">
+    <h2><i class="fa fa-volume-up"></i> Listen to our Podcast</h2>
+    {% for podcast in page.header.podcast %}
+    <h4>
+        {% if podcast.link %}<a href="{{ podcast.link }}">{% endif %}
+        {{ page.media[podcast.artwork].sizes('90vw').html() }}<br/>
+        {% if podcast.icon %}<i class="fa fa-{{ podcast.icon }}"></i> {% endif %}{{ podcast.title }}
+        {% if podcast.link %}</a>{% endif %}
+    </h4>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<hr/>
 
 {% if page.header.awards %}
   <div class="awards">
-    <h2>Our Awards</h2>
+    <h2><i class="fa fa-trophy"></i> Our Awards</h2>
     {% for award in page.header.awards %}
       <h4>
       {% if award.link %}<a href="{{ award.link }}">{% endif %}

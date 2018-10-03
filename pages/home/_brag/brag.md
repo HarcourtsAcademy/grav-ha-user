@@ -1,13 +1,19 @@
 ---
 title: Brag
 menu: Brag
-video:
-    - title: Growing Our People
-      youtube_id: HCt0VFXTEzM
-      icon: book
-      link: /about/testimonials/Harcourts_Academy_Growing_Our_People.pdf
+# video:
+#     - title: Growing Our People
+#       youtube_id: HCt0VFXTEzM
+#       icon: book
+#       link: /about/testimonials/Harcourts_Academy_Growing_Our_People.pdf
 #    - title: Meet our raving fans
 #      youtube_id: mPsUYlzqXPI
+
+podcast:
+    - title: 'Spark: Powered by Harcourts Best'
+      artwork: spark-podcast_banner.jpg
+#      icon: volume-up
+      link: https://anchor.fm/academy
 
 awards:
     - title: 2016 Training and Education<br />Program Of The Year
@@ -22,5 +28,3 @@ jobs:
       link: /about-us/hiring
 
 ---
-
-## People Are Talking About Us

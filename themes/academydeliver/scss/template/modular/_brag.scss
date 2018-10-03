@@ -184,3 +184,20 @@ $tablet-button-size: 0.9;
         }
       }
     }
+
+    .podcasts {
+        img {
+          max-width: 44rem;
+          display: block;
+          margin: auto;
+        }
+        h4 {
+          max-width: 100%;
+          font-size: 1.25rem;
+          text-transform: none;
+          margin-bottom: 0;
+          @include breakpoint(mobile-only) {
+              line-height: 130%;
+          }
+        }
+      }
