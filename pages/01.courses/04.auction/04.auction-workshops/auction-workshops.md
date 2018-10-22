@@ -2,7 +2,7 @@
 header_title: use-parent-title
 title: Auction Workshop Series
 slug: auction-workshops
-published: true
+published: false
 template: course
 side_bar_menu: true
 
