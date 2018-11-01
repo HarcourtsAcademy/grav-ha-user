@@ -68,8 +68,6 @@ online_learning:
   url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
 
 documents:
-  - name: National Certificate + Salesperson Brochure - May 2016
-    url: National_Certificate_Salesperson_Brochure_v03.05.2016.pdf
   - name: Agreement for Provision of Administrative Assistant Services
     url: Agreement_for_Provision_of_Administrative_Assistant_Services_300310.pdf
   - name: Harcourts Withdrawals and Refunds Form
