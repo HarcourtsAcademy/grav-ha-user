@@ -14,7 +14,6 @@ content:
   dir: asc
   order:
     custom:
-      - _raving-fans
       - _growing-our-people-video
       - _growing-our-people-book
 
