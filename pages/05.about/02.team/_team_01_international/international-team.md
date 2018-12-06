@@ -4,24 +4,14 @@ menu: false
 template: modular/team
 
 members:
-  - name: Irene Green
-    image: irene-green.jpg
-    title: Director of Professional Development
+  - name: Bevan Gibbs
+    placeholder_image: placeholder-male.png
+    title: Director of People & Culture
     office: queensland
-    email: irene.green@harcourts.net
-    joined: 01-02-1990
+    email: bevan.gibbs@harcourts.net
+    joined: 03-12-2018
     bio: |
-      Beginning with Harcourts as a real estate business owner Irene and husband Mike were the number 1 franchise for New Zealand. Moving to Australia in 1997 the duo began the global expansion of Harcourts and ultimately purchased the company with partner Paul Wright in 2000.
-
-      Irene believed a strong focus on growing their people would be their point of difference and has been an integral part of Harcourts Academy for over 25 years introducing successful and diverse programs in Harcourts training rooms across 10 countries as well as online.
-
-      As Head of the Academy Irene was the driving force behind becoming a Registered Training Organisation in Australia in 2004 and developing affiliations with industry training providers in New Zealand, South Africa and Indonesia.
-
-      As Harcourts continues to grow Irene is responsible for the professional development of Harcourts corporate teams, travelling frequently to support our existing operations dotted around the globe.
-
-      Inducted into the Harcourts Hall of Fame in 2013 for outstanding contribution Irene continues to champion international projects such as Harcourts Inspirational Women, Harcourts Future Leaders and Team culture initiatives.
-
-      Irene holds a diploma in teaching, a diploma in workplace education and a diploma in business (real estate).
+      
   - name: Tim Butler
     image: tim-butler.jpg
     title: Interim Academy Team Leader
@@ -58,7 +48,7 @@ members:
     bio: |
 
   - name: Danica Smith
-    image: support-female.png
+    placeholder_image: placeholder-female.png
     title: Learning and Development Administrator
     office: queensland
     email: danica.smith@harcourts.net
