@@ -18,35 +18,28 @@ side_bar_menu: true
 visible: true
 ---
 
-Download the latest Academy training calendars for [Australia](#australia), [New Zealand](#new-zealand) and [South Africa](#south-africa).
+<!-- Download the latest Academy training calendars for [Australia](#australia), [New Zealand](#new-zealand) and [South Africa](#south-africa). -->
+
+Download the latest Academy training calendars for [Australia](#australia) and [New Zealand](#new-zealand).
 
 ===
 
 ## Australia Training Calendars {#australia .anchor}
 
-* [New South Wales 2018 Calendar](/calendars/2018/NSW-Training-Calendar-2018.pdf)
-* [Queensland 2018 Calendar](/calendars/2018/QLD-Training-Calendar-2018.pdf)
-* [South Australia 2018 Calendar](/calendars/2018/SA-Training-Calendar-2018.pdf)
-* [Tasmania 2018 Calendar](/calendars/2018/TAS-Training-Calendar-2018.pdf)
-* [Victoria 2018 Calendar](/calendars/2018/Vic-Training-Calendar-2018.pdf)
-* [Western Australia 2018 Calendar](/calendars/2018/WA-Training-Calendar-2018.pdf)
+<!-- * [New South Wales 2019 Calendar](/calendars/2019/NSW-Training-Calendar-2019.pdf) -->
+* [Queensland 2019 Calendar](/calendars/2019/QLD-Training-Calendar-2019.pdf)
+* [South Australia 2019 Calendar](/calendars/2019/SA-Training-Calendar-2019.pdf)
+* [Tasmania 2019 Calendar](/calendars/2019/TAS-Training-Calendar-2019.pdf)
+<!-- * [Victoria 2019 Calendar](/calendars/2019/Vic-Training-Calendar-2019.pdf) -->
+<!-- * [Western Australia 2019 Calendar](/calendars/2019/WA-Training-Calendar-2019.pdf) -->
 
 ## New Zealand Training Calendars {#new-zealand .anchor}
 
 <!-- * Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx) -->
-* [Central Region 2018 Calendar](/calendars/2018/NZ-Central-Training-Calendar-2018.pdf)
-* [South Island Region 2018 Calendar](/calendars/2018/NZ-South-Island-Training-Calendar-2018.pdf)
-* [Northern Region 2018 Calendar](/calendars/2018/NZ-Northern-Training-Calendar-2018.pdf)
-* [Wellington Region 2018 Calendar](/calendars/2018/NZ-Wellington-Training-Calendar-2018.pdf)
-
-## South Africa Training Calendar {#south-africa .anchor}
-
-* [South Africa 2018 Calendar](/calendars/2018/ZA-Training-Calendar-2018.pdf)
-
-<!-- 
-## USA Training Calendar { #usa .anchor}
-* [USA 2018 Calendar](/calendars/2018/USA-Training-Calendar-2018.pdf)
--->
+<!-- * [Central Region 2019 Calendar](/calendars/2019/NZ-Central-Training-Calendar-2019.pdf) -->
+* [South Island Region 2019 Calendar](/calendars/2019/NZ-South-Island-Training-Calendar-2019.pdf)
+<!-- * [Northern Region 2019 Calendar](/calendars/2019/NZ-Northern-Training-Calendar-2019.pdf) -->
+<!-- * [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf) -->
 
 ## Upcoming Training
 
