@@ -26,7 +26,7 @@ Download the latest Academy training calendars for [Australia](#australia) and [
 
 ## Australia Training Calendars {#australia .anchor}
 
-<!-- * [New South Wales 2019 Calendar](/calendars/2019/NSW-Training-Calendar-2019.pdf) -->
+* [New South Wales 2019 Calendar](/calendars/2019/NSW-Training-Calendar-2019.pdf)
 * [Queensland 2019 Calendar](/calendars/2019/QLD-Training-Calendar-2019.pdf)
 * [South Australia 2019 Calendar](/calendars/2019/SA-Training-Calendar-2019.pdf)
 * [Tasmania 2019 Calendar](/calendars/2019/TAS-Training-Calendar-2019.pdf)
