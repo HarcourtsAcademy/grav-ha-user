@@ -39,7 +39,7 @@ Download the latest Academy training calendars for [Australia](#australia) and [
 <!-- * [Central Region 2019 Calendar](/calendars/2019/NZ-Central-Training-Calendar-2019.pdf) -->
 * [South Island Region 2019 Calendar](/calendars/2019/NZ-South-Island-Training-Calendar-2019.pdf)
 * [Northern Region 2019 Calendar](/calendars/2019/NZ-Northern-Training-Calendar-2019.pdf)
-<!-- * [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf) -->
+* [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf)
 
 ## Upcoming Training
 
