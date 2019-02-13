@@ -18,9 +18,7 @@ side_bar_menu: true
 visible: true
 ---
 
-<!-- Download the latest Academy training calendars for [Australia](#australia), [New Zealand](#new-zealand) and [South Africa](#south-africa). -->
-
-Download the latest Academy training calendars for [Australia](#australia) and [New Zealand](#new-zealand).
+Download the latest Academy training calendars for [Australia](#australia), [New Zealand](#new-zealand) and [South Africa](#south-africa).
 
 ===
 
@@ -40,6 +38,11 @@ Download the latest Academy training calendars for [Australia](#australia) and [
 * [South Island Region 2019 Calendar](/calendars/2019/NZ-South-Island-Training-Calendar-2019.pdf)
 * [Northern Region 2019 Calendar](/calendars/2019/NZ-Northern-Training-Calendar-2019.pdf)
 * [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf)
+
+## South Africa Training Calendar {#south-africa .anchor}
+
+* [South Africa 2019 Calendar](/calendars/2019/ZA-Training-Calendar-2019.pdf)
+
 
 ## Upcoming Training
 
