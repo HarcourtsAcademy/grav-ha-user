@@ -11,27 +11,13 @@ members:
     email: paul.casarotto@harcourts.net
     bio: |
       Paul Casarotto has over 18 years property industry experience, having been a residential and commercial Sales Agent, Business Owner and Sales Manager for a leading Sydney agency.  In addition, he has facilitated numerous auction courses and training seminars for several major franchise groups, leading independent agencies, and the REINSW.  Paul is a practicing Auctioneer and has conducted close to 4,000 property auctions and has also appeared on several national television shows, including ‘Location Location’.  Drawing on his huge experience within the real estate industry, Paul provides support and guidance to Business Owners with their business planning and training whilst also up-skilling new and experienced consultants.
-  # - name: Janet Okaro
-  #   image: janet-okaro.jpg
-  #   title: Academy Trainer <nobr>(New South Wales)</nobr>
-  #   office: new-south-wales
-  #   email: janet.okaro@harcourts.net
-  #   bio: |
-  #     Janet spent over 6 years working in the field of Human Resources and Learning and Development and also spent some time studying and working with children in primary education in Australia and abroad.  Janet has a passion for education which is utilised in her dual role at Harcourts NSW as Business Operations Manager and Academy Trainer.  Janet currently provides support and training for technology, office administration and real estate sales. 
-  - name: Heather de Fina
-    image: heather-de-fina.jpg
-    title: Professional Development Manager (Queensland)
-    email: heather.defina@harcourts.net
+  - name: Christian Hamilton
+    image: christian-hamilton.jpg
+    title: Academy Trainer (Queensland)
+    email: christian.hamilton@harcourts.net
     office: queensland
-    bio: |
-      A long-time member of the Harcourts Team since 1999 Heather has been a hugely successful Sales Consultant, Sales Manager and Business Owner and more recently in her role as Business Development Manager for Queensland Corporate Support Team, a role she has been dedicated to for many years.
-      Through Harcourts’ collaboration with Disney, Heather was selected to attend the world renowned ‘Disney Institute’ in Orlando Florida, where she participated in their training program, ‘Leading and Sustaining a Service Culture’.  This previous training will assist her in the new role of Professional Development Manager for Harcourts Queensland. This is a natural progression for Heather and involves determining and driving the strategic direction and operation of Harcourts Professional Development initiatives which includes:
-
-      -	The quality and delivery of the Harcourts Academy core programs in Sales, Leadership, Culture & Technology
-      -	Assisting Business Owners with a focus on recruitment and growing our Future Leaders
-      -	Support and guidance of our Queensland Trainers
-
-      Assisting in the retention of our people through programs designed to enhance their skills and challenge their minds.
+    # bio: |
+    #   TBD
   - name: Ray Brincat
     image: ray-brincat.jpg
     title: Academy Trainer <nobr>(South Australia)</nobr>
@@ -48,13 +34,13 @@ members:
       Megan began working at Harcourts in 2005 and after gaining valuable experience through the Harcourts systems and networks she started her own property management company in 2009.  After 6 successful years in business, she has returned to Harcourts to take up the role of Academy Trainer. Personal career highlights for Megan were being nominated for Australian Property Manager of the Year at the Real Estate Institute of Australia Awards in Darwin in 2012 and being a state finalist in two categories for the Telstra Business Women’s Awards in 2012.  
       
       Megan holds a Sales Consultant's License, Assistant Property Manager's Licence and has completed a Diploma in Property and is currently studying a Diploma in Leadership & Management. Megan also holds a Certificate IV in Workplace Training & Assessment and is a trainer for the Real Estate Institute of Tasmania.
-  # - name: Jenni Wood
-  #   image: TBD.jpg
-  #   title: Academy Trainer <nobr>(Western Australia)</nobr>
-  #   office: western-australia
-  #   email: trainer.wa@harcourts.net
-  #   bio: |
-  #     TBD
+  - name: Jenni Wood
+    image: jenni-woods.jpg
+    title: Academy Trainer <nobr>(Western Australia)</nobr>
+    office: western-australia
+    email: trainer.wa@harcourts.net
+    bio: |
+      With consistent real estate industry experience since 1987, the past 2 decades have had a focus on corporate support, leadership and training with specialist skills in the areas of property management, administration and real estate sales. As a Licensed Real Estate Agent and Industry Trainer & Assessor, my inclusive approach to training ensures candidates gain the very best possible experience where they can apply new and renewed skills to their daily practices to achieve greater success.
   - name: Justin Balsillie
     image: justin-balsillie.jpg
     title: Academy Trainer (Victoria)

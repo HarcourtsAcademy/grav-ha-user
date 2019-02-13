@@ -15,15 +15,13 @@ members:
     email: andrew.simich@harcourts.net
     bio: |
       Andrew Simich started his career in Real Estate in 2004, selling residential property before moving into a management and training role with the same organisation. Andrew has been on board with the Harcourts team since October 2015 as the New Zealand Professional Development & Academy Manager and is enjoying working in a likeminded team of people, helping to grow new salespeople and the existing team, across the network. 
-  - name: Yvonne Duff
-    image: yvonne-duff.jpg
-    title: Academy Trainer (Christchurch)
-    office: christchurch
-    email: yvonne.duff@harcourts.net
-    bio: |
-      Yvonne is responsible for training new and experienced sales consultants within the Harcourts Group, with the objective of increasing and enhancing knowledge coupled with strengthening salespeople’s efficiency whilst embracing the core values of Harcourts. Having been a real estate professional for over 17 years, Yvonne continues to prove she delivers more than just words. The vast number of testimonials speak volumes of her respected work ethic, professionalism, knowledge and most of, all her commitment to her clients.
-
-      Possessing a forthright and warm manner, expect to hear "how it truly is", her approach to Real Estate is without complication. Always present to meet your needs, bringing vast experience and knowledge to the relationship. A natural communicator, prior to entering the Real Estate Industry in the 90s, she was a Tutor which has provided an even stronger platform for this role.    She is passionate about learning, enthusiastic user of the numerous technologies available and has a love of sharing knowledge, encouraging growth in others, attributes which are an ideal combination for an Academy Trainer.
+  # - name: TBD
+  #   image: TBD.jpg
+  #   title: Academy Trainer (Christchurch)
+  #   office: christchurch
+  #   email: TBD@harcourts.net
+  #   bio: |
+  #     TBD
   - name: Barbara Ding
     image: barbara-ding.jpg
     title: Academy Trainer (Auckland)
