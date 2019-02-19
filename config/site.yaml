@@ -136,6 +136,10 @@ redirects:
   /courses/calendars/nz/south-island:       /calendars/2018/NZ-South-Island-Training-Calendar-2018.pdf
   /courses/calendars/nz/wellington  :       /calendars/2018/NZ-Wellington-Training-Calendar-2018.pdf
   /courses/calendars/us/pacific:            /calendars/2018/USA-Training-Calendar-2018.pdf
+
+  ## Courses
+  /courses/sales/sales-program:   /courses/sales/getting-started-the-harcourts-way
+
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
   /landing/eone: tv/interviews/#pk_campaign=app-eone
   /landing/eopen: tv/interviews/#pk_campaign=app-eopen
