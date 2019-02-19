@@ -1,8 +1,8 @@
 ---
-title: New Zealand National Certificate (Salesperson)
-menu: National Certificate
-slug: new-zealand-national-certificate
-published: true
+title: 2019 New Zealand National Certificate (Salesperson)
+menu: National Certificate 2019
+slug: 2019-new-zealand-national-certificate
+published: false
 template: course
 
 taxonomy:
@@ -19,17 +19,28 @@ target_groups:
 course_content :
   - title: You Will Learn
     list: |
-      * Unit Standard 15500 - Establish a presence in the real estate market
-      * Unit Standard 23134 - Demonstrate knowledge of land ownership, transfer of ownership, and titles
-      * Unit Standard 23135 - Demonstrate knowledge of the law of contract and the law of agency
-      * Unit Standard 23136 - Demonstrate knowledge of misleading and deceiving conduct and misrepresentation
-      * Unit Standard 23137 - Demonstrate knowledge of the sale and purchase agreement and facilitate sale of real estate
-      * Unit Standard 23138 - Demonstrate knowledge of council zoning and building law needed to act as a real estate salesperson
-      * Unit Standard 23140 - Develop marketing plans for real estate, qualify customers, and present properties for sale
-      * Unit Standard 23141 - Demonstrate understanding of legal matters affecting real estate licensees
-      * Unit Standard 26148 - Demonstrate knowledge and use of inspection, appraisal and agency agreement for real estate property
-      * Unit Standard 26149 - Demonstrate knowledge of licensing and code of professional conduct under the Real Estate Act 2008
-      * Unit Standard 26150 - Demonstrate knowledge of methods for sale of real estate in New Zealand
+      | Unit | Unit Standard Title | Level | Credit |
+      | ---- | ------------------- | ----- | ------ |
+      |  **Module 1:** | **The real estate legal environment** | | |
+      |  23134 (v4) | Demonstrate knowledge of law relating to land titles, ownership, and transfer of land | 5 | 4|
+      |  22311 (v4) | Explain aspects of the Unit Titles Act 2010 for real estate personnel | 4 | 2|
+      |  26149 (v3) | Demonstrate knowledge of licensing and code of professional conduct under the Real Estate Act 2008 | 4 | 4|
+      |  23136 (v4) | Demonstrate knowledge of consumer protection law related to real estate practice | 4 | 4|
+      |  **Module 2:**  | **The broader legal environment** | | |
+      |  23141 (v4) | Demonstrate understanding of legislation as applied to real estate licensees | 5 | 4|
+      |  29882 (v1) | Demonstrate knowledge of the resource management and building law relevant to real estate licensees | 4 | 4|
+      |  23135 (v4) | Demonstrate knowledge of the law of contract and the law of agency in a real estate context | 4 | 5|
+      |  **Module 3:**  | **Inspection, appraisal and marketing a property** | | |
+      |  23157 (v4) | Demonstrate knowledge of building styles and materials for real estate personnel | 4 | 3|
+      |  26148 (v3) | Demonstrate knowledge and use of inspection and appraisal for real estate property | 5 | 4|
+      |  23140 (v4) | Develop marketing plans for real estate, qualify customers, and present properties for sale | 4 | 5|
+      |  **Module 4:**  | **Creating a professional presence and selling real estate** | | |
+      |  15500 (v5) | Establish a personal professional presence in the real estate market | 4 | 2|
+      |  26150 (v3) | Demonstrate knowledge of methods of sale of real estate in New Zealand | 5 | 4|
+      |  23137 (v4) | Demonstrate knowledge of the sale and purchase agreement and facilitate a sale of real estate | 5 | 5|
+      |  | **Total credits** | | **50** |
+
+      
   - title: Important Note: Student Expectations
     list: |
       The National Certificate in Real Estate (Salesperson) program in association with The Skills Organisation is completed by correspondence. With classroom-based training there is a teacher on hand to facilitate student learning and assessment and can be completed faster than training by correspondence. However, there are many benefits to training by correspondence, namely:
@@ -65,18 +76,16 @@ disclaimer: true
 
 online_learning:
   name: National Certificate Online
-  url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
+  url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=187
 
 documents:
   - name: Agreement for Provision of Administrative Assistant Services
     url: Agreement_for_Provision_of_Administrative_Assistant_Services_300310.pdf
   - name: Harcourts Withdrawals and Refunds Form
     url: Harcourts_Withdrawals_and_Refunds_Form.pdf
-  - name: National Certificate in RE (Salesperson) - FAQs
-    url: National_Certificate_in_RE_Salesperson_-_FAQs.pdf
-  - name: Enrolment Payment Form
+  - name: Enrolment Payment Form [DELETE OR REPLACE?]
     url: Enrolment_Payment_Form.pdf
-  - name: Salesperson National Certificate Scholarship Candidates
+  - name: Salesperson National Certificate Scholarship Candidates [DELETE OR REPLACE?]
     url: Salesperson_National_Certificate_Scholarship_Candidates.pdf
   - name: Pre-Course Pack - Auckland, Central & Northland
     url: Pre-Course_Pack-_Auckland_Central__Northland.pdf
@@ -84,13 +93,13 @@ documents:
     url: Pre-Course_Pack-_South_Island.pdf
   - name: Pre-Course Pack - Wellington
     url: Pre-Course_Pack-_Wellington.pdf
-  - name: Skills Trainee Information Handbook
+  - name: Skills Trainee Information Handbook [DELETE OR REPLACE?]
     url: Trainee_Handbook_Salesperson_L4_v2.0.pdf
 
 
 ---
 
-The first step in your career in Real Estate. Become qualified as an accredited real estate salesperson by achieving your National Certificate in Real Estate (Salesperson).
+The first step in your career in Real Estate. Become qualified as an accredited real estate salesperson by achieving your National Certificate in Real Estate (Salesperson) (Level 4).
 
 ===
 

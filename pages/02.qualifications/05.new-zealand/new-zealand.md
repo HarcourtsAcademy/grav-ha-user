@@ -24,10 +24,6 @@ Provides participants with the knowledge and skills to demonstrate competency in
 
 ===
 
-## Industry Training Available
-* [2018 Continuing Education](new-zealand-continuing-education)
-* [National Certificate](new-zealand-national-certificate)
-
 ## Key Benefits
 
 * Ability to work in the real estate industry
@@ -36,4 +32,6 @@ Provides participants with the knowledge and skills to demonstrate competency in
 * Career choices
 
 ## Availability
-National Certificate and Continuing Education training is available throughout New Zealand.
+Qualification training is available throughout New Zealand.
+
+## Industry Training Available
