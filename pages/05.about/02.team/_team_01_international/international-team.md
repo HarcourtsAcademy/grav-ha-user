@@ -5,7 +5,7 @@ template: modular/team
 
 members:
   - name: Bevan Gibbs
-    placeholder_image: placeholder-male.png
+    image: bevan-gibbs.jpg
     title: Director of People & Culture
     office: queensland
     email: bevan.gibbs@harcourts.net
