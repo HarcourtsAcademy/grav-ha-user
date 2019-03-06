@@ -15,7 +15,7 @@ sitemap:
 
 ---
 
-![Challenge Accepted](challenge-accepted.jpg)
+![Challenge Accepted](challenge-accepted.jpg?cropResize=1000,388){.pure-img}
 
 <p class="lead">Lifting your performance in real estate sales and leadership.</p>
 
