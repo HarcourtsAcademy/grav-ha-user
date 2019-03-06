@@ -18,7 +18,7 @@ textarea, #{$all-text-inputs}, select[multiple=multiple] {
 }
 
 label {
-	@extend strong;
+	// @extend strong;
 }
 
 // Forms
