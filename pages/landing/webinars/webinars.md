@@ -19,9 +19,10 @@ sitemap:
 
 <p class="lead">Lifting your performance in real estate sales and leadership.</p>
 
+![Lee Woodward](lee-profile.jpg?cropResize=375,300){.pure-img .right}
+
 ## Lee Woodward Live Webinars - April to August 2019
 
-![Lee Woodward](lee-profile.jpg?cropResize=300,300){.right}
 Lee Woodward (real estate trainer, public speaker, business coach and CEO of Real Estate Academy) is well known and respected nationally and internationally for his innovative work within the real estate training industry. He has earned widespread acclaim for delivering interactive, professional and highly relevant training that has resulted in great people entering, learning, developing and thriving in the industry.
 
 On behalf of Harcourts Academy, Lee is running a series of FREE live online webinars available exclusively to Harcourts team members.
@@ -36,21 +37,24 @@ Lee is hosting six 45-minute live webinars on the theme of 'Thriving through cha
 
 <div>Four webinars will cover sales topics such as:</div>
 
-<table class="pure-table" style="border:0">
-<tr>
-<td valign="top" style="border:0; vertical-align: top;" markdown="1">
-* Managing price expectations
-* Winning the business
-* How to deliver more value
-</td>
-<td valign="top" style="border:0; vertical-align: top;" markdown="1">
-* Dealing with low-fee operators
-* Managing buyers
-* Negotiation in a changing market
-* Understanding disruption
-</td>
-</tr>
-</table>
+<div class="g-grid pure-g-r">
+    <div class="size-1-2 pure-u-1-2">
+      <ul>
+        <li>Managing price expectations</li>
+        <li>winning the business</li>
+        <li> How to deliver more value</li>
+      </ul>
+    </div>
+    <div class="size-1-2 pure-u-1-2">
+      <ul>
+        <li>Dealing with low-fee operators</li>
+        <li>Managing buyers</li>
+        <li>Negotiation in a changing market</li>
+        <li>Understanding disruption</li>
+      </ul>
+    </div>
+</div>
+
 
 #### <i class="fa fa-clipboard"></i> Leadership Topics
 
