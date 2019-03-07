@@ -58,8 +58,9 @@ further_information: |
   [Register for next course](http://newsouthwales.harcourts.com.au/Home/Certificate-of-Registration/101443){.button}
 
 online_learning:
-  name: NSW Certificate of Registration Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
+  links:
+    - name: Open NSW Certificate of Registration Online
+      url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
 
 disclaimer: true
 ---

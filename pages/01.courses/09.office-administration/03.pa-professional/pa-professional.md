@@ -29,8 +29,9 @@ course_structure: PA Professional is entirely online.
 
 online_learning:
   title: Start Now
-  name: PA Professional
-  url: https://www.academyrealestatetraining.com/moodle/course/view.php?id=66
+  links:
+    - name: Open PA Professional
+      url: https://www.academyrealestatetraining.com/moodle/course/view.php?id=66
 
 further_information: false
 

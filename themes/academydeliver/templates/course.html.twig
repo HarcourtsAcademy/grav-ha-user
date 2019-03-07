@@ -47,11 +47,15 @@
           {{ page.content }}
 
           {% if page.header.online_learning %}
-          {% set online_learning = page.header.online_learning %}
-          <h3>{{ (online_learning.title) ? online_learning.title : 'Already Registered?' }}</h3>
-          <div class="online-learning-link">
-            <a href="{{ online_learning.url }}" class="button button-secondary">Open {{ online_learning.name }}</a>
-          </div>
+            {% set online_learning = page.header.online_learning %}
+            <h3>{{ (online_learning.title) ? online_learning.title : 'Already Registered?' }}</h3>
+            {% set button_class = "button-primary" %}
+            <div class="online-learning-link">
+            {% for link in page.header.online_learning.links %}
+              <a href="{{ link.url }}" class="button {{ button_class }}">{{ link.name }}</a>
+            {% set button_class = "button-secondary" %}
+            {% endfor %}
+            </div>
           {% endif %}
 
           {% if page.header.target_groups %}

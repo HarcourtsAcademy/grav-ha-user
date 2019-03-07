@@ -63,8 +63,9 @@ course_costs:
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
 online_learning:
-  name: Queensland Sales Licence Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=110
+  links:
+    - name: Open Queensland Sales Licence Online
+      url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=110
 
 disclaimer: true
 ---

@@ -56,8 +56,9 @@ further_information: For South Australia legislation and other information visit
 disclaimer: true
 
 online_learning:
-  name: South Australia Sales Registration Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=127
+  links:
+    - name: South Australia Sales Registration Online
+      url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=127
 
 ---
 

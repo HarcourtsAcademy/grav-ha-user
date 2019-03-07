@@ -48,8 +48,9 @@ further_information: For Tasmania legislation and other information visit [Consu
 disclaimer: true
 
 online_learning:
-  name: Tasmania Property Representative Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=120
+  links:
+    - name: Open Tasmania Property Representative Online
+      url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=120
 
 ---
 

@@ -50,8 +50,9 @@ further_information: For Western Australia legislation and other information vis
 disclaimer: true
 
 online_learning:
-  name: Sales Registration Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=46
+  links:
+  - name: Open Sales Registration Online
+    url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=46
 
 ---
 

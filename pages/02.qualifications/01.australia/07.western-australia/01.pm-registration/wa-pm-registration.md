@@ -42,8 +42,9 @@ further_information: For Western Australia legislation and other information vis
 disclaimer: true
 
 online_learning:
-  name: Property Management Registration Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=122
+  links:
+  - name: Open Property Management Registration Online
+    url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=122
 
 ---
 

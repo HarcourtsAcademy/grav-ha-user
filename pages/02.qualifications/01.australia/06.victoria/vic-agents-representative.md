@@ -66,8 +66,9 @@ further_information: For Victoria legislation and other information visit [Consu
 disclaimer: true
 
 online_learning:
-  name: Victoria Agents Representative Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=106
+  links:
+  - name: Open Victoria Agents Representative Online
+    url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=106
 
 ---
 

@@ -64,8 +64,9 @@ further_information: For New Zealand legislation and other information visit [RE
 disclaimer: true
 
 online_learning:
-  name: National Certificate Online
-  url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
+  links:
+    - name: Open National Certificate Online
+      url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
 
 documents:
   - name: Agreement for Provision of Administrative Assistant Services

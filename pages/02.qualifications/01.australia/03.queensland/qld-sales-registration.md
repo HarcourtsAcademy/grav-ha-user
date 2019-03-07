@@ -46,8 +46,9 @@ course_structure: |
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
 online_learning:
-  name: Queensland Sales Registration Online
-  url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=5
+  links:
+    - name: Open Queensland Sales Registration Online
+      url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=5
 
 disclaimer: true
 

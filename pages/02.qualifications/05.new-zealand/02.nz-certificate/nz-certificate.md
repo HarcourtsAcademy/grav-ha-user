@@ -75,8 +75,11 @@ further_information: For New Zealand legislation and other information visit [RE
 disclaimer: true
 
 online_learning:
-  name: Open New Zealand Certificate in Real Estate Online Portal
-  url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=187
+  links:
+    - name: Open New Zealand Certificate Online Portal
+      url: https://portal.skills.org.nz/
+    - name: Open Online Support Forum
+      url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=187
 
 documents:
   - name: Pre-Course Pack - Auckland, Central & Northland
