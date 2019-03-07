@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: work2.jpg
-      title: 2018 New Zealand Verifiable CE
-      desc: Complete your 2018 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
-      modalid: 14
-      url: /courses/continuing-education-and-cpd/new-zealand-continuing-education
-      date: <strong>Released</strong> March 2018
+##    - image: work2.jpg
+##      title: 2018 New Zealand Verifiable CE
+##      desc: Complete your 2018 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
+##      modalid: 14
+##      url: /courses/continuing-education-and-cpd/new-zealand-continuing-education
+##      date: <strong>Released</strong> March 2018
     - image: lee-perry-part-3.jpg
       title: Latest interview@academy
       desc: In this third and final instalment, Lee Perry from Harcourts Mandurah talks about his passion for team culture and how he 'bumps the lamp' when it comes to fostering the culture within the Harcourts Mandurah office.
