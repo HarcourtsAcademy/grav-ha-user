@@ -1,11 +1,11 @@
 ---
-title: New Zealand National Certificate
-menu: National Certificate
-slug: new-zealand-national-certificate-in-real-estate-salesperson
+title: New Zealand Certificate
+menu: New Zealand Certificate
+slug: new-zealand-certificate-in-real-estate-salesperson
 published: true
 taxonomy:
   category: about_us
-  tag: [faq,new zealand,national certificate,sales,sales consultant]
+  tag: [faq,new zealand,new zealand certificate,sales,sales consultant]
 
 side_bar_menu: true;
 
@@ -20,17 +20,17 @@ banner_image: theme://images/banners/about_us.jpg
 - [What time frame do I allow in Clause 1 of the Agreement for Provision of Administration Assistant Services?](#timeframe)
 - [Do I have to enter an hourly rate as per Clause 3 of the Agreement for Provision of Administration Assistant Services?](#enterhourlyrate)
 - [Do I have to pay the recruit the agreed hourly rate?](#hourlypayrate)
-- [How much does the National Certificate in Real Estate (Salesperson) cost?](#costs)
+- [How much does the New Zealand Certificate in Real Estate (Salesperson) cost?](#costs)
 - [What additional costs may a new salesperson incur?](#additionalcosts)
-- [What does the Open Polytechnic charge for their National Certificate in Real Estate (Salesperson) course?](#openpolytechnic)
+- [What does the Open Polytechnic charge for their New Zealand Certificate in Real Estate (Salesperson) course?](#openpolytechnic)
 
 ===
 
 ## How many papers are in the new salesperson entry level qualification?{#qualificationpapers}
-The National Certificate in Real Estate (Salesperson) is the new entry level qualification for salespersons. The qualification is made up of 11 unit standards, compared to 6 in the old ‘Salespersons’ Certificate’ qualification.
+The New Zealand Certificate in Real Estate (Salesperson) is the new entry level qualification for salespersons. The qualification is made up of 13 unit standards, compared to 11 in the old 'National Certificate’ qualification.
 
 ## How do I register to attend the new salesperson entry level qualification?{#register}
-Registering to attend the National Certificate in Real Estate (Salesperson) through the Academy follows the same process that was required when registering for the old 'Salespersons' Certificate' course.
+Registering to attend the New Zealand Certificate in Real Estate (Salesperson) through the Academy follows the same process that was required when registering for the old 'National Certificate' course.
 
 ### Members of the public
 
@@ -38,21 +38,21 @@ Registering to attend the National Certificate in Real Estate (Salesperson) thro
 
 ### Harcourts One members
 
-Go to [National Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-national-certificate) > Pre-Course Pack – Auckland+Central+Northland, South Island or Wellington. Complete the paperwork and post to the Academy. Further details are outlined in the pre-course packs.
+Go to [New Zealand Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-certificate) > Pre-Course Pack – Auckland+Central+Northland, South Island or Wellington. Complete the paperwork and post to the Academy. Further details are outlined in the pre-course packs.
 
 ## What employment contracts do our new recruits start on?{#startingcontract}
-New recruits that are in the process of completing the National Certificate in Real Estate (Salesperson) are employed on the 'Agreement for Provision of Administration Assistant Services'.
+New recruits that are in the process of completing the New Zealand Certificate in Real Estate (Salesperson) are employed on the 'Agreement for Provision of Administration Assistant Services'.
 
 ### Harcourts One members
-To access a copy of this Agreement go to [National Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-national-certificate) > Agreement for Provision of Administration Assistant Services.
+To access a copy of this Agreement go to [New Zealand Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-certificate) > Agreement for Provision of Administration Assistant Services.
 
 ## Why do we use this employment contract?{#employmentcontract}
-Our recruits are required to be in employment so that they may have a studycontract with the REAL ITO in order to complete the qualification. Under the Real Estate Agents Act 2008, as the recruits are not licensed sales consultants, they cannot be employed as 'independent contractors' like they were under the RealEstate Agents Act 1976. Recruits will move onto the standard sales consultants 'independent contractor' arrangement once they become licensed.
+Our recruits are required to be in employment so that they may have a studycontract with the Skills.org.nz in order to complete the qualification. Under the Real Estate Agents Act 2008, as the recruits are not licensed sales consultants, they cannot be employed as 'independent contractors' like they were under the RealEstate Agents Act 1976. Recruits will move onto the standard sales consultants 'independent contractor' arrangement once they become licensed.
 
 ## What time frame do I allow in Clause 1 of the Agreement for Provision of Administration Assistant Services?{#timeframe}
 > *1\. This contract shall commence on ................[Date] and expire on ...............[Date] unless the term is extended by a fresh agreement in writing.*
 
-It is suggested that you allocate three months as this will allow time for both study and the licensing process.
+It is suggested that you allocate six months as this will allow time for both study and the licensing process.
 
 ## Do I have to enter an hourly rate as per Clause 3 of the Agreement for Provision of Administration Assistant Services?{#enterhourlyrate}
 > *3\. The contract rate applicable to the Services provided under this agreement is $ ……..per hour. If the Contractor is registered for GST and provides a GST invoice, the Company will also pay GST in addition to the contract rate.*
@@ -64,8 +64,8 @@ No, you do not have to pay the recruit because you will make it very clear to th
 
 > *2\. The Contractor agrees to provide administrative assistant services (“the Services”) to the Company from time to time as agreed between them, depending upon demand for the Services, the availability of the Contractor to provide the Services, and various other contingencies.*
 
-## How much does the National Certificate in Real Estate (Salesperson) cost?{#costs}
-The costs associated with the National Certificate in Real Estate (Salesperson) is $995 for the 11 unit standards.
+## How much does the New Zealand Certificate in Real Estate (Salesperson) cost?{#costs}
+The costs associated with the National Certificate in Real Estate (Salesperson) is $995 for the 13 unit standards.
 
 All costs are including GST.
 
@@ -75,5 +75,5 @@ Salespersons new to the industry and Harcourts may incur the following additiona
 - Harcourts Academy [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way): $705.00 (inc. GST)
 - Real Estate Agents Authority Licence: $1132.00 (inc. GST)
 
-## What does the Open Polytechnic charge for their National Certificate in Real Estate (Salesperson) course?{#openpolytechnic}
-The Open Polytechnic publishes the cost of their National Certificate (Salesperson) course on their website. [View their prices](http://www.openpolytechnic.ac.nz/qualifications-and-courses/nc154303-national-certificate-in-real-estate-salesperson-level-4).
+## What does the Open Polytechnic charge for their New Zealand Certificate in Real Estate (Salesperson) course?{#openpolytechnic}
+The Open Polytechnic publishes the cost of their New Zealand Certificate (Salesperson) course on their website. [View their prices](https://www.openpolytechnic.ac.nz/qualifications-and-courses/nz3111-new-zealand-certificate-in-real-estate-salesperson-level-4/).

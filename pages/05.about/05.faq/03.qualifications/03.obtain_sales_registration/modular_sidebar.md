@@ -36,4 +36,4 @@ Sales Registration can be gained through the Harcourts Academy's Sales Program. 
 ___
 
 ## New Zealand{#new-zealand}
-To become a real estate consultant in New Zealand you need to gain a [National Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-national-certificate). It is a legal requirement.
+To become a real estate consultant in New Zealand you need to gain a [Certificate in Real Estate (Salesperson)](/qualifications/new-zealand/new-zealand-certificate). It is a legal requirement.

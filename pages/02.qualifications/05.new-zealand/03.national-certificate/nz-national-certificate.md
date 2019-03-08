@@ -7,7 +7,7 @@ template: course
 
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification,national-certificate,sales,sales consultant,new zealand]
+  tag: [online_learning,courses,qualification,national certificate,sales,sales consultant,new zealand]
   country: 'new zealand'
 
 target_groups:
