@@ -25,11 +25,28 @@ label {
 .form-field {
 	.required {
 		color: #F3443F;
-		font-size: $core-font-size + 2rem;
-		line-height: $core-font-size + 2rem;
+		font-size: $core-font-size + 1rem;
+		line-height: $core-font-size + 1rem;
 		vertical-align: top;
 		height: 1.5rem;
 		display: inline-block;
+	}
+
+	.form-input-wrapper input {
+		min-width: 100%;
+	}
+
+	.form-label label {
+		font-weight: bold;
+	}
+
+	.form-textarea-wrapper  textarea {
+		min-width: 100%;
+		min-height: 15rem;
+		border-radius: 0;
+		margin-bottom: 0.85rem;
+		padding: 0.425rem 0.425rem;
+		resize: vertical;
 	}
 }
 
@@ -44,21 +61,4 @@ form {
 
 ::-ms-clear {
 	display: none;
-}
-
-.mauticform_wrapper form {
-	.mauticform-button-wrapper button.mauticform-button {
-		background: $core-accent;
-    color: $white;
-    border: 1px solid $core-accent;
-		border-radius: 0;
-		padding: 7px 20px;
-		font-weight: normal;
-		font-size: 1rem;
-
-		&:hover {
-			background: $white;
-    	color: $core-accent;
-		}
-	}
 }

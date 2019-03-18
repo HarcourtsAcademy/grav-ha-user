@@ -904,11 +904,25 @@ textarea:focus, input[type=email]:focus, input[type=number]:focus, input[type=pa
 
 .form-field .required {
   color: #F3443F;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   vertical-align: top;
   height: 1.5rem;
   display: inline-block;
+}
+.form-field .form-input-wrapper input {
+  min-width: 100%;
+}
+.form-field .form-label label {
+  font-weight: bold;
+}
+.form-field .form-textarea-wrapper textarea {
+  min-width: 100%;
+  min-height: 15rem;
+  border-radius: 0;
+  margin-bottom: 0.85rem;
+  padding: 0.425rem 0.425rem;
+  resize: vertical;
 }
 
 form .buttons {
@@ -920,20 +934,6 @@ form input {
 
 ::-ms-clear {
   display: none;
-}
-
-.mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button {
-  background: #00adef;
-  color: #fff;
-  border: 1px solid #00adef;
-  border-radius: 0;
-  padding: 7px 20px;
-  font-weight: normal;
-  font-size: 1rem;
-}
-.mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button:hover {
-  background: #fff;
-  color: #00adef;
 }
 
 table {

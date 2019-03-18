@@ -223,36 +223,4 @@
         </div>
     </div>
 
-  {% if page.header.mautic.formid %}
-    {% if page.header.mautic.modal %}
-      <div class="portfolio-modal modal" id="portfolioModalForm" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
-              <div class="modal-body">
-                  <h1>Register Your Interest</h1>
-                  <script type="text/javascript" src="//{{ config.plugins.mautic.url }}/form/generate.js?id={{ page.header.mautic.formid }}"></script>
-                  <script type="text/javascript">
-                      {% for prefill in page.header.mautic.prefill %}
-                          document.getElementById('{{ prefill.fieldid }}').value = '{{ prefill.fieldvalue }}';
-                      {% endfor %}
-                  </script>
-              </div>
-          </div>
-      </div>
-    {% else %}
-      <div class="mautic-form">
-          {% if page.header.mautic.formheader %}<h1>{{ page.header.mautic.formheader }}</h1>{% endif %}
-          <script type="text/javascript" src="//{{ config.plugins.mautic.url }}/form/generate.js?id={{ page.header.mautic.formid }}"></script>
-          <script type="text/javascript">
-              {% for prefill in page.header.mautic.prefill %}
-                  document.getElementById('{{ prefill.fieldid }}').value = '{{ prefill.fieldvalue }}';
-              {% endfor %}
-          </script>
-      </div>
-
-    {% endif %}
-  {% endif %}
-
-
-
 {% endblock %}

@@ -1,0 +1,7 @@
+<html>
+{% for field in form.fields %}
+    {% if field.name != "g-recaptcha-response" and field.label != "" %}
+        <div><strong>{{ field.label }}</strong>: {{ form.value(field.name)|striptags|e }}</div>
+    {% endif %}
+{% endfor %}
+</html>
