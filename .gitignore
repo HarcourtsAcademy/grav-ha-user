@@ -11,6 +11,8 @@ config/security.yaml
 staging.academyrealestatetraining.com/config/security.yaml
 www.academyrealestatetraining.tk/config/security.yaml
 www.academyrealestatetraining.com/config/security.yaml
+config/plugins/email.yaml
+config/plugins/form.yaml
 
 # OS Generated
 .DS_Store*
