@@ -45,7 +45,7 @@ We **report** your results to the REA on your behalf
 ## Get Started {#get-started}
 
 Register via HarcourtsOne to complete all 10 hours of Verifiable CPD online
-: [Register via H1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=6665){.button-secondary} [Open Online CPD 2019 Course](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=181&noprocess){.button}
+: [1. Register via H1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=6665){.button-secondary} [2. Start CPD 2019 Online Course](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=185&noprocess){.button}
 
 ## Who
 The Real Estate Authority (REA) requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
