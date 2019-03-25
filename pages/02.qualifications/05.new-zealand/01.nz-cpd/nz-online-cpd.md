@@ -1,5 +1,5 @@
 ---
-title: 2019 New Zealand REA Continuing Professional Development (CPD)
+title: 2019 New Zealand Continuing Professional Development (CPD)
 menu: Continuing Professional Development
 slug: new-zealand-continuing-professional-development
 published: true
