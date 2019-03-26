@@ -2,7 +2,7 @@
 title: 2019 New Zealand Continuing Professional Development (CPD)
 menu: Continuing Professional Development
 slug: new-zealand-continuing-professional-development
-published: true
+published: false
 template: modular_alt
 
 taxonomy:
