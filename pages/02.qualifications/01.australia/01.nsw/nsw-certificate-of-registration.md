@@ -4,6 +4,8 @@ menu: New South Wales
 slug: nsw-certificate-of-registration
 published: true
 template: course
+bootstrap:
+  enabled: true
 
 taxonomy:
   category: qualifications

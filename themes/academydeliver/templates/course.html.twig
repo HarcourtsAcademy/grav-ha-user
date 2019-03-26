@@ -135,6 +135,24 @@
           </ul>
           {% endif %}
 
+          {% if page.header.qualification_units or page.header.core_qualification_units or page.header.elective_qualification_units %}
+              <div class="alert alert-warning">
+              <h4><i class="fa fa-exclamation-triangle"></i> Please Note</h4>
+            {% if page.title in ["Tasmania Property Representative"] %}
+              <p>
+                Qualification units in the new real estate training package (<a href="https://training.gov.au/Training/Details/CPP41419">CPP41419 - Certificate IV in Real Estate Practice</a>) supersede these units and a 12-month transition period is in place.
+              </p>
+            {% else %}
+              <p>
+                Qualification units in the new real estate training package (<a href="https://training.gov.au/Training/Details/CPP41419">CPP41419 - Certificate IV in Real Estate Practice</a>) supersede these units and a 12-month transition period is in place. The qualification units delivered in this course are the current requirement for {{ header.title|title }}. 
+              </p>
+            {% endif %}
+              <p>
+                After March 18th 2020 no RTO, including us, can enrol, train or issue qualifications in the superseded units. We may transfer students to a replacement training product if it's on our RTO scope of registration.
+              </p>
+              </div>
+          {% endif %}
+
           {% if page.header.course_availability %}
             <h2>Availability</h2>
             <p>{{ page.header.course_availability|markdown }}</p>

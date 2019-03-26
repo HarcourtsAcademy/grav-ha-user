@@ -4,6 +4,8 @@ menu: Victoria
 slug: victoria-agents-representative
 published: true
 template: course
+bootstrap:
+  enabled: true
 
 taxonomy:
   category: qualifications

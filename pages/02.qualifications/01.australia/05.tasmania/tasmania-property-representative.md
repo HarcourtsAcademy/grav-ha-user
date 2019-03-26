@@ -4,6 +4,8 @@ menu: Tasmania
 slug: tasmania
 published: true
 template: course
+bootstrap:
+  enabled: true
 
 taxonomy:
   category: qualifications

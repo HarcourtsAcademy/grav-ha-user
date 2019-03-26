@@ -5,6 +5,8 @@ slug: wa-sales-registration
 template: course
 published: true
 side_bar_menu: false
+bootstrap:
+  enabled: true
 
 taxonomy:
   category: qualifications
