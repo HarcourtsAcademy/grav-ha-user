@@ -28,6 +28,7 @@ DTSTART;TZID="Australia/Sydney":20190401T130000
 DTEND;TZID="Australia/Sydney":20190401T134500
 SUMMARY:Lee Woodward Leadership Webinar 1
 LOCATION:https://harcourtsacademy.com/webinar/lee-woodward/leadership/2019/1
+DESCRIPTION:Webinar link: https://harcourtsacademy.com/webinar/lee-woodward/leadership/2019/1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Lee Woodward Leadership Webinar 1

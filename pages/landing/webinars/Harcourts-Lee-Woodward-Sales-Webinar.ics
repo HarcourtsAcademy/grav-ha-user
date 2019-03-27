@@ -28,6 +28,7 @@ DTSTART;TZID="Australia/Sydney":20190401T110000
 DTEND;TZID="Australia/Sydney":20190401T120000
 SUMMARY:Lee Woodward Sales Webinar 1
 LOCATION:https://harcourtsacademy.com/webinar/lee-woodward/sales/2019/1
+DESCRIPTION:Webinar link: https://harcourtsacademy.com/webinar/lee-woodward/sales/2019/1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Lee Woodward Sales Webinar 1
