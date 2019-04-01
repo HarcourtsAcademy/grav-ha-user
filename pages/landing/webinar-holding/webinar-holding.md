@@ -14,7 +14,7 @@ metadata:
 sitemap:
   ignore: true
 
-redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
+## redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
 
 ---
 
