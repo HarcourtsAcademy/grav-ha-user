@@ -13,6 +13,8 @@ metadata:
 sitemap:
     ignore: true
 
+redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
+
 ---
 
 <div class="g-grid pure-g-r" style="color: white; background-color: #00adef; padding: 1em 1em 0 1em;">
