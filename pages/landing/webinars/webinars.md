@@ -20,7 +20,7 @@ sitemap:
     <div style="font-size: 3em; line-height:1em;">Next webinar starts in:</div>
   </div>
   <div class="size-1-1 pure-u-md-2-5">
-      <img src="https://gen.sendtric.com/countdown/ms8dfupwy6" alt="Count Down" class="transparent" style="padding: .5em 1em;">
+      <img src="https://gen.sendtric.com/countdown/yowfrvr1by" alt="Count Down" class="transparent" style="padding: .5em 1em;">
   </div>
 </div>
 
@@ -79,9 +79,9 @@ Two webinars will cover leadership topics that are yet to be determined.
 ### <i class="fa fa-calendar"></i> Select Webinar Dates
 
 **Sales Webinars**
-<label for="webinar1">
+<!-- <label for="webinar1">
   <input type="checkbox" id="webinar1" name="webinar1" value="1" required>11:00AM April 1st (DST)</input>
-</label>
+</label> -->
 <label for="webinar3">
   <input type="checkbox" id="webinar3" name="webinar3" value="1" required>11:00AM May 8th</input>
 </label>

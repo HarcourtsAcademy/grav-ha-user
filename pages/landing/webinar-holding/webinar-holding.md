@@ -3,6 +3,7 @@ title: Harcourts Academy Webinar Series
 slug: webinar-holding
 published: true
 template: default
+cache_enable: false
 
 taxonomy:
   category: courses
@@ -11,9 +12,9 @@ metadata:
   robots: 'noindex, nofollow'
 
 sitemap:
-    ignore: true
+  ignore: true
 
-redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
+## redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
 
 ---
 
@@ -22,6 +23,6 @@ redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
     <div style="font-size: 3em; line-height:1em;">Next webinar starts in:</div>
   </div>
   <div class="size-1-1 pure-u-md-2-5">
-      <img src="https://gen.sendtric.com/countdown/ms8dfupwy6" alt="Count Down" class="transparent" style="padding: .5em 1em;">
+      <img src="https://gen.sendtric.com/countdown/yowfrvr1by" alt="Count Down" class="transparent" style="padding: .5em 1em;">
   </div>
 </div>
