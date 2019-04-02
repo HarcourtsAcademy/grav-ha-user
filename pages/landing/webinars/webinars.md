@@ -14,7 +14,7 @@ sitemap:
     ignore: true
 
 ---
-
+<!--
 <div class="g-grid pure-g-r" style="color: white; background-color: #00adef; padding: 1em 1em 0 1em;">
   <div class="size-1-1 pure-u-md-3-5">
     <div style="font-size: 3em; line-height:1em;">Next webinar starts in:</div>
@@ -22,7 +22,7 @@ sitemap:
   <div class="size-1-1 pure-u-md-2-5">
       <img src="https://gen.sendtric.com/countdown/yowfrvr1by" alt="Count Down" class="transparent" style="padding: .5em 1em;">
   </div>
-</div>
+</div>-->
 
 
 
@@ -93,9 +93,9 @@ Two webinars will cover leadership topics that are yet to be determined.
 </label>
 
 **Leadership Webinars**
-<label for="webinar2">
+<!-- <label for="webinar2">
   <input type="checkbox" id="webinar2" name="webinar2" value="1" required>1:00PM April 1st (DST)</input>
-</label>
+</label> -->
 <label for="webinar5">
   <input type="checkbox" id="webinar5" name="webinar5" value="1" required>11:00AM July 3rd</input>
 </label>
