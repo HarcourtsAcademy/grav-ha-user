@@ -15,6 +15,7 @@ taxonomy:
 routes:
   aliases:
     - '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
+    - '/qualifications/new-zealand/new-zealand-cpd'
     - '/qualifications/new-zealand/new-zealand-continuing-education'
 
 ---
