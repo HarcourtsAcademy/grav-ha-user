@@ -2,7 +2,7 @@
 title: 2019 New Zealand Continuing Professional Development (CPD)
 menu: Continuing Professional Development
 slug: new-zealand-continuing-professional-development
-published: false
+published: true
 template: modular_alt
 
 taxonomy:
@@ -98,15 +98,14 @@ Harcourts can provide all 20 hours
 
 Under the new continuing professional development (CPD) programme, licensees must complete 5 hours of mandatory topics and 5 hours of elective topics.
 
-The mandatory topics for 2019 are:
+The 5 hours of **mandatory topics** for 2019 are:
 
   * Anti-money laundering (1.5 hours)
   * Communication (1.5 hours)
   * Disclosure (2 hours)
 
-The 5 hours of elective topics we have available now are:
+The 5 hours of **elective topics** we have available now are:
 
-### Elective Block A
   * Agency Agreements (1 hour)
   * Council Compliance (1.5 hours)
   * Physical Inspection (2.5 hours)
