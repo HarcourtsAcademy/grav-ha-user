@@ -116,12 +116,13 @@ The 5 hours of **elective topics** we have available now are:
 
 **[Harcourts Conference](https://harcourtsevents.com/new-zealand/about-conference/)**: Harcourts 2019 Conference held in May
 
-## 2018 Refresher
+<!--## 2018 Refresher
 If you are reviving a suspended licence after a period of 12 months or more, you will need to complete a refresher course (to get up to speed with what you have missed) plus the continuing professional development for the calendar year in which you revive your licence.
 
 You must complete the continuing professional development by 31 December of the year in which you revive your licence, and you must complete the refresher training before you renew your licence for the second time.
 
 The Academy is not offering 2018 Verifiable Continuing professional development Referesher training this year.
+-->
 
 ## The Support Behind You
 - Contact your local Academy trainer for information, assistance and advice ([Northern and Central](mailto:andrew.simich@harcourts.net), [Wellington](mailto:andrew.simich@harcourts.net), [South Island](mailto:andrew.simich@harcourts.net)
