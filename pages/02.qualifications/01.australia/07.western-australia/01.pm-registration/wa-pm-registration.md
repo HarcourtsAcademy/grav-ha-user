@@ -37,6 +37,8 @@ core_qualification_units:
   - id: CPPDSM4016
   - id: CPPDSM4080
 
+licensing_authority: The Department of Mines, Industry Regulation and Safety
+
 further_information: For Western Australia legislation and other information visit [Department of Commerce](http://www.commerce.wa.gov.au/consumer-protection/property-industry).
 
 disclaimer: true

@@ -50,6 +50,8 @@ core_qualification_units:
   - id: CPPDSM5012
   - id: CPPDSM5032
 
+licensing_authority: Consumer and Business Services
+
 course_structure: |
   A blended learning program that begins online with a number of interactive tasks that you can do from your own computer. This is followed by 8 days in the Academy Training Centre that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 

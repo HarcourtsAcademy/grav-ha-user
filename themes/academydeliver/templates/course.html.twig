@@ -140,17 +140,20 @@
               <h4><i class="fa fa-exclamation-triangle"></i> Please Note</h4>
             {% if page.title in ["Tasmania Property Representative"] %}
               <p>
-                Qualification units in the new real estate training package (<a href="https://training.gov.au/Training/Details/CPP41419">CPP41419 - Certificate IV in Real Estate Practice</a>) supersede these units and a 12-month transition period is in place.
+                Real Estate Units from the CPP40307 Certificate IV in Property (Real Estate) have been superseded.
+              </p>
+              <p>
+                Students have until the 18 March 2020 to complete their course.  After this date all students will be transferred to the new training package course.
               </p>
             {% else %}
               <p>
-                Qualification units in the new real estate training package (<a href="https://training.gov.au/Training/Details/CPP41419">CPP41419 - Certificate IV in Real Estate Practice</a>) supersede these units and a 12-month transition period is in place. The qualification units delivered in this course are the current requirement for {{ header.title|title }}. 
+                Real Estate Units from the CPP40307 Certificate IV in Property (Real Estate) have been superseded. The units delivered in this course are the current requirement for a {{ header.title|title }} and will still be recognised by {{ header.licensing_authority }}.
+              </p>
+              <p>
+                Students have until the 18 March 2020 to complete their course.  After this date all students will be transferred to the new training package course approved by {{ header.licensing_authority }}.
               </p>
             {% endif %}
-              <p>
-                After March 18th 2020 no RTO, including us, can enrol, train or issue qualifications in the superseded units. We may transfer students to a replacement training product if it's on our RTO scope of registration.
-              </p>
-              </div>
+            </div>
           {% endif %}
 
           {% if page.header.course_availability %}

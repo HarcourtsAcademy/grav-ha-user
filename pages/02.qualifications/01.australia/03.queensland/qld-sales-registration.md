@@ -40,6 +40,8 @@ core_qualification_units:
   - id: CPPDSM4022
   - id: CPPDSM4080
 
+licensing_authority: Queensland Fair Trading
+
 course_structure: |
   <h3>Harcourts Academy Sales Program (Sales Registration)</h3>
 

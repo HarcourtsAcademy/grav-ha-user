@@ -42,6 +42,8 @@ core_qualification_units:
   - id: CPPDSM4008
   - id: CPPDSM4080
 
+licensing_authority: NSW Fair Trading
+
 course_structure: A blended learning program that begins online with a number of interactive tasks that you can do from your own computer. This is followed by two full days in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 
 # elective_qualification_units:

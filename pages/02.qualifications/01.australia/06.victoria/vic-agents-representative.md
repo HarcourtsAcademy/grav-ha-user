@@ -32,6 +32,8 @@ core_qualification_units:
   - id: CPPDSM4008
   - id: CPPDSM4080
 
+licensing_authority: Consumer Affairs Victoria
+
 course_structure: |
   A blended learning program consisting of computer-assessed online tasks followed by 3 days in-class training.
 
