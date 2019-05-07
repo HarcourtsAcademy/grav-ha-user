@@ -82,11 +82,11 @@ form:
 
   process:
       - email:
-          to: "academy@harcourts.net"
+          to: "tim.butler@harcourts.net"
           to_name: "Harcourts Academy"
           from: "{{ form.value.email }}"
           from_name: "{{ form.value.name|e }}"
-          subject: "Website Contact by {{ form.value.name|e }}"
+          subject: "A new contact request from harcourtsacademy.com {{ form.value.name|e }}"
           body:
             - content_type: 'text/html'
               body: "{% include 'forms/data.html.twig' %}"
