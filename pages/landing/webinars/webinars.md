@@ -79,11 +79,11 @@ Two webinars will cover leadership topics that are yet to be determined.
 ### <i class="fa fa-calendar"></i> Select Webinar Dates
 
 **Sales Webinars**
-<!-- <label for="webinar1">
-  <input type="checkbox" id="webinar1" name="webinar1" value="1" required>11:00AM April 1st (DST)</input>
-</label> -->
+<label for="webinar1">
+  <input type="checkbox" id="webinar1" name="webinar1" value="1" disabled="1"><span style="text-decoration: line-through">11:00AM April 1st (DST)</span></input>
+</label>
 <label for="webinar3">
-  <input type="checkbox" id="webinar3" name="webinar3" value="1" required>11:00AM May 8th</input>
+  <input type="checkbox" id="webinar3" name="webinar3" value="1"  disabled="1"><span style="text-decoration: line-through">11:00AM May 8th</span></input>
 </label>
 <label for="webinar4">
   <input type="checkbox" id="webinar4" name="webinar4" value="1" required>11:00AM June 5th</input>
@@ -93,14 +93,14 @@ Two webinars will cover leadership topics that are yet to be determined.
 </label>
 
 **Leadership Webinars**
-<!-- <label for="webinar2">
-  <input type="checkbox" id="webinar2" name="webinar2" value="1" required>1:00PM April 1st (DST)</input>
-</label> -->
+<label for="webinar2">
+  <input type="checkbox" id="webinar2" name="webinar2" value="1"  disabled="1"><span style="text-decoration: line-through">1:00PM April 1st (DST)</span></input>
+</label>
 <label for="webinar5">
   <input type="checkbox" id="webinar5" name="webinar5" value="1" required>11:00AM July 3rd</input>
 </label>
 
-<i class="fa fa-globe"></i> All webinars start in Sydney time<br/>(Daylight Saving Time applies in April)
+<!-- <i class="fa fa-globe"></i> All webinars start in Sydney time<br/>(Daylight Saving Time applies in April) -->
 
       </div>
       <div class="g-block pure-u-1-2">
