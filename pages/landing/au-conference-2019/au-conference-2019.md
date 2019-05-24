@@ -87,7 +87,7 @@ sitemap:
     <h3>Queensland</h3>
     
     <p>
-      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=qld" target="_blank">Register your interest</a>
+      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=qld" target="_blank">August BO Meeting</a>
     </p>
       
     </div>
