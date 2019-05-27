@@ -79,7 +79,7 @@ sitemap:
     <h3>New South Wales</h3>
     
     <p>
-      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=nsw" target="_blank">August BO Meeting</a>
+      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=nsw" target="_blank">27th August at BO Meeting</a>
     </p>
 
     <hr width="50%" style="border-color: transparent;"/>
@@ -96,7 +96,7 @@ sitemap:
     <h3>South Australia</h3>
     
     <p>
-      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=sa" target="_blank">1st August BO Meeting</a>
+      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=sa" target="_blank">1st August at BO Meeting</a>
     </p>
 
     <hr width="50%" style="border-color: rgba(0, 0, 0, 0.1);"/>
@@ -113,7 +113,7 @@ sitemap:
     <h3>Victoria</h3>
     
     <p>
-      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=vic" target="_blank">Register your interest</a>
+      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=vic" target="_blank">1st August at BO Meeting</a>
     </p>
   
     <hr width="50%" style="border-color: transparent;"/>
@@ -121,7 +121,7 @@ sitemap:
     <h3>Western Australia</h3>
     
     <p>
-      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=wa" target="_blank">7th August BO Meeting </a>
+      <i class="fa fa-info-circle"></i> <a href="https://hacademy.typeform.com/to/IJ5JUX?state=wa" target="_blank">7th August at BO Meeting </a>
     </p>
 
     </div>
