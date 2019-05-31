@@ -21,14 +21,14 @@ Graduate Day is an opportunity to celebrate your successes and discuss real worl
 ===
 
 ## Target Group
-Graduate Day is the follow up session to [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) and will explore how you have applied your newly acquired skills and knowledge since completing your sales training. 
+Graduate Day is the follow up session to [Sales. The Harcourts Way.](/sales-the-harcourts-way) and will explore how you have applied your newly acquired skills and knowledge since completing your sales training. 
 
 ## Course Duration
 - Full day, in-class training
 
 ## Training Requirements
-- Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program 
-- Undertaken a minimum of 45 days in the field
+- Completion of [Sales. The Harcourts Way.](/sales-the-harcourts-way) Sales Program 
+- Undertaken a minimum of 12 weeks in the field
 
 ## Course Fee
 Complimentary

@@ -36,7 +36,7 @@ This program is designed for new to real estate salespersons as well as those wh
 Self-Paced Online Course
 
 ## Course Fee
-$60.00 / ZAR R250 (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Program)
+$60.00 / ZAR R250
 
 ## What You Will Learn
 iStart Online consists of 12 workshops

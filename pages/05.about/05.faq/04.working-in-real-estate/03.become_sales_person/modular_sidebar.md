@@ -20,7 +20,7 @@ To become a real estate salesperson in Australia you need a Real Estate Salesper
 2. A correctly completed application form
 3. Payment of required fees
 
-Harcourts [Getting Started the Harcourts Way](/courses/sales/getting-started-the-harcourts-way) provides you with the required training for you to be a real estate sales person. Upon successful completion of the Harcourts Sales Program you will achieve a Statement of Attainment and we can also assist you to complete the application form.
+Harcourts provides you with the required training for you to be a real estate sales person. Upon successful completion of the Harcourts Course you will achieve a Statement of Attainment and we can also assist you to complete the application form.
 
 ### Cost involved
 [Contact us](/about/contact-us) for pricing.
