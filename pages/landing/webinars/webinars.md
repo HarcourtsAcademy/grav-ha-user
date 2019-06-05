@@ -69,7 +69,7 @@ Lee is hosting six 45-minute live webinars on the theme of 'Thriving through cha
 
 #### <i class="fa fa-clipboard"></i> Leadership Topics
 
-Two webinars will cover leadership topics that are yet to be determined.
+The leadership topics are yet to be determined.
 
 <form action="https://hacademy.typeform.com/to/IyqV1D" id="registration" method="get">
 <div class="sales-webinars" style="border: 2px solid #00adef; padding:0 1em;">
@@ -86,7 +86,7 @@ Two webinars will cover leadership topics that are yet to be determined.
   <input type="checkbox" id="webinar3" name="webinar3" value="1"  disabled="1"><span style="text-decoration: line-through">11:00AM May 8th</span></input>
 </label>
 <label for="webinar4">
-  <input type="checkbox" id="webinar4" name="webinar4" value="1" required>11:00AM June 5th</input>
+  <input type="checkbox" id="webinar4" name="webinar4" value="1"  disabled="1"><span style="text-decoration: line-through">11:00AM June 5th</span></input>
 </label>
 <label for="webinar6">
   <input type="checkbox" id="webinar6" name="webinar6" value="1" required>11:00AM August 7th</input>
