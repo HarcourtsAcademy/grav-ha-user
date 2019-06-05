@@ -10,13 +10,16 @@ taxonomy:
 
 metadata:
   robots: 'noindex, nofollow'
+  refresh: 30
 
 sitemap:
   ignore: true
 
-## redirect: http://audio.hottopics.com.au/webinar/Harcourts-Live
+redirect: /webinar/lee-woodward/sales/2019/3
 
 ---
+
+
 
 <div class="g-grid pure-g-r" style="color: white; background-color: #00adef; padding: 1em 1em 0 1em;">
   <div class="size-1-1 pure-u-md-3-5">
