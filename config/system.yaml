@@ -37,9 +37,7 @@ media:
   enable_media_timestamp: true
 
 piwik:
-  enabled: true
-  url: //www.academyrealestatetraining.com/webstats/
-  siteid: 8
+  enabled: false
 
 google_analytics:
   enabled: true
