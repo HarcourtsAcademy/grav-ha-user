@@ -26,6 +26,6 @@ sitemap:
     <div style="font-size: 3em; line-height:1em;">Next webinar starts in:</div>
   </div>
   <div class="size-1-1 pure-u-md-2-5">
-      <img src="https://gen.sendtric.com/countdown/p68bm9bgy9" alt="Count Down" class="transparent" style="padding: .5em 1em;">
+      <img src="https://gen.sendtric.com/countdown/7gprszp26n" alt="Count Down" class="transparent" style="padding: .5em 1em;">
   </div>
 </div>
