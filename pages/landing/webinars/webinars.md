@@ -97,7 +97,7 @@ The leadership topics are yet to be determined.
   <input type="checkbox" id="webinar2" name="webinar2" value="1"  disabled="1"><span style="text-decoration: line-through">1:00PM April 1st (DST)</span></input>
 </label>
 <label for="webinar5">
-  <input type="checkbox" id="webinar5" name="webinar5" value="1" required>11:00AM July 3rd</input>
+  <input type="checkbox" id="webinar5" name="webinar5" value="1" disabled="1"><span style="text-decoration: line-through">11:00AM July 3rd</span></input>
 </label>
 
 <!-- <i class="fa fa-globe"></i> All webinars start in Sydney time<br/>(Daylight Saving Time applies in April) -->
