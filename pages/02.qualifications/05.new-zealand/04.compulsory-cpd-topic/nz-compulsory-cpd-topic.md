@@ -26,7 +26,7 @@ This 2019 mandatory CPD topic must be completed by any licensee who:
 2. has gained their Real Estate license in 2019, and
 3. who are subject to CPD exemption given their new licensee status.
  
-If you are a real estate licensee and **not** exempt per above, you must complete the full [20-hours of CPD (10 Verifiable and 10 Non Verifiable CPD in 2019](/qualifications/new-zealand/new-zealand-continuing-professional-development).
+If you are a real estate licensee and **not** exempt per above, you must complete the full [20-hours of CPD (10 Verifiable and 10 Non-Verifiable) in 2019](/qualifications/new-zealand/new-zealand-continuing-professional-development).
 
 ## Get Started {#get-started}
 
