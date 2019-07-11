@@ -34,7 +34,7 @@ Register via HarcourtsOne to complete your compulsory AML Topic online
 : [1. Register via H1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=6800){.button-secondary} [2. Open Online Course](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=188&noprocess){.button}
 
 ## Completion Date
-Eligible licensees must complete the mandatory AML Topic by Friday December 10th, 2019.
+Eligible licensees must complete the mandatory AML Topic by December 10th, 2019.
 
 ## More Information
 Read the REA's page on [Understanding your CPD requirements](https://www.rea.govt.nz/real-estate-professionals/education-and-obligations/understanding-your-cpd-requirements/).
