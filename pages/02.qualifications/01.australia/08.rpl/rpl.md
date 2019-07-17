@@ -117,10 +117,10 @@ Western Australia
 
 : <i class="fa fa-map-marker" aria-hidden="true"></i> 125 Cambridge St West Leederville
 
-Victoria
+<!-- Victoria
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:1300 856 773">1300 856 773</a>
 
-: <i class="fa fa-map-marker" aria-hidden="true"></i> 3/95 Coventry St Southbank
+: <i class="fa fa-map-marker" aria-hidden="true"></i> 3/95 Coventry St Southbank -->
 
 Tasmania
 : <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+61 (3) 6337 9700">+61 (3) 6337 9700</a>

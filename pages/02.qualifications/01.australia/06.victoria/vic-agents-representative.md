@@ -2,7 +2,7 @@
 title: Victoria Agents' Representative
 menu: Victoria
 slug: victoria-agents-representative
-published: true
+published: false
 template: course
 bootstrap:
   enabled: true
