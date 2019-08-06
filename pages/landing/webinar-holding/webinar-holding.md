@@ -15,7 +15,7 @@ metadata:
 sitemap:
   ignore: true
 
-## redirect: /webinar/lee-woodward/leadership/2019/2
+redirect: /webinar/lee-woodward/sales/2019/4
 
 ---
 
