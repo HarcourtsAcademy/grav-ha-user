@@ -32,12 +32,13 @@ Download the latest Academy training calendars for [Australia](#australia), [New
 * [Western Australia 2019 Calendar](/calendars/2019/WA-Training-Calendar-2019.pdf)
 
 ## New Zealand Training Calendars {#new-zealand .anchor}
+* Currently being updated. 
 
 <!-- * Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx) -->
 <!-- * [Central Region 2019 Calendar](/calendars/2019/NZ-Central-Training-Calendar-2019.pdf) -->
-* [South Island Region 2019 Calendar](/calendars/2019/NZ-South-Island-Training-Calendar-2019.pdf)
+<!-- * [South Island Region 2019 Calendar](/calendars/2019/NZ-South-Island-Training-Calendar-2019.pdf)
 * [Northern Region 2019 Calendar](/calendars/2019/NZ-Northern-Training-Calendar-2019.pdf)
-* [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf)
+* [Wellington Region 2019 Calendar](/calendars/2019/NZ-Wellington-Training-Calendar-2019.pdf) -->
 
 ## South Africa Training Calendar {#south-africa .anchor}
 
