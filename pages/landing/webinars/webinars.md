@@ -1,7 +1,7 @@
 ---
 title: Harcourts Academy Webinar Series
 slug: webinars
-published: true
+published: false
 template: default
 
 taxonomy:
@@ -89,7 +89,7 @@ The leadership topics are yet to be determined.
   <input type="checkbox" id="webinar4" name="webinar4" value="1"  disabled="1"><span style="text-decoration: line-through">11:00AM June 5th</span></input>
 </label>
 <label for="webinar6">
-  <input type="checkbox" id="webinar6" name="webinar6" value="1" required>11:00AM August 7th</input>
+  <input type="checkbox" id="webinar6" name="webinar6" value="1"  disabled="1"><span style="text-decoration: line-through">11:00AM August 7th</span></input>
 </label>
 
 **Leadership Webinars**
