@@ -20,9 +20,11 @@ content:
 
 ---
 
-[Harcourts Real Estate Training Centre](mailto:help@realestatetrainingcentre.com) offers RTO training to Harcourts team members and the public. It's powered by Harcourts Academy and provied students with the knowledge and skills to demonstrate competency in the required units required for industry registration.
+Harcourts Real Estate Training Centre is a Registered Training Organisation ([RTO# 31139](https://training.gov.au/Organisation/Details/07919f26-f2db-4b1f-a1b5-9693fe73e428)). 
+ 
+We are committed to high standards in the provision of nationally recognised training and assessment services for people in the Australian Real Estate Sector. Our offering is unique. We have all the benefits of online delivery, coupled with support, guidance and added value that is second to none.
 
-Our RTO courses are assessed entirely online with some face-to-face support options available. Completion of the required units of competency will enable participants to submit their statement of attainment to their local governing body in application to become registered as a real estate salesperson, property manager or auctioneer.
+[Email us](mailto:help@realestatetrainingcentre.com) for more information.
 
 ===
 
