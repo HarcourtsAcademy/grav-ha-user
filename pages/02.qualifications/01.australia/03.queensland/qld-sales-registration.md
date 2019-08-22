@@ -2,7 +2,7 @@
 title: Queensland Sales Registration
 menu: Queensland
 slug: queensland-sales-registration
-published: true
+published: false
 template: course
 bootstrap:
   enabled: true

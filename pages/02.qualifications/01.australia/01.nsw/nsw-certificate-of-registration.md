@@ -2,7 +2,7 @@
 title: New South Wales Certificate of Registration
 menu: New South Wales
 slug: nsw-certificate-of-registration
-published: true
+published: false
 template: course
 bootstrap:
   enabled: true

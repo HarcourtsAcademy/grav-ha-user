@@ -2,7 +2,7 @@
 title: Recognition of Prior Learning (RPL)
 menu: Recognition of Prior Learning (RPL)
 slug: rpl
-published: true
+published: false
 template: course
 
 bootstrap:

@@ -2,7 +2,7 @@
 title: Tasmania Property Representative
 menu: Tasmania
 slug: tasmania
-published: true
+published: false
 template: course
 bootstrap:
   enabled: true

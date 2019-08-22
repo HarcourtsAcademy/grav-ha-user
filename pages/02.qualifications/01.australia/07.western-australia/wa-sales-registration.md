@@ -3,7 +3,7 @@ title: Western Australia Sales Registration
 menu: Western Australia
 slug: wa-sales-registration
 template: course
-published: true
+published: false
 side_bar_menu: false
 bootstrap:
   enabled: true
