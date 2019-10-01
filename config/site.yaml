@@ -222,8 +222,7 @@ header_options:
   swipe : 'true'                            # Enable swipe for touch device
 
 footer:
-    rto_provider: 31139
-    copyright_text: "Copyright 2017 Harcourts International Ltd."
+    copyright_text: "Copyright 2019 Harcourts International Ltd."
 
 qualification_units:
   BSBSMB406:

@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 slug: frequently-asked-questions
 template: faq
-published: true
+published: false
 
 bootstrap:
   enabled: true
