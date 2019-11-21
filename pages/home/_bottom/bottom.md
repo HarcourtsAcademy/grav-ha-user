@@ -1,6 +1,7 @@
 ---
 title: Training new you
 menu: Other Pages
+published: false
 buttons:
     - text: Training Calendars
       icon: fa-calendar

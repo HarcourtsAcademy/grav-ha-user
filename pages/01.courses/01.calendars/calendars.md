@@ -2,7 +2,7 @@
 title: Training Calendars
 menu: Training Calendars
 slug: calendars
-published: true
+published: false
 template: course
 side_bar_menu: false
 

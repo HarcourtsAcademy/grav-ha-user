@@ -76,7 +76,7 @@ Harcourts Academy can provide 7 elective points. The 3 mandatory points must be 
 
 <dl class="dl-horizontal">
   <dt>Classroom</td>
-  <dd markdown="1">Visit [HarcourtsOne](http://one.harcourts.com.au) and look for CPD training in the Event Calendar. (Our [annual classroom training calendars](/courses/calendars/au/western-australia) are online)</dd>
+  <dd markdown="1">Visit [HarcourtsOne Upcoming Courses](https://one.harcourts.com.au/academy/UpcomingCourses.aspx) and look for CPD training.</dd>
   <dt>Online</td>
   <dd markdown="1">Gain all your elective CPD points online. Two 3.5 point workshops are available for $60 (inc. GST) each. To begin [contact your local Academy](http://waopportunities.harcourts.com.au/Meet-the-Team)</dd>
   <dt>Online</td>
