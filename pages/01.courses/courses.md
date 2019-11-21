@@ -2,5 +2,5 @@
 title: Training
 menu: Training
 slug: courses
-redirect: '/'
+redirect: '/courses/calendars'
 ---
