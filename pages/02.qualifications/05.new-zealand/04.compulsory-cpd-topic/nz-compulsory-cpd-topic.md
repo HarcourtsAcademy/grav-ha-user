@@ -16,14 +16,14 @@ taxonomy:
 
 Online Mandatory Continuing Professional Development (CPD) Topic 2019 - Anti-money Laundering (AML) (1 &frac12; hours)
  
-The REA requires all new 2019 licensees to complete the Anti-money Laundering (AML) Mandatory CPD topic as part of their 2019 CPD requirements.
+The REA requires all recent licensees to complete the Anti-money Laundering (AML) Mandatory CPD topic as part of their 2019 CPD requirements.
 
 ===
  
 This 2019 mandatory CPD topic must be completed by any licensee who:
  
 1. is new to the industry and/or
-2. has gained their Real Estate license in 2019, and
+2. has gained their Real Estate license in **2018 or 2019**, and
 3. who are subject to CPD exemption given their new licensee status.
  
 If you are a real estate licensee and **not** exempt per above, you must complete the full [20-hours of CPD (10 Verifiable and 10 Non-Verifiable) in 2019](/qualifications/new-zealand/new-zealand-continuing-professional-development).
