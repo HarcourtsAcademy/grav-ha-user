@@ -209,6 +209,8 @@ redirects:
   /ttt: https://www.academyrealestatetraining.com/moodle/course/view.php?id=73
   ## Academy Events
   /forum2018: https://www.academyrealestatetraining.com/moodle/course/view.php?id=97
+  ## Harcourts Pulse
+  /pulse: https://harcourtsinternational.sharepoint.com/teams/H-Pulse
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
