@@ -2,7 +2,7 @@
 title: New Licensees - 2019 Compulsory AML Topic
 menu: 2019 Compulsory AML Topic
 slug: new-zealand-compulsory-cpd-topic
-published: true
+published: false
 template: modular_alt
 
 taxonomy:
