@@ -141,8 +141,8 @@ redirects:
   /courses/sales/sales-program:   /courses/sales/getting-started-the-harcourts-way
 
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
-  /landing/eone: tv/interviews/#pk_campaign=app-eone
-  /landing/eopen: tv/interviews/#pk_campaign=app-eopen
+  /landing/eone: /#pk_campaign=app-eone
+  /landing/eopen: /#pk_campaign=app-eopen
   ## START Redirection links used in Academy H1 Course Registration Notification Emails
   /download/eone/universal: https://tinyurl.com/H1eOne
   /download/eone/au: https://tinyurl.com/H1eOne
