@@ -1,8 +1,8 @@
 ---
-title: 2019 New Zealand Continuing Professional Development (CPD)
+title: 2020 New Zealand Continuing Professional Development (CPD)
 menu: Continuing Professional Development
 slug: new-zealand-continuing-professional-development
-published: false
+published: true
 template: modular_alt
 
 taxonomy:
@@ -22,9 +22,9 @@ routes:
 
 <!-- # IMPORTANT LICENCE WARNING
 
->>>> All licence holders with incomplete 2019 Continuing Professional Development records with the REA will be contacted on or around January 24th, 2020.
+>>>> All licence holders with incomplete 202 Continuing Professional Development records with the REA will be contacted on or around January 24th, 2020.
 
->>>> Your licence will only be cancelled if you are unable to prove you have completed 10 hours of Verifiable and 10 hours of Non-Verifiable Continuing Professional Development training by December 31st 2019.
+>>>> Your licence will only be cancelled if you are unable to prove you have completed 10 hours of Verifiable and 10 hours of Non-Verifiable Continuing Professional Development training by December 31st 2020.
 
 - If you have not completed your 10 Verifiable training hours, [start now](#get-started).
 - If you have not completed your 10 Non-Verifiable training hours, this can be done by logging into the [REINZ website](http://myce.reinz.co.nz/).
@@ -46,7 +46,7 @@ We **report** your results to the REA on your behalf
 ## Get Started {#get-started}
 
 Register via HarcourtsOne to complete all 10 hours of Verifiable CPD online
-: [1. Register via H1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=6665){.button-secondary} [2. Start CPD 2019 Online Course](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=185&noprocess){.button}
+: [1. Register via H1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=7525){.button-secondary} [2. Start 2020 Online CPD Course](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=192&noprocess){.button}
 
 ## Who
 The Real Estate Authority (REA) requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
@@ -79,49 +79,47 @@ Harcourts can provide all 20 hours
   Or
 
 10 Hours
-: Harcourts and REINZ Classroom Workshops
+: REINZ Classroom Workshops
 
 </div>
 <div class="g-block size-1-2 pure-u-1-2" markdown="1">
 
 ### Non-verifiable Hours
-8 Hours
+<!-- 8 Hours
 : [Harcourts May Conference](https://harcourtsevents.com/new-zealand/about-conference/) <br/>
-  plus
+  plus -->
 
-2 Hours
+10 Hours
 : Harcourts classroom workshops <br/>
   (or other provider's online workshops e.g. REINZ)
 </div>
 </div>
 
-## Verifiable content for 2019
+## Verifiable content for 2020
 
-Under the new continuing professional development (CPD) programme, licensees must complete 5 hours of mandatory topics and 5 hours of elective topics.
+Under the new continuing professional development (CPD) programme, licensees must complete 4 hours of mandatory topics and 6 hours of elective topics.
 
-The 5 hours of **mandatory topics** for 2019 are:
+The 4 hours of **mandatory topics** for 2020 are:
 
-  * Anti-money laundering (1.5 hours)
-  * Communication (1.5 hours)
-  * Disclosure (2 hours)
+  * Ethics (2 hours)
+  * Buyer Experience (2 hours)
 
-The 5 hours of **elective topics** we have available now are:
+The 6 hours of **elective topics** we have available now are:
 
-  * Agency Agreements (1 hour)
-  * Council Compliance (1.5 hours)
-  * Physical Inspection (2.5 hours)
+  * AML Due Diligence (1 ½ hours)
+  * Legal Ownership and Tenure (2 ½ hours)
+  * Understanding Agency Law (1 hour)
+  * Understanding Key Concepts (1 hour)
 
 ## How to Get Started
-**[Online workshops](#get-started)**: Complete your Verifiable Continuing professional development online
+**Online workshops**: [Register](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=7525) and complete your Verifiable Continuing Professional Development online
 
-**[Harcourts Conference](https://harcourtsevents.com/new-zealand/about-conference/)**: Harcourts 2019 Conference held in May
-
-<!--## 2018 Refresher
+<!--## 2019 Refresher
 If you are reviving a suspended licence after a period of 12 months or more, you will need to complete a refresher course (to get up to speed with what you have missed) plus the continuing professional development for the calendar year in which you revive your licence.
 
 You must complete the continuing professional development by 31 December of the year in which you revive your licence, and you must complete the refresher training before you renew your licence for the second time.
 
-The Academy is not offering 2018 Verifiable Continuing professional development Referesher training this year.
+The Academy is not offering Verifiable Continuing professional development Referesher training this year.
 -->
 
 ## The Support Behind You
