@@ -2,7 +2,7 @@
 header_title: use-parent-title
 title: iStart Online
 slug: istart
-published: false
+published: true
 template: course
 side_bar_menu: true
 
@@ -11,7 +11,7 @@ taxonomy:
   tag: [online learning]
   role: sales consultant
   topic: sales
-  country: [australia,canada,indonesia,new zealand,usa,south africa]
+  country: [canada,indonesia,usa,south africa]
 
 youtube:
     player_parameters:
@@ -21,7 +21,7 @@ youtube:
 
 ---
 
-An online, self-paced 12 workshop program for those new to real estate sales. iStart will help you create lifetime success in the real estate business. The program requires self-commitment and a willingness to complete all practical activities.
+An online, self-paced 12 workshop program for those new to real estate sales in South Africa, Indonesia and USA. iStart will help you create lifetime success in the real estate business. The program requires self-commitment and a willingness to complete all practical activities.
 
 ===
 
@@ -36,7 +36,7 @@ This program is designed for new to real estate salespersons as well as those wh
 Self-Paced Online Course
 
 ## Course Fee
-$60.00 / ZAR R250
+<!--$60.00 / ZAR R250-->Currently Complimentary
 
 ## What You Will Learn
 iStart Online consists of 12 workshops
