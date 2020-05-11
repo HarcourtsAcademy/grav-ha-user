@@ -104,12 +104,19 @@ The 4 hours of **mandatory topics** for 2020 are:
   * Ethics (2 hours)
   * Buyer Experience (2 hours)
 
-The 6 hours of **elective topics** we have available now are:
+There is a choice of **elective topics**. Choose your 6 Elective hours from the the available topics:
 
+### Elective Block A
   * AML Due Diligence (1 ½ hours)
   * Legal Ownership and Tenure (2 ½ hours)
   * Understanding Agency Law (1 hour)
   * Understanding Key Concepts (1 hour)
+  
+### Elective Block B    
+  * Conjunctional Sales (1 ½ hours)
+  * Council Compliance (1 ½ hours)
+  * Issues Beyond the Boundary (1 ½ hours)
+  * Pre-Listing: Agency Law and Professional Competence (1 ½ hours)
 
 ## How to Get Started
 **Online workshops**: [Register](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=7525) and complete your Verifiable Continuing Professional Development online
