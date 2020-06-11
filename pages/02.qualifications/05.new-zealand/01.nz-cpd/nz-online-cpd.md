@@ -104,7 +104,7 @@ The 4 hours of **mandatory topics** for 2020 are:
   * Ethics (2 hours)
   * Buyer Experience (2 hours)
 
-There is a choice of **elective topics**. Choose your 6 Elective hours from the the available topics:
+There is a choice of **elective topics**. Choose your 6 Elective hours from the available topics:
 
 ### Elective Block A
   * AML Due Diligence (1 ½ hours)
@@ -128,6 +128,11 @@ You must complete the continuing professional development by 31 December of the 
 
 The Academy is not offering Verifiable Continuing professional development Referesher training this year.
 -->
+
+## Non-Verifiable content for 2020
+
+In 2020, licensees must complete 10 hours of Non-Verifiable CPD training. The Academy has made the following online workshop available at no cost for non-verifiable hours:
+  * [AML Due Diligence](https://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=7631) (1 ½ hours)
 
 ## The Support Behind You
 - Contact your local Academy trainer for information, assistance and advice ([Northern and Central](mailto:andrew.simich@harcourts.net), [Wellington](mailto:andrew.simich@harcourts.net), [South Island](mailto:andrew.simich@harcourts.net)
