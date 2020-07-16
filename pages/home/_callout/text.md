@@ -4,11 +4,11 @@ menu: Portfolio
 template: modular/text
 portfolio:
     - image: work2.jpg
-      title: 2019 New Zealand Verifiable CPD
-      desc: Complete your 2019 10 hours of Verifiable Continuing Professional Development online for $99 (inc. GST).
+      title: 2020 New Zealand Verifiable CPD
+      desc: Complete your 2020 10 hours of Verifiable Continuing Professional Development online for $99 (inc. GST).
       modalid: 14
       url: /qualifications/new-zealand/new-zealand-continuing-professional-development
-      date: <strong>Released</strong> March 2019
+      date: <strong>Released</strong> March 2020
 ##   - image: lee-perry-part-3.jpg
 ##     title: Latest interview@academy
 ##     desc: In this third and final instalment, Lee Perry from Harcourts Mandurah talks about his passion for team culture and how he 'bumps the lamp' when it comes to fostering the culture within the Harcourts Mandurah office.
