@@ -15,13 +15,15 @@ members:
     email: andrew.simich@harcourts.net
     bio: |
       Andrew Simich started his career in Real Estate in 2004, selling residential property before moving into a management and training role with the same organisation. Andrew has been on board with the Harcourts team since October 2015 as the New Zealand Professional Development & Academy Manager and is enjoying working in a likeminded team of people, helping to grow new salespeople and the existing team, across the network. 
-  # - name: TBD
-  #   image: TBD.jpg
-  #   title: Academy Trainer (Christchurch)
-  #   office: christchurch
-  #   email: TBD@harcourts.net
-  #   bio: |
-  #     TBD
+  - name: Jo Abel
+    image: jo-abel.jpg
+    title: Network Performance Coach
+    office: christchurch
+    email: jo.abel@harcourts.net
+    bio: |
+      Jo is a passionate learner and knowledge sharer of all things real estate, including professional and personal development.
+      
+      This journey began with two years in a property management business development role. Jo became a licensee salesperson in 2007 going on to sell residential real estate in Canterbury. In 2020 she completed her Agents License. Jo is also a Certified High Performance Coach trained by Brendon Burchard with the High Performance Institute (USA).
   - name: Barbara Ding
     image: barbara-ding.jpg
     title: Academy Trainer (Auckland)
