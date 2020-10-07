@@ -88,6 +88,7 @@ routes:
 
 redirects:
   /favicon.ico: /user/themes/academydeliver/images/icons/favicon.ico
+  /go/(.*): https://gtly.to/ul3ALY74R/$1 # Used for geo redirections to LXP courses
   /about-us/(.*): '/about/$1' # Used in 'please contact your local Academy trainer.' links in Training Pathway classroom courses
   /au/auction-programme: https://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/enrolment-questionnaire: https://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
