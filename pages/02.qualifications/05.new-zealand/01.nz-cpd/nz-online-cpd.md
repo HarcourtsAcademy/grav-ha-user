@@ -91,9 +91,9 @@ Harcourts can provide all 20 hours
 
 1 &frac12; Hours
 : [Harcourts Online Workshop](#non-verifiable) <br/>
-  Or 
+  And 
 
-10 Hours
+8 &frac12; Hours
 : Harcourts Classroom Workshops <br/>
   (or other provider's online workshops e.g. REINZ)
 </div>
