@@ -15,9 +15,9 @@ metadata:
 body_classes: "default header-image fullwidth privacy"
 ---
 
-Harcourts Group (Australia) Pty Ltd ACN 074 304 073 and Harcourts Group Ltd (NZ) and their related entities (collectively, **Harcourts**, **us**, **we**, **our**) are committed to protecting the privacy of your personal information.
+Harcourts International Limited, Harcourts Group (Australia) Pty Ltd ACN 074 304 073 and Harcourts Group Ltd (NZ) and their related entities (collectively, **Harcourts**, **us**, **we**, **our**) are committed to protecting the privacy of your personal information.
 
-Harcourts is required to comply with the _Privacy Act 1988 (Cth)_ including the Australian Privacy Principles (**APPs**) in Australia and the _Privacy Act 1993_ (**Privacy Act**) in New Zealand.
+Harcourts is required to comply with the _Privacy Act 1988 (Cth)_ including the Australian Privacy Principles (**APPs**) in Australia and the _Privacy Act 2020_ (Privacy Act) in New Zealand.
 
 This policy is intended to provide a general overview of our policies for the handling of your personal information. It covers the collection, processing and other use of personal data under the General Data Protection Regulations (**GDPR**) 2018. Other policies may apply instead of or in addition to this Privacy Policy in certain circumstances.
 
