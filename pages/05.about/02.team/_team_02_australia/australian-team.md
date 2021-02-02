@@ -4,13 +4,13 @@ menu: false
 template: modular/team
 
 members:
-  - name: Paul Casarotto
-    image: paul-casarotto.jpg
-    title: Academy Trainer / Business Development Manager <nobr>(New South Wales)</nobr>
-    office: new-south-wales
-    email: paul.casarotto@harcourts.net
-    bio: |
-      Paul Casarotto has over 18 years property industry experience, having been a residential and commercial Sales Agent, Business Owner and Sales Manager for a leading Sydney agency.  In addition, he has facilitated numerous auction courses and training seminars for several major franchise groups, leading independent agencies, and the REINSW.  Paul is a practicing Auctioneer and has conducted close to 4,000 property auctions and has also appeared on several national television shows, including ‘Location Location’.  Drawing on his huge experience within the real estate industry, Paul provides support and guidance to Business Owners with their business planning and training whilst also up-skilling new and experienced consultants.
+##   - name: Paul Casarotto
+##     image: paul-casarotto.jpg
+##     title: Academy Trainer / Business Development Manager <nobr>(New South Wales)</nobr>
+##     office: new-south-wales
+##     email: paul.casarotto@harcourts.net
+##     bio: |
+##       Paul Casarotto has over 18 years property industry experience, having been a residential and commercial Sales Agent, Business Owner and Sales Manager for a leading Sydney agency.  In addition, he has facilitated numerous auction courses and training seminars for several major franchise groups, leading independent agencies, and the REINSW.  Paul is a practicing Auctioneer and has conducted close to 4,000 property auctions and has also appeared on several national television shows, including ‘Location Location’.  Drawing on his huge experience within the real estate industry, Paul provides support and guidance to Business Owners with their business planning and training whilst also up-skilling new and experienced consultants.
   - name: Christian Hamilton
     image: christian-hamilton.jpg
     title: Academy Trainer (Queensland)
