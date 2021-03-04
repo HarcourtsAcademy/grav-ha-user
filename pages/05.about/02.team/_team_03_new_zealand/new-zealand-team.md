@@ -8,13 +8,13 @@ members:
 #    image: rhiana-kenny-dowall.jpg
 #    title: Academy Administrator
 #    office: auckland 
-  - name: Andrew Simich
-    image: andrew-simich.jpg
-    title: Professional Development Manager & Academy Manager (Auckland)
-    office: auckland
-    email: andrew.simich@harcourts.net
-    bio: |
-      Andrew Simich started his career in Real Estate in 2004, selling residential property before moving into a management and training role with the same organisation. Andrew has been on board with the Harcourts team since October 2015 as the New Zealand Professional Development & Academy Manager and is enjoying working in a likeminded team of people, helping to grow new salespeople and the existing team, across the network. 
+#  - name: Andrew Simich
+#    image: andrew-simich.jpg
+#    title: Professional Development Manager & Academy Manager (Auckland)
+#    office: auckland
+#    email: andrew.simich@harcourts.net
+#    bio: |
+#      Andrew Simich started his career in Real Estate in 2004, selling residential property before moving into a management and training role with the same organisation. Andrew has been on board with the Harcourts team since October 2015 as the New Zealand Professional Development & Academy Manager and is enjoying working in a likeminded team of people, helping to grow new salespeople and the existing team, across the network. 
   - name: Jo Abel
     image: jo-abel.jpg
     title: Network Performance Coach
