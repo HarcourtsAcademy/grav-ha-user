@@ -2,6 +2,7 @@
 title: Contact Us
 slug: contact-us
 template: form
+published: false
 
 taxonomy:
   category: about_us
