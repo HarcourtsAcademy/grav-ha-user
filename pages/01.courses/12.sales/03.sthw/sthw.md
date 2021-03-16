@@ -18,57 +18,62 @@ routes:
 
 ---
 
-This is much more than a training program; **Sales. The Harcourts Way.** is a professional development package for those getting started in real estate sales.
+**Sales. The Harcourts Way.** is much more than a training program; it's a professional development package for those getting started in real estate sales.
 
-By completing this program, you will have the **best start** on your journey to attaining a lifetime of success.
+Discover how Harcourts agents dominate their marketplace by investing in five key areas:
+* Consultative Real Estate
+* Lead Generation
+* Listing Property
+* Client Service
+* Harcourts Products & Services
 
 ===
 
-* Learn from experts
-* Lift performance
-* Skills, tools &amp; scripts
-* On-the-job coaching
+## About the Program
 
-**Register now to get your best start!**
+**Who:** Emerging Sales Consultants wanting the best start at attaining a lifetime of success.
 
-## So What's Covered?
-#### Understanding the Real Estate Industry
+**Level:** Foundational
 
-An introduction to the industry, personal commitment, the sales process blueprint &amp; consultative real estate skills.
+**Duration:** 3 months (total)
 
-#### Lead Generation
+**Cost:** Contact your local Academy team for pricing
 
-Lead generation funnel, forming client relationships, establishing a database, market study, prospecting activities &amp; personal promotion.
+**Where:** Blended Delivery Online + Classroom program 
 
-#### List Property
+## Program Overview
+Focused on lifting performance, **Sales. The Harcourts Way.** is purpose-built to provide emerging sales consultants with the mindset, skillset, structure and needed to be successful in the real estate industry.
 
-Handling enquiry, preparing pre-listing materials, how to appraise property, how to conduct a listing presentation, handling objections, building rapport &amp; personal accountability.
+## Program Structure
+The full program is a blended offering consisting of foundational online modules, classroom-based application and practice, and structured support to maintain accountability and designed to accelerate learning and development.
 
-#### Client Service
+### Part 1 - Foundational Online Modules
+Online modules covering key real estate concepts. Designed for use on-demand; the online modules can be accessed at any time in Academy Online.
 
-How to provide an awesome client experience, the Harcourts Promise, how to launch property to the market, conducting successful open homes, working with buyers, managing the seller relationship, negotiation.
+Modules Available:
+* Consultative Real Estate
+* Lead Generation*
+* Listing Property
+* Marketing Property
 
-## Program Design
+30-60 min (each) | Online & On-Demand
 
-We believe it is critical for learners to be able to recall what was learned, then be able to apply the knowledge in practical situations. This is why learning has been spaced over a 6-12 month period.
+### Part 2 - In-class Application & Practice
+Facilitated in the Academy classroom, over two-days we take an in-depth look at lead generation and listing property the Harcourts way. Attendees leave with a 90-Day plan.
 
-#### This program has been designed in 4 stages:
+Content Covered:
+* Communicating effectively with clients
+* Establishing and building rapport
+* Prospecting through activity-based prospecting methods
+* Harcourts Listing System tools & resources
+* Comparative market analysis and factors that impact on property value • Handling client questions or objections
 
-1. Online pre-learning
-1. In-class foundational knowledge
-1. Online learning when you return to your office alongside coaching with Manager or Business Owner
-1. Return day to review progress &amp; graduate from program
+### Part 3 - Structured Support
+Three support sessions spanned over a 90 day period following the 2-days in-class. Sessions are tailored to meet the needs of the group and are an opportunity to check-in at key points to maintain focus, accountability and momentum.
 
-### Online Learning Modules
+Content Covered:
+* Check-in on KPIs set in 90 Day Plan
+* Shared learnings, wins and challenges
+* Tailored learning/coaching content (specific to the group) • Accountability homework tasks
 
-You will be required to complete a series of online learning modules after completing this in-class component. These modules aim to booster the learning from the classroom to overcome the forgetting curve and improve learning retention.
-
-
-Online modules will prompt you to review the classroom content, test your understanding then apply what was learned through a series of practical, on the job tasks. Once each module has been completed, you should meet with your Manager or Business Owner to debrief the learning and discuss your progress to date.
-
-### Graduate Day
-
-Once the online modules have been completed, you will return to the Harcourts Academy to attend Graduate Day. The content covered on this day will be centred around the on the job experience, individual progress, personal accountability, mindset &amp; recommendations for further learning.
-
-## Availability
-Sales. The Harcourts Way is presented in all the main Academy training centres by the Academy’s team of specialist trainers.
+2 days in-class run monthly

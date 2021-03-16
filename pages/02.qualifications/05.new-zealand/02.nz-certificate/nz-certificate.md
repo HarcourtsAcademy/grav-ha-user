@@ -65,7 +65,7 @@ course_content :
 
       Salespersons new to the industry and Harcourts may incur the following additional costs:
 
-      * Harcourts Academy [Sales. The Harcourts Way.](/sales-the-harcourts-way): $704.95 (inc. GST)
+      * Harcourts Academy [Sales. The Harcourts Way.](/sales-the-harcourts-way): $632.50 (inc. GST)
       * Real Estate Agents Authority Licence: $939.55 (inc. GST)
 
 course_structure: The New Zealand Certificate is a self-paced online course that includes a number of written assessment activities, online interactive practice and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 6 months to complete the course however the average time taken to finish it is approximately 3-4 months.
