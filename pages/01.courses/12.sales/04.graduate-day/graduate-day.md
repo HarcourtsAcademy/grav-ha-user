@@ -2,7 +2,7 @@
 header_title: use-parent-title
 title: Graduate Day
 slug: graduate-day
-published: true
+published: false
 template: course
 side_bar_menu: true
 
