@@ -2,7 +2,7 @@
 title: Australian RTO Student Handbook 
 menu: Student Handbook
 slug: handbook
-published: true
+published: false
 template: modular_alt
 
 taxonomy:
