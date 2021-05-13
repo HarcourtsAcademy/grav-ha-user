@@ -204,9 +204,9 @@
 
           {% if page.header.further_information %}
             {% if page.header.taxonomy.region %}
-              {% set contactus = base_url ~ '/about-us/contact-us' ~ '/location:' ~ page.header.taxonomy.region %}
+              {% set contactus = '/about-us/contact-us' ~ '/location:' ~ page.header.taxonomy.region %}
             {% else %}
-              {% set contactus = base_url ~ '/about-us/contact-us' %}
+              {% set contactus = '/about-us/contact-us' %}
             {% endif %}
             <h2>Further Information</h2>
             <p>For all course enquiries and pricing details, please <a href="{{ contactus }}">contact us</a>.</p>

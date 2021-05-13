@@ -8,6 +8,6 @@ slides:
     buttons:
     - text: "Register for training"
       icon: fa-calendar
-      url: base_url:courses/calendars
+      url: /courses/calendars
 
 ---

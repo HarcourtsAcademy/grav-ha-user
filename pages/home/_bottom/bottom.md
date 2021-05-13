@@ -5,7 +5,7 @@ published: true
 buttons:
     - text: Training Calendars
       icon: fa-calendar
-      url: base_url:courses/calendars
+      url: /courses/calendars
       primary: true
 ---
 

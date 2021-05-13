@@ -26,12 +26,12 @@ taxonomies: [category,tag,country,region,role,topic,content,format,audience,peop
 
 othermenu:
   - text: "Privacy Policy"
-    url: "base_url:privacy"
+    url: "/privacy"
   - text: "Contact Us"
-    url: "base_url:about/contact-us"
+    url: "https://content.harcourts.com.au/contact"
 
 contactus:
-  url: "base_url:about/contact-us"
+  url: "https://content.harcourts.com.au/contact"
   icon: comments-o
 
 studentlogin:
